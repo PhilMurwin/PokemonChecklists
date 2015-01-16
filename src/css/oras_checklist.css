@@ -1,5 +1,14 @@
+body {
+	background-color: black;
+}
+
 .postgame {
 	width: 1000px;
+	min-height: 1000px;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
 }
 
 .ruby {
@@ -58,3 +67,9 @@
 .orasMindBadge { content: url("../images/oras_mind_badge.png"); }
 .orasRainBadge { content: url("../images/oras_rain_badge.png"); }
 
+
+@media print {
+	.subtask, .subsubtask {
+		font-family: inherit;
+	}
+}
