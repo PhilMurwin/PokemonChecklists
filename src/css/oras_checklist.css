@@ -1,3 +1,7 @@
+.postgame {
+	width: 1000px;
+}
+
 .ruby {
 	color: #A50B00;
 }
@@ -10,6 +14,11 @@
 	font-family: 'diner-regularregular';
 	font-size: 45pt;
 	text-align: center;
+}
+
+.credit {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .teamLogo-header {
