@@ -19,6 +19,14 @@ body {
 	color: #171A9A;
 }
 
+.red {
+	color: red;
+}
+
+.seafoam {
+	color: #24B976;
+}
+
 .pageTitle {
 	font-family: 'diner-regularregular';
 	font-size: 45pt;
