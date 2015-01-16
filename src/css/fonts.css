@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'diner-skinnyregular';
+    src: url('font/Diner-Skinny-webfont.eot');
+    src: url('font/Diner-Skinny-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Diner-Skinny-webfont.woff') format('woff'),
+         url('font/Diner-Skinny-webfont.ttf') format('truetype'),
+         url('font/Diner-Skinny-webfont.svg#diner-skinnyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diner-regularregular';
+    src: url('font/Diner-Regular-webfont.eot');
+    src: url('font/Diner-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Diner-Regular-webfont.woff') format('woff'),
+         url('font/Diner-Regular-webfont.ttf') format('truetype'),
+         url('font/Diner-Regular-webfont.svg#diner-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ditedregular';
+    src: url('font/Dited-webfont.eot');
+    src: url('font/Dited-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Dited-webfont.woff') format('woff'),
+         url('font/Dited-webfont.ttf') format('truetype'),
+         url('font/Dited-webfont.svg#ditedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

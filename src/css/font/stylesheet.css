@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ditedregular';
+    src: url('Dited-webfont.eot');
+    src: url('Dited-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Dited-webfont.woff') format('woff'),
+         url('Dited-webfont.ttf') format('truetype'),
+         url('Dited-webfont.svg#ditedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

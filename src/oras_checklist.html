@@ -1,0 +1,235 @@
+<html>
+<head>
+	<title>ORAS Post Game Checklist</title>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<!-- Custom -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/oras_checklist.css">
+	
+	<script>
+		var oras = "";
+		$(function() {
+			oras = GetJsonData("data/oras_postgame_checklist.json");
+		});
+		
+		function GetJsonData(path)
+		{
+			var json = null;
+			$.ajax({
+				'async': false,
+				'global': false,
+				'url': path,
+				'dataType': "json",
+				'success': function(data) {
+					json = data;
+				}
+			});
+			
+			return json;
+		}
+		
+		function Render()
+		{
+			var col1 = $("#col1");
+			var col2 = $("#col2");
+			
+			var chkIndex = 0;
+			
+			for(var t=0; t < oras.oras.length; t++)
+			{
+				chkIndex++;
+				
+				var task = oras.oras[t];
+				var divTask = $("<div class='task'></div>")
+				var targetCol = col1;
+				
+				if (task.col === 2)
+				{
+					targetCol = col2;					
+				}
+				
+				//Build Task checkbox
+				var chk = BuildCheckbox(chkIndex, task.task);
+				divTask.html(chk);				
+				
+				// Check for subtasks
+				divTask = RenderSubTasks(divTask, chkIndex, task);
+				
+				targetCol.append(divTask);
+			}
+		}
+		
+		function RenderSubTasks(divTask, chkIndex, task)
+		{
+			for(var t=0; t < task.subtasks.length; t++)
+			{
+				chkIndex++;
+				
+				var subtask = task.subtasks[t];
+				divSubtask = $("<div class='subtask'></div>")
+				
+				//Build Task checkbox
+				var formattedText = FormatText(subtask.task, subtask.formats);
+				var chk = BuildCheckbox(chkIndex, formattedText);
+				divSubtask.html(chk);
+				divTask.append(divSubtask);
+				
+				// Check for subtasks
+			}
+			
+			return divTask;
+		}
+		
+		function BuildCheckbox(chkIndex, text)
+		{
+			var id = "chk" + chkIndex;
+			var chk = $("<input type='checkbox' id='" + id + "' /><label for='" + id + "'>" + text + "</label>");
+			
+			return chk;
+		}
+		
+		function FormatText(text, formats)
+		{
+			if (formats !== undefined)
+			{
+				for(f = 0; f < formats.length; f++)
+				{
+					var word = formats[f].word;
+					var format = formats[f].format;
+					
+					text = text.replace(word,"<span class='" + format + "'>" + word + "</span>");
+				}
+			}
+			
+			return text;
+		}
+	</script>
+	
+</head>
+<body>
+	<div class="postgame container">
+		<div class="row">
+			<div class="pageTitle col-md-12">
+				Pokemon OR & AS - Post Game Checklist
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<img class="teamLogo-header teamMagma" alt="Team Magma" />
+			</div>
+			<div class="col-md-6">
+				<div class="badge-header">
+					<img class="badge-sm orasStoneBadge" alt="Stone Badge" />
+					<img class="badge-sm orasKnuckleBadge" alt="Knuckle Badge" />
+					<img class="badge-sm orasDynamoBadge" alt="Dynamo Badge" />
+					<img class="badge-sm orasHeatBadge" alt="Heat Badge" />
+					<img class="badge-sm orasBalanceBadge" alt="Balance Badge" />
+					<img class="badge-sm orasFeatherBadge" alt="Feather Badge" />
+					<img class="badge-sm orasMindBadge" alt="Mind Badge" />
+					<img class="badge-sm orasRainBadge" alt="Rain Badge" />
+				</div>
+			</div>
+			<div class="col-md-3">
+				<img class="teamLogo-header teamAqua" alt="Team Aqua" />
+			</div>
+		</div>
+		<div class="row">
+			<div id="col1" class="col-md-5 col-md-offset-1">
+				<div class="task">
+					<input type="checkbox" id="chk1" />
+					<label for="chk1">Complete the OR / AS Hoenn Pokedex (211)</label>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub1" />
+						<label for="chk1sub1">Obtain "Platinum Crowns" on all routes</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub2" />
+						<label for="chk1sub2">Capture <span class="ruby">Groudon</span> / <span class="sapphire">Kyogre</span> (Cave of Origin)</label>
+						<div class="subsubtask">
+							<input type="checkbox" id="chk1sub3" />
+							<label for="chk1sub3">Trade for <span class="ruby">Kyogre</span> / <span class="sapphire">Groudon</span></label>
+						</div>
+					</div>					
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub4" />
+						<label for="chk1sub4">Capture Regirock (Desert Ruins*)</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub6" />
+						<label for="chk1sub6">Capture Regice (Island Cave*)</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub7" />
+						<label for="chk1sub7">Capture Registeel (Ancient Tomb*)</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub8" />
+						<label for="chk1sub8">Capture Rayquaza (Sky Pillar)</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub9" />
+						<label for="chk1sub9">Capture Deoxys (Sky Pillar)</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk1sub10" />
+						<label for="chk1sub10">Trade for <span class="ruby">Latias</span> / <span class="sapphire">Latios</span> (OR EON Ticket)</label>
+					</div>
+				</div>
+			</div>
+			<div id="col2" class="col-md-5 col-md-offset-1">
+				<div class="task">
+					<input type="checkbox" id="chk2" />
+					<label for="chk2">Complete the Delta Episode Sub-Plot</label>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub1" />
+						<label for="chk2sub1">1. Encounter Zinnia In Littleroot</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub2" />
+						<label for="chk2sub2">2. Defeat <span class="ruby">Courtney</span> / <span class="sapphire">Matt</span> in Petalburg</label>
+					</div>					
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub3" />
+						<label for="chk2sub3">3. Talk to Mr. Stone in Rustboro</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub4" />
+						<label for="chk2sub4">4. Defeat Zinnia in Granite Cave</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub5" />
+						<label for="chk2sub5">5. Talk with Prof. Cozmo in Mossdeep</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub6" />
+						<label for="chk2sub6">6. Talk to Steven at Meteor Falls</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub7" />
+						<label for="chk2sub7">7. Help Devon Corp in Rustboro</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub8" />
+						<label for="chk2sub8">8. Defeat <span class="ruby">Courtney</span> / <span class="sapphire">Matt</span> in Mossdeep</label>
+					</div>
+					<div class="subtask">
+						<input type="checkbox" id="chk2sub9" />
+						<label for="chk2sub9">9. Defeat <span class="ruby">Team Magma</span> / <span class="sapphire">Team Aqua</span> Hideout</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

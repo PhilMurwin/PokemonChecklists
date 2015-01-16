@@ -1,0 +1,29 @@
+{"oras":[
+	{"task":"Complete the OR / AS Hoenn Pokedex (211)",
+		"col": 1,
+		"subtasks":[
+			{"task":"Obtain 'Platinum Crowns' on All Routes"},
+			{"task":"Capture Groudon / Kyogre (Cave of Origin)","formats":[{"word":"Groudon","format":"ruby"},{"word":"Kyogre","format":"sapphire"}]},
+			{"task":"Capture Regirock (Desert Ruins*)"},
+			{"task":"Capture Regice (Island Cave*)"},
+			{"task":"Capture Registeel (Ancient Tomb*)"},
+			{"task":"Capture Rayquaza (Sky Pillar)"},
+			{"task":"Capture Deoxys (Sky Pillar)"},
+			{"task":"Trade for Latias / Latios (OR EON Ticket)","formats":[{"word":"Latias","format":"ruby"},{"word":"Latios","format":"sapphire"}]}
+		]
+	},
+	{"task":"Complete the Delta Episode Sub-Plot",
+		"col": 2,
+		"subtasks":[
+			{"task":"1. Encounter Zinnia In Littleroot"},
+			{"task":"2. Defeat Courtney / Matt in Petalburg","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
+			{"task":"3. Talk to Mr. Stone in Rustboro"},
+			{"task":"4. Defeat Zinnia in Granite Cave"},
+			{"task":"5. Talk with Prof. Cozmo in Mossdeep"},
+			{"task":"6. Talk to Steven at Meteor Falls"},
+			{"task":"7. Help Devon Corp in Rustboro"},
+			{"task":"8. Defeat Courtney / Matt in Mossdeep","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
+			{"task":"9. Defeat Team Magma / Team Aqua Hideout","formats":[{"word":"Team Magma","format":"ruby"},{"word":"Team Aqua","format":"sapphire"}]}
+		]
+	}
+]}

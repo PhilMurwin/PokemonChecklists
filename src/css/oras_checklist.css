@@ -1,0 +1,51 @@
+.ruby {
+	color: #A50B00;
+}
+
+.sapphire {
+	color: #171A9A;
+}
+
+.pageTitle {
+	font-family: 'diner-regularregular';
+	font-size: 45pt;
+	text-align: center;
+}
+
+.teamLogo-header {
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+}
+
+.badge-header {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.badge-sm {
+	width: 30px;
+}
+
+.subtask, .subsubtask {
+	font-family: 'ditedregular';
+	font-size: 12pt;
+	margin-left: 1.5em;
+}
+
+.subsubtask {
+	margin-left: 3em;
+}
+
+
+.teamMagma { content: url("../images/magma_logo.png"); }
+.teamAqua { content: url("../images/aqua_logo.png"); }
+.orasStoneBadge { content: url("../images/oras_Stone_Badge.png"); }
+.orasKnuckleBadge { content: url("../images/oras_Knuckle_Badge.png"); }
+.orasDynamoBadge { content: url("../images/oras_Dynamo_Badge.png"); }
+.orasHeatBadge { content: url("../images/oras_Heat_Badge.png"); }
+.orasBalanceBadge { content: url("../images/oras_Balance_Badge.png"); }
+.orasFeatherBadge { content: url("../images/oras_Feather_Badge.png"); }
+.orasMindBadge { content: url("../images/oras_Mind_Badge.png"); }
+.orasRainBadge { content: url("../images/oras_Rain_Badge.png"); }
+
