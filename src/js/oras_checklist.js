@@ -20,9 +20,6 @@ function Render()
 {
 	var oras = GetChecklistData("data/oras_postgame_checklist.json");
 
-	var col1 = $("#col1");
-	var col2 = $("#col2");
-	
 	var chkIndex = 0;
 	
 	for(var t=0; t < oras.oras.length; t++)
@@ -31,12 +28,13 @@ function Render()
 		
 		var task = oras.oras[t];
 		var divTask = $("<div class='task'></div>")
-		var targetCol = col1;
 		
-		if (task.col === 2)
+		var targetID = "#row" + task.row;
+		if (task.col !== undefined)
 		{
-			targetCol = col2;					
+			targetID +=  " > #col" + task.col;
 		}
+		var targetDiv = $(targetID);
 		
 		//Build Task checkbox
 		var chk = BuildCheckbox(chkIndex, task);
@@ -45,7 +43,7 @@ function Render()
 		// Check for subtasks
 		divTask = RenderSubTasks(divTask, chkIndex, task);
 		
-		targetCol.append(divTask);
+		targetDiv.append(divTask);
 	}
 }
 
@@ -55,25 +53,32 @@ function RenderSubTasks(divTask, chkIndex, task)
 	
 	if (task.subtasks !== undefined)
 	{
-		for(var t=0; t < task.subtasks.length; t++)
+		var subtasks = task.subtasks;
+	
+		// Should these subtasks be split into multiple columns?
+		var splitCols = 1;
+		if (task.splitCol !== undefined)
+		{
+			splitCols = task.splitCol;			
+			subtasks = sortByKey( subtasks, "task" );
+		}
+		
+		var maxRowCount = subtasks.length / splitCols;
+		
+		var rowCount = 0;
+		var targetCol = $("<div class='col-md-x'></div>");
+		for(var t=0; t < subtasks.length; t++)
 		{
 			chkIndex++;
 			
-			var subtask = task.subtasks[t];
+			var subtask = subtasks[t];
 			subtask.parentid = id;
 			divSubtask = $("<div class='subtask'></div>")
-			
-			if (subtask.subcol !== undefined)
-			{
-				divSubtask.class('subtaskcol');
-			}
 			
 			//Build Task checkbox
 			var chk = BuildCheckbox(chkIndex, subtask);
 			divSubtask.html(chk);
 			divTask.append(divSubtask);
-			
-			// Check for subtasks
 		}
 	}
 	
@@ -135,6 +140,14 @@ function FormatText(text, formats)
 	}
 	
 	return text;
+}
+
+function sortByKey(array, key)
+{
+    return array.sort(function(a, b) {
+        var x = a[key]; var y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
 }
 
 function SaveCheckboxState(e)

@@ -1,6 +1,7 @@
 {"oras":[
 	{"id":"task1",
 		"task":"Complete the OR / AS Hoenn Pokedex (211)",
+		"row": 3,
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain 'Platinum Crowns' on All Routes"},
@@ -16,6 +17,7 @@
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
+		"row": 3,
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Regigigas (Island Cave)", "tooltip":"Available at different times"},
@@ -41,6 +43,7 @@
 	},
 	{"id":"task3",
 		"task":"Complete National Dex (719)",
+		"row": 3,
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Johto Starter From Prof. Birch"},
@@ -50,6 +53,7 @@
 	},
 	{"id":"task4",
 		"task":"Collect All \"New\" Mega Stones",
+		"row": 3,
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Beedrill (Sea Mauville)"},
@@ -78,11 +82,13 @@
 	},
 	{"id":"task5",
 		"task":"Complete All Master Rank Pokemon Contests",
+		"row": 3,
 		"col": 1,
 		"subtasks":[]
 	},
 	{"id":"task6",
 		"task":"Obtain Both Bicycles (Acro & Mach Bikes)",
+		"row": 3,
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Show Mach bike to Hex Maniac (Route 111)"},
@@ -92,8 +98,8 @@
 	},
 	{"id":"task7",
 		"task":"Collect All 100 Technical Machines (TMs)",
-		"col": 1,
-		"subcol": 4,
+		"row": 4,
+		"splitCol": 4,
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
 			{"id":"sub2", "task":"Dragon Claw"},
@@ -199,7 +205,8 @@
 	},
 	{"id":"task8",
 		"task":"Berry Checklist",
-		"col": 1,
+		"row": 5,
+		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Cherri"},
 			{"id":"sub2", "task":"Leppa"},
@@ -271,6 +278,7 @@
 	},
 	{"id":"task9",
 		"task":"Complete the Delta Episode Sub-Plot",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"1. Encounter Zinnia In Littleroot"},
@@ -292,6 +300,7 @@
 	},
 	{"id":"task10",
 		"task":"Complete Regular & Super Battle Maison Battles",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Single Battle", "multicheck":2},
@@ -303,10 +312,12 @@
 	},
 	{"id":"task11",
 		"task":"Rematch \"Mega\" Elite Four Post-Delta Episode",
+		"row": 3,
 		"col": 2
 	},
 	{"id":"task12",
 		"task":"Rematch Wally at the Battle Resort",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Rematch Wally After Beating Super Battle"}
@@ -314,6 +325,7 @@
 	},
 	{"id":"task13",
 		"task":"Complete All Mauville Food Court Battles",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Village Sub Combo (Single)"},
@@ -323,6 +335,7 @@
 	},
 	{"id":"task14",
 		"task":"Obtain Gold Trainer Card",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four", "default":"true"},
@@ -332,6 +345,7 @@
 	},
 	{"id":"task15",
 		"task":"Complete All Trick House Chambers",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Chamber 1 - Cut"},
@@ -344,10 +358,12 @@
 	},
 	{"id":"task16",
 		"task":"Collect All \"Retro\" Mega Stones",
+		"row": 3,
 		"col": 2
 	},
 	{"id":"task17",
 		"task":"Achieve All Ranks in Secret Base Capture the Flag",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Bronze Rank - 30 Flags (Blackboard)"},
@@ -358,6 +374,7 @@
 	},
 	{"id":"task18",
 		"task":"Obtain Elegant Items from Glass Workshop",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Elegant Chair"},
@@ -366,6 +383,7 @@
 	},
 	{"id":"task19",
 		"task":"Obtain Master Rank from Battle Institute",
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Beginner Rank"},
@@ -378,15 +396,18 @@
 	},
 	{"id":"task20",
 		"task":"Complete Mr. Bonding Subquest",
+		"row": 3,
 		"col": 2
 	},
 	{"id":"task21",
 		"task":"Complete Wattson's New Mauville Subquest",
+		"row": 3,
 		"col": 2
 	},
 	{"id":"task22",
 		"task":"Bonus Story Sequences - Optional & Event",
 		"formats":[{"word":"Optional", "format":"red"}, {"word":"Event", "format":"seafoam"}],
+		"row": 3,
 		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Event Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac", "formats":[{"word":"Event", "format":"seafoam"}]},
