@@ -1,8 +1,53 @@
 <html>
 	<head>
 		<title>Pokemon Checklists</title>
+		
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+			
+		<!-- Custom -->
+		<link rel="stylesheet" href="src/css/fonts.css">
+		<link rel="stylesheet" href="src/css/site.css">
+		
+		<style>
+		ul {
+			list-style-image: url('src/images/pokeball_bullet.png');
+			font-family: 'pokemon_solidnormal';
+			font-size: 14pt;
+		}
+		
+		li {
+			margin: 10px;
+			text-decoration: underline;
+		}
+		
+		.pageList {
+			margin-top: 20px;
+		}
+		</style>
 	</head>
 	<body>
-		<a href="src/oras_checklist.html">ORAS Post Game Checklist</a>
+		<div class="pagewrap container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="pageTitle">
+						Pokemon Checklists
+					</div>
+				</div>
+				<div class="pageList col-md-11 col-md-offset-1">
+					<ul>
+						<li><a href="src/oras_checklist.html">ORAS Post Game Checklist</a></li>
+						<li><a href="src/xy_checklist.html">X &amp; Y Post Game Checklist</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

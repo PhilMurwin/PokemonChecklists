@@ -208,7 +208,7 @@
 		"task":"Berry Checklist",
 		"row": 5,
 		"col": 4,
-		"splitCol": 3,
+		"splitCol": 4,
 		"subtasks":[
 			{"id":"sub1", "task":"Cherri"},
 			{"id":"sub2", "task":"Leppa"},

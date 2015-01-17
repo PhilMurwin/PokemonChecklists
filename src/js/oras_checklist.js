@@ -66,9 +66,13 @@ function RenderSubTasks(divTask, chkIndex, task)
 		var maxRowCount = subtasks.length / splitCols;
 		
 		var rowCount = 0;
-		var targetCol = $("<div class='col-md-x'></div>");
+		var x = Math.floor(12 / splitCols);
+		var colDiv = "<div class='col-sm-" + x + "'></div>";
+		var targetCol = $(colDiv);
+		
 		for(var t=0; t < subtasks.length; t++)
 		{
+			rowCount++;
 			chkIndex++;
 			
 			var subtask = subtasks[t];
@@ -78,7 +82,19 @@ function RenderSubTasks(divTask, chkIndex, task)
 			//Build Task checkbox
 			var chk = BuildCheckbox(chkIndex, subtask);
 			divSubtask.html(chk);
-			divTask.append(divSubtask);
+			targetCol.append(divSubtask);
+			
+			if (rowCount >= maxRowCount)
+			{
+				divTask.append(targetCol);
+				rowCount = 0;
+				var targetCol = $(colDiv);
+			}
+		}
+		
+		if (rowCount > 0)
+		{
+			divTask.append(targetCol);
 		}
 	}
 	
