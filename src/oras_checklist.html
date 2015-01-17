@@ -16,11 +16,13 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/oras_checklist.css">
-	<script src="oras_checklist.js"></script>
+	<script src="js/oras_checklist.js"></script>
 	
 	<script>
 		$(function() {
 			Render();
+			
+			$(".oras_chk").on('click',SaveCheckboxState);
 		});		
 	</script>
 	

@@ -4,14 +4,14 @@
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain 'Platinum Crowns' on All Routes"},
-			{"id":"sub1", "task":"Capture Groudon / Kyogre (Cave of Origin)", "formats":[{"word":"Groudon","format":"ruby"},{"word":"Kyogre","format":"sapphire"}]},
-			{"id":"sub1", "task":"Trade for Kyogre / Groudon", "formats":[{"word":"Groudon","format":"sapphire"},{"word":"Kyogre","format":"ruby"}]},
-			{"id":"sub1", "task":"Capture Regirock (Desert Ruins*)", "tooltip":"Available at different times"},
-			{"id":"sub1", "task":"Capture Regice (Island Cave*)", "tooltip":"Available at different times"},
-			{"id":"sub1", "task":"Capture Registeel (Ancient Tomb*)", "tooltip":"Available at different times"},
-			{"id":"sub1", "task":"Capture Rayquaza (Sky Pillar)"},
-			{"id":"sub1", "task":"Capture Deoxys (Sky Pillar)"},
-			{"id":"sub1", "task":"Trade for Latias / Latios (OR EON Ticket)","formats":[{"word":"Latias","format":"ruby"},{"word":"Latios","format":"sapphire"}]}
+			{"id":"sub2", "task":"Capture Groudon / Kyogre (Cave of Origin)", "formats":[{"word":"Groudon","format":"ruby"},{"word":"Kyogre","format":"sapphire"}]},
+			{"id":"sub3", "task":"Trade for Kyogre / Groudon", "formats":[{"word":"Groudon","format":"sapphire"},{"word":"Kyogre","format":"ruby"}]},
+			{"id":"sub4", "task":"Capture Regirock (Desert Ruins*)", "tooltip":"Available at different times"},
+			{"id":"sub5", "task":"Capture Regice (Island Cave*)", "tooltip":"Available at different times"},
+			{"id":"sub6", "task":"Capture Registeel (Ancient Tomb*)", "tooltip":"Available at different times"},
+			{"id":"sub7", "task":"Capture Rayquaza (Sky Pillar)"},
+			{"id":"sub8", "task":"Capture Deoxys (Sky Pillar)"},
+			{"id":"sub9", "task":"Trade for Latias / Latios (OR EON Ticket)","formats":[{"word":"Latias","format":"ruby"},{"word":"Latios","format":"sapphire"}]}
 		]
 	},
 	{"id":"task2",
