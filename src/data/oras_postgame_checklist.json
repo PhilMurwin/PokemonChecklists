@@ -99,6 +99,7 @@
 	{"id":"task7",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"row": 4,
+		"col": 3,
 		"splitCol": 4,
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
@@ -206,6 +207,7 @@
 	{"id":"task8",
 		"task":"Berry Checklist",
 		"row": 5,
+		"col": 4,
 		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Cherri"},
