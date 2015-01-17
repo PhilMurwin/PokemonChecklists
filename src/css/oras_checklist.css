@@ -2,6 +2,18 @@ body {
 	background-color: black;
 }
 
+.oras_chkLabel[title]:after{
+  color: #A50B00;
+  content: " *";
+  font-family: 'Glyphicons Halflings';
+  font-size: 10pt;
+  margin-left: -10px;
+}
+
+.tooltip-inner {
+	font-size: 11pt;
+}
+
 .postgame {
 	width: 1000px;
 	min-height: 1000px;

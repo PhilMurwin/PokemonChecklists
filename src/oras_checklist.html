@@ -19,8 +19,11 @@
 	<script src="js/oras_checklist.js"></script>
 	
 	<script>
-		$(function() {
+		$(function()
+		{
 			Render();
+			
+			$(".oras_chkLabel[title]" ).tooltip({});			
 			
 			$(".oras_chk").on('click',SaveCheckboxState);
 		});		

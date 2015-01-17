@@ -92,6 +92,13 @@ function BuildCheckbox(chkIndex, task)
 	
 	var text = task.task;
 	var formats = task.formats;
+	var tasktip = task.tooltip;
+	var tooltip = "";
+	
+	if (task.tooltip !== undefined)
+	{
+		tooltip = "title=\"" + tasktip + "\""
+	}
 	
 	var formattedText = text;
 	if (formats !== undefined)
@@ -101,7 +108,7 @@ function BuildCheckbox(chkIndex, task)
 
 	var chkValue = Retrieve(id);
 	var checked = chkValue !== null && chkValue ? "checked" : "";
-	var chk = $("<label for='" + id + "'><input class=\"oras_chk\" type='checkbox' id='" + id + "' " + checked + " />" + formattedText + "</label>");
+	var chk = $("<label class=\"oras_chkLabel\"" + tooltip + "for='" + id + "'><input class=\"oras_chk\" type='checkbox' id='" + id + "' " + checked + " />" + formattedText + "</label>");
 	
 	return chk;
 }
