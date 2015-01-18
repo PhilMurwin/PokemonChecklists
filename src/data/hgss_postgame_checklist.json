@@ -1,0 +1,128 @@
+{"hgss":[
+	{"id":"task1",
+		"task":"Complete the HG/SS Johto Pokedex (256)",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Capture Lv. 45 Lugia / Ho-oh", "formats":[{"word":"Lugia","format":"silver"},{"word":"Ho-oh","format":"gold"}]},
+			{"id":"sub2", "task":"Capture Lv. 70 Ho-oh / Lugia", "tooltip":"Located at Whirl Islands (Rt. 41) & Burnt Tower (Ecruteak City)", "formats":[{"word":"Lugia","format":"gold"},{"word":"Ho-oh","format":"silver"}]},
+			{"id":"sub3", "task":"Capture Articuno (Seaform Islands Rt. 20)"},
+			{"id":"sub4", "task":"Capture Zapdos (Power Plant Rt. 10)"},
+			{"id":"sub5", "task":"Capture Moltres (Silver Cave Rt. 28)"},
+			{"id":"sub6", "task":"Capture Mewtwo (Cerulean Cave)"},
+			{"id":"sub7", "task":"Capture Suicune (Rt. 25)"},
+			{"id":"sub8", "task":"Capture Entei (Roaming)", "formats":[{"word":"Roaming","format":"red"}]},
+			{"id":"sub9", "task":"Capture Raikou (Roaming)", "formats":[{"word":"Roaming","format":"red"}]}
+		]
+	},
+	{"id":"task2",
+		"task":"Capture Additional In-Game Legendaries",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Capture Latios or Latias (Roaming)", "formats":[{"word":"Latios","format":"silver"},{"word":"Latias","format":"gold"},{"word":"Roaming","format":"red"}]},
+			{"id":"sub2", "task":"Trade for other EON Pokemon"},
+			{"id":"sub3", "task":"Enigma Stone Eon Event", "formats":[{"all":"seafoam"}]},
+			{"id":"sub4", "task":"Capture Kyogre or Groudon", "tooltip":"After Obtaining the Red or Blue Orb from Mr. Pokemon (Embedded Tower Rt. 47)", "formats":[{"word":"Kyogre","format":"gold"},{"word":"Groudon","format":"silver"}]},
+			{"id":"sub5", "task":"Trade for other orb to capture Kyogre or Groudon", "formats":[{"word":"Kyogre","format":"silver"},{"word":"Groudon","format":"gold"}]},
+			{"id":"sub6", "task":"Capture Rayquaza (Embedded Tower Rt. 47)", "tooltip":"Requires both Kyogre and Groudon in same game to obtain Jade Orb"},
+			{"id":"sub7", "task":"Create either Dialgia, Palkia or Giratina", "tooltip":"Requires an Arceus in-game to be Brought to Sinjoh Ruins Event"}
+		]
+	},
+	{"id":"task3",
+		"task":"Complete Elite Four Rematch (Post Kanto)",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task4",
+		"task":"Complete Gym Leader Rematches (Post E4)",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task5",
+		"task":"Beat Red (Located: Top of Mt. Silver)",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task6",
+		"task":"Hall of Fame at Pokeathalon",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Hurdle Dash Highscore (80.0)"},
+			{"id":"sub2", "task":"Lamp Jump Highscore (500)"},
+			{"id":"sub3", "task":"Ring Toss Highscore (100)"},
+			{"id":"sub4", "task":"Snow Throw Highscore (55)"},
+			{"id":"sub5", "task":"Relay Run Highscore (16)"},
+			{"id":"sub6", "task":"Block Smash Highscore (130)"},
+			{"id":"sub7", "task":"Circle Push Highscore (60)"},
+			{"id":"sub8", "task":"Pennant Capture Highscore (50)"},
+			{"id":"sub9", "task":"Disc Catch Highscore (70)"},
+			{"id":"sub10", "task":"Goal Roal Highscore (9)"}
+		]
+	},
+	{"id":"task7",
+		"task":"Complete the National Dex (493)",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Obtain 1 Kanto Starter from Prof. Oak"},
+			{"id":"sub2", "task":"Obtain 1 Hoenn Starter from Steven Stone"},
+			{"id":"sub3", "task":"Capture 26 Unowns (Ruins of Alph)"},
+			{"id":"sub4", "task":"Capture ! and ? Unown (Ruins of Alph)"},
+			{"id":"sub5", "task":"Capture all 20 Swarm Pokemon"},
+			{"id":"sub6", "task":"Capture all 18 \"Hoenn/Sinnoh PKMN March Channel\" Pokemon"},
+			{"id":"sub7", "task":"Trade Steven for a Beldum", "tooltip":"Requires a Forretress - Silph Co. In Saffron City"},
+			{"id":"sub8", "task":"Optional - Obtain Extreme Speed Dratini", "tooltip":"Dragon's Den - Blackthorn City", "formats":[{"word":"Optional","format":"red"}]},
+			{"id":"sub9", "task":"Optional - Capture Shiny \"Red\" Gyarados", "tooltip":"Lake of Rage - Mahogany Town", "formats":[{"word":"Optional","format":"red"}]},
+			{"id":"sub10", "task":"Optional - Trade for Brock's O.T. Rhyhorn", "tooltip":"Requires Bonsly - Diglett Cave Rt. 11", "formats":[{"word":"Optional","format":"red"}]},
+			{"id":"sub11", "task":"Optional - Trade for Lt. Surge's O.T. French Pikachu", "tooltip":"Requires a Pikachu - Saffron Magnet Train", "formats":[{"word":"Optional","format":"red"}]},
+			{"id":"sub12", "task":"Optional - Trade for Jasmine's Steelix", "tooltip":"Requires Any Pokemon - Olivine Gym", "formats":[{"word":"Optional","format":"red"}]},
+			{"id":"sub13", "task":"Spiky Eared Pichu (Lv. 30) Event", "formats":[{"all":"seafoam"}]}
+		]
+	},
+	{"id":"task8",
+		"task":"Collect Silver and Gold Prints for Battle Frontier",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Battle Tower - Palmer"},
+			{"id":"sub2", "task":"Battle Factory - Thorton"},
+			{"id":"sub3", "task":"Battle Arcade - Dahlia"},
+			{"id":"sub4", "task":"Battle Castle - Darach & Caitlin"},
+			{"id":"sub5", "task":"Battle Hall - Argenta"}
+		]
+	},
+	{"id":"task9",
+		"task":"Take all Commemerative Photos (62)",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"46 Location Based Photos"},
+			{"id":"sub2", "task":"16 Gym Leader Photos"}
+		]
+	},
+	{"id":"task10",
+		"task":"Obtain Black 5 Star Trainer Card",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat the Elite Four"},
+			{"id":"sub2", "task":"Collect 5 Shiny Leaves"},
+			{"id":"sub3", "task":"Defeat All Records for Pokeathalon Events"},
+			{"id":"sub4", "task":"Get a 100 Streak in the Battle Tower"},
+			{"id":"sub5", "task":"Complete National Dex without Event Legendaries (484)"}
+		]
+	},
+	{"id":"task11",
+		"task":"Bonus Story Sequences - Optional & Event",
+		"formats":[{"word":"Optional","format":"red"}, {"word":"Event","format":"seafoam"}],
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Arceus & Sinjoh Ruins"},
+			{"id":"sub2", "task":"Celebi & Giovanni's Backstory"},
+			{"id":"sub3", "task":"Spikey Eared Pichu & Ilex Forest"}
+		]
+	}
+]}
