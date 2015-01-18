@@ -166,12 +166,25 @@ function sortByKey(array, key)
     });
 }
 
-function SaveCheckboxState(e)
+function startsWith(str, start)
+{	
+	return str.slice(0, start.length) == start;
+}
+
+function chk_onClick(e)
 {
 	var id = e.target.id;
+	
+	markSubtasks(id);
+	
+	SaveCheckboxState(id);
+}
+
+function SaveCheckboxState(id)
+{
 	var key = binKey + id;
 	
-	if ( e.target.checked )
+	if ( $("#"+id).is(":checked"))
 	{
 		localStorage.setItem(key, true);
 	}
@@ -181,6 +194,25 @@ function SaveCheckboxState(e)
 	}
 }
 
+function markSubtasks(taskid)
+{
+	if (startsWith(taskid, "task"))
+	{
+		var taskState = $("#"+taskid).is(":checked");
+		var subtasks = $("#"+taskid).closest(".task").find(".subtask");
+		
+		if (subtasks !== undefined || subtasks !== null)
+		{
+			for(var s=0; s < subtasks.length; s++)
+			{
+				var chk = $(subtasks[s]).find(".postgame_chk");
+				chk.prop('checked', taskState);
+				
+				SaveCheckboxState(chk.attr("id"));
+			}
+		}
+	}
+}
 
 function Retrieve(id)
 {

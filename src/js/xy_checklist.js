@@ -9,10 +9,7 @@ function GetChecklistData(path)
 		'url': path,
 		'dataType': "json",
 		'success': function(data) {
-			json = data;		
-		},
-		'error': function(xhr, ajaxOptions, error) {
-			alert(error);
+			json = data;
 		}
 	});
 	
@@ -22,7 +19,7 @@ function GetChecklistData(path)
 function Render()
 {
 	var xy = GetChecklistData("data/xy_postgame_checklist.json");
-console.log(xy);
+
 	var chkIndex = 0;
 	
 	for(var t=0; t < xy.xy.length; t++)
@@ -169,12 +166,25 @@ function sortByKey(array, key)
     });
 }
 
-function SaveCheckboxState(e)
+function startsWith(str, start)
+{	
+	return str.slice(0, start.length) == start;
+}
+
+function chk_onClick(e)
 {
 	var id = e.target.id;
+	
+	markSubtasks(id);
+	
+	SaveCheckboxState(id);
+}
+
+function SaveCheckboxState(id)
+{
 	var key = binKey + id;
 	
-	if ( e.target.checked )
+	if ( $("#"+id).is(":checked"))
 	{
 		localStorage.setItem(key, true);
 	}
@@ -184,6 +194,25 @@ function SaveCheckboxState(e)
 	}
 }
 
+function markSubtasks(taskid)
+{
+	if (startsWith(taskid, "task"))
+	{
+		var taskState = $("#"+taskid).is(":checked");
+		var subtasks = $("#"+taskid).closest(".task").find(".subtask");
+		
+		if (subtasks !== undefined || subtasks !== null)
+		{
+			for(var s=0; s < subtasks.length; s++)
+			{
+				var chk = $(subtasks[s]).find(".postgame_chk");
+				chk.prop('checked', taskState);
+				
+				SaveCheckboxState(chk.attr("id"));
+			}
+		}
+	}
+}
 
 function Retrieve(id)
 {

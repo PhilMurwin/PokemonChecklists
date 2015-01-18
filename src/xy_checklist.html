@@ -25,7 +25,7 @@
 			
 			$(".postgame_chkLabel[title]" ).tooltip({});			
 			
-			$(".postgame_chk").on('click',SaveCheckboxState);
+			$(".postgame_chk").on('click',chk_onClick);
 		});		
 	</script>
 	<script>
@@ -63,7 +63,7 @@
     </nav>
 	
 	<div class="postgame container-fluid">
-		<div id="row1" class="row">		
+		<div id="row1" class="row">
 			<div class="pageTitle col-sm-12 col-xs-12">
 				Pokemon X &amp; Y - Post Game Checklist
 			</div>
@@ -105,8 +105,5 @@
 			<div id="col4" class="col-sm-11 col-sm-offset-1"></div>
 		</div>
 	</div>
-	
-	
-	
 </body>
 </html>
