@@ -9,6 +9,9 @@ function GetChecklistData(path)
 		'success': function(data) {
 			json = data;
 		}
+		,'error': function(x, y, err) {
+			console.log(err);
+		}
 	});
 	
 	return json;
@@ -113,14 +116,20 @@ function BuildCheckbox(chkIndex, task)
 	var text = task.task;
 	var formats = task.formats;
 	var tasktip = task.tooltip;
-	var tooltip = "";
+	var spoiler = "";
+	var tooltip = "";	
 	
+	if (task.spoiler !== undefined)
+	{
+		spoiler = " <span class=\"spoiler\">" + task.spoiler + "</span> ";
+	}
+
 	if (task.tooltip !== undefined)
 	{
 		tooltip = "title=\"" + tasktip + "\""
 	}
 	
-	var formattedText = text;
+	var formattedText = text + spoiler;
 	if (formats !== undefined)
 	{
 		formattedText = FormatText(formattedText, formats);

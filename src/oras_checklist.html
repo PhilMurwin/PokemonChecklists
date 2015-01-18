@@ -13,9 +13,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 	<!-- Custom -->
+	<link rel="stylesheet" href="css/toggles-full.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/postgame_checklist.css">
+
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/toggles.min.js"></script>
 	<script src="js/postgame_checklist.js"></script>
 	
 	<script>
@@ -25,10 +29,12 @@
 			
 			$(".postgame_chkLabel[title]" ).tooltip({});
 			
-			//$(".postgame_chk").on('click',chk_onClick);
 			$(".postgame_chk").on('click', function(e) {
 				chk_onClick(e, "oraspost");
 			});
+			
+			//$("#settings-sidebar").sticky({topSpacing:50});
+			//$('.toggle').toggles({on:true, clicker:$('.clickme')});
 		});		
 	</script>
 	<script>
@@ -64,14 +70,14 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-	
+		
 	<div class="postgame container-fluid">
 		<div id="row1" class="row">
 			<div class="pageTitle col-sm-12 col-xs-12">
 				Pokemon OR &amp; AS - Post Game Checklist
 			</div>
 			<div class="credit col-sm-12 col-xs-12">
-				Credit for this checklist goes to <a href="http://imgur.com/a/n4eq5">technophonix on imgur</a>.
+				Credit for this checklist goes to <a target="_blank" href="http://imgur.com/a/n4eq5">technophonix on imgur</a>.
 			</div>
 		</div>
 		<div id="row2" class="row">
@@ -99,6 +105,7 @@
 			</div>
 			<div id="col2" class="col-sm-5 col-xs-6">
 			</div>
+			
 		</div>
 		<div id="row4">
 			<div id="col3" class="col-sm-11 col-sm-offset-1"></div>
