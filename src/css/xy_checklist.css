@@ -1,0 +1,96 @@
+.xy_chkLabel[title]:after {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	content: " ";
+	background: url("../images/pokeball_bullet.png");
+	background-size: 100%;  
+}
+
+.tooltip {
+	left: 50px !important;
+}
+
+.tooltip-inner {
+	font-size: 11pt;
+}
+
+.postgame {
+	background-color: white;
+	padding: 20px;
+}
+
+.ruby {
+	color: #A50B00;
+}
+
+.sapphire {
+	color: #171A9A;
+}
+
+.red {
+	color: red;
+}
+
+.seafoam {
+	color: #24B976;
+}
+
+.boy {
+	color: #66A2F0;
+}
+
+.girl {
+	color: #FF6CAD;
+}
+
+.credit {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.teamLogo-header {
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+}
+
+.badge-header {
+	width: 270px;
+	margin: 0 auto;
+}
+
+.badge-sm {
+	width: 30px;
+}
+
+.task {
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.subtask {
+	font-family: 'ditedregular';
+	font-size: 12pt;
+	margin-left: 1.5em;
+	display: inline;
+}
+
+.xLogo { content: url("../images/x_logo.png"); }
+.yLogo { content: url("../images/y_logo.png"); }
+.xyBugBadge { content: url("../images/xy_Bug_Badge.png"); }
+.xyCliffBadge { content: url("../images/xy_Cliff_Badge.png"); }
+.xyRumbleBadge { content: url("../images/xy_Rumble_Badge.png"); }
+.xyPlantBadge { content: url("../images/xy_Plant_Badge.png"); }
+.xyVoltageBadge { content: url("../images/xy_Voltage_Badge.png"); }
+.xyFairyBadge { content: url("../images/xy_Fairy_Badge.png"); }
+.xyPsychicBadge { content: url("../images/xy_Psychic_Badge.png"); }
+.xyIcebergBadge { content: url("../images/xy_Iceberg_Badge.png"); }
+
+
+@media print {
+	.subtask, .subsubtask {
+		font-family: inherit;
+	}
+}

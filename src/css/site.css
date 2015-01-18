@@ -9,10 +9,10 @@ input[type='checkbox'] {
 
 .pagewrap {
 	background-color: white;
-	padding: 20px;
 }
 
 .pageTitle {
+	padding-top: 20px;
 	font-family: 'pokemon_solidnormal';
 	font-size: 32pt;
 	text-align: center;
