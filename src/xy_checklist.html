@@ -16,16 +16,18 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/postgame_checklist.css">
-	<script src="js/xy_checklist.js"></script>
+	<script src="js/postgame_checklist.js"></script>
 	
 	<script>
 		$(function()
 		{
-			Render();
+			Render("xy","data/xy_postgame_checklist.json", "xypost");
 			
 			$(".postgame_chkLabel[title]" ).tooltip({});			
 			
-			$(".postgame_chk").on('click',chk_onClick);
+			$(".postgame_chk").on('click', function(e) {
+				chk_onClick(e, "xypost");
+			});
 		});		
 	</script>
 	<script>

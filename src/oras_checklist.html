@@ -16,16 +16,19 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/postgame_checklist.css">
-	<script src="js/oras_checklist.js"></script>
+	<script src="js/postgame_checklist.js"></script>
 	
 	<script>
 		$(function()
 		{
-			Render();
+			Render("oras", "data/oras_postgame_checklist.json", "oraspost");
 			
-			$(".postgame_chkLabel[title]" ).tooltip({});			
+			$(".postgame_chkLabel[title]" ).tooltip({});
 			
-			$(".postgame_chk").on('click',chk_onClick);
+			//$(".postgame_chk").on('click',chk_onClick);
+			$(".postgame_chk").on('click', function(e) {
+				chk_onClick(e, "oraspost");
+			});
 		});		
 	</script>
 	<script>

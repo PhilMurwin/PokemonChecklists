@@ -1,5 +1,3 @@
-var binKey = "oraspost";
-
 function GetChecklistData(path)
 {
 	var json = null;
@@ -16,17 +14,18 @@ function GetChecklistData(path)
 	return json;
 }
 
-function Render()
+function Render(dataKey, dataFile, binKey)
 {
-	var oras = GetChecklistData("data/oras_postgame_checklist.json");
+	window.binKey = binKey;
+	var data = GetChecklistData(dataFile);
 
 	var chkIndex = 0;
 	
-	for(var t=0; t < oras.oras.length; t++)
+	for(var t=0; t < data[dataKey].length; t++)
 	{
 		chkIndex++;
 		
-		var task = oras.oras[t];
+		var task = data[dataKey][t];
 		var divTask = $("<div class='task'></div>")
 		
 		var targetID = "#row" + task.row;
@@ -171,8 +170,9 @@ function startsWith(str, start)
 	return str.slice(0, start.length) == start;
 }
 
-function chk_onClick(e)
+function chk_onClick(e, binKey)
 {
+	window.binKey = binKey;
 	var id = e.target.id;
 	
 	markSubtasks(id);
@@ -223,20 +223,20 @@ function Retrieve(id)
 function ResetAll()
 {
 	// Reset all local store keys with binKey
-	var orasKeys = []; // Array to hold the keys
-	// Iterate over localStorage and insert the keys that meet the condition into orasKeys
+	var storeKeys = []; // Array to hold the keys
+	// Iterate over localStorage and insert the keys that meet the condition into storeKeys
 	for (var i = 0; i < localStorage.length; i++)
 	{
 		if (localStorage.key(i).indexOf(binKey) > -1)
 		{
-			orasKeys.push(localStorage.key(i));
+			storeKeys.push(localStorage.key(i));
 		}
 	}
 
-	// Iterate over orasKeys and remove the items by key
-	for (var i = 0; i < orasKeys.length; i++)
+	// Iterate over storeKeys and remove the items by key
+	for (var i = 0; i < storeKeys.length; i++)
 	{
-		localStorage.removeItem(orasKeys[i]);
+		localStorage.removeItem(storeKeys[i]);
 	}
 	
 	// Reload the page
