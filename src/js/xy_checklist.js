@@ -132,7 +132,7 @@ function BuildCheckbox(chkIndex, task)
 
 	var chkValue = Retrieve(id);
 	var checked = chkValue !== null && chkValue ? "checked" : "";
-	var chk = $("<label class=\"xy_chkLabel\"" + tooltip + "for='" + id + "'><input class=\"xy_chk\" type='checkbox' id='" + id + "' " + checked + " />" + formattedText + "</label>");
+	var chk = $("<label class=\"postgame_chkLabel\"" + tooltip + "for='" + id + "'><input class=\"postgame_chk\" type='checkbox' id='" + id + "' " + checked + " />" + formattedText + "</label>");
 	
 	return chk;
 }
