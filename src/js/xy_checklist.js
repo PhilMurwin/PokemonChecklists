@@ -196,7 +196,7 @@ function SaveCheckboxState(id)
 
 function markSubtasks(taskid)
 {
-	if (startsWith(taskid, "task"))
+	if (taskid.indexOf("sub") === -1 && startsWith(taskid, "task"))
 	{
 		var taskState = $("#"+taskid).is(":checked");
 		var subtasks = $("#"+taskid).closest(".task").find(".subtask");
