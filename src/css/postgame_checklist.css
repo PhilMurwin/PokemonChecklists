@@ -37,6 +37,14 @@
 	color: #24B976;
 }
 
+.gold {
+	color: #E6C970;
+}
+
+.silver {
+	color: #6290A4;
+}
+
 .boy {
 	color: #66A2F0;
 }
@@ -76,6 +84,28 @@
 	margin-left: 1.5em;
 	display: inline;
 }
+
+.bwTrioBadge { content: url("../images/bw_Trio_Badge.png"); }
+.bwBasicBadge { content: url("../images/bw_Basic_Badge.png"); }
+.bwInsectBadge { content: url("../images/bw_Insect_Badge.png"); }
+.bwBoltBadge { content: url("../images/bw_Bolt_Badge.png"); }
+.bwQuakeBadge { content: url("../images/bw_Quake_Badge.png"); }
+.bwJetBadge { content: url("../images/bw_Jet_Badge.png"); }
+.bwFreezeBadge { content: url("../images/bw_Freeze_Badge.png"); }
+.bwLegendBadge { content: url("../images/bw_Legend_Badge.png"); }
+.bw2ToxicBadge { content: url("../images/bw2_Toxic_Badge.png"); }
+.bw2WaveBadge { content: url("../images/bw2_Wave_Badge.png"); }
+
+.hgssHooh { content: url("../images/Ho-Oh.png"); width: 100px; }
+.hgssLugia { content: url("../images/Lugia.png"); width: 100px; }
+.hgssZephyrBadge { content: url("../images/hgss_Zephyr_Badge.png"); }
+.hgssHiveBadge { content: url("../images/hgss_Hive_Badge.png"); }
+.hgssPlainBadge { content: url("../images/hgss_Plain_Badge.png"); }
+.hgssFogBadge { content: url("../images/hgss_Fog_Badge.png"); }
+.hgssStormBadge { content: url("../images/hgss_Storm_Badge.png"); }
+.hgssMineralBadge { content: url("../images/hgss_Mineral_Badge.png"); }
+.hgssGlacierBadge { content: url("../images/hgss_Glacier_Badge.png"); }
+.hgssRisingBadge { content: url("../images/hgss_Rising_Badge.png"); }
 
 .xLogo { content: url("../images/x_logo.png"); }
 .yLogo { content: url("../images/y_logo.png"); }
