@@ -1,0 +1,132 @@
+<html>
+<head>
+<style>
+
+.roundcorner {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+
+.xyBugBadge { content: url("images/xy_Bug_Badge.png"); }
+.xyCliffBadge { content: url("images/xy_Cliff_Badge.png"); }
+.xyRumbleBadge { content: url("images/xy_Rumble_Badge.png"); }
+.xyPlantBadge { content: url("images/xy_Plant_Badge.png"); }
+.xyVoltageBadge { content: url("images/xy_Voltage_Badge.png"); }
+.xyFairyBadge { content: url("images/xy_Fairy_Badge.png"); }
+.xyPsychicBadge { content: url("images/xy_Psychic_Badge.png"); }
+.xyIcebergBadge { content: url("images/xy_Iceberg_Badge.png"); }
+
+.orasStoneBadge { content: url("images/oras_stone_badge.png"); }
+.orasKnuckleBadge { content: url("images/oras_knuckle_badge.png"); }
+.orasDynamoBadge { content: url("images/oras_dynamo_badge.png"); }
+.orasHeatBadge { content: url("images/oras_heat_badge.png"); }
+.orasBalanceBadge { content: url("images/oras_balance_badge.png"); }
+.orasFeatherBadge { content: url("images/oras_feather_badge.png"); }
+.orasMindBadge { content: url("images/oras_mind_badge.png"); }
+.orasRainBadge { content: url("images/oras_rain_badge.png"); }
+
+
+.trainer_card {
+	border: 1px solid black;
+	width: 260px;
+	background-color: #A0A1A1;
+	
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.trainer_name {
+	width: 240px;
+	padding: 3px 10px;
+	margin: 5px 0;
+	background-color: #6CA1DA;
+}
+
+.card_label {
+	display: inline-block;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 135px;
+	color: #EDCD81;
+}
+
+.username {
+	display: inline-block;
+	min-width: 80px;
+	margin-top: 2px;
+	margin-left: 5px;
+	background-color: #A7CDEB;
+	padding: 0px 5px;	
+	float: right;
+}
+
+.badge-wrapper {
+	margin: 3px 0;
+	border-bottom: 1px solid blue;
+}
+
+.badge-header {
+	font-size: .70em;
+	padding: 4px;
+	color: #EDCD81;
+	background-color: #6CA1DA;
+}
+
+.badges {
+	padding: 3px 0;
+	padding-left: 8px;
+}
+
+.badges.oras .badge-sm{
+	border: 2px solid teal;
+	background-color: whitesmoke;
+}
+
+.badges.xy .badge-sm,
+.badges.xy .badge-md{
+	border: 2px solid #990000;
+	background-color: #FFFF8B;
+}
+
+.badge-sm {
+	width: 16px;
+	padding: 1px;
+}
+
+
+</style>
+</head>
+<body>
+	<div class="roundcorner trainer_card">
+		<div class="trainer_name">
+			<label class="card_label">Trainer's Card</label><div class="roundcorner username">NameHere</div>
+		</div>
+		<div class="badge-wrapper">
+			<span class="badge-header">ORAS</span>
+			<div class="badges oras">
+				<img class="roundcorner badge-sm orasStoneBadge" alt="Stone Badge" />
+				<img class="roundcorner badge-sm orasKnuckleBadge" alt="Knuckle Badge" />
+				<img class="roundcorner badge-sm orasDynamoBadge" alt="Dynamo Badge" />
+				<img class="roundcorner badge-sm orasHeatBadge" alt="Heat Badge" />
+				<img class="roundcorner badge-sm orasBalanceBadge" alt="Balance Badge" />
+				<img class="roundcorner badge-sm orasFeatherBadge" alt="Feather Badge" />
+				<img class="roundcorner badge-sm orasMindBadge" alt="Mind Badge" />
+				<img class="roundcorner badge-sm orasRainBadge" alt="Rain Badge" />
+			</div>
+		</div>
+		<div class="badge-wrapper">
+			<span class="badge-header">XY</span>
+			<div class="badges xy">
+				<img class="roundcorner badge-sm xyBugBadge" alt="Bug Badge" />
+				<img class="roundcorner badge-sm xyCliffBadge" alt="Cliff Badge" />
+				<img class="roundcorner badge-sm xyRumbleBadge" alt="Rumble Badge" />
+				<img class="roundcorner badge-sm xyPlantBadge" alt="Plant Badge" />
+				<img class="roundcorner badge-sm xyVoltageBadge" alt="Voltage Badge" />
+				<img class="roundcorner badge-sm xyFairyBadge" alt="Fairy Badge" />
+				<img class="roundcorner badge-sm xyPsychicBadge" alt="Psychic Badge" />
+				<img class="roundcorner badge-sm xyIcebergBadge" alt="Iceberg Badge" />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
