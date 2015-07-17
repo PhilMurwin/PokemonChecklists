@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://pokemonpostgame.com/</loc>
+  <lastmod>2015-01-19T17:11:29+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/index.html</loc>
+  <lastmod>2015-01-19T17:11:29+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/hgss_checklist.html</loc>
+  <lastmod>2015-01-19T17:11:29+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/xy_checklist.html</loc>
+  <lastmod>2015-01-19T17:11:29+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/oras_checklist.html</loc>
+  <lastmod>2015-01-19T17:11:29+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
