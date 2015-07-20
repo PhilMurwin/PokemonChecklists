@@ -58,10 +58,15 @@
 	margin-bottom: 20px;
 }
 
+.row-header {
+	padding-bottom: 10px;
+}
+
 .teamLogo-header {
 	width: 60px;
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 10px;
 }
 
 .badge-header {
