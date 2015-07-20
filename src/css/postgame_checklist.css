@@ -74,8 +74,17 @@
 	margin: 0 auto;
 }
 
+.badge-header-md {
+	width: 400px;
+	margin: 0 auto;
+}
+
 .badge-sm {
 	width: 30px;
+}
+
+.badge-md {
+	width: 45px;
 }
 
 .task {
@@ -90,6 +99,8 @@
 	display: inline;
 }
 
+.bwReshiram { content: url("../images/Reshiram.png"); width: 100px; }
+.bwZekrom { content: url("../images/Zekrom.png"); width: 100px; }
 .bwTrioBadge { content: url("../images/bw_Trio_Badge.png"); }
 .bwBasicBadge { content: url("../images/bw_Basic_Badge.png"); }
 .bwInsectBadge { content: url("../images/bw_Insect_Badge.png"); }
