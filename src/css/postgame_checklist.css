@@ -99,6 +99,34 @@
 	display: inline;
 }
 
+.dpDialga { content: url("../images/Dialga.png"); width: 100px; }
+.dpPalkia { content: url("../images/Palkia.png"); width: 100px; }
+.dpCoalBadge { content: url("../images/dpCoalBadge.png"); }
+.dpForestBadge { content: url("../images/dpForestBadge.png"); }
+.dpCobbleBadge { content: url("../images/dpCobbleBadge.png"); }
+.dpFenBadge { content: url("../images/dpFenBadge.png"); }
+.dpRelicBadge { content: url("../images/dpRelicBadge.png"); }
+.dpMineBadge { content: url("../images/dpMineBadge.png"); }
+.dpIcicleBadge { content: url("../images/dpIcicleBadge.png"); }
+.dpBeaconBadge { content: url("../images/dpBeaconBadge.png"); }
+
+.platGiratinaAlt { content: url("../images/Giratina-Altered.png"); width: 125px; }
+.platGiratinaOrigin { content: url("../images/Giratina-Origin.png"); width: 125px; }
+.platAzelf { content: url("../images/Azelf.png"); width: 60px; }
+.platMesprit { content: url("../images/Mesprit.png"); width: 60px; }
+.platUxie { content: url("../images/Uxie.png"); width: 60px; }
+
+.hgssHooh { content: url("../images/Ho-Oh.png"); width: 100px; }
+.hgssLugia { content: url("../images/Lugia.png"); width: 100px; }
+.hgssZephyrBadge { content: url("../images/hgss_Zephyr_Badge.png"); }
+.hgssHiveBadge { content: url("../images/hgss_Hive_Badge.png"); }
+.hgssPlainBadge { content: url("../images/hgss_Plain_Badge.png"); }
+.hgssFogBadge { content: url("../images/hgss_Fog_Badge.png"); }
+.hgssStormBadge { content: url("../images/hgss_Storm_Badge.png"); }
+.hgssMineralBadge { content: url("../images/hgss_Mineral_Badge.png"); }
+.hgssGlacierBadge { content: url("../images/hgss_Glacier_Badge.png"); }
+.hgssRisingBadge { content: url("../images/hgss_Rising_Badge.png"); }
+
 .bwReshiram { content: url("../images/Reshiram.png"); width: 100px; }
 .bwZekrom { content: url("../images/Zekrom.png"); width: 100px; }
 .bwTrioBadge { content: url("../images/bw_Trio_Badge.png"); }
@@ -111,17 +139,6 @@
 .bwLegendBadge { content: url("../images/bw_Legend_Badge.png"); }
 .bw2ToxicBadge { content: url("../images/bw2_Toxic_Badge.png"); }
 .bw2WaveBadge { content: url("../images/bw2_Wave_Badge.png"); }
-
-.hgssHooh { content: url("../images/Ho-Oh.png"); width: 100px; }
-.hgssLugia { content: url("../images/Lugia.png"); width: 100px; }
-.hgssZephyrBadge { content: url("../images/hgss_Zephyr_Badge.png"); }
-.hgssHiveBadge { content: url("../images/hgss_Hive_Badge.png"); }
-.hgssPlainBadge { content: url("../images/hgss_Plain_Badge.png"); }
-.hgssFogBadge { content: url("../images/hgss_Fog_Badge.png"); }
-.hgssStormBadge { content: url("../images/hgss_Storm_Badge.png"); }
-.hgssMineralBadge { content: url("../images/hgss_Mineral_Badge.png"); }
-.hgssGlacierBadge { content: url("../images/hgss_Glacier_Badge.png"); }
-.hgssRisingBadge { content: url("../images/hgss_Rising_Badge.png"); }
 
 .xLogo { content: url("../images/x_logo.png"); }
 .yLogo { content: url("../images/y_logo.png"); }

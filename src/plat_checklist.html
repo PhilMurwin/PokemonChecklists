@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>HG &amp; SS Post Game Checklist</title>
+	<title>Platinum Post Game Checklist</title>
 
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -22,12 +22,12 @@
 	<script>
 		$(function()
 		{
-			Render("hgss","data/hgss_postgame_checklist.json", "hgsspost");
+			Render("plat","data/plat_postgame_checklist.json", "platpost");
 			
-			$(".postgame_chkLabel[title]" ).tooltip({});			
+			$(".postgame_chkLabel[title]" ).tooltip({});
 			
 			$(".postgame_chk").on('click', function(e) {
-				chk_onClick(e, "hgsspost");
+				chk_onClick(e, "platpost");
 			});
 		});		
 	</script>
@@ -55,9 +55,9 @@
           </button>
           <a class="navbar-brand" href="../index.html">Pokemon Checklists</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
+		<div id="navbar" class="collapse navbar-collapse">
+		  <ul class="nav navbar-nav">
+			<li><a href="../index.html">Home</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gen 4 <span class="caret"></span></a>
 				<ul class="dropdown-menu">
@@ -77,43 +77,38 @@
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gen 6 <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="xy_checklist.html">X &amp; Y Post Game</a></li>
-            		<li><a href="oras_checklist.html">ORAS Post Game</a></li>
+		    		<li><a href="oras_checklist.html">ORAS Post Game</a></li>
 				</ul>
 			</li>			
-          </ul>
-        </div><!--/.nav-collapse -->
+		  </ul>
+		</div><!--/.nav-collapse -->
       </div>
     </nav>
 	
 	<div class="postgame container-fluid">
 		<div id="row1" class="row">
 			<div class="pageTitle col-sm-12 col-xs-12">
-				Pokemon HG &amp; SS - Post Game Checklist
+				Pokemon Platinum - Post Game Checklist
 			</div>
 			<div class="credit col-sm-12 col-xs-12">
-				Credit for this checklist goes to <a target="_blank" href="http://i.imgur.com/rtps6oD.png">technophonix</a>.
+				Credit for this checklist goes to <a target="_blank" href="http://imgur.com/a/9wYiv">technophonix on imgur</a>.
 			</div>
 			
 		</div>
 		<div id="row2" class="row row-header">
-			<div class="col-lg-offset-1 col-sm-3 col-xs-6">
-				<img class="teamLogo-header hgssHooh" alt="Ho-oh" />
+			<div class="col-lg-offset-1 col-lg-2 col-sm-3 col-xs-6">
+				<img class="teamLogo-header platGiratinaAlt" alt="Giratina Altered Form" />
 			</div>
-			<div class="col-sm-3 col-sm-push-5 col-xs-6">
-				<img class="teamLogo-header hgssLugia" alt="Lugia" />
+			<div class="col-sm-3 col-sm-push-6 col-xs-6">
+				<img class="teamLogo-header platGiratinaOrigin" alt="Giratina Origin Form" />
 			</div>
-			<div class="col-sm-5 col-sm-pull-3 col-xs-12">
-				<div class="badge-header">
-					<img class="badge-sm hgssZephyrBadge" alt="Zephyr Badge" />
-					<img class="badge-sm hgssHiveBadge" alt="Hive Badge" />
-					<img class="badge-sm hgssPlainBadge" alt="Plain Badge" />
-					<img class="badge-sm hgssFogBadge" alt="Fog Badge" />
-					<img class="badge-sm hgssStormBadge" alt="Storm Badge" />
-					<img class="badge-sm hgssMineralBadge" alt="Mineral Badge" />
-					<img class="badge-sm hgssGlacierBadge" alt="Glacier Badge" />
-					<img class="badge-sm hgssRisingBadge" alt="Rising Badge" />
+			<div class="col-sm-6 col-sm-pull-3 col-xs-12">
+				<div class="badge-header-md">
+					<img class="platAzelf" alt="Azelf" />
+					<img class="platMesprit" alt="Mesprit" />
+					<img class="platUxie" alt="Uxie" />
 				</div>
-			</div>
+			</div>			
 		</div>
 		<div id="row3" class="row">
 			<div id="col1" class="col-lg-5 col-lg-offset-2 col-sm-6 col-xs-12">
