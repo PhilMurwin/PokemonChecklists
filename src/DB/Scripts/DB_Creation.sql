@@ -1,7 +1,9 @@
 Create Table PokemonGeneration
 (
-	GenID	int identity(1,1) not null
-	,Name	nvarchar(255) not null
+	GenID		int identity(1,1) not null
+	,FullName	nvarchar(255) not null
+	,ShortName	nvarchar(50) not null
+	,Numerals	nvarchar(10) not null
 	,CONSTRAINT PK_PokemonGeneration_GenID PRIMARY KEY ( GenID )
 )
 
