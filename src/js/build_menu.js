@@ -30,7 +30,7 @@ function BuildMenu(path)
 	var menu = BuildMenuItems(data[dataKey], path);
 	menu = "<ul class='nav navbar-nav'>" + menu + "</ul>";
 	navbar.append(menu);
-	console.log(menu);
+	//console.log(menu);
 }
 
 function BuildMenuItems(data, path)
