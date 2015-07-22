@@ -29,7 +29,7 @@ function Render(dataKey, dataFile, binKey)
 		chkIndex++;
 		
 		var task = data[dataKey][t];
-		var divTask = $("<div class='task'></div>")
+		var divTask = $("<div class='task'></div>");
 		
 		var targetID = "#row" + task.row;
 		if (task.col !== undefined)
@@ -40,7 +40,7 @@ function Render(dataKey, dataFile, binKey)
 		
 		//Build Task checkbox
 		var chk = BuildCheckbox(chkIndex, task);
-		divTask.html(chk);				
+		divTask.html( chk.prop('outerHTML') );
 		
 		// Check for subtasks
 		divTask = RenderSubTasks(divTask, chkIndex, task);
@@ -79,18 +79,18 @@ function RenderSubTasks(divTask, chkIndex, task)
 			
 			var subtask = subtasks[t];
 			subtask.parentid = id;
-			divSubtask = $("<div class='subtask'></div>")
+			var divSubtask = $("<div class='subtask'></div>");
 			
 			//Build Task checkbox
 			var chk = BuildCheckbox(chkIndex, subtask);
-			divSubtask.html(chk);
+			divSubtask.html( chk.prop('outerHTML') );
 			targetCol.append(divSubtask);
 			
 			if (rowCount >= maxRowCount)
 			{
 				divTask.append(targetCol);
 				rowCount = 0;
-				var targetCol = $(colDiv);
+				targetCol = $(colDiv);
 			}
 		}
 		
@@ -146,7 +146,7 @@ function FormatText(text, formats)
 {
 	if (formats !== undefined)
 	{
-		for(f = 0; f < formats.length; f++)
+		for(var f = 0; f < formats.length; f++)
 		{
 			var all = formats[f].all;
 			var word = formats[f].word;
@@ -191,11 +191,11 @@ function chk_onClick(e, binKey)
 
 function SaveCheckboxState(id)
 {
-	var key = binKey + id;
+	var key = window.binKey + id;
 	
 	if ( $("#"+id).is(":checked"))
 	{
-		localStorage.setItem(key, true);
+		localStorage.setItem(key, "true");
 	}
 	else
 	{
@@ -225,7 +225,7 @@ function markSubtasks(taskid)
 
 function Retrieve(id)
 {
-	var key = binKey + id;
+	var key = window.binKey + id;
 	return localStorage.getItem( key );
 }
 
@@ -236,7 +236,7 @@ function ResetAll()
 	// Iterate over localStorage and insert the keys that meet the condition into storeKeys
 	for (var i = 0; i < localStorage.length; i++)
 	{
-		if (localStorage.key(i).indexOf(binKey) > -1)
+		if (localStorage.key(i).indexOf(window.binKey) > -1)
 		{
 			storeKeys.push(localStorage.key(i));
 		}
