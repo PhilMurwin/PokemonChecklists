@@ -17,11 +17,13 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/postgame_checklist.css">
+	<script src="js/build_menu.js"></script>
 	<script src="js/postgame_checklist.js"></script>
 	
 	<script>
 		$(function()
 		{
+			BuildMenu();
 			Render("xy","data/xy_postgame_checklist.json", "xypost");
 			
 			$(".postgame_chkLabel[title]" ).tooltip({});			

@@ -1,0 +1,25 @@
+{"menus":[
+	{"itemname":"Home", "link":"../index.html"},
+	{"itemname":"Gen 4",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"D & P Post Game", "link":"dp_checklist.html"},
+			{"itemname":"Platinum Post Game", "link":"plat_checklist.html"},
+			{"itemname":"HG & SS Post Game", "link":"hgss_checklist.html"}
+		]
+	},
+	{"itemname":"Gen 5",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"B & W Post Game", "link":"bw_checklist.html"},
+			{"itemname":"B & W 2 Post Game", "link":"b2w2_checklist.html"}
+		]
+	},
+	{"itemname":"Gen 6",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"X & Y Post Game", "link":"xy_checklist.html"},
+			{"itemname":"ORAS Post Game", "link":"oras_checklist.html"}
+		]
+	}
+]}
