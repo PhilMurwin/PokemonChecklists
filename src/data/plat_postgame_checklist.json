@@ -1,10 +1,133 @@
 {"plat":[
-	{"id":"task",
-		"task":"",
+	{"id":"task1",
+		"task":"Complete the Platinum Sinnoh Pokedex (151)",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
-			{"id":"sub", "task":""}
+			{"id":"sub1", "task":"Capture Spiritomb", "tooltip":"Spirit Tower Well - You must talk to 32 people in the Sinnoh Underground and then head to Rt. 209"},
+			{"id":"sub2", "task":"Capture Rotom", "tooltip":"Old Chateau - You must approach the television at night"},
+			{"id":"sub3", "task":"Capture Giratina", "tooltip":"Distortion World"},
+			{"id":"sub4", "task":"Capture Uxie", "tooltip":"Lake Acuity"},
+			{"id":"sub5", "task":"Capture Mesprit", "tooltip":"Roaming"},
+			{"id":"sub6", "task":"Capture Azelf", "tooltip":"Lake Valor"},
+			{"id":"sub7", "task":"Manaphy Egg From Pokemon Rangers", "formats":[{"all":"seafoam"}]}
 		]
-	}
+	},
+	{"id":"task2",
+		"task":"Capture Additional In-Game Legendaries",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Capture Dialga", "tooltip":"Spear Pillar"},
+			{"id":"sub2", "task":"Capture Palkia", "tooltip":"Spear Pillar"},
+			{"id":"sub3", "task":"Capture Heatran", "tooltip":"Stark Mt"},
+			{"id":"sub4", "task":"Capture Regigagas", "tooltip":"Snowpoint City Ruins - Have Regirock, Regice, & Registeel in your party"},
+			{"id":"sub5", "task":"Capture Cresselia", "tooltip":"Roaming"},
+			{"id":"sub6", "task":"Capture Articuno", "tooltip":"Roaming"},
+			{"id":"sub7", "task":"Capture Zapdos", "tooltip":"Roaming"},
+			{"id":"sub8", "task":"Capture Moltres", "tooltip":"Roaming"},
+			{"id":"sub9", "task":"Event - Regirock", "tooltip":"Requires Regigigas from movie event distribution"},
+			{"id":"sub10", "task":"Event Regice", "tooltip":"Requires Regigigas from movie event distribution"},
+			{"id":"sub11", "task":"Event - Registeel", "tooltip":"Requires Regigigas from movie event distribution"},
+			{"id":"sub12", "task":"Breed Phione", "tooltip":"Event Manaphy Needed"},
+			{"id":"sub13", "task":"Darkrai", "tooltip":"Event - New Moon Island - Requires membership pass to be given to sailor in canalve city"},
+			{"id":"sub14", "task":"Shaymin", "tooltip":"Event - Flower Paradise - Requires Oak"},
+			{"id":"sub15", "task":"Arceus", "tooltip":"Event - Arceus - Hall of Origin - Requires Azure Flute to be brought to spear pillar"}
+		]
+	},
+	{"id":"task3",
+		"task":"Complete National Dex (493)",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task4",
+		"task":"Collect All Trophy Garden Pokemon (16)",
+		"row": 3,
+		"col": 2,
+		"splitCol": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Clefairy"},
+			{"id":"sub2", "task":"Chansey"},
+			{"id":"sub3", "task":"Cleffa"},
+			{"id":"sub4", "task":"Azurill"},
+			{"id":"sub5", "task":"Castform"},
+			{"id":"sub6", "task":"Happiny"},
+			{"id":"sub7", "task":"Jigglypuff"},
+			{"id":"sub8", "task":"Eevee"},
+			{"id":"sub9", "task":"Igglypuff"},
+			{"id":"sub10", "task":"Plusle"},
+			{"id":"sub11", "task":"Bonsly"},
+			{"id":"sub12", "task":"Meowth"},
+			{"id":"sub13", "task":"Porygon"},
+			{"id":"sub14", "task":"Marill"},
+			{"id":"sub15", "task":"Minun"},
+			{"id":"sub16", "task":"Mime Jr."}
+		]
+	},
+	{"id":"task5",
+		"task":"Collect All Battle Frontier Prints",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task6",
+		"task":"Re-battle Elite Four Post National Dex",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task7",
+		"task":"Collect All Poketch Applications",
+		"row": 3,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Digital Clock"},
+			{"id":"sub2", "task":"Memo Pad"},
+			{"id":"sub3", "task":"Your Party"},
+			{"id":"sub4", "task":"ItemFinder"},
+			{"id":"sub5", "task":"Breeding Centre"},
+			{"id":"sub6", "task":"Counter"},
+			{"id":"sub7", "task":"Marking Map"},
+			{"id":"sub8", "task":"Coin Toss"},
+			{"id":"sub9", "task":"Calendar"},
+			{"id":"sub10", "task":"Roulette"},
+			{"id":"sub11", "task":"Kitchen Timer"},
+			{"id":"sub12", "task":"Matchup Checker"},
+			{"id":"sub13", "task":"Alarm Clock"},
+			{"id":"sub14", "task":"Calculator"},
+			{"id":"sub15", "task":"Step Counter"},
+			{"id":"sub16", "task":"Happiness Checker"},
+			{"id":"sub17", "task":"Berry Checker"},
+			{"id":"sub18", "task":"Pokemon History"},
+			{"id":"sub19", "task":"Analog Clock"},
+			{"id":"sub20", "task":"Wireless Searcher"},
+			{"id":"sub21", "task":"Type Chart"},
+			{"id":"sub22", "task":"Drawing Board"},
+			{"id":"sub23", "task":"Pokeradar Checker"},
+			{"id":"sub24", "task":"Colour Changer"},
+			{"id":"sub25", "task":"Stopwatch"}
+		]
+	},
+	{"id":"task8",
+		"task":"Obtain Black Trainer Card",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat the Elite Four"},
+			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
+			{"id":"sub3", "task":"Play 1 online Underground Capture the Flag Mtach"},
+			{"id":"sub4", "task":"Complete the National Dex (482 PKMN)"},
+			{"id":"sub5", "task":"Complete 100 Wins in Battle Tower"}
+		]
+	},
+	{"id":"task9",
+		"task":"Complete 3 Levels of Rival Battles",
+		"row": 3,
+		"col": 1,
+		"splitCol": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Lv. 65"},
+			{"id":"sub2", "task":"Lv. 75"},
+			{"id":"sub3", "task":"Lv. 85"}
+		]
+	}	
 ]}
