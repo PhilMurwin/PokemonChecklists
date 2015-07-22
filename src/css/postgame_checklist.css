@@ -53,6 +53,21 @@
 	color: #FF6CAD;
 }
 
+.black {
+	background-color: #F5F5F5;
+	color: #000000;
+	padding: 3px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.white {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 3px;
+	border-radius: 5px;
+}
+
 .credit {
 	text-align: center;
 	margin-bottom: 20px;
