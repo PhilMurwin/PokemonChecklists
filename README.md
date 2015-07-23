@@ -1,7 +1,7 @@
 # PokemonChecklists
-Eventually to be home to a website for a variety of Pokemon Checklists
+Home to a variety of Pokemon Checklists, website can be found here: http://pokemonpostgame.com/
 
-A Sitemap is available at:
-http://pokemonpostgame.com/
-
-[ORAS Post-Game Checklist](http://pokemonpostgame.com/src/oras_checklist.html)
+### Dev Notes
+* Checklists are stored as JSON in src/data
+* The checklists are built dynamically from the JSON files
+* The menu is built dynamically via Javascript
