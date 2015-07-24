@@ -1,10 +1,12 @@
-{"oras":[
+{
+	"gamecode":"oras",
+	"tasks":[
 	{
 		"id":"1",
 		"task":"Complete the OR / AS Hoenn Pokedex (211)",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Obtain 'Platinum Crowns' on All Routes"},
 			{"id":"2", "task":"Capture Grouden[[color:ruby]] / Kyogre[[color:sapphire]]", "tip":"Cave of Origin"},
 			{"id":"3", "task":"Trade for Kyogre[[color:sapphire]] / Groudon[[color:ruby]]"},
@@ -20,7 +22,7 @@
 		"task":"Capture Additional In-Game Legendaries",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Capture Regigigas", "tip":"Island Cave - Available at different times"},
 			{"id":"2", "task":"Capture Ho-oh / Lugia", "tip":"Sea Mauville"},
 			{"id":"3", "task":"Capture Heatran", "tip":"Scorched Slab"},
@@ -46,7 +48,7 @@
 		"task":"Complete National Dex (719)",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Obtain Johto Starter From Prof. Birch"},
 			{"id":"2", "task":"Obtain Unova Starter From Prof. Birch"},
 			{"id":"3", "task":"Obtain Sinnoh Starter From Prof. Birch"}
@@ -56,7 +58,7 @@
 		"task":"Collect All \"New\" Mega Stones",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Beedrill", "tip":"Sea Mauville - From Beginning"},
 			{"id":"2", "task":"Pidgeot", "tip":"Rustboro - Show Mr. Stone the Intriguing Stone - From Beginning"},
 			{"id":"3", "task":"Slowbro", "tip":"Shoal Cave - Give man 4 Shoal Salts & 4 Shoal Shells - From Beginning"},
@@ -90,7 +92,7 @@
 		"task":"Obtain Both Bicycles (Acro & Mach Bikes)",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Show Mach bike to Hex Maniac", "tip":"Route 111"},
 			{"id":"2", "task":"Show Acro bike to Bird Keeper", "tip":"Route 119"},
 			{"id":"3", "task":"Show either bike to triathelete", "tip":"Battle Resort"}
@@ -101,7 +103,7 @@
 		"row": 4,
 		"col": 3,
 		"splitCol": 4,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Hone Claws"},
 			{"id":"2", "task":"Dragon Claw"},
 			{"id":"3", "task":"Psyshock"},
@@ -209,7 +211,7 @@
 		"row": 5,
 		"col": 4,
 		"splitCol": 4,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Cherri"},
 			{"id":"2", "task":"Leppa"},
 			{"id":"3", "task":"Figgy"},
@@ -282,7 +284,7 @@
 		"task":"Complete the Delta Episode Sub-Plot",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"1. Encounter Zinnia In Littleroot"},
 			{"id":"2", "task":"2. Defeat Courtney[[color:ruby]] / Matt[[color:sapphire]] in Petalburg"},
 			{"id":"3", "task":"3. Talk to Mr. Stone in Rustboro"},
@@ -304,12 +306,12 @@
 		"task":"Complete Regular & Super Battle Maison Battles",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
-			{"id":"1", "task":"Single Battle", "multicheck":2},
-			{"id":"2", "task":"Double Battle", "multicheck":2},
-			{"id":"3", "task":"Triple Battle", "multicheck":2},
-			{"id":"4", "task":"Rotation Battle", "multicheck":2},
-			{"id":"5", "task":"Multi Battle", "multicheck":2}
+		"tasks":[
+			{"id":"1", "task":"Single Battle"},
+			{"id":"2", "task":"Double Battle"},
+			{"id":"3", "task":"Triple Battle"},
+			{"id":"4", "task":"Rotation Battle"},
+			{"id":"5", "task":"Multi Battle"}
 		]
 	},
 	{"id":"11",
@@ -321,7 +323,7 @@
 		"task":"Rematch Wally at the Battle Resort",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Rematch Wally After Beating Super Battle"}
 		]
 	},
@@ -329,7 +331,7 @@
 		"task":"Complete All Mauville Food Court Battles",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Village Sub Combo (Single)"},
 			{"id":"2", "task":"Magnemite Croquette (Double)"},
 			{"id":"3", "task":"Mauville Ramen Bowl (Triple)"}
@@ -339,8 +341,8 @@
 		"task":"Obtain Gold Trainer Card",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
-			{"id":"1", "task":"Defeat the Elite Four", "default":"true"},
+		"tasks":[
+			{"id":"1", "task":"Defeat the Elite Four"},
 			{"id":"2", "task":"Complete the Hoenn Dex"},
 			{"id":"3", "task":"Defeat 1 Battle Maison 50th Streak"}
 		]
@@ -349,7 +351,7 @@
 		"task":"Collect All \"Retro\" Mega Stones",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Venusaur", "tip":"Route 119 - After Primal Groudon/Kyogre narrative"},
 			{"id":"2", "task":"Charizard X", "tip":"Fiery Path - After Primal Groudon/Kyogre narrative"},
 			{"id":"3", "task":"Charizard Y", "tip":"Scorched Slab - After Primal Groudon/Kyogre narrative"},
@@ -384,7 +386,7 @@
 		"task":"Complete All Trick House Chambers",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Chamber 1 - Cut"},
 			{"id":"2", "task":"Chamber 2 - Rock Smash"},
 			{"id":"3", "task":"Chamber 3 - Flash"},
@@ -397,7 +399,7 @@
 		"task":"Achieve All Ranks in Secret Base Capture the Flag",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Bronze Rank - 30 Flags (Blackboard)"},
 			{"id":"2", "task":"Silver Rank - 100 Flags (Jukebox)"},
 			{"id":"3", "task":"Gold Rank - 500 Flags (Mood Lighting)"},
@@ -408,7 +410,7 @@
 		"task":"Obtain Elegant Items from Glass Workshop",
 		"row": 3,
 		"col": 1,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Elegant Chair"},
 			{"id":"2", "task":"Elegant Desk"}
 		]
@@ -418,7 +420,7 @@
 		"row": 3,
 		"col": 1,
 		"splitCol": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Beginner Rank"},
 			{"id":"2", "task":"Novice Rank"},
 			{"id":"3", "task":"Normal Rank"},
@@ -441,7 +443,7 @@
 		"task":"Bonus Story Sequences - Optional[[color:red]] & Event[[color:seafoam]]",
 		"row": 3,
 		"col": 2,
-		"subtasks":[
+		"tasks":[
 			{"id":"1", "task":"Event[[color:seafoam]] Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac"},
 			{"id":"2", "task":"Event[[color:seafoam]] Diancie & PKMN Center Gentleman"}
 		]
