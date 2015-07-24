@@ -34,7 +34,7 @@ Create Table Task
 Create Table SubTask
 (
 	SubTaskID	int identity(1,1) not null
-	,TaskDescription nvarchar(255) not null
+	,Name nvarchar(255) not null
 	,OrderID int null
 	,TaskID int
 	,CONSTRAINT PK_SubTask Primary Key (SubTaskID)
