@@ -17,24 +17,24 @@ Create Table PokemonGames
 	,CONSTRAINT FK_GenID_PokemonGeneration_GenID Foreign Key (GenID) References PokemonGeneration(GenID)
 )
 
-Create Table PostGameTask
+Create Table Task
 (
 	TaskID	int identity(1,1) not null
 	,TaskDescription nvarchar(255) not null
 	,GameID	int
 	,OrderID int null
-	,CONSTRAINT PK_PostGameTask_TaskID Primary Key (TaskID)
+	,CONSTRAINT PK_Task_TaskID Primary Key (TaskID)
 	,CONSTRAINT FK_GameID_PokemonGames_GameID Foreign Key (GameID) References PokemonGames(GameID)
 )
 
-Create Table PostGameSubTask
+Create Table SubTask
 (
 	SubTaskID	int identity(1,1) not null
 	,TaskDescription nvarchar(255) not null
 	,OrderID int null
 	,TaskID int
-	,CONSTRAINT PK_PostGameSubTask Primary Key (SubTaskID)
-	,CONSTRAINT FK_TaskID_PostGameTask_TaskID Foreign Key (TaskID) References PostGameTask(TaskID)
+	,CONSTRAINT PK_SubTask Primary Key (SubTaskID)
+	,CONSTRAINT FK_TaskID_Task_TaskID Foreign Key (TaskID) References Task(TaskID)
 )
 
 Create Table Users
@@ -50,6 +50,6 @@ Create Table UserTaskData
 	,TaskID	int not null
 	,SubTaskID	int null
 	,CONSTRAINT FK_UserID_Users_UserID Foreign Key (UserID) References Users(UserID)
-	,CONSTRAINT FK_TaskID_PostGameTask Foreign Key (TaskID) References PostGameTask(TaskID)
-	,CONSTRAINT FK_SubTaskID_PostGameSubTask Foreign Key (SubTaskID) References PostGameSubTask(SubTaskID)
+	,CONSTRAINT FK_TaskID_Task Foreign Key (TaskID) References Task(TaskID)
+	,CONSTRAINT FK_SubTaskID_SubTask Foreign Key (SubTaskID) References SubTask(SubTaskID)
 )

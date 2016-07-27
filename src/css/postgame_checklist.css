@@ -125,11 +125,11 @@
 .dpIcicleBadge { content: url("../images/dpIcicleBadge.png"); }
 .dpBeaconBadge { content: url("../images/dpBeaconBadge.png"); }
 
-.platGiratinaAlt { content: url("../images/Giratina-Altered.png"); width: 125px; }
-.platGiratinaOrigin { content: url("../images/Giratina-Origin.png"); width: 125px; }
-.platAzelf { content: url("../images/Azelf.png"); width: 60px; }
-.platMesprit { content: url("../images/Mesprit.png"); width: 60px; }
-.platUxie { content: url("../images/Uxie.png"); width: 60px; }
+.platGiratinaAlt { background: url("../images/Giratina-Altered.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px;}
+.platGiratinaOrigin { background: url("../images/Giratina-Origin.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.platAzelf { background: url("../images/Azelf.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
+.platMesprit { background: url("../images/Mesprit.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
+.platUxie { background: url("../images/Uxie.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 
 .hgssHooh { content: url("../images/Ho-Oh.png"); width: 100px; }
 .hgssLugia { content: url("../images/Lugia.png"); width: 100px; }
