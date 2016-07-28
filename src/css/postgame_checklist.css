@@ -180,6 +180,26 @@
 .orasRainBadge { background: url("../images/oras_rain_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
 
+@media only screen
+and (max-device-width: 750px) 
+{
+	input[type=checkbox] {
+	/* All browsers except webkit*/
+	transform: scale(2);
+
+	/* Webkit browsers*/
+	-webkit-transform: scale(2);
+	}
+
+	.task {
+		font-size: 15pt;
+	}
+
+	.subtask {
+		font-size: 14pt;
+	}
+}
+
 @media print {
 	.subtask, .subsubtask {
 		font-family: inherit;
