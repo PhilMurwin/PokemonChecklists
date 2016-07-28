@@ -96,10 +96,12 @@
 
 .badge-sm {
 	width: 30px;
+	display: inline-block;
 }
 
 .badge-md {
 	width: 45px;
+	display: inline-block;
 }
 
 .task {
@@ -114,68 +116,68 @@
 	display: inline;
 }
 
-.dpDialga { content: url("../images/Dialga.png"); width: 100px; }
-.dpPalkia { content: url("../images/Palkia.png"); width: 100px; }
-.dpCoalBadge { content: url("../images/dpCoalBadge.png"); }
-.dpForestBadge { content: url("../images/dpForestBadge.png"); }
-.dpCobbleBadge { content: url("../images/dpCobbleBadge.png"); }
-.dpFenBadge { content: url("../images/dpFenBadge.png"); }
-.dpRelicBadge { content: url("../images/dpRelicBadge.png"); }
-.dpMineBadge { content: url("../images/dpMineBadge.png"); }
-.dpIcicleBadge { content: url("../images/dpIcicleBadge.png"); }
-.dpBeaconBadge { content: url("../images/dpBeaconBadge.png"); }
+.dpDialga { background: url("../images/Dialga.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }
+.dpPalkia { background: url("../images/Palkia.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }
+.dpCoalBadge { background: url("../images/dpCoalBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpForestBadge { background: url("../images/dpForestBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpCobbleBadge { background: url("../images/dpCobbleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpFenBadge { background: url("../images/dpFenBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpRelicBadge { background: url("../images/dpRelicBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpMineBadge { background: url("../images/dpMineBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpIcicleBadge { background: url("../images/dpIcicleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.dpBeaconBadge { background: url("../images/dpBeaconBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
 
-.platGiratinaAlt { background: url("../images/Giratina-Altered.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px;}
+.platGiratinaAlt { background: url("../images/Giratina-Altered.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .platGiratinaOrigin { background: url("../images/Giratina-Origin.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .platAzelf { background: url("../images/Azelf.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 .platMesprit { background: url("../images/Mesprit.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 .platUxie { background: url("../images/Uxie.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 
-.hgssHooh { content: url("../images/Ho-Oh.png"); width: 100px; }
-.hgssLugia { content: url("../images/Lugia.png"); width: 100px; }
-.hgssZephyrBadge { content: url("../images/hgss_Zephyr_Badge.png"); }
-.hgssHiveBadge { content: url("../images/hgss_Hive_Badge.png"); }
-.hgssPlainBadge { content: url("../images/hgss_Plain_Badge.png"); }
-.hgssFogBadge { content: url("../images/hgss_Fog_Badge.png"); }
-.hgssStormBadge { content: url("../images/hgss_Storm_Badge.png"); }
-.hgssMineralBadge { content: url("../images/hgss_Mineral_Badge.png"); }
-.hgssGlacierBadge { content: url("../images/hgss_Glacier_Badge.png"); }
-.hgssRisingBadge { content: url("../images/hgss_Rising_Badge.png"); }
+.hgssHooh { background: url("../images/Ho-Oh.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.hgssLugia { background: url("../images/Lugia.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.hgssZephyrBadge { background: url("../images/hgss_Zephyr_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssHiveBadge { background: url("../images/hgss_Hive_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssPlainBadge { background: url("../images/hgss_Plain_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssFogBadge { background: url("../images/hgss_Fog_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssStormBadge { background: url("../images/hgss_Storm_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssMineralBadge { background: url("../images/hgss_Mineral_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssGlacierBadge { background: url("../images/hgss_Glacier_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.hgssRisingBadge { background: url("../images/hgss_Rising_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
-.bwReshiram { content: url("../images/Reshiram.png"); width: 100px; }
-.bwZekrom { content: url("../images/Zekrom.png"); width: 100px; }
-.bwTrioBadge { content: url("../images/bw_Trio_Badge.png"); }
-.bwBasicBadge { content: url("../images/bw_Basic_Badge.png"); }
-.bwInsectBadge { content: url("../images/bw_Insect_Badge.png"); }
-.bwBoltBadge { content: url("../images/bw_Bolt_Badge.png"); }
-.bwQuakeBadge { content: url("../images/bw_Quake_Badge.png"); }
-.bwJetBadge { content: url("../images/bw_Jet_Badge.png"); }
-.bwFreezeBadge { content: url("../images/bw_Freeze_Badge.png"); }
-.bwLegendBadge { content: url("../images/bw_Legend_Badge.png"); }
-.bw2ToxicBadge { content: url("../images/bw2_Toxic_Badge.png"); }
-.bw2WaveBadge { content: url("../images/bw2_Wave_Badge.png"); }
+.bwReshiram { background: url("../images/Reshiram.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.bwZekrom { background: url("../images/Zekrom.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.bwTrioBadge { background: url("../images/bw_Trio_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwBasicBadge { background: url("../images/bw_Basic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwInsectBadge { background: url("../images/bw_Insect_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwBoltBadge { background: url("../images/bw_Bolt_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwQuakeBadge { background: url("../images/bw_Quake_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwJetBadge { background: url("../images/bw_Jet_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwFreezeBadge { background: url("../images/bw_Freeze_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bwLegendBadge { background: url("../images/bw_Legend_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bw2ToxicBadge { background: url("../images/bw2_Toxic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
+.bw2WaveBadge { background: url("../images/bw2_Wave_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
 
-.xLogo { content: url("../images/x_logo.png"); }
-.yLogo { content: url("../images/y_logo.png"); }
-.xyBugBadge { content: url("../images/xy_Bug_Badge.png"); }
-.xyCliffBadge { content: url("../images/xy_Cliff_Badge.png"); }
-.xyRumbleBadge { content: url("../images/xy_Rumble_Badge.png"); }
-.xyPlantBadge { content: url("../images/xy_Plant_Badge.png"); }
-.xyVoltageBadge { content: url("../images/xy_Voltage_Badge.png"); }
-.xyFairyBadge { content: url("../images/xy_Fairy_Badge.png"); }
-.xyPsychicBadge { content: url("../images/xy_Psychic_Badge.png"); }
-.xyIcebergBadge { content: url("../images/xy_Iceberg_Badge.png"); }
+.xLogo { background: url("../images/x_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.yLogo { background: url("../images/y_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.xyBugBadge { background: url("../images/xy_Bug_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyCliffBadge { background: url("../images/xy_Cliff_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyRumbleBadge { background: url("../images/xy_Rumble_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyPlantBadge { background: url("../images/xy_Plant_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyVoltageBadge { background: url("../images/xy_Voltage_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyFairyBadge { background: url("../images/xy_Fairy_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyPsychicBadge { background: url("../images/xy_Psychic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.xyIcebergBadge { background: url("../images/xy_Iceberg_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
-.teamMagma { content: url("../images/magma_logo.png"); }
-.teamAqua { content: url("../images/aqua_logo.png"); }
-.orasStoneBadge { content: url("../images/oras_stone_badge.png"); }
-.orasKnuckleBadge { content: url("../images/oras_knuckle_badge.png"); }
-.orasDynamoBadge { content: url("../images/oras_dynamo_badge.png"); }
-.orasHeatBadge { content: url("../images/oras_heat_badge.png"); }
-.orasBalanceBadge { content: url("../images/oras_balance_badge.png"); }
-.orasFeatherBadge { content: url("../images/oras_feather_badge.png"); }
-.orasMindBadge { content: url("../images/oras_mind_badge.png"); }
-.orasRainBadge { content: url("../images/oras_rain_badge.png"); }
+.teamMagma { background: url("../images/magma_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.teamAqua { background: url("../images/aqua_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.orasStoneBadge { background: url("../images/oras_stone_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasKnuckleBadge { background: url("../images/oras_knuckle_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasDynamoBadge { background: url("../images/oras_dynamo_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasHeatBadge { background: url("../images/oras_heat_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasBalanceBadge { background: url("../images/oras_balance_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasFeatherBadge { background: url("../images/oras_feather_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasMindBadge { background: url("../images/oras_mind_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasRainBadge { background: url("../images/oras_rain_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
 
 @media print {
