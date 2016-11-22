@@ -27,5 +27,6 @@
 		"menuitems":[
 			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"}
 		]
-	}
+	},
+	{"itemname":"Contact", "link":"../contact.html"}
 ]}
