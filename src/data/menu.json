@@ -21,5 +21,11 @@
 			{"itemname":"X & Y Post Game", "link":"xy_checklist.html"},
 			{"itemname":"ORAS Post Game", "link":"oras_checklist.html"}
 		]
+	},
+	{"itemname":"Gen 7",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"}
+		]
 	}
 ]}

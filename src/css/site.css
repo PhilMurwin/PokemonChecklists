@@ -6,6 +6,12 @@ label {
     display: block;
     margin-left: 20px;
 }
+
+.label-new {
+	font-family: Arial;
+	font-size: 14pt;
+}
+
 input[type='checkbox'] {
     float: left;
 	margin-right: .5em;

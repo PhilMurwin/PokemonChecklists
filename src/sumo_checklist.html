@@ -1,0 +1,106 @@
+<html>
+<head>
+	<link rel="icon" type="image/png" href="images/pokeball_bullet.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sun & Moon Post Game Checklist</title>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<!-- Custom -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/postgame_checklist.css">
+	<script src="js/build_menu.js"></script>
+	<script src="js/postgame_checklist.js"></script>
+	
+	<script>
+		$(function()
+		{
+			BuildMenu();
+			Render("sumo","data/sumo_postgame_checklist.json", "sumopost");
+			
+			$(".postgame_chkLabel[title]" ).tooltip({});			
+			
+			$(".postgame_chk").on('click', function(e) {
+				chk_onClick(e, "sumopost");
+			});
+		});		
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58634167-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<a href="https://github.com/PhilMurwin/PokemonChecklists" class="hidden-xs" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Pokemon Checklists</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+      </div>
+    </nav>
+	
+	<div class="postgame container-fluid">
+		<div id="row1" class="row">
+			<div class="pageTitle col-sm-12 col-xs-12">
+				Pokemon Sun &amp; Moon - Post Game Checklist
+			</div>
+			<div class="credit col-sm-12 col-xs-12">
+				**This list is a work in progress. <br/>
+                Let me know if I've missed anything at <a href="mailto:PkmnPostGame@gmail.com">PkmnPostGame@gmail.com</a>.
+			</div>
+			
+		</div>
+		<div id="row2" class="row row-header">
+			<div class="col-lg-offset-1 col-sm-3 col-xs-6">
+				<span class="teamLogo-header sumoSolgaleo" alt="Solgaleo" ></span>
+			</div>
+			<div class="col-sm-3 col-sm-push-5 col-xs-6">
+				<span class="teamLogo-header sumoLunala" alt="Lunala" ></span>
+			</div>
+			<div class="col-lg-4 col-lg-pull-3 col-sm-4 col-sm-pull-2 col-xs-12">
+				<div class="badge-header">
+					<span class="badge-sm sumoKoko" alt="Tapu Koko" ></span>
+					<span class="badge-sm sumoLele" alt="Tapu Lele" ></span>
+					<span class="badge-sm sumoBulu" alt="Tapu Bulu" ></span>
+					<span class="badge-sm sumoFini" alt="Tapu Fini" ></span>
+				</div>
+			</div>			
+		</div>
+		<div id="row3" class="row">
+			<div id="col1" class="col-lg-5 col-lg-offset-2 col-sm-6 col-xs-12">
+			</div>
+			<div id="col2" class="col-lg-5 col-sm-6 col-xs-12">
+			</div>
+		</div>
+		<div id="row4">
+			<div id="col3" class="col-sm-11 col-sm-offset-1"></div>
+		</div>
+		<div id="row5">
+			<div id="col4" class="col-sm-11 col-sm-offset-1"></div>
+		</div>
+	</div>
+</body>
+</html>

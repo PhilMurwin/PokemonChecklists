@@ -179,6 +179,13 @@
 .orasMindBadge { background: url("../images/oras_mind_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .orasRainBadge { background: url("../images/oras_rain_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
+.sumoLunala { background: url("../images/Lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.sumoSolgaleo { background: url("../images/Solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoLele { background: url("../images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoBulu { background: url("../images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoFini { background: url("../images/TapuFini.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+
 
 @media only screen
 and (max-device-width: 750px) 
