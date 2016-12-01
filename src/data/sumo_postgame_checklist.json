@@ -259,7 +259,7 @@
 			{"id":"sub80", "task":"Rock Slide"},
 			{"id":"sub81", "task":"X-Scissor"},
 			{"id":"sub82", "task":"Dragon Tail"},
-			{"id":"sub83", "task":"Freeze-Dry", "tooltip":"Changed from Infestation"},
+			{"id":"sub83", "task":"Infestation"},
 			{"id":"sub84", "task":"Poison Jab"},
 			{"id":"sub85", "task":"Dream Eater"},
 			{"id":"sub86", "task":"Grass Knot"},
@@ -276,7 +276,7 @@
 			{"id":"sub97", "task":"Dark Pulse"},
 			{"id":"sub98", "task":"Waterfall", "tooltip":"Changed from Power-Up Punch"},
 			{"id":"sub99", "task":"Misty Terrain", "tooltip":"Changed from Misty Terrain"},
-			{"id":"sub100", "task":"Storm"}
+			{"id":"sub100", "task":"Confide"}
 		]
 	},
 	{"id":"task51",
