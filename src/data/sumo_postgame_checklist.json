@@ -11,14 +11,18 @@
 		]
 	},
 	{"id":"task2",
-		"task":"Locate & Capture Guardian Pokemon",
+		"task":"Capture Additional In-Game Legendaries",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Tapu Koko"},
 			{"id":"sub2", "task":"Capture Tapu Lele"},
 			{"id":"sub3", "task":"Capture Tapu Bulu"},
-			{"id":"sub4", "task":"Capture Tapu Fini"}			
+			{"id":"sub4", "task":"Capture Tapu Fini"},
+			{"id":"sub", "task":"Capture Lunala/Solgaleo"},
+			{"id":"sub", "task":"Capture Cosmog"},
+			{"id":"sub", "task":"Collect Zygarde Complete Form"},
+			{"id":"sub", "task":"Capture Necrozma"}
 		]
 	},
 	{"id":"task3",
@@ -35,6 +39,18 @@
 			{"id":"sub2", "task":"Pom-Pom Style"},
 			{"id":"sub3", "task":"P'au Style"},
 			{"id":"sub4", "task":"Sensu Style"}
+		]
+	},
+	{"id":"task5",
+		"task":"Capture all the Ultra Beasts",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":"Capture UB-01 - Nihilego"},
+			{"id":"sub", "task":"Capture UB-02 - Buzzwole/Pheromosa"},
+			{"id":"sub", "task":"Capture UB-03 - Xurkitree"},
+			{"id":"sub", "task":"Capture UB-04 - Kartana/Celesteela"},
+			{"id":"sub", "task":"Capture UB-05 - Guzzlord"}
 		]
 	},
 	{"id":"task15",
