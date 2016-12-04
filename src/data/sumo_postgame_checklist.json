@@ -332,7 +332,8 @@
 
 			{"id":"sub46", "task":"Kebia", "tooltip":"Poni Wilds"},
 			{"id":"sub47", "task":"Shuca", "tooltip":"Poni Plains, Poni Wilds"},
-			{"id":"sub48", "task":"Payapa", "tooltip":"Poni Wilds"}
+			{"id":"sub48", "task":"Payapa", "tooltip":"Poni Wilds"},
+			{"id":"sub49", "task":"Coba", "tooltip":"Poni Wilds"}
 		]
 	}
 ]}
