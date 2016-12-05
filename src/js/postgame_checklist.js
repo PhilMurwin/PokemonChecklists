@@ -56,6 +56,10 @@ function RenderSubTasks(divTask, chkIndex, task)
 	if (task.subtasks !== undefined)
 	{
 		var subtasks = task.subtasks;
+
+		subtasks = subtasks.filter(function( obj ) {
+			return obj.hide == undefined
+		});
 	
 		// Should these subtasks be split into multiple columns?
 		var splitCols = 1;
