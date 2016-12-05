@@ -1,13 +1,13 @@
 {"sumo":[
 	{"id":"task1",
-		"task":"Complete the Alola Pokedex",
+		"task":"Complete the Alola Pokédex",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
-			{"id":"sub1", "task":"(120) Melemele Pokedex"},
+			{"id":"sub1", "task":"(120) Melemele Pokédex"},
 			{"id":"sub2", "task":"(130) Akala Pokdex"},
-			{"id":"sub3", "task":"(130) Ula'ula Pokedex"},
-			{"id":"sub4", "task":"(100) Poni Pokedex"}
+			{"id":"sub3", "task":"(130) Ula'ula Pokédex"},
+			{"id":"sub4", "task":"(100) Poni Pokédex"}
 		]
 	},
 	{"id":"task2",
@@ -47,11 +47,11 @@
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture UB-01 - Nihilego"},
-			{"id":"sub2", "task":"Capture/Trade for UB-02 - Buzzwole", "tooltip":"Only available in Pokemon Sun (Melemele Meadow x2)"},
-			{"id":"sub3", "task":"Capture/Trade for UB-02 - Pheromosa", "tooltip":"Only available in Pokemon Moon (Verdant Cavern x4)"},
+			{"id":"sub2", "task":"Capture/Trade for UB-02 - Buzzwole", "tooltip":"Only available in Pokémon Sun (Melemele Meadow x2)"},
+			{"id":"sub3", "task":"Capture/Trade for UB-02 - Pheromosa", "tooltip":"Only available in Pokémon Moon (Verdant Cavern x4)"},
 			{"id":"sub4", "task":"Capture UB-03 - Xurkitree"},
-			{"id":"sub5", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokemon Sun (Route 17, Malie Garden)"},
-			{"id":"sub5", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokemon Moon (Haina Desert, Malie Garden)"},
+			{"id":"sub5", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokémon Sun (Route 17, Malie Garden)"},
+			{"id":"sub5", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Moon (Haina Desert, Malie Garden)"},
 			{"id":"sub6", "task":"Capture UB-05 - Guzzlord"}
 		]
 	},
@@ -59,6 +59,7 @@
 		"task":"Collect all different colors of Minior",
 		"row": 3,
 		"col": 1,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Red"},
 			{"id":"sub2", "task":"Orange"},
@@ -69,11 +70,22 @@
 			{"id":"sub7", "task":"Purple"},
 			{"id":"sub8", "task":"Black (Shiny)"}
 		]
-	},	
-	{"id":"task15",
-		"task":"Use Poke Finder at all Locations",
+	},
+	{"id":"task7",
+		"task":"Obtain In-Game Gift Pokémon",
 		"row": 3,
 		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Eevee", "tooltip": "Paniola Ranch - Egg from Nursery"},
+			{"id":"sub2", "task":"Porygon", "tooltip": "Aether House - Visit after defeating Elite Four"},
+			{"id":"sub3", "task":"Aerodactyl", "tooltip": "Seafolk Village - Ace Trainer in the Huntail boat"},
+			{"id":"sub4", "task":"Type: Null", "tooltip": "Aether Paradise - Post Game, speak to Gladion"}
+		]
+	},	
+	{"id":"task15",
+		"task":"Use Poké Finder at all Locations",
+		"row": 3,
+		"col": 2,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Hau'oli City - Shopping District", "tooltip":"Pikachu, Growlithe, Rockruff, Meowth"},
