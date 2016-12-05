@@ -19,6 +19,7 @@
 		"task":"Complete the National Pokedex (636)",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Latios (Black 2)", "formats":[{"word":"(Black 2)", "format":"black"}]},
 			{"id":"sub2", "task":"Capture Latias (White 2)", "formats":[{"word":"(White 2)", "format":"white"}]},
@@ -39,6 +40,7 @@
 		"row": 3,
 		"col": 1,
 		"splitCol": 2,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Purrloin"},
 			{"id":"sub2", "task":"Pidove"},
@@ -61,6 +63,7 @@
 		"task":"Receive All Event Legendaries",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mew"},
 			{"id":"sub2", "task":"Celebi"},
@@ -247,6 +250,7 @@
 		"row": 5,
 		"col": 4,
 		"splitCol":4,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
 			{"id":"sub2", "task":"Dragon Claws"},

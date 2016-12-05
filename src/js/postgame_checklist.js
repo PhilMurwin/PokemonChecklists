@@ -65,8 +65,17 @@ function RenderSubTasks(divTask, chkIndex, task)
 		var splitCols = 1;
 		if (task.splitCol !== undefined)
 		{
-			splitCols = task.splitCol;			
-			subtasks = sortByKey( subtasks, "task" );
+			splitCols = task.splitCol;
+		}
+
+		// Should these subtasks be sorted?
+		var sortMethod = task.sort;
+		if (sortMethod !== undefined)
+		{
+			if (sortMethod === "alpha")
+			{
+				subtasks = sortByKey( subtasks, "task" );
+			}
 		}
 		
 		var maxRowCount = subtasks.length / splitCols;

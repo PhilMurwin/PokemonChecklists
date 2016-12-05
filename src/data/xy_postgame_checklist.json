@@ -244,6 +244,7 @@
 		"row": 3,
 		"col": 2,
 		"splitCol": 3,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1","task":"River"},
 			{"id":"sub2","task":"Meadow"},
@@ -284,6 +285,7 @@
 		"row": 4,
 		"col": 3,
 		"splitCol": 4,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
 			{"id":"sub2", "task":"Dragon Claw"},
@@ -392,6 +394,7 @@
 		"row": 5,
 		"col": 4,
 		"splitCol": 4,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Kelpsy", "tooltip":"Mutate Chesto and Persim"},
 			{"id":"sub2", "task":"Wacan"},

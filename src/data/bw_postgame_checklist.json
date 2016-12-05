@@ -34,6 +34,7 @@
 		"task":"Receive All Event Legendaries",
 		"row":3,
 		"col":1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mew"},
 			{"id":"sub2", "task":"Celebi"},
@@ -171,6 +172,7 @@
 		"row": 4,
 		"col": 3,
 		"splitCol": 4,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws**"},
 			{"id":"sub2", "task":"Dragon Claws"},

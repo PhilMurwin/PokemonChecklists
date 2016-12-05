@@ -3,6 +3,7 @@
 		"task":"Complete the Sinnoh Pokedex (151)",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Spiritomb", "tooltip":"Spirit Tower Well - You must talk to 32 people in the Sinnoh Underground and then head to Rt. 209"},
 			{"id":"sub2", "task":"Capture Rotom", "tooltip":"Old Chateau - You must approach the television at night"},
@@ -17,6 +18,7 @@
 		"task":"Capture Additional In-Game Legendaries",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Heatran", "tooltip":"Stark Mt"},
 			{"id":"sub2", "task":"Capture Regigagas", "tooltip":"Snowpoint City Ruins - Have Regirock, Regice, & Registeel in your party"},
@@ -38,6 +40,7 @@
 		"row": 3,
 		"col": 1,
 		"splitCol": 3,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Ekans"},
 			{"id":"sub2", "task":"Ponyta"},
@@ -60,6 +63,7 @@
 		"row": 3,
 		"col": 1,
 		"splitCol": 3,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Clefairy"},
 			{"id":"sub2", "task":"Chansey"},
@@ -84,6 +88,7 @@
 		"row": 3,
 		"col": 2,
 		"splitCol": 2,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Beauty Cup"},
 			{"id":"sub2", "task":"Cute Cup"},

@@ -19,6 +19,7 @@
 		"task":"Capture Additional In-Game Legendaries",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Regigigas (Island Cave)", "tooltip":"Available at different times"},
 			{"id":"sub2", "task":"Capture Ho-oh / Lugia (Sea Mauville)"},
@@ -55,6 +56,7 @@
 		"task":"Collect All \"New\" Mega Stones",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Beedrill", "spoiler":"(Sea Mauville)", "tooltip":"From Beginning"},
 			{"id":"sub2", "task":"Pidgeot", "spoiler":"(Rustboro - Show Mr. Stone the Intriguing Stone)", "tooltip":"From Beginning"},
@@ -101,6 +103,7 @@
 		"row": 4,
 		"col": 3,
 		"splitCol": 4,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Hone Claws"},
 			{"id":"sub2", "task":"Dragon Claw"},
@@ -209,6 +212,7 @@
 		"row": 5,
 		"col": 4,
 		"splitCol": 4,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Cherri"},
 			{"id":"sub2", "task":"Leppa"},
@@ -349,6 +353,7 @@
 		"task":"Collect All \"Retro\" Mega Stones",
 		"row": 3,
 		"col": 2,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub","task":"Venusaur", "spoiler":"(Route 119)", "tooltip":"After Primal Groudon/Kyogre narrative"},
 			{"id":"sub","task":"Charizard X", "spoiler":"(Fiery Path)", "tooltip":"After Primal Groudon/Kyogre narrative"},

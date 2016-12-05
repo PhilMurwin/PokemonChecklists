@@ -3,6 +3,7 @@
 		"task":"Complete the Platinum Sinnoh Pokedex (151)",
 		"row": 3,
 		"col": 1,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Spiritomb", "tooltip":"Spirit Tower Well - You must talk to 32 people in the Sinnoh Underground and then head to Rt. 209"},
 			{"id":"sub2", "task":"Capture Rotom", "tooltip":"Old Chateau - You must approach the television at night"},
@@ -45,6 +46,7 @@
 		"row": 3,
 		"col": 2,
 		"splitCol": 3,
+		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Clefairy"},
 			{"id":"sub2", "task":"Chansey"},
