@@ -55,6 +55,21 @@
 			{"id":"sub6", "task":"Capture UB-05 - Guzzlord"}
 		]
 	},
+	{"id":"task6",
+		"task":"Collect all different colors of Minior",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Red"},
+			{"id":"sub2", "task":"Orange"},
+			{"id":"sub3", "task":"Yellow"},
+			{"id":"sub4", "task":"Green"},
+			{"id":"sub5", "task":"Blue"},
+			{"id":"sub6", "task":"Indigo"},
+			{"id":"sub7", "task":"Purple"},
+			{"id":"sub8", "task":"Black (Shiny)"}
+		]
+	},	
 	{"id":"task15",
 		"task":"Use Poke Finder at all Locations",
 		"row": 3,
