@@ -19,10 +19,10 @@
 			{"id":"sub2", "task":"Capture Tapu Lele"},
 			{"id":"sub3", "task":"Capture Tapu Bulu"},
 			{"id":"sub4", "task":"Capture Tapu Fini"},
-			{"id":"sub", "task":"Capture Lunala/Solgaleo"},
-			{"id":"sub", "task":"Capture Cosmog"},
-			{"id":"sub", "task":"Collect Zygarde Complete Form"},
-			{"id":"sub", "task":"Capture Necrozma"}
+			{"id":"sub5", "task":"Capture Lunala/Solgaleo"},
+			{"id":"sub6", "task":"Capture Cosmog"},
+			{"id":"sub7", "task":"Collect Zygarde Complete Form"},
+			{"id":"sub8", "task":"Capture Necrozma"}
 		]
 	},
 	{"id":"task3",
