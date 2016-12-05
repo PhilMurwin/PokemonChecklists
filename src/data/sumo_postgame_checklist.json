@@ -42,7 +42,7 @@
 		]
 	},
 	{"id":"task5",
-		"task":"Capture all the Ultra Beasts",
+		"task":"Obtain all the Ultra Beasts",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -279,7 +279,7 @@
 			{"id":"sub96", "task":"Nature Power"},
 			{"id":"sub97", "task":"Dark Pulse"},
 			{"id":"sub98", "task":"Waterfall", "tooltip":"Changed from Power-Up Punch"},
-			{"id":"sub99", "task":"Misty Terrain", "tooltip":"Changed from Misty Terrain"},
+			{"id":"sub99", "task":"Dazzling Gleam", "tooltip":"Changed from Misty Terrain"},
 			{"id":"sub100", "task":"Confide"}
 		]
 	},
