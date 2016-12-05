@@ -46,11 +46,13 @@
 		"row": 3,
 		"col": 1,
 		"subtasks":[
-			{"id":"sub", "task":"Capture UB-01 - Nihilego"},
-			{"id":"sub", "task":"Capture UB-02 - Buzzwole/Pheromosa"},
-			{"id":"sub", "task":"Capture UB-03 - Xurkitree"},
-			{"id":"sub", "task":"Capture UB-04 - Kartana/Celesteela"},
-			{"id":"sub", "task":"Capture UB-05 - Guzzlord"}
+			{"id":"sub1", "task":"Capture UB-01 - Nihilego"},
+			{"id":"sub2", "task":"Capture/Trade for UB-02 - Buzzwole", "tooltip":"Only available in Pokemon Sun (Melemele Meadow x2)"},
+			{"id":"sub3", "task":"Capture/Trade for UB-02 - Pheromosa", "tooltip":"Only available in Pokemon Moon (Verdant Cavern x4)"},
+			{"id":"sub4", "task":"Capture UB-03 - Xurkitree"},
+			{"id":"sub5", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokemon Sun (Route 17, Malie Garden)"},
+			{"id":"sub5", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokemon Moon (Haina Desert, Malie Garden)"},
+			{"id":"sub6", "task":"Capture UB-05 - Guzzlord"}
 		]
 	},
 	{"id":"task15",
