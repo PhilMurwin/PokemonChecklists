@@ -96,6 +96,25 @@
 			{"id":"sub7", "task":"Trade Granbull for Steenee", "tooltip": "Seafolk Village"}
 		]
 	},
+	{"id":"task9",
+		"task":"Complete all Pokédex side quests",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Show Drifloon to the woman at the Hau'oli Pokemon Center"},
+			{"id":"sub2", "task":"Show Cutiefly to the woman at the Route 2 Pokemon Center"},
+			{"id":"sub3", "task":"Show Rockruff to the man in yellow on Route 3"},
+			{"id":"sub4", "task":"Register 10 Pokemon species and talk to the scientist at the Hau'oli City Tourist Bureau"},
+			{"id":"sub5", "task":"Show Pyukumuku to the man at the Heahea City Apparel Shop"},
+			{"id":"sub6", "task":"Show Passimian (Sun) or Oranguru (Moon) to the Aether employee at the Konikoni City Pokemon"},
+			{"id":"sub7", "task":"Show Feebas to the man at the Route 5 Pokemon Center"},
+			{"id":"sub8", "task":"Show Stufful to the Aether employee at the Route 8 Aether Trailer"},
+			{"id":"sub9", "task":"Show Togedemaru to the collector at the Malie City Apparel Shop"},
+			{"id":"sub10", "task":"Show Alolan Persian to Professor Oak at the Malie City Library"},
+			{"id":"sub11", "task":"Show Mimikyu to the Aether employee at the Route 16 Pokemon Center"},
+			{"id":"sub12", "task":"Show Alolan Raichu to the woman in the Steelix boat at Seafolk Village"}
+		]
+	},
 	{"id":"task14",
 		"task":"Obtain all Poké Finder Upgrades",
 		"row": 3,
