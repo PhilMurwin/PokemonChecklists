@@ -28,5 +28,12 @@
 			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"}
 		]
 	},
+	{"itemname":"Useful Links",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Manage your Living Dex", "link":"http://www.livingdex.xyz/", "external":1},
+			{"itemname":"Pokemon SubReddit", "link":"https://www.reddit.com/r/pokemon/", "external":1}
+		]
+	},
 	{"itemname":"Contact", "link":"../contact.html"}
 ]}

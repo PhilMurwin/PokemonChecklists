@@ -56,8 +56,17 @@ function BuildMenuItems(data, path)
 		}
 		else
 		{
-			var relativePath = path != undefined ? "./" + path + "/" : "";
-			var item = "<li><a href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a></li>";
+			var item = "";
+
+			if (menuItem["external"] === undefined)
+			{
+				var relativePath = path != undefined ? "./" + path + "/" : "";
+				item = "<li><a href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a></li>";
+			}
+			else
+			{
+				item = "<li><a href='" + menuItem["link"] + "' target='_blank'>" + menuItem["itemname"] + "</a></li>";
+			}
 			menuItems += item;
 		}
 	}
