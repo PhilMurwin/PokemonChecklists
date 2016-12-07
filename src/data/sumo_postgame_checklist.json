@@ -81,7 +81,7 @@
 			{"id":"sub3", "task":"Aerodactyl", "tooltip": "Seafolk Village - Ace Trainer in the Huntail boat"},
 			{"id":"sub4", "task":"Type: Null", "tooltip": "Aether Paradise - Post Game, speak to Gladion"}
 		]
-	},	
+	},
 	{"id":"task15",
 		"task":"Use Poké Finder at all Locations",
 		"row": 3,
@@ -107,6 +107,23 @@
 			{"id":"sub17", "task":"Poni Coast", "tooltip":"Bewear"},
 			{"id":"sub18", "task":"Poni Meadow", "tooltip":"Oricorio, Ribombee, Dragonite"},
 			{"id":"sub19", "task":"Vast Poni Canyon", "tooltip":"Gigalith, Jangmo-o, Hakamo-o, Fearow"}
+		]
+	},
+	{"id":"task24",
+		"task":"Obtain Eevium Z",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Speak with the Veteran Cashier at Thrifty Megamart on Royal Avenue"},
+			{"id":"sub2", "task":"Defeat Vaporeon User", "tooltip": "Trainers school 3F"},
+			{"id":"sub3", "task":"Defeat Flareon User", "tooltip": "Tide Song Hotel"},
+			{"id":"sub4", "task":"Defeat Jolteon User", "tooltip": "Community Center in Malie City"},
+			{"id":"sub5", "task":"Defeat Espeon User", "tooltip": "Geothermal Plant"},
+			{"id":"sub6", "task":"Defeat Umbreon User", "tooltip": "Hau'oli Cemetary"},
+			{"id":"sub7", "task":"Defeat Glaceon User", "tooltip": "Southwest house in Iki Town"},
+			{"id":"sub8", "task":"Defeat Leafeon User", "tooltip": "Hano Beach"},
+			{"id":"sub9", "task":"Defeat Sylveon User", "tooltip": "Northeast house of Seafolk Village"},
+			{"id":"sub10", "task":"Defeat Kagetora and claim the Eevium Z"}
 		]
 	},
 	{"id":"task25",
