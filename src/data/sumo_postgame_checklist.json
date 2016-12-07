@@ -379,6 +379,17 @@
 			{"id":"sub7", "task":"Defeat the Sightseer in Seafolk Village Pokemon Center to receive 6 Nuggets"}
 		]
 	},
+	{"id":"task44",
+		"task":"Complete the Aether Paradise Post Game Activities",
+		"row": 4,
+		"col": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Get Type:Null and memory drives from Gladion", "tooltip": "2F Conservation area"},
+			{"id":"sub2", "task":"Defeat Faba to get a Dubious Disc", "tooltip": "1F Entrance"},
+			{"id":"sub3", "task":"Receive two Big Malasadas from Wicke"},
+			{"id":"sub4", "task":"Receive DNA Splicers, Prison Bottle, and Soul Dew from Aether Foundation Employee", "tooltip": "B2F Lab Area"}
+		]
+	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"row": 6,
