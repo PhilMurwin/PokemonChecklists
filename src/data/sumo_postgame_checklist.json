@@ -82,6 +82,18 @@
 			{"id":"sub4", "task":"Type: Null", "tooltip": "Aether Paradise - Post Game, speak to Gladion"}
 		]
 	},
+	{"id":"task14",
+		"task":"Obtain all Poké Finder Upgrades",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Version 1 - Normal Pokedex Camera", "tooltip": "Reach Hau'oli City Shopping District"},
+			{"id":"sub2", "task":"Version 2 - Enhanced Zoom", "tooltip": "Reach 1,500 cumulative likes"},
+			{"id":"sub3", "task":"Version 3 - More Zoom", "tooltip": "Reach 10,000 cumulative likes"},
+			{"id":"sub4", "task":"Version 4 - Even More Zoom", "tooltip": "Reach 100,000 cumulative likes"},
+			{"id":"sub5", "task":"Version 5 - Pokemon calling button that draws pokemon's attention to you", "tooltip": "Reach 1.5 million cumulative likes"}
+		]
+	},
 	{"id":"task15",
 		"task":"Use Poké Finder at all Locations",
 		"row": 3,
