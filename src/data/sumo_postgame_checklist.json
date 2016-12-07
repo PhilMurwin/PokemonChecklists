@@ -266,6 +266,26 @@
 			{"id":"sub48", "task":"Blue Orb", "tooltip":"Hau'oli City Shop"}
 		]
 	},
+	{"id":"task27",
+		"task":"Battle Tree Standard Challenges",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Single"},
+			{"id":"sub2", "task":"Double"},
+			{"id":"sub3", "task":"Multi"}
+		]
+	},
+	{"id":"task28",
+		"task":"Battle Tree Super Challenges",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Single"},
+			{"id":"sub2", "task":"Double"},
+			{"id":"sub3", "task":"Multi"}
+		]
+	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"row": 5,
