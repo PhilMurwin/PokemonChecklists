@@ -82,6 +82,20 @@
 			{"id":"sub4", "task":"Type: Null", "tooltip": "Aether Paradise - Post Game, speak to Gladion"}
 		]
 	},
+	{"id":"task8",
+		"task":"Complete all In-Game Pokémon Trades",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Trade Zubat for Poliwhirl", "tooltip": "Konikoni City Pokemon Center"},
+			{"id":"sub2", "task":"Trade Spearow for Machop", "tooltip": "Route 2 Pokemon Center"},
+			{"id":"sub3", "task":"Trade Haunter for Graveler", "tooltip": "Tapu Village Pokemon Center"},
+			{"id":"sub4", "task":"Trade Pancham for Happiny", "tooltip": "Malie City Sushi High Roller"},
+			{"id":"sub5", "task":"Trade Bewear for Talo", "tooltip": "Poni Gauntlet"},
+			{"id":"sub6", "task":"Trade Lillipup for Bounsweet", "tooltip": "Route 5 Pokemon Center"},
+			{"id":"sub7", "task":"Trade Granbull for Steenee", "tooltip": "Seafolk Village"}
+		]
+	},
 	{"id":"task14",
 		"task":"Obtain all Poké Finder Upgrades",
 		"row": 3,
