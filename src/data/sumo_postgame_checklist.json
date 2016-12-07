@@ -323,10 +323,26 @@
 			{"id":"sub8", "task":"Idol Style", "tooltip": "Defeat Master Rank in the Battle Royal"}
 		]
 	},
+	{"id":"task40",
+		"task":"Complete the Melemele Island Post Game Activities",
+		"row": 4,
+		"col": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Get Z-Crystal from Hau for partner Pokemon"},
+			{"id":"sub2", "task":"Find Electric Seed near newly repaired Bridge"},
+			{"id":"sub3", "task":"Battle Guzma for a Dawn Stone", "tooltip": "On Route 2"},
+			{"id":"sub4", "task":"Visit Pokemon Research Lab for TM90", "tooltip": "And Peek at Lillie's Diary"},
+			{"id":"sub5", "task":"After catching 50+ unique pokemon, visit Pokemon Research Lab for Lucky Egg", "tooltip": "Based on Pokedex caught count"},
+			{"id":"sub6", "task":"Battle Trainer School Principal for King's Rock"},
+			{"id":"sub7", "task":"Explore Seaward Cave, Kala'e Bay, Melemele Sea, and Ten Carat Hill"},
+			{"id":"sub8", "task":"Master the Battle Buffet and meet the buffet queen", "tooltip":"In Hau'oli City Shopping Mall"},
+			{"id":"sub9", "task":"Hyper Train your Pokemon in Hau'oli City Shopping Mall"}
+		]
+	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
-		"row": 5,
-		"col": 4,
+		"row": 6,
+		"col": 6,
 		"splitCol": 4,
 		"sort": "alpha",
 		"subtasks":[
@@ -434,8 +450,8 @@
 	},
 	{"id":"task51",
 		"task":"Berry Checklist",
-		"row": 6,
-		"col": 5,
+		"row": 7,
+		"col": 7,
 		"splitCol": 4,
 		"sort": "alpha",
 		"subtasks":[
@@ -493,8 +509,8 @@
 	},
 	{"id":"task52",
 		"task":"Collect all 100 Zygarde Cells",
-		"row": 4,
-		"col": 3,
+		"row": 5,
+		"col": 5,
 		"splitCol": 4,
 		"subtasks":[
 			{"id":"sub1", "task":"Route 1 (Day)"},
