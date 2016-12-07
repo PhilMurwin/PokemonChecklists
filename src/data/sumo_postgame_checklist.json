@@ -365,6 +365,20 @@
 			{"id":"sub4", "task":"Explore Haina Desert, show the old man Solrock (Sun) or Lunatone (Moon) for a reward"}
 		]
 	},
+	{"id":"task43",
+		"task":"Complete the Poni Island Post Game Activities",
+		"row": 4,
+		"col": 4,
+		"subtasks":[
+			{"id":"sub1", "task":"Meet Dexio and Sina to learn about Mega Evolutions", "tooltip": "On Ancient Poni Path"},
+			{"id":"sub2", "task":"Receive the Key Stone and Alakazite from Dexio", "tooltip": "On Ancient Poni Path"},
+			{"id":"sub3", "task":"Defeat Swimmer Girls in a Double Battle to get TM94 and TM98", "tooltip": "On Poni Breaker Coast"},
+			{"id":"sub4", "task":"Explore entire east half of Poni Island, which was not accessible before"},
+			{"id":"sub5", "task":"Hatch 20 Eggs and get Judge Function from Ace Trainer at Battle Tree", "tooltip": "Judge Function is an upgrade to the PC Boxes"},
+			{"id":"sub6", "task":"Bring Solgaleo or Lunala to the Altar of the Sunne/Moone to swap day for night"},
+			{"id":"sub7", "task":"Defeat the Sightseer in Seafolk Village Pokemon Center to receive 6 Nuggets"}
+		]
+	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"row": 6,
