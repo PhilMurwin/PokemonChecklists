@@ -160,17 +160,21 @@
 			{"id":"sub3", "task":"Hau'oli Cemetary", "tooltip":"Pikipek, Gastly, Zubat"},
 			{"id":"sub4", "task":"Kala'e Bay", "tooltip":"Slowpoke"},
 			{"id":"sub5", "task":"Melemele Meadow", "tooltip":"Cutiefly, Oricorio"},
+
 			{"id":"sub6", "task":"Brooklet Hill", "tooltip":"Poliwag, Surskit (Night)"},
 			{"id":"sub7", "task":"Lush Jungle", "tooltip":"Paras, Morelull, Bounsweet, Goodra"},
 			{"id":"sub8", "task":"Paniola Ranch", "tooltip":"Eevee, Lillipup"},
 			{"id":"sub9", "task":"Route 8", "tooltip":"Yungoos, Crabrawler"},
 			{"id":"sub10", "task":"Royal Avenue", "tooltip":"Butterfree, Oricorio"},
 			{"id":"sub11", "task":"Wela Volcano Park", "tooltip":"Fletchling, Cubone, Salandit"},
-			{"id":"sub12", "task":"Ula'ula Meadow 1", "tooltip":"Elekid, Togedemaru"},
-			{"id":"sub13", "task":"Mount Hokulani", "tooltip":"Beldum"},
-			{"id":"sub14", "task":"Mount Lanakila", "tooltip":"Vanillite, Vanillish, Absol"},
+
+			{"id":"sub21", "task":"Route 13", "tooltip":"Sandile, Gible, Flygon (Rare)"},
+			{"id":"sub13", "task":"Mount Hokulani", "tooltip":"Beldum, Metang, Clefairy (Night), Clefable (Night), Magnezone (Rare-Night)"},
+			{"id":"sub14", "task":"Mount Lanakila", "tooltip":"Vanillite, Vanillish, Absol (Day), Sneasel (Night), Froslass (Rare-Night)"},
 			{"id":"sub15", "task":"Thrifty Megamart Abandoned Site", "tooltip":"Gastly, Haunter, Gengar, Mimikyu"},
-			{"id":"sub16", "task":"Ula'ula Meadow 2", "tooltip":"Ledian (Day), Ariados (Night), Oricorio"},
+			{"id":"sub16", "task":"Ula'ula Meadow", "tooltip":"Ledian (Day), Ariados (Night), Oricorio"},
+			{"id":"sub20", "task":"Blush Mountain", "tooltip":"Elekid, Togedemaru, Magneton, Porygon-Z(Rare)"},
+
 			{"id":"sub17", "task":"Poni Coast", "tooltip":"Bewear"},
 			{"id":"sub18", "task":"Poni Meadow", "tooltip":"Oricorio, Ribombee, Dragonite"},
 			{"id":"sub19", "task":"Vast Poni Canyon", "tooltip":"Gigalith, Jangmo-o, Hakamo-o, Fearow"}
