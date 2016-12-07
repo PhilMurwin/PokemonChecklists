@@ -286,6 +286,21 @@
 			{"id":"sub3", "task":"Multi"}
 		]
 	},
+	{"id":"task29",
+		"task":"Unlock all Battle Styles",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Normal Style"},
+			{"id":"sub2", "task":"Elegant Style", "tooltip": "Straight away in Malie City Outer Cape"},
+			{"id":"sub3", "task":"Girlish Style", "tooltip": "Defeat Lana in battle in Konikoni City"},
+			{"id":"sub4", "task":"Reverent Style", "tooltip": "Defeat Kiawe in Paniola Town (Sun) or Mallow in Lush Jungle (Moon)"},
+			{"id":"sub5", "task":"Smug Style", "tooltip": "Defeat Gladion before the Elite Four"},
+			{"id":"sub6", "task":"Left-Handed Style", "tooltip": "Defeat Ilima in battle in Hau'oli City"},
+			{"id":"sub7", "task":"Passionate Style", "tooltip": "Get a Battle Tree Streak of 50 or higher"},
+			{"id":"sub8", "task":"Idol Style", "tooltip": "Defeat Master Rank in the Battle Royal"}
+		]
+	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"row": 5,
