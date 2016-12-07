@@ -339,6 +339,21 @@
 			{"id":"sub9", "task":"Hyper Train your Pokemon in Hau'oli City Shopping Mall"}
 		]
 	},
+	{"id":"task41",
+		"task":"Complete the Akala Island Post Game Activities",
+		"row": 4,
+		"col": 4,
+		"subtasks":[
+			{"id":"sub1", "task":"Visit Kiawe's home for a Protector from his dad", "tooltip": "Paniola Town"},
+			{"id":"sub2", "task":"Battle Morimoto at Game Freak's Office for an Oval Charm", "tooltip": "Heahea City, he has level 62 pokemon"},
+			{"id":"sub3", "task":"Complete the Alola Pokedex and get the Shiny Charm", "tooltip": "From the Game Director at Game Freaks Office"},
+			{"id":"sub4", "task":"Meet Elite Four Kahili and receive TM92", "tooltip": "Hano Grand Hotel"},
+			{"id":"sub5", "task":"Meet Colress on Route 8 to receive drives for Genesect"},
+			{"id":"sub6", "task":"Visit Mallow's restaurant for several gifts", "tooltip": "Konikoni City"},
+			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"},
+			{"id":"sub8", "task":"Go to Hau'oli Cemetary at night and approach the Machamp to get TM56"}
+		]
+	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"row": 6,
