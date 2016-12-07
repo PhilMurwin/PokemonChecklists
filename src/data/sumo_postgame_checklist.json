@@ -115,6 +115,28 @@
 			{"id":"sub12", "task":"Show Alolan Raichu to the woman in the Steelix boat at Seafolk Village"}
 		]
 	},
+	{"id":"task10",
+		"task":"Collect all stamps in your Trainer Passport",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Become an Official Pokemon Trainer"},
+			{"id":"sub2", "task":"Melemele Trial Completion"},
+			{"id":"sub3", "task":"Akala Trial Completion"},
+			{"id":"sub4", "task":"Ula'ula Trial Completion"},
+			{"id":"sub5", "task":"Poni Trial Completion"},
+			{"id":"sub6", "task":"Island Challenge Completion"},
+			{"id":"sub7", "task":"Melemele Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
+			{"id":"sub8", "task":"Akala Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
+			{"id":"sub9", "task":"Ula'ula Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
+			{"id":"sub10", "task":"Poni Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
+			{"id":"sub11", "task":"Alola Pokedex Completion", "tooltip": "Talk to Game Freak Game Director"},
+			{"id":"sub12", "task":"50 Consecutive Single Battle Wins", "tooltip": "Single Battles at the Battle Tree"},
+			{"id":"sub13", "task":"50 Consecutive Double Battle Wins", "tooltip": "Double Battles at the Battle Tree"},
+			{"id":"sub14", "task":"50 Consecutive Multi Battle Wins", "tooltip": "Multi Battles at the Battle Tree"},
+			{"id":"sub15", "task":"Obtain the Poke Finder Pro", "tooltip": "Obtain final version of the Poke Finder"}
+		]
+	},
 	{"id":"task14",
 		"task":"Obtain all Poké Finder Upgrades",
 		"row": 3,
