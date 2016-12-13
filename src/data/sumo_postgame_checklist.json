@@ -365,7 +365,7 @@
 		"row": 4,
 		"col": 3,
 		"subtasks":[
-			{"id":"sub1", "task":"Purchase a Skull Tank in the Pow Town Pokemon Center"},
+			{"id":"sub1", "task":"Purchase a Skull Tank in the Po Town Pokemon Center"},
 			{"id":"sub2", "task":"Assembe Zygarde at the Aether Base on Route 16"},
 			{"id":"sub3", "task":"Get a Porygon and an Up-Grade at the Aether House on Route 15"},
 			{"id":"sub4", "task":"Explore Haina Desert, show the old man Solrock or Lunatone for a reward", "tooltip":"Solrock in Sun, Lunatone in Moon", "formats":[{"word":"Solrock","format":"sun"}, {"word":"Lunatone","format":"moon"}]}
