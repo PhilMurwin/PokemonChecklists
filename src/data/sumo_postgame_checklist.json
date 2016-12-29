@@ -329,6 +329,7 @@
 			{"id":"sub8", "task":"Idol Style", "tooltip": "Defeat Master Rank in the Battle Royal"}
 		]
 	},
+
 	{"id":"task40",
 		"task":"Complete the Melemele Island Post Game Activities",
 		"row": 4,
@@ -561,7 +562,8 @@
 			{"id":"sub47", "task":"Shuca", "tooltip":"Poni Plains, Poni Wilds"},
 			{"id":"sub48", "task":"Payapa", "tooltip":"Poni Wilds"},
 			{"id":"sub49", "task":"Coba", "tooltip":"Poni Wilds"},
-			{"id":"sub50", "task":"Bluk", "tooltip":"Free Sample Tuesdays at Thrifty Megamart"}
+			{"id":"sub50", "task":"Bluk", "tooltip":"Free Sample Tuesdays at Thrifty Megamart"},
+			{"id":"sub51", "task":"Pinap"}
 		]
 	},
 	{"id":"task52",
