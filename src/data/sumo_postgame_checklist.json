@@ -563,7 +563,7 @@
 			{"id":"sub48", "task":"Payapa", "tooltip":"Poni Wilds"},
 			{"id":"sub49", "task":"Coba", "tooltip":"Poni Wilds"},
 			{"id":"sub50", "task":"Bluk", "tooltip":"Free Sample Tuesdays at Thrifty Megamart"},
-			{"id":"sub51", "task":"Pinap"}
+			{"id":"sub51", "task":"Pinap", "tooltip":"Free Sample Tuesdays at Thrifty Megamart"}
 		]
 	},
 	{"id":"task52",
