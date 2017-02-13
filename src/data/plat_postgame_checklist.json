@@ -116,7 +116,7 @@
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
-			{"id":"sub3", "task":"Play 1 online Underground Capture the Flag Mtach"},
+			{"id":"sub3", "task":"Play 1 online Underground Capture the Flag Match"},
 			{"id":"sub4", "task":"Complete the National Dex (482 PKMN)"},
 			{"id":"sub5", "task":"Complete 100 Wins in Battle Tower"}
 		]
