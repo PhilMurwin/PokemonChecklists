@@ -93,12 +93,16 @@
 }
 
 .badge-header {
-	width: 270px;
+	width: 275px;
 	margin: 0 auto;
 }
 
 .badge-header-md {
 	width: 400px;
+	margin: 0 auto;
+}
+
+.badge-header-contents {
 	margin: 0 auto;
 }
 
@@ -113,13 +117,15 @@
 }
 
 .task {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 11pt;
 	padding-top: 10px;
 	overflow: hidden;
 }
 
 .subtask {
-	font-family: 'ditedregular';
-	font-size: 12pt;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 8pt;
 	margin-left: 1.5em;
 	display: inline;
 }

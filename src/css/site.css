@@ -1,5 +1,6 @@
 body {
 	padding-top: 50px;
+	font-family: Verdana,Geneva,sans-serif;
 }
 
 label {
@@ -8,7 +9,6 @@ label {
 }
 
 .label-new {
-	font-family: Arial;
 	font-size: 14pt;
 }
 
@@ -23,8 +23,10 @@ input[type='checkbox'] {
 
 .pageTitle {
 	padding-top: 20px;
-	font-family: 'pokemon_solidnormal';
+	font-family: Verdana,Geneva,sans-serif;
+	font-variant: small-caps;
 	font-size: 32pt;
+	font-weight: bold;
 	text-align: center;
 }
 
