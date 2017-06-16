@@ -1,3 +1,36 @@
+function ChangeSpanToImages(acronym)
+{
+	var headers = $(".teamLogo-header");
+	for(var i=0; i < headers.length; i++)
+	{
+		var bgimg = $(headers[i]).css('background-image');
+		var imageUrl = bgimg.replace(/(url\(|\)|'|")/gi, ''); // Strip everything but the url itself
+		
+		$(headers[i]).html('<img class="' + acronym + 'Logo" src="' + imageUrl + '" />');
+		$(headers[i]).css('background-image', 'none');
+	}
+	
+	var smBadges = $(".badge-sm");
+	for(var i=0; i < smBadges.length; i++)
+	{
+		var bgimg = $(smBadges[i]).css('background-image');
+		var imageUrl = bgimg.replace(/(url\(|\)|'|")/gi, ''); // Strip everything but the url itself
+		
+		$(smBadges[i]).html('<img class="' + acronym + 'Badge" src="' + imageUrl + '" />');
+		$(smBadges[i]).css('background-image', 'none');
+	}
+	
+	var mdBadges = $(".badge-md");
+	for(var i=0; i < mdBadges.length; i++)
+	{
+		var bgimg = $(mdBadges[i]).css('background-image');
+		var imageUrl = bgimg.replace(/(url\(|\)|'|")/gi, ''); // Strip everything but the url itself
+		
+		$(mdBadges[i]).html('<img class="' + acronym + 'Badge" src="' + imageUrl + '" />');
+		$(mdBadges[i]).css('background-image', 'none');
+	}
+}
+
 function GetChecklistData(path)
 {
 	var json = null;
@@ -44,6 +77,7 @@ function Render(dataKey, dataFile, binKey)
 		
 		// Check for subtasks
 		divTask = RenderSubTasks(divTask, chkIndex, task);
+		divTask.append("<div class='clearfix'></div>");
 		
 		targetDiv.append(divTask);
 	}

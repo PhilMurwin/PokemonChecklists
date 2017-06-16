@@ -130,6 +130,8 @@
 	display: inline;
 }
 
+.dpLogo { width: 100px; height: 100px; }
+.dpBadge { width: 45px; height: 45px; }
 .dpDialga { background: url("../images/Dialga.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }
 .dpPalkia { background: url("../images/Palkia.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }
 .dpCoalBadge { background: url("../images/dpCoalBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
@@ -141,12 +143,16 @@
 .dpIcicleBadge { background: url("../images/dpIcicleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
 .dpBeaconBadge { background: url("../images/dpBeaconBadge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
 
+.platLogo { width: 125px; height: 125px; }
+.platBadge { width: 60px; height: 60px; }
 .platGiratinaAlt { background: url("../images/Giratina-Altered.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .platGiratinaOrigin { background: url("../images/Giratina-Origin.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .platAzelf { background: url("../images/Azelf.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 .platMesprit { background: url("../images/Mesprit.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 .platUxie { background: url("../images/Uxie.png"); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; }
 
+.hgssLogo { width: 125px; height: 125px; }
+.hgssBadge { width: 30px; height: 30px; }
 .hgssHooh { background: url("../images/Ho-Oh.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .hgssLugia { background: url("../images/Lugia.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .hgssZephyrBadge { background: url("../images/hgss_Zephyr_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
@@ -158,6 +164,8 @@
 .hgssGlacierBadge { background: url("../images/hgss_Glacier_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .hgssRisingBadge { background: url("../images/hgss_Rising_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
+.bwLogo { width: 125px; height: 125px; }
+.bwBadge { width: 45px; height: 45px; }
 .bwReshiram { background: url("../images/Reshiram.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .bwZekrom { background: url("../images/Zekrom.png"); width: 100px; background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .bwTrioBadge { background: url("../images/bw_Trio_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
@@ -171,6 +179,8 @@
 .bw2ToxicBadge { background: url("../images/bw2_Toxic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
 .bw2WaveBadge { background: url("../images/bw2_Wave_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 45px; height: 45px; }
 
+.xyLogo { width: 125px; height: 125px; }
+.xyBadge { width: 30px; height: 30px; }
 .xLogo { background: url("../images/x_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .yLogo { background: url("../images/y_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .xyBugBadge { background: url("../images/xy_Bug_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
@@ -182,6 +192,8 @@
 .xyPsychicBadge { background: url("../images/xy_Psychic_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .xyIcebergBadge { background: url("../images/xy_Iceberg_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
+.orasLogo { width: 125px; height: 125px; }
+.orasBadge { width: 30px; height: 30px; }
 .teamMagma { background: url("../images/magma_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .teamAqua { background: url("../images/aqua_logo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .orasStoneBadge { background: url("../images/oras_stone_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
@@ -193,6 +205,8 @@
 .orasMindBadge { background: url("../images/oras_mind_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .orasRainBadge { background: url("../images/oras_rain_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
+.sumoLogo { width: 125px; height: 125px; }
+.sumoBadge { width: 50px; height: 50px; }
 .sumoLunala { background: url("../images/Lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .sumoSolgaleo { background: url("../images/Solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
@@ -222,6 +236,12 @@ and (max-device-width: 750px)
 }
 
 @media print {
+	.postgame { padding: none; }
+	.badge-header-md { width: 200px; }
+	
+	.task {
+		overflow: visible;
+	}
 	.subtask, .subsubtask {
 		font-family: inherit;
 	}
