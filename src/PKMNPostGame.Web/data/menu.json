@@ -1,5 +1,5 @@
 {"menus":[
-	{"itemname":"Home", "link":"../index.html"},
+	{"itemname":"Home", "link":"../../index.html"},
 	{"itemname":"Gen 4",
 		"isgroup":"1",
 		"menuitems":[
@@ -35,5 +35,5 @@
 			{"itemname":"Pokemon SubReddit", "link":"https://www.reddit.com/r/pokemon/", "external":1}
 		]
 	},
-	{"itemname":"Contact", "link":"../contact.html"}
+    {"itemname":"Contact", "link":"../../contact.html"}
 ]}

@@ -1,9 +1,10 @@
+---
+permalink: /404.html
+---
 <html>
 	<head>
 		<link rel="icon" type="image/png" href="src/PKMNPostGame.Web/images/pokeball_bullet.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="description" content="After entering the Hall of Fame, there are plenty of post game activities to engage in.  Keep track of your post game adventures with our checklists!">
 		<title>Pokemon Checklists</title>
 		
 		<!-- jQuery -->
@@ -17,23 +18,18 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 			
 		<!-- Custom -->
+		<link rel="stylesheet" href="src/PKMNPostGame.Web/css/fonts.css">
 		<link rel="stylesheet" href="src/PKMNPostGame.Web/css/site.css">
 		<script src="src/PKMNPostGame.Web/js/build_menu.js"></script>
 		
 		<style>
-		.checklists {
-			list-style-image: url('src/PKMNPostGame.Web/images/pokeball_bullet.png');
-			font-weight: bold;
-			font-size: 14pt;
+		.pageTitle {
+			font-family: Arial;
 		}
 		
-		.checklists li {
-			margin: 10px;
-			text-decoration: underline;
-		}
-		
-		.pageList {
-			margin-top: 20px;
+		.mimikyu {
+			width: 50%;
+			margin: 0 auto;
 		}
 		</style>
 		
@@ -41,7 +37,7 @@
 		$(function()
 		{
 			BuildMenu("src/PKMNPostGame.Web");
-		});		
+		});
 	</script>
 		<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -76,45 +72,20 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="pageTitle">
-						Pokemon Checklists
+						Oops!
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="pageList col-md-11 col-md-offset-1">
-					<ul class="checklists">
-						<ul>
-							Gen 4
-							<li><a href="src/PKMNPostGame.Web/dp_checklist.html">D &amp; P Post Game</a></li>
-							<li><a href="src/PKMNPostGame.Web/plat_checklist.html">Platinum Post Game</a></li>
-							<li><a href="src/PKMNPostGame.Web/hgss_checklist.html">HG &amp; SS Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 5
-							<li><a href="src/PKMNPostGame.Web/bw_checklist.html">B &amp; W Post Game</a></li>
-							<li><a href="src/PKMNPostGame.Web/b2w2_checklist.html">B &amp; W 2 Post Game</a></li>
-						</ul>
-						<ul>
-							Gen 6
-							<li><a href="src/PKMNPostGame.Web/xy_checklist.html">X &amp; Y Post Game Checklist</a></li>
-							<li><a href="src/PKMNPostGame.Web/oras_checklist.html">ORAS Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 7
-							<li><a href="src/PKMNPostGame.Web/sumo_checklist.html">Sun &amp; Moon Post Game Checklist</a></li>
-						</ul>						
-					</ul>
+				<div class="col-sm-6 col-sm-offset-3" >
+					<p>Mimikyu can't find the page you're looking for.</p>
+					<p>If you used a bookmark you may need to update it.  Please use the menu at the top of the page to get to your desired page.</p>
+					<br/>
+					<div class="mimikyu">
+						<img src="src/PKMNPostGame.Web/images/mimikyu.png" />
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<br/>
-				<br/>
-				<br/>
-			</div>
 		</div>
-		
-		<!-- Go to www.addthis.com/dashboard to customize your tools -->
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5834a4d597b8f38b"></script>
-
 	</body>
 </html>
