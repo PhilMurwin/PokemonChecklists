@@ -52,7 +52,7 @@
 			{"id":"sub3", "task":"Capture/Trade for UB-02 - Pheromosa", "tooltip":"Only available in Pokémon Moon (Verdant Cavern x4)", "formats":[{"word":"Pheromosa","format":"moon"}]},
 			{"id":"sub4", "task":"Capture UB-03 - Xurkitree"},
 			{"id":"sub5", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokémon Sun (Route 17, Malie Garden)", "formats":[{"word":"Kartana","format":"sun"}]},
-			{"id":"sub7", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Moon (Haina Desert, Malie Garden)", "formats":[{"word":"Pheromosa","format":"moon"}]},
+			{"id":"sub7", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Moon (Haina Desert, Malie Garden)", "formats":[{"word":"Celesteela","format":"moon"}]},
 			{"id":"sub6", "task":"Capture UB-05 - Guzzlord"}
 		]
 	},
