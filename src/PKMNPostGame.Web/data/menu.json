@@ -31,8 +31,9 @@
 	{"itemname":"Useful Links",
 		"isgroup":"1",
 		"menuitems":[
-			{"itemname":"Manage your Living Dex", "link":"http://www.livingdex.xyz/", "external":1},
-			{"itemname":"Pokemon SubReddit", "link":"https://www.reddit.com/r/pokemon/", "external":1}
+			{"itemname":"Manage your Living Dex", "link":"https://pokedextracker.com/","external":1},
+			{"itemname":"Pokemon SubReddit", "link":"https://www.reddit.com/r/pokemon/", "external":1},
+			{"itemname":"Obsolete - Manage your Living Dex", "link":"http://www.livingdex.xyz/", "external":1}
 		]
 	},
     {"itemname":"Contact", "link":"../../contact.html"}
