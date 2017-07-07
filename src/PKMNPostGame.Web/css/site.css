@@ -33,3 +33,9 @@ input[type='checkbox'] {
 .biglist {
 	margin: 20px 0;
 }
+
+.notice {
+	color: red;
+	font-size: 16pt;
+	text-align: center;
+}
