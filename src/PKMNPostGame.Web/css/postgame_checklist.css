@@ -214,6 +214,11 @@
 .sumoBulu { background: url("../images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
 .sumoFini { background: url("../images/TapuFini.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
 
+.usumLogo { width: 125px; height: 125px; }
+.usumBadge { width: 50px; height: 50px; }
+.usumLunala { background: url("../images/ultra-lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.usumSolgaleo { background: url("../images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
 
 @media only screen
 and (max-device-width: 750px) 
