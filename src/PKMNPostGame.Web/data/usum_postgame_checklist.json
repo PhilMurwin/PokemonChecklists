@@ -23,6 +23,8 @@
 			{"id":"sub6", "task":"Capture Cosmog"},
 			{"id":"sub7", "task":"Collect Zygarde Complete Form"},
 			{"id":"sub8", "task":"Capture Necrozma"}
+			{"id":"sub9", "task":"Capture Dark Mane Necrozma"}
+			{"id":"sub10", "task":"Capture Dawn Wings Necrozma"}
 		]
 	},
 	{"id":"task3",
@@ -55,7 +57,8 @@
 			{"id":"sub7", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Ultra Moon (Haina Desert, Malie Garden)", "formats":[{"word":"Celesteela","format":"moon"}]},
 			{"id":"sub6", "task":"Capture UB-05 - Guzzlord"},
 			{"id":"sub8", "task":"Capture/Trade for UB-?? - Burst", "tooltip":"Only available in Pokémon Ultra Sun", "formats":[{"word":"Burst","format":"sun"}]},
-			{"id":"sub9", "task":"Capture/Trade for UB-?? - Assembly", "tooltip":"Only available in Pokémon Ultra Moon", "formats":[{"word":"Assembly","format":"moon"}]}
+			{"id":"sub9", "task":"Capture/Trade for UB-?? - Assembly", "tooltip":"Only available in Pokémon Ultra Moon", "formats":[{"word":"Assembly","format":"moon"}]},
+			{"id":"sub10", "task":"Capture/Trade for UB-?? - Adhesive"}
 		]
 	},
 	{"id":"task6",
