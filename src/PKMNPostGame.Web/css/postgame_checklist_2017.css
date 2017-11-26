@@ -1,0 +1,147 @@
+.postgame_chkLabel[title]:after {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	content: " ";
+	background: url("../images/pokeball_bullet.png");
+	background-size: 100%;  
+}
+
+.tooltip {
+	left: 50px !important;
+}
+
+.tooltip-inner {
+	font-size: 11pt;
+}
+
+.postgame {
+	background-color: white;
+	padding: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.seafoam {
+	color: #24B976;
+}
+
+.boy {
+	color: #66A2F0;
+}
+
+.girl {
+	color: #FF6CAD;
+}
+
+.sun {
+	color: #EC7448;
+}
+
+.moon {
+	color: #5D3287;
+}
+
+.credit {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.row-header {
+	padding-bottom: 10px;
+}
+
+.teamLogo-header {
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.badge-header {
+	width: 275px;
+	margin: 0 auto;
+}
+
+.badge-header-md {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.badge-header-contents {
+	margin: 0 auto;
+}
+
+.badge-sm {
+	width: 30px;
+	display: inline-block;
+}
+
+.badge-md {
+	width: 45px;
+	display: inline-block;
+}
+
+.task {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 11pt;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.subtask {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 8pt;
+	margin-left: 1.5em;
+	display: inline;
+}
+
+.sumoLogo { width: 125px; height: 125px; }
+.sumoBadge { width: 50px; height: 50px; }
+.sumoLunala { background: url("../images/Lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.sumoSolgaleo { background: url("../images/Solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoLele { background: url("../images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoBulu { background: url("../images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.sumoFini { background: url("../images/TapuFini.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+
+.usumLogo { width: 125px; height: 125px; }
+.usumBadge { width: 50px; height: 50px; }
+.usumLunala { background: url("../images/ultra-lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.usumSolgaleo { background: url("../images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
+
+@media only screen
+and (max-device-width: 750px) 
+{
+	input[type=checkbox] {
+	/* All browsers except webkit*/
+	transform: scale(2);
+
+	/* Webkit browsers*/
+	-webkit-transform: scale(2);
+	}
+
+	.task {
+		font-size: 15pt;
+	}
+
+	.subtask {
+		font-size: 14pt;
+	}
+}
+
+@media print {
+	.postgame { padding: none; }
+	.badge-header-md { width: 200px; }
+	
+	.task {
+		overflow: visible;
+	}
+	.subtask, .subsubtask {
+		font-family: inherit;
+	}
+}

@@ -193,6 +193,7 @@
 	},
 	{"id":"task11",
 		"task":"Get the high score on all Mantine Surf Locations",
+		"tooltip":"Get the High Score on all four to earn a Surfing Pikachu!",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
