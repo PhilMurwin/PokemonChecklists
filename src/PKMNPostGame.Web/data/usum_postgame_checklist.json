@@ -55,7 +55,8 @@
 			{"id":"sub11", "task":"Lurantis / Salazzle (Totem Sized)","tooltip":"Heahea Beach - Collect 50 totem stickers, speak to Samson Oak", "formats":[{"word":"Lurantis", "format":"sun"}, {"word":"Salazzle","format":"moon"}]},
 			{"id":"sub12", "task":"Vikvavolt / Togedemaru (Totem Sized)","tooltip":"Heahea Beach - Collect 70 totem stickers, speak to Samson Oak", "formats":[{"word":"Vikvavolt", "format":"sun"}, {"word":"Togedemaru","format":"moon"}]},
 			{"id":"sub13", "task":"Mimikyu (Totem Sized)","tooltip":"Heahea Beach - Collect 80 totem stickers, speak to Samson Oak"},
-			{"id":"sub14", "task":"Ribombee / Kommo-o (Totem Sized)","tooltip":"Heahea Beach - Collect 100 totem stickers, speak to Samson Oak", "formats":[{"word":"Ribombee", "format":"sun"}, {"word":"Kommo-o","format":"moon"}]}
+			{"id":"sub14", "task":"Ribombee / Kommo-o (Totem Sized)","tooltip":"Heahea Beach - Collect 100 totem stickers, speak to Samson Oak", "formats":[{"word":"Ribombee", "format":"sun"}, {"word":"Kommo-o","format":"moon"}]},
+			{"id":"sub15", "task":"Magearna", "tooltip":"Scan the special event QR Code to receive Magearna"}
 		]
 	},
 	{"id":"task5",
