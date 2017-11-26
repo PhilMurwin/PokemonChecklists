@@ -84,7 +84,7 @@
 			{"id":"sub3", "task":"Capture Tapu Bulu"},
 			{"id":"sub4", "task":"Capture Tapu Fini"},
 			{"id":"sub5", "task":"Capture Lunala / Solgaleo", "tooltip":"Go to Mahalo Trail after Minas Trial to capture Solgaleo or Lunala if you can", "formats":[{"word":"Lunala","format":"moon"},{"word":"Solgaleo","format":"sun"}]},
-			{"id":"sub6", "task":"Capture Cosmog"},
+			{"id":"sub6", "task":"Obtain Cosmog"},
 			{"id":"sub7", "task":"Collect Zygarde Complete Form"},
 			{"id":"sub8", "task":"Capture Necrozma"},
 			{"id":"sub9", "task":"Obtain Dark Mane Necrozma"},
