@@ -395,6 +395,7 @@
 		"task":"Unlock all Battle Styles",
 		"row": 3,
 		"col": 2,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Normal Style"},
 			{"id":"sub2", "task":"Elegant Style", "tooltip": "Straight away in Malie City Outer Cape"},
@@ -457,6 +458,24 @@
 			{"id":"sub13","task":"Isle Avue - Level 1"},
 			{"id":"sub14","task":"Isle Avue - Level 2"},
 			{"id":"sub15","task":"Isle Avue - Level 3"}
+		]
+	},
+	{"id":"task31",
+		"task":"Upgrade Festival Plaza to Level 100",
+		"row": 3,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Reach Level 10"},
+			{"id":"sub2", "task":"Reach Level 20"},
+			{"id":"sub3", "task":"Reach Level 30"},
+			{"id":"sub4", "task":"Reach Level 40"},
+			{"id":"sub5", "task":"Reach Level 50"},
+			{"id":"sub6", "task":"Reach Level 60"},
+			{"id":"sub7", "task":"Reach Level 70"},
+			{"id":"sub8", "task":"Reach Level 80"},
+			{"id":"sub9", "task":"Reach Level 90"},
+			{"id":"sub10", "task":"Reach Level 100"}
 		]
 	},
 	
