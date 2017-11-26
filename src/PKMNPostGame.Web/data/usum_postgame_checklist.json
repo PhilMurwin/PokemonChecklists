@@ -611,7 +611,7 @@
 			{"id":"sub51", "task":"Receive the first Pokemon Egg from the Pokemon Nursery", "tooltip":"Speak to a Breeder inside the Pokemon Nursery"},
 			{"id":"sub52", "task":"Receive TM10 from a Breeder", "tooltip":"Speak to a Breeder in the Pokemon Nursery"},
 			{"id":"sub53", "task":"Hatch the Egg from the Nursery and let them know", "tooltip":"Speak to the second Breeder behind the counter of the Pokemon Nursery with Eevee in your party"},
-			{"id":"sub56", "task":"The one that got away", "tooltip":"Speak with the fisherman in the Pokemon Center"},
+			{"id":"sub56", "task":"The one that got away on Route 5", "tooltip":"Speak with the fisherman in the Pokemon Center on Route 5"},
 			{"id":"sub57", "task":"Defeat Trial Guide Bronson on Route 5", "tooltip":"Defeat all the trainers on Route 5 to challenge this Trial Guide"},
 			{"id":"sub58", "task":"Make small talk by the water cooler", "tooltip":"Speak with the lady in the back of GAME FREAK's office"},
 			{"id":"sub59", "task":"Help the Pokemon without a Trainer", "tooltip":"Get the abandoned Pokemon at Aether Foundation and take it to a small girl at the library in Malie City"},
