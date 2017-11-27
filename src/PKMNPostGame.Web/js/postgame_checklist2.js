@@ -236,7 +236,7 @@ function chk_onClick(e, binKey)
 	SaveCheckboxState(id);
 }
 
-function SetCollapseState(binKey)
+function LoadCollapseState(binKey)
 {
 	var links = $("a.title-collapse");
 
@@ -252,12 +252,14 @@ function SetCollapseState(binKey)
 
 		var panelTask = $(link.hash);
 		var collapseState = RetrieveKeyValuePair(binKey + link.hash);
+		var span = $(link).children("span");
 		if (collapseState !== null && collapseState == "true")
 		{
 			if(panelTask.hasClass('collapse in'))
 			{
 				panelTask.collapse('hide');
 			}
+			span.removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
 		}
 		else
 		{
@@ -265,13 +267,15 @@ function SetCollapseState(binKey)
 			{
 				panelTask.collapse('show');
 			}
+			span.removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
 		}
 	}
 }
 
 function collapse_onClick(e, binKey)
 {
-	var panelID = e.currentTarget.hash;
+	var link = e.currentTarget;
+	var panelID = link.hash;
 	var saveKey = binKey + panelID;
 
 	// This event fires before "in" has been removed
@@ -279,12 +283,28 @@ function collapse_onClick(e, binKey)
 	if($(panelID).hasClass('collapse in'))
 	{
 		// About to hide
-		SaveKeyValuePair(saveKey, true);
+		SetCollapseState(link, saveKey, true);
 	}
 	else
 	{
 		// About to show
-		SaveKeyValuePair(saveKey, false);
+		SetCollapseState(link, saveKey, false);
+	}
+}
+
+function SetCollapseState(link, saveKey, isCollapsed)
+{
+	SaveKeyValuePair(saveKey, isCollapsed);
+	
+	var span = $(link).children("span");
+
+	if (isCollapsed)
+	{
+		span.removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+	}
+	else
+	{
+		span.removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
 	}
 }
 
