@@ -218,7 +218,9 @@
 	},
 
 	
-
+	{
+		"_note": "task19 can be found elsewhere in this list"
+	},
 
 	{"id":"task20",
 		"task":"Obtain all Poké Finder Upgrades",
@@ -411,11 +413,23 @@
 			{"id":"sub3", "task":"Multi"}
 		]
 	},
+	{"id":"task19",
+		"task":"Reach Master Rank in Battle Royal",
+		"category":"battle",
+		"row": 3,
+		"col": 13,
+		"subtasks":[
+			{"id":"sub1", "task":"Reach Super Rank"},
+			{"id":"sub2", "task":"Reach Hyper Rank"},
+			{"id":"sub3", "task":"Reach Master Rank"}
+		]
+	},
 	{"id":"task27",
 		"task":"Unlock all Battle Styles",
 		"category":"battle",
 		"row": 3,
 		"col": 14,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Normal Style"},
 			{"id":"sub2", "task":"Elegant Style", "tooltip": "Straight away in Malie City Outer Cape"},
@@ -432,7 +446,7 @@
 		"task":"Upgrade Battle Agency to level 50",
 		"category":"battle",
 		"row": 3,
-		"col": 13,
+		"col": 14,
 		"subtasks":[
 			{"id":"sub10","task":"Reach Level 10"},
 			{"id":"sub20","task":"Reach Level 20"},
