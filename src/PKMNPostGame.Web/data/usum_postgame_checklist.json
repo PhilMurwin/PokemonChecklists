@@ -162,6 +162,38 @@
 			{"id":"sub11", "task":"Capture/Trade for UB Blacephalon", "tooltip":"Only available in Pokémon Ultra Sun (Poni Grove)", "formats":[{"word":"Blacephalon","format":"sun"}]}
 		]
 	},
+	{"id":"task6a",
+		"task":"Capture all standard pokemon available in wormholes",
+		"category":"pokemon",
+		"row":3,
+		"col":"3a",
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Barbaracle", "tooltip":"Available in Blue Wormhole"},
+			{"id":"sub2", "task":"Floatzel", "tooltip":"Available in Blue Wormhole"},
+			{"id":"sub3", "task":"Lombre", "tooltip":"Available in Blue Wormhole"},
+			{"id":"sub4", "task":"Quagsire", "tooltip":"Available in Blue Wormhole"},
+			{"id":"sub5", "task":"Stunfisk", "tooltip":"Available in Blue Wormhole"},
+
+			{"id":"sub10", "task":"Audino", "tooltip":"Available in Green Wormhole"},
+			{"id":"sub11", "task":"Drapion", "tooltip":"Available in Green Wormhole"},
+			{"id":"sub12", "task":"Grumpig", "tooltip":"Available in Green Wormhole"},
+			{"id":"sub13", "task":"Heliolisk", "tooltip":"Available in Green Wormhole"},
+			{"id":"sub14", "task":"Nuzleaf", "tooltip":"Available in Green Wormhole"},
+
+			{"id":"sub20", "task":"Altaria", "tooltip":"Available in Red Wormhole"},
+			{"id":"sub21", "task":"Sigilyph", "tooltip":"Available in Red Wormhole"},
+			{"id":"sub22", "task":"Swanna", "tooltip":"Available in Red Wormhole"},
+			{"id":"sub23", "task":"Swellow", "tooltip":"Available in Red Wormhole"},
+			{"id":"sub24", "task":"Yanmega", "tooltip":"Available in Red Wormhole"},
+
+			{"id":"sub30", "task":"Abomasnow", "tooltip":"Available in Yellow Wormhole"},
+			{"id":"sub31", "task":"Crustle", "tooltip":"Available in Yellow Wormhole"},
+			{"id":"sub32", "task":"Hippowdon", "tooltip":"Available in Yellow Wormhole"},
+			{"id":"sub33", "task":"Magcargo", "tooltip":"Available in Yellow Wormhole"},
+			{"id":"sub34", "task":"Medicham", "tooltip":"Available in Yellow Wormhole"}
+		]
+	},
 	{"id":"task9",
 		"task":"Complete all Pokédex side quests",
 		"category":"quests",
