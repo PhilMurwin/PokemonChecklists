@@ -604,7 +604,8 @@
 			{"id":"sub4", "task":"Meet Elite Four Kahili and receive TM92", "tooltip": "Hano Grand Hotel"},
 			{"id":"sub5", "task":"Meet Colress on Route 8 to receive drives for Genesect"},
 			{"id":"sub6", "task":"Visit Mallow's restaurant for several gifts", "tooltip": "Konikoni City"},
-			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"}
+			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"},
+			{"id":"sub8", "task":"Defeat Lana and her sisters to earn a Deep Sea Scale and Tooth", "tooltip":"Konikoni City"}
 		]
 	},
 	{"id":"task42",
