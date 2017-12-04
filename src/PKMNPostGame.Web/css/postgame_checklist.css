@@ -251,4 +251,8 @@ and (max-device-width: 750px)
 	.subtask, .subsubtask {
 		font-family: inherit;
 	}
+	
+	.addthis-smartlayer {
+		display:none;
+	}
 }
