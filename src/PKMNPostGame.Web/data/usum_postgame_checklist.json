@@ -670,7 +670,7 @@
 			{"id":"sub14", "task":"Find the lost Meowth on Route 2", "tooltip":"Help the man next to the little house, it likes shady places"},
 			{"id":"sub15", "task":"Get Berries for your Pokemon to hold", "tooltip":"Talk to the berry farmer"},
 			{"id":"sub16", "task":"Get a Berry delicious gift", "tooltip":"Speak with the Delibird in the Berry farmer's house"},
-			{"id":"sub19", "task":"Help Actress Meredith refine her acting around Alola", "tooltip":"Find Meredith in Melemele Meadow, "},
+			{"id":"sub19", "task":"Help Actress Meredith refine her acting around Alola", "tooltip":"Find and defeat Actress Meredith in Melemele Meadow, Royal Avenue, Ula'ula Meadow, & Poni Meadow (after becoming league champion) to earn TM75"},
 			{"id":"sub20", "task":"Defeat Makana on Route 3 for TM19", "tooltip":"Defeat all the trainers on Route 3 to challenge this Ace Trainer"},
 			
 			{"id":"sub21", "task":"Get a Soothe Bell on Route 3", "tooltip":"Speak to the breeder on Route 3"},
