@@ -133,19 +133,3 @@ and (max-device-width: 750px)
 		font-size: 14pt;
 	}
 }
-
-@media print {
-	.postgame { padding: none; }
-	.badge-header-md { width: 200px; }
-	
-	.task {
-		overflow: visible;
-	}
-	.subtask, .subsubtask {
-		font-family: inherit;
-	}
-	
-	.addthis-smartlayers {
-		display:none;
-	}
-}
