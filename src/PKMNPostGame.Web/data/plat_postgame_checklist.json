@@ -1,6 +1,7 @@
 {"plat":[
 	{"id":"task1",
 		"task":"Complete the Platinum Sinnoh Pokedex (151)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"sort":"alpha",
@@ -16,8 +17,10 @@
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 3,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Dialga", "tooltip":"Spear Pillar"},
 			{"id":"sub2", "task":"Capture Palkia", "tooltip":"Spear Pillar"},
@@ -38,11 +41,13 @@
 	},
 	{"id":"task3",
 		"task":"Complete National Dex (493)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1
 	},
 	{"id":"task4",
 		"task":"Collect All Trophy Garden Pokemon (16)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 2,
 		"splitCol": 3,
@@ -68,18 +73,21 @@
 	},
 	{"id":"task5",
 		"task":"Collect All Battle Frontier Prints",
+		"category":"battle",
 		"row": 3,
-		"col": 1
+		"col": 13
 	},
 	{"id":"task6",
 		"task":"Re-battle Elite Four Post National Dex",
+		"category":"battle",
 		"row": 3,
-		"col": 1
+		"col": 13
 	},
 	{"id":"task7",
 		"task":"Collect All Poketch Applications",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 5,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Digital Clock"},
@@ -111,8 +119,9 @@
 	},
 	{"id":"task8",
 		"task":"Obtain Black Trainer Card",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 6,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
@@ -123,8 +132,9 @@
 	},
 	{"id":"task9",
 		"task":"Complete 3 Levels of Rival Battles",
+		"category":"battle",
 		"row": 3,
-		"col": 1,
+		"col": 13,
 		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Lv. 65"},

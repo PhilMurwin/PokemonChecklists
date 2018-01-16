@@ -99,14 +99,23 @@
 	display: inline;
 }
 
-.sumoLogo { width: 125px; height: 125px; }
-.sumoBadge { width: 50px; height: 50px; }
-.sumoLunala { background: url("../images/Lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
-.sumoSolgaleo { background: url("../images/Solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
-.sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
-.sumoLele { background: url("../images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
-.sumoBulu { background: url("../images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
-.sumoFini { background: url("../images/TapuFini.png"); background-size: contain; background-repeat: no-repeat; width: 50px; height: 50px; }
+.rbLogo { width: 125px; height: 115px; }
+.rbBadge { width: 30px; height: 30px; }
+.rbCharizard { background: url("../images/Charizard.png"); background-size: contain; background-repeat: no-repeat; }
+.rbBlastoise { background: url("../images/Blastoise.png"); background-size: contain; background-repeat: no-repeat; }
+.rbBoulderBadge { background: url("../images/rb_Boulder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbCascadeBadge { background: url("../images/rb_Cascade_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbThunderBadge { background: url("../images/rb_Thunder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbRainbowBadge { background: url("../images/rb_Rainbow_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbSoulBadge { background: url("../images/rb_Soul_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbMarshBadge { background: url("../images/rb_Marsh_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbVolcanoBadge { background: url("../images/rb_Volcano_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.rbEarthBadge { background: url("../images/rb_Earth_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+
+.sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; }
+.sumoLele { background: url("../images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; }
+.sumoBulu { background: url("../images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; }
+.sumoFini { background: url("../images/TapuFini.png"); background-size: contain; background-repeat: no-repeat; }
 
 .usumLogo { width: 125px; height: 125px; }
 .usumBadge { width: 50px; height: 50px; }
