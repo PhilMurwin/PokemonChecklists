@@ -1,6 +1,7 @@
 {"bw2":[
 	{"id":"task1",
 		"task":"Complete the Unova Pokedex (297)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -12,13 +13,16 @@
 	},
 	{"id":"task2",
 		"task":"Trade for Alt Version Legendary (Reshiram / Zekrom)",
+		"category":"legendary",
 		"row": 3,
-		"col": 1
+		"col": 3
 	},
 	{"id":"task3",
 		"task":"Complete the National Pokedex (636)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
+		"splitCol": 2,
 		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Latios (Black 2)", "formats":[{"word":"(Black 2)", "format":"black"}]},
@@ -38,7 +42,7 @@
 	{"id":"task4",
 		"task":"Find and Capture All of N's Pokemon (if you played Black and White)",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"splitCol": 2,
 		"sort":"alpha",
 		"subtasks":[
@@ -61,8 +65,10 @@
 	},
 	{"id":"task5",
 		"task":"Receive All Event Legendaries",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 4,
+		"splitCol": 2,
 		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mew"},
@@ -78,13 +84,15 @@
 	},
 	{"id":"task6",
 		"task":"Final Rival Battle in Driftveil City",
+		"category":"battle",
 		"row": 3,
-		"col": 1
+		"col": 13
 	},
 	{"id":"task7",
 		"task":"Defeat Benga in White Forest/Black City",
+		"category":"battle",
 		"row": 3,
-		"col": 1,
+		"col": 13,
 		"splitCol": "2",
 		"subtasks":[
 			{"id":"sub1", "task":"1"},
@@ -101,13 +109,15 @@
 	},
 	{"id":"task8",
 		"task":"Final Colress Battle in P2 Lab",
+				"category":"battle",
 		"row": 3,
-		"col": 2
+		"col": 13
 	},
 	{"id":"task9",
 		"task":"Achieve Gold Trainer Card (or Black/White card if game sync)",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 5,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete Unova Pokedex"},
@@ -118,11 +128,13 @@
 	},
 	{"id":"task10",
 		"task":"Elite Rank at Battle Institute Test",
+		"category":"battle",
 		"row": 3,
-		"col": 2
+		"col": 13
 	},
 	{"id":"task11",
 		"task":"Catch Both Basculin",
+		"category":"catchemall",
 		"row": 3,
 		"col": 2,
 		"subtasks":[
@@ -132,8 +144,9 @@
 	},
 	{"id":"task12",
 		"task":"Catch Both Frillish",
+		"category":"catchemall",
 		"row": 3,
-		"col": 2,
+		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Male Frillish (Blue)"},
 			{"id":"sub2", "task":"Female Frillish (Pink)"}
@@ -141,8 +154,10 @@
 	},
 	{"id":"task13",
 		"task":"See All 4 Seasons Of Deerling / Sawsbuck",
+		"category":"catchemall",
 		"row": 3,
 		"col": 2,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Spring"},
 			{"id":"sub2", "task":"Summer"},
@@ -152,8 +167,9 @@
 	},
 	{"id":"task14",
 		"task":"Complete All World Tournaments",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Driftveil"},
 			{"id":"sub2", "task":"Rental"},
@@ -173,13 +189,16 @@
 	},
 	{"id":"task15",
 		"task":"Achieve EX Ranking at PokeStar Studios",
+		"category":"activities",
 		"row": 3,
-		"col": 2
+		"col": 17
 	},
 	{"id":"task16",
 		"task":"Complete All Battle Subway Lines",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 13,
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Single"},
 			{"id":"sub2", "task":"Double"},
@@ -191,18 +210,21 @@
 	},	
 	{"id":"task17",
 		"task":"Promote Join Avenue to Lv. 100",
+		"category":"activities",
 		"row": 3,
-		"col": 2
+		"col": 17
 	},
 	{"id":"task18",
 		"task":"Complete Dropped Item Quest (Yancy/Curtis)",
+		"category":"activities",
 		"row": 3,
-		"col": 2
+		"col": 17
 	},
 	{"id":"task19",
 		"task":"Complete All Funfest Missions (40)",
-		"row": 4,
-		"col": 3,
+		"category":"funfest",
+		"row": 3,
+		"col": 7,
 		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"The First Berry Search!"},
@@ -247,8 +269,9 @@
 	},
 	{"id":"task20",
 		"task":"Collect All 95 Technical Machines (TMs)",
-		"row": 5,
-		"col": 4,
+		"category":"tms",
+		"row": 8,
+		"col": 8,
 		"splitCol":4,
 		"sort":"alpha",
 		"subtasks":[

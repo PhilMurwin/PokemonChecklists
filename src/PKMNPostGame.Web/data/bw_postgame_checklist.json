@@ -1,6 +1,7 @@
 {"bw":[
 	{"id":"task1",
 		"task":"Complete the Unova Pokedex (152)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -11,19 +12,22 @@
 	},
 	{"id":"task2",
 		"task":"Trade for Alt Version Legendary (Tornadus / Thundurus)",
+		"category":"legendary",
 		"row":3,
-		"col":1,
+		"col":3,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Landorus"}
 		]
 	},
 	{"id":"task3",
 		"task":"Trade for Alt Version Legendary (Reshiram / Zekrom)",
+		"category":"legendary",
 		"row":3,
-		"col":1
+		"col":3
 	},
 	{"id":"task4",
 		"task":"Complete the National Pokedex (636)",
+		"category":"catchemall",
 		"row":3,
 		"col":1,
 		"subtasks":[
@@ -32,8 +36,10 @@
 	},
 	{"id":"task5",
 		"task":"Receive All Event Legendaries",
+		"category":"legendary",
 		"row":3,
-		"col":1,
+		"col":4,
+		"splitCol": 2,
 		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Mew"},
@@ -48,8 +54,9 @@
 	},
 	{"id":"task6",
 		"task":"Achieve Black/ White Rank Trainer Card",
+		"category":"upgrades",
 		"row":3,
-		"col":1,
+		"col":5,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete the National Dex"},
@@ -60,28 +67,34 @@
 	},
 	{"id":"task7",
 		"task":"Final Rival Battle: Cheren in Victory Road (Post Elite Four)",
+		"category":"battle",
 		"row":3,
-		"col":1
+		"col":13
 	},
 	{"id":"task8",
 		"task":"Final Rival Battle: Bianca in Prof. Juniper's Lab (Saturday Nights Only)",
+		"category":"battle",
 		"row":3,
-		"col":1
+		"col":13
 	},
 	{"id":"task9",
 		"task":"Fill White Forest / Black City with 10 Trainers",
+		"category":"activities",
 		"row":3,
-		"col":1
+		"col":18
 	},
 	{"id":"task10",
 		"task":"Battle Champion Cynthia in Undella Town (Spring & Summer)",
+		"category":"battle",
 		"row":3,
-		"col":1
+		"col":13
 	},
 	{"id":"task11",
 		"task":"Defeat The Riches Family in Undella Town (Takes 6 days)",
+		"category":"battle",
 		"row":3,
-		"col":1,
+		"col":14,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat Draco"},
 			{"id":"sub2", "task":"Defeat Susan (& Family)"},
@@ -93,6 +106,7 @@
 	},
 	{"id":"task12",
 		"task":"Trade for Both Basculin",
+		"category":"catchemall",
 		"row":3,
 		"col":2,
 		"subtasks":[
@@ -102,6 +116,7 @@
 	},
 	{"id":"task13",
 		"task":"Catch Both Frillish",
+		"category":"catchemall",
 		"row":3,
 		"col":2,
 		"subtasks":[
@@ -111,8 +126,10 @@
 	},
 	{"id":"task14",
 		"task":"See All 4 Seasons of Deerling / Sawsbuck",
+		"category":"catchemall",
 		"row":3,
 		"col":2,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Spring"},
 			{"id":"sub2", "task":"Summer"},
@@ -122,13 +139,16 @@
 	},
 	{"id":"task15",
 		"task":"Collect All Pokemon Musical items",
+		"category":"activities",
 		"row":3,
-		"col":2
+		"col":18
 	},
 	{"id":"task16",
 		"task":"Complete All Battle Subway Lines",
+		"category":"battle",
 		"row":3,
-		"col":2,
+		"col":14,
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Single"},
 			{"id":"sub2", "task":"Double"},
@@ -140,13 +160,15 @@
 	},
 	{"id":"task17",
 		"task":"Elite Rank at Battle Institute Test",
+		"category":"battle",
 		"row":3,
-		"col":2
+		"col":13
 	},
 	{"id":"task18",
 		"task":"Find All (6) Team Plasma Sages**",
+		"category":"activities",
 		"row":3,
-		"col":2,
+		"col":17,
 		"subtasks":[
 			{"id":"sub1", "task":"Sage Rood", "tooltip":"Route 18"},
 			{"id":"sub2", "task":"Sage Gorm", "tooltip":"Dreamyard"},
@@ -158,8 +180,9 @@
 	},
 	{"id":"task19",
 		"task":"Complete 4 Types of Entralink Missions",
+		"category":"activities",
 		"row":3,
-		"col":2,
+		"col":18,
 		"subtasks":[
 			{"id":"sub1", "task":"Support Mission"},
 			{"id":"sub2", "task":"Item Mission"},
@@ -169,8 +192,9 @@
 	},
 	{"id":"task20",
 		"task":"Collect All 95 Technical Machines (TMs)",
-		"row": 4,
-		"col": 3,
+		"category":"tms",
+		"row": 8,
+		"col": 8,
 		"splitCol": 4,
 		"sort":"alpha",
 		"subtasks":[

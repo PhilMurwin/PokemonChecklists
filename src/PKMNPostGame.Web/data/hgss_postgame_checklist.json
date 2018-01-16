@@ -1,6 +1,7 @@
 {"hgss":[
 	{"id":"task1",
 		"task":"Complete the HG/SS Johto Pokedex (256)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -17,8 +18,10 @@
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 3,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Latios or Latias (Roaming)", "formats":[{"word":"Latios","format":"silver"},{"word":"Latias","format":"gold"},{"word":"Roaming","format":"red"}]},
 			{"id":"sub2", "task":"Trade for other EON Pokemon"},
@@ -31,23 +34,28 @@
 	},
 	{"id":"task3",
 		"task":"Complete Elite Four Rematch (Post Kanto)",
+		"category":"battle",
 		"row": 3,
-		"col": 1
+		"col": 13
 	},
 	{"id":"task4",
 		"task":"Complete Gym Leader Rematches (Post E4)",
+		"category":"battle",
 		"row": 3,
-		"col": 1
+		"col": 13
 	},
 	{"id":"task5",
 		"task":"Beat Red (Located: Top of Mt. Silver)",
+		"category":"battle",
 		"row": 3,
-		"col": 1
+		"col": 13
 	},
 	{"id":"task6",
 		"task":"Hall of Fame at Pokeathalon",
+		"category":"activities",
 		"row": 3,
-		"col": 1,
+		"col": 17,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Hurdle Dash Highscore (80.0)"},
 			{"id":"sub2", "task":"Lamp Jump Highscore (500)"},
@@ -63,6 +71,7 @@
 	},
 	{"id":"task7",
 		"task":"Complete the National Dex (493)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 2,
 		"subtasks":[
@@ -83,8 +92,9 @@
 	},
 	{"id":"task8",
 		"task":"Collect Silver and Gold Prints for Battle Frontier",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Battle Tower - Palmer"},
 			{"id":"sub2", "task":"Battle Factory - Thorton"},
@@ -95,8 +105,9 @@
 	},
 	{"id":"task9",
 		"task":"Take all Commemerative Photos (62)",
+		"category":"activities",
 		"row": 3,
-		"col": 2,
+		"col": 18,
 		"subtasks":[
 			{"id":"sub1", "task":"46 Location Based Photos"},
 			{"id":"sub2", "task":"16 Gym Leader Photos"}
@@ -104,8 +115,9 @@
 	},
 	{"id":"task10",
 		"task":"Obtain Black 5 Star Trainer Card",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 5,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Collect 5 Shiny Leaves"},
@@ -116,9 +128,10 @@
 	},
 	{"id":"task11",
 		"task":"Bonus Story Sequences - Optional & Event",
+		"category":"epilogue",
 		"formats":[{"word":"Optional","format":"red"}, {"word":"Event","format":"seafoam"}],
 		"row": 3,
-		"col": 2,
+		"col": 15,
 		"subtasks":[
 			{"id":"sub1", "task":"Arceus & Sinjoh Ruins"},
 			{"id":"sub2", "task":"Celebi & Giovanni's Backstory"},

@@ -1,6 +1,7 @@
 {"dp":[
 	{"id":"task1",
 		"task":"Complete the Sinnoh Pokedex (151)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"sort":"alpha",
@@ -16,8 +17,10 @@
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 3,
+		"splitCol": 2,
 		"sort":"alpha",
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Heatran", "tooltip":"Stark Mt"},
@@ -32,13 +35,15 @@
 	},
 	{"id":"task3",
 		"task":"Complete National Dex (493)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1
 	},
 	{"id":"task4",
 		"task":"Collect All Foreign Dex Entries (14)",
+		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"splitCol": 3,
 		"sort":"alpha",
 		"subtasks":[
@@ -60,8 +65,9 @@
 	},
 	{"id":"task5",
 		"task":"Collect All Trophy Garden Pokemon (16)",
+		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"splitCol": 3,
 		"sort":"alpha",
 		"subtasks":[
@@ -85,8 +91,9 @@
 	},
 	{"id":"task6",
 		"task":"Obtain All Mr. E Goods Secret Base Items",
+		"category":"collectibles",
 		"row": 3,
-		"col": 2,
+		"col": 7,
 		"splitCol": 2,
 		"sort":"alpha",
 		"subtasks":[
@@ -108,8 +115,9 @@
 	},
 	{"id":"task7",
 		"task":"Collect All Poketch Applications",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 5,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Digital Clock"},
@@ -141,8 +149,9 @@
 	},
 	{"id":"task8",
 		"task":"Battle Tower Streaks",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 13,
 		"subtasks":[
 			{"id":"sub1", "task":"Single Battles"},
 			{"id":"sub2", "task":"Defeat Tower Tycoon Palmer"},
@@ -152,8 +161,9 @@
 	},
 	{"id":"task9",
 		"task":"Collect All 3 Ribbon Society Ribbons",
+		"category":"collectibles",
 		"row": 3,
-		"col": 2,
+		"col": 8,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Gorgeous Ribbon", "tooltip":"10,000"},
 			{"id":"sub2", "task":"Obtain Royal Ribbon", "tooltip":"100,000"},
@@ -162,13 +172,14 @@
 	},
 	{"id":"task10",
 		"task":"Obtain Black Trainer Card",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 6,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
 			{"id":"sub3", "task":"Play 1 online Underground Capture the Flag Mtach"},
-			{"id":"sub4", "task":"Complete the National Dex (482 PKMN)"},
+			{"id":"sub4", "task":"Complete the National Dex (482 PKMN)", "tooltip":"This discounts; Mew, Lugia, Ho-oh, Celebi, Jirachi, Deoxys, Phione, Manaphy, Darkrai, Shaymin & Arceus"},
 			{"id":"sub5", "task":"Complete 100 Wins in Battle Tower"}
 		]
 	}
