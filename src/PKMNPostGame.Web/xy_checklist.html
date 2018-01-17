@@ -7,9 +7,9 @@
 	<title>XY Post Game Checklist</title>
 
 	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -20,8 +20,10 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/postgame_checklist.css">
+	<link rel="stylesheet" href="css/print.css">
+
 	<script src="js/build_menu.js"></script>
-	<script src="js/postgame_checklist.js"></script>
+	<script src="js/postgame_checklist2.js"></script>
 	
 	<script>
 		$(function()
@@ -35,9 +37,12 @@
 				chk_onClick(e, "xypost");
 			});
 			
+			LoadCollapseState("xy");
+
 			ChangeSpanToImages("xy");
 		});		
 	</script>
+
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,6 +52,14 @@
   ga('create', 'UA-58634167-1', 'auto');
   ga('send', 'pageview');
 
+	</script>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+		google_ad_client: "ca-pub-6830917346606244",
+		enable_page_level_ads: true
+	  });
 </script>
 </head>
 <body>
@@ -62,8 +75,7 @@
           </button>
           <a class="navbar-brand" href="../index.html">Pokemon Checklists</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-      </div>
+        <div id="navbar" class="collapse navbar-collapse"></div>
       </div>
     </nav>
 	
@@ -74,7 +86,8 @@
 			</div>
 			<div class="credit col-sm-12 col-xs-12">
 				Credit for this checklist goes to <a target="_blank" href="http://technophonix.tumblr.com/">technophonix</a>.<br/>
-				<span style="font-size:14pt">See a problem or issue? Let me know on Twitter <a href="https://twitter.com/PokemonPostGame">@PokemonPostGame</a></span>
+				<span style="font-weight: bold; font-size:12pt">See a problem or issue? Let me know on Twitter <a href="https://twitter.com/PokemonPostGame">@PokemonPostGame</a></span><br/>
+				or via email: <a href="mailto:PkmnPostGame@gmail.com">PkmnPostGame@gmail.com</a><br/>
 			</div>
 			
 		</div>
@@ -86,34 +99,188 @@
 				<span class="teamLogo-header yLogo" alt="Y Logo" ></span>
 			</div>
 			<div class="col-lg-4 col-lg-pull-3 col-sm-4 col-sm-pull-2 col-xs-12">
-				<div class="badge-header-md">
-					<div class="badge-header-contents" style="width:280px;" >
-						<span class="badge-sm xyBugBadge" alt="Bug Badge" ></span>
-						<span class="badge-sm xyCliffBadge" alt="Cliff Badge" ></span>
-						<span class="badge-sm xyRumbleBadge" alt="Rumble Badge" ></span>
-						<span class="badge-sm xyPlantBadge" alt="Plant Badge" ></span>
-						<span class="badge-sm xyVoltageBadge" alt="Voltage Badge" ></span>
-						<span class="badge-sm xyFairyBadge" alt="Fairy Badge" ></span>
-						<span class="badge-sm xyPsychicBadge" alt="Psychic Badge" ></span>
-						<span class="badge-sm xyIcebergBadge" alt="Iceberg Badge" ></span>
-					</div>
+				<div class="badge-header">
+					<span class="badge-sm xyBugBadge" alt="Bug Badge" ></span>
+					<span class="badge-sm xyCliffBadge" alt="Cliff Badge" ></span>
+					<span class="badge-sm xyRumbleBadge" alt="Rumble Badge" ></span>
+					<span class="badge-sm xyPlantBadge" alt="Plant Badge" ></span>
+					<span class="badge-sm xyVoltageBadge" alt="Voltage Badge" ></span>
+					<span class="badge-sm xyFairyBadge" alt="Fairy Badge" ></span>
+					<span class="badge-sm xyPsychicBadge" alt="Psychic Badge" ></span>
+					<span class="badge-sm xyIcebergBadge" alt="Iceberg Badge" ></span>
 				</div>
 			</div>			
 		</div>
+		<div class="row">
+			<div class="col-sm-offset-1 col-xs-11">
+				<p>Sections can be expanded or collapsed by clicking the section title next to the chevron ( <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> ).</p>
+			</div>
+		</div>
 		<div id="row3" class="row">
-			<div id="col1" class="col-lg-5 col-lg-offset-2 col-sm-6 col-xs-12">
-			</div>
-			<div id="col2" class="col-lg-5 col-sm-6 col-xs-12">
+			<div id="col1" class="col-sm-11 col-sm-offset-1 col-xs-12">
+				<div class="panel-group catchemall">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#catchemall"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Gotta Catch 'Em All</a>
+							</h4>
+						</div>
+						<div id="catchemall" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-6">
+									<div id="panel3-1" class="panel-body"></div>
+								</div>
+								<div class="col-sm-6">
+									<div id="panel3-2" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-group legendary">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#legendary"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Legendary</a>
+							</h4>
+						</div>
+						<div id="legendary" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-6">
+									<div id="panel3-3" class="panel-body"></div>
+								</div>
+								<div class="col-sm-6">
+									<div id="panel3-4" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-group upgrades">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#upgrades"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Upgrades</a>
+							</h4>
+						</div>
+						<div id="upgrades" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-6">
+									<div id="panel3-5" class="panel-body"></div>
+								</div>
+								<div class="col-sm-6">
+									<div id="panel3-6" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="panel-group megastones">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#megastones"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Mega Stones</a>
+							</h4>
+						</div>
+						<div id="megastones" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-12">
+									<div id="panel3-12" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-group battle">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#battle"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Battle</a>
+							</h4>
+						</div>
+						<div id="battle" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-6">
+									<div id="panel3-13" class="panel-body"></div>
+								</div>
+								<div class="col-sm-6">
+									<div id="panel3-14" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-group epilogue">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#epilogue"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Epilogue</a>
+							</h4>
+						</div>
+						<div id="epilogue" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-12">
+									<div id="panel3-15" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-group activities">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="title-collapse" data-toggle="collapse" href="#activities"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Activities</a>
+							</h4>
+						</div>
+						<div id="activities" class="panel-collapse collapse">
+							<div class="row">
+								<div class="col-sm-6">
+									<div id="panel3-17" class="panel-body"></div>
+								</div>
+								<div class="col-sm-6">
+									<div id="panel3-18" class="panel-body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div id="row4" class="row biglist">
-			<div id="col3" class="col-sm-11 col-sm-offset-1"></div>
+		<div id="row8" class="row">
+			<div id="col8" class="col-sm-11 col-sm-offset-1">
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						<h4 class="panel-title">
+							<a class="title-collapse" data-toggle="collapse" href="#collapse8"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> TMs</a>
+						</h4>
+						</div>
+						<div id="collapse8" class="panel-collapse collapse">
+							<div id="panel8-8" class="panel-body"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div id="row5" class="row biglist">
-			<div id="col4" class="col-sm-11 col-sm-offset-1"></div>
+		<div id="row9" class="row">
+			<div id="col9" class="col-sm-11 col-sm-offset-1">
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						<h4 class="panel-title">
+							<a class="title-collapse" data-toggle="collapse" href="#collapse9"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Berries</a>
+						</h4>
+						</div>
+						<div id="collapse9" class="panel-collapse collapse">
+							<div id="panel9-9" class="panel-body"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="row10" class="row">
 			<div id="spacer" class="col-sm-11 col-sm-offset-1">
+			<br/>
 			<br/>
 			<br/>
 			<br/>

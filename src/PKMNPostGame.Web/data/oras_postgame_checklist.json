@@ -1,8 +1,10 @@
 {"oras":[
 	{"id":"task1",
 		"task":"Complete the OR / AS Hoenn Pokedex (211)",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain 'Platinum Crowns' on All Routes"},
 			{"id":"sub2", "task":"Capture Groudon / Kyogre (Cave of Origin)", "formats":[{"word":"Groudon","format":"ruby"},{"word":"Kyogre","format":"sapphire"}]},
@@ -17,9 +19,11 @@
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 3,
 		"sort":"alpha",
+		"splitCol":3,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Regigigas (Island Cave)", "tooltip":"Available at different times"},
 			{"id":"sub2", "task":"Capture Ho-oh / Lugia (Sea Mauville)"},
@@ -44,8 +48,9 @@
 	},
 	{"id":"task3",
 		"task":"Complete National Dex (719)",
+		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Johto Starter From Prof. Birch"},
 			{"id":"sub2", "task":"Obtain Unova Starter From Prof. Birch"},
@@ -54,9 +59,11 @@
 	},
 	{"id":"task4",
 		"task":"Collect All \"New\" Mega Stones",
+		"category":"megastones",
 		"row": 3,
-		"col": 1,
+		"col": 12,
 		"sort":"alpha",
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Beedrill", "spoiler":"(Sea Mauville)", "tooltip":"From Beginning"},
 			{"id":"sub2", "task":"Pidgeot", "spoiler":"(Rustboro - Show Mr. Stone the Intriguing Stone)", "tooltip":"From Beginning"},
@@ -84,14 +91,16 @@
 	},
 	{"id":"task5",
 		"task":"Complete All Master Rank Pokemon Contests",
+		"category":"activities",
 		"row": 3,
-		"col": 1,
+		"col": 18,
 		"subtasks":[]
 	},
 	{"id":"task6",
 		"task":"Obtain Both Bicycles (Acro & Mach Bikes)",
+		"category":"activities",
 		"row": 3,
-		"col": 1,
+		"col": 17,
 		"subtasks":[
 			{"id":"sub1", "task":"Show Mach bike to Hex Maniac (Route 111)"},
 			{"id":"sub2", "task":"Show Acro bike to Bird Keeper (Route 119)"},
@@ -100,8 +109,9 @@
 	},
 	{"id":"task7",
 		"task":"Collect All 100 Technical Machines (TMs)",
-		"row": 4,
-		"col": 3,
+		"category":"tms",
+		"row": 8,
+		"col": 8,
 		"splitCol": 4,
 		"sort":"alpha",
 		"subtasks":[
@@ -209,8 +219,9 @@
 	},
 	{"id":"task8",
 		"task":"Berry Checklist",
-		"row": 5,
-		"col": 4,
+		"category":"berry",
+		"row": 9,
+		"col": 9,
 		"splitCol": 4,
 		"sort":"alpha",
 		"subtasks":[
@@ -284,8 +295,10 @@
 	},
 	{"id":"task9",
 		"task":"Complete the Delta Episode Sub-Plot",
+		"category":"epilogue",
 		"row": 3,
-		"col": 2,
+		"col": 15,
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"1. Encounter Zinnia In Littleroot"},
 			{"id":"sub2", "task":"2. Defeat Courtney / Matt in Petalburg","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
@@ -306,8 +319,10 @@
 	},
 	{"id":"task10",
 		"task":"Complete Regular & Super Battle Maison Battles",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 13,
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Single Battle", "multicheck":2},
 			{"id":"sub2", "task":"Double Battle", "multicheck":2},
@@ -318,21 +333,24 @@
 	},
 	{"id":"task11",
 		"task":"Rematch \"Mega\" Elite Four Post-Delta Episode",
+		"category":"battle",
 		"row": 3,
-		"col": 2
+		"col": 14
 	},
 	{"id":"task12",
 		"task":"Rematch Wally at the Battle Resort",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Rematch Wally After Beating Super Battle"}
 		]
 	},
 	{"id":"task13",
 		"task":"Complete All Mauville Food Court Battles",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 14,
 		"subtasks":[
 			{"id":"sub1", "task":"Village Sub Combo (Single)"},
 			{"id":"sub2", "task":"Magnemite Croquette (Double)"},
@@ -341,8 +359,9 @@
 	},
 	{"id":"task14",
 		"task":"Obtain Gold Trainer Card",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 5,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four", "default":"true"},
 			{"id":"sub2", "task":"Complete the Hoenn Dex"},
@@ -351,9 +370,11 @@
 	},
 	{"id":"task16",
 		"task":"Collect All \"Retro\" Mega Stones",
+		"category":"megastones",
 		"row": 3,
-		"col": 2,
+		"col": 12,
 		"sort":"alpha",
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub","task":"Venusaur", "spoiler":"(Route 119)", "tooltip":"After Primal Groudon/Kyogre narrative"},
 			{"id":"sub","task":"Charizard X", "spoiler":"(Fiery Path)", "tooltip":"After Primal Groudon/Kyogre narrative"},
@@ -387,8 +408,9 @@
 	},
 	{"id":"task15",
 		"task":"Complete All Trick House Chambers",
+		"category":"activities",
 		"row": 3,
-		"col": 2,
+		"col": 18,
 		"subtasks":[
 			{"id":"sub1", "task":"Chamber 1 - Cut"},
 			{"id":"sub2", "task":"Chamber 2 - Rock Smash"},
@@ -400,8 +422,9 @@
 	},
 	{"id":"task17",
 		"task":"Achieve All Ranks in Secret Base Capture the Flag",
+		"category":"activities",
 		"row": 3,
-		"col": 1,
+		"col": 17,
 		"subtasks":[
 			{"id":"sub1", "task":"Bronze Rank - 30 Flags (Blackboard)"},
 			{"id":"sub2", "task":"Silver Rank - 100 Flags (Jukebox)"},
@@ -411,8 +434,9 @@
 	},
 	{"id":"task18",
 		"task":"Obtain Elegant Items from Glass Workshop",
+		"category":"activities",
 		"row": 3,
-		"col": 1,
+		"col": 17,
 		"subtasks":[
 			{"id":"sub1", "task":"Elegant Chair"},
 			{"id":"sub2", "task":"Elegant Desk"}
@@ -420,8 +444,9 @@
 	},
 	{"id":"task19",
 		"task":"Obtain Master Rank from Battle Institute",
+		"category":"battle",
 		"row": 3,
-		"col": 1,
+		"col": 13,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Beginner Rank"},
@@ -434,19 +459,22 @@
 	},
 	{"id":"task20",
 		"task":"Complete Mr. Bonding Subquest",
+		"category":"activities",
 		"row": 3,
-		"col": 2
+		"col": 18
 	},
 	{"id":"task21",
 		"task":"Complete Wattson's New Mauville Subquest",
+		"category":"activities",
 		"row": 3,
-		"col": 2
+		"col": 18
 	},
 	{"id":"task22",
 		"task":"Bonus Story Sequences - Optional & Event",
+		"category":"epilogue",
 		"formats":[{"word":"Optional", "format":"red"}, {"word":"Event", "format":"seafoam"}],
 		"row": 3,
-		"col": 2,
+		"col": 15,
 		"subtasks":[
 			{"id":"sub1", "task":"Event Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac", "formats":[{"word":"Event", "format":"seafoam"}]},
 			{"id":"sub2", "task":"Event Diancie & PKMN Center Gentleman", "formats":[{"word":"Event", "format":"seafoam"}]}
