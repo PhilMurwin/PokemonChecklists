@@ -320,7 +320,7 @@
 	},
 	{"id":"task23",
 		"task":"Collect All Z-Move Crystals",
-		"category":"quests",
+		"category":"zcrystals",
 		"row": 3,
 		"col": 11,
 		"splitCol": 3,
@@ -577,6 +577,7 @@
 
 	{"id":"task40",
 		"task":"Complete the Melemele Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 3,
 		"subtasks":[
@@ -595,6 +596,7 @@
 	},
 	{"id":"task41",
 		"task":"Complete the Akala Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 4,
 		"subtasks":[
@@ -610,6 +612,7 @@
 	},
 	{"id":"task42",
 		"task":"Complete the Ula'ula Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 3,
 		"subtasks":[
@@ -623,6 +626,7 @@
 	},
 	{"id":"task43",
 		"task":"Complete the Poni Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 4,
 		"subtasks":[
@@ -637,6 +641,7 @@
 	},
 	{"id":"task44",
 		"task":"Complete the Aether Paradise Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 3,
 		"subtasks":[

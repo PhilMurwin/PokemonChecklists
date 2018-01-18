@@ -1,6 +1,7 @@
 {"sumo":[
 	{"id":"task1",
 		"task":"Complete the Alola Pokédex",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -12,8 +13,9 @@
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Tapu Koko"},
 			{"id":"sub2", "task":"Capture Tapu Lele"},
@@ -27,12 +29,14 @@
 	},
 	{"id":"task3",
 		"task":"Trade for Alt Version Legendary (Lunala / Solgaleo)",
+		"category":"legendary",
 		"formats":[{"word":"Lunala","format":"moon"},{"word":"Solgaleo","format":"sun"}],
 		"row": 3,
-		"col": 1
+		"col": 3
 	},
 	{"id":"task4",
 		"task":"Catch all Different Oricorio",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -44,8 +48,9 @@
 	},
 	{"id":"task5",
 		"task":"Obtain all the Ultra Beasts",
+		"category":"legendary",
 		"row": 3,
-		"col": 1,
+		"col": 4,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture UB-01 - Nihilego"},
 			{"id":"sub2", "task":"Capture/Trade for UB-02 - Buzzwole", "tooltip":"Only available in Pokémon Sun (Melemele Meadow x2)", "formats":[{"word":"Buzzwole","format":"sun"}]},
@@ -58,6 +63,7 @@
 	},
 	{"id":"task6",
 		"task":"Collect all different colors of Minior",
+		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"splitCol": 2,
@@ -74,8 +80,9 @@
 	},
 	{"id":"task7",
 		"task":"Obtain In-Game Gift Pokémon",
+		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Eevee", "tooltip": "Paniola Ranch - Egg from Nursery"},
 			{"id":"sub2", "task":"Porygon", "tooltip": "Aether House - Visit after defeating Elite Four"},
@@ -86,8 +93,9 @@
 	},
 	{"id":"task8",
 		"task":"Complete all In-Game Pokémon Trades",
+		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade Zubat for Poliwhirl", "tooltip": "Konikoni City Pokemon Center"},
 			{"id":"sub2", "task":"Trade Spearow for Machop", "tooltip": "Route 2 Pokemon Center"},
@@ -100,8 +108,9 @@
 	},
 	{"id":"task9",
 		"task":"Complete all Pokédex side quests",
+		"category":"quests",
 		"row": 3,
-		"col": 1,
+		"col": 7,
 		"subtasks":[
 			{"id":"sub1", "task":"Show Drifloon to the woman at the Hau'oli Pokemon Center"},
 			{"id":"sub2", "task":"Show Cutiefly to the woman at the Route 2 Pokemon Center"},
@@ -119,8 +128,9 @@
 	},
 	{"id":"task10",
 		"task":"Collect all stamps in your Trainer Passport",
+		"category":"quests",
 		"row": 3,
-		"col": 1,
+		"col": 8,
 		"subtasks":[
 			{"id":"sub1", "task":"Become an Official Pokemon Trainer"},
 			{"id":"sub2", "task":"Melemele Trial Completion"},
@@ -141,8 +151,9 @@
 	},
 	{"id":"task14",
 		"task":"Obtain all Poké Finder Upgrades",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 5,
 		"subtasks":[
 			{"id":"sub1", "task":"Version 1 - Normal Pokedex Camera", "tooltip": "Reach Hau'oli City Shopping District"},
 			{"id":"sub2", "task":"Version 2 - Enhanced Zoom", "tooltip": "Reach 1,500 cumulative likes"},
@@ -153,8 +164,9 @@
 	},
 	{"id":"task15",
 		"task":"Use Poké Finder at all Locations",
+		"category":"upgrades",
 		"row": 3,
-		"col": 2,
+		"col": 6,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Hau'oli City - Shopping District", "tooltip":"Pikachu, Growlithe, Rockruff, Meowth"},
@@ -184,8 +196,9 @@
 	},
 	{"id":"task24",
 		"task":"Obtain Eevium Z",
+		"category":"zcrystals",
 		"row": 3,
-		"col": 2,
+		"col": 10,
 		"subtasks":[
 			{"id":"sub1", "task":"Speak with the Veteran Cashier at Thrifty Megamart on Royal Avenue"},
 			{"id":"sub2", "task":"Defeat Vaporeon User", "tooltip": "Trainers school 3F"},
@@ -201,9 +214,10 @@
 	},
 	{"id":"task25",
 		"task":"Collect All Z-Move Crystals",
+		"category":"zcrystals",
 		"row": 3,
-		"col": 2,
-		"splitCol": 2,
+		"col": 11,
+		"splitCol": 3,
 		"sort": "alpha",
 		"subtasks":[
 			{"id":"sub1","task":"Aloraichium Z"},
@@ -239,10 +253,11 @@
 	},
 	{"id":"task26",
 		"task":"Collect All Mega-Evolution Stones",
+		"category":"megastones",
 		"tooltip": "Megastone codes expire on 10/31/2017!!!",
 		"row": 3,
-		"col": 2,
-		"splitCol": 2,
+		"col": 12,
+		"splitCol": 4,
 		"sort": "alpha",
 		"subtasks":[
 			{"id":"sub1","task":"Abomasite", "tooltip":"Mystery Gift Serial Code - SABLEVOLANT, 2017 International Challenge May", "formats":[{"all":"seafoam"}]},
@@ -298,8 +313,9 @@
 	},
 	{"id":"task27",
 		"task":"Battle Tree Standard Challenges",
+		"category":"battle",
 		"row": 3,
-		"col": 1,
+		"col": 13,
 		"subtasks":[
 			{"id":"sub1", "task":"Single"},
 			{"id":"sub2", "task":"Double"},
@@ -308,8 +324,9 @@
 	},
 	{"id":"task28",
 		"task":"Battle Tree Super Challenges",
+		"category":"battle",
 		"row": 3,
-		"col": 1,
+		"col": 13,
 		"subtasks":[
 			{"id":"sub1", "task":"Single"},
 			{"id":"sub2", "task":"Double"},
@@ -318,8 +335,10 @@
 	},
 	{"id":"task29",
 		"task":"Unlock all Battle Styles",
+		"category":"battle",
 		"row": 3,
-		"col": 2,
+		"col": 14,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Normal Style"},
 			{"id":"sub2", "task":"Elegant Style", "tooltip": "Straight away in Malie City Outer Cape"},
@@ -334,6 +353,7 @@
 
 	{"id":"task40",
 		"task":"Complete the Melemele Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 3,
 		"subtasks":[
@@ -351,6 +371,7 @@
 	},
 	{"id":"task41",
 		"task":"Complete the Akala Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 4,
 		"subtasks":[
@@ -365,6 +386,7 @@
 	},
 	{"id":"task42",
 		"task":"Complete the Ula'ula Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 3,
 		"subtasks":[
@@ -376,6 +398,7 @@
 	},
 	{"id":"task43",
 		"task":"Complete the Poni Island Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 4,
 		"subtasks":[
@@ -390,6 +413,7 @@
 	},
 	{"id":"task44",
 		"task":"Complete the Aether Paradise Post Game Activities",
+		"category":"activities",
 		"row": 4,
 		"col": 3,
 		"subtasks":[
@@ -401,8 +425,9 @@
 	},
 	{"id":"task50",
 		"task":"Collect All 100 Technical Machines (TMs)",
-		"row": 6,
-		"col": 6,
+		"category":"tms",
+		"row": 8,
+		"col": 8,
 		"splitCol": 4,
 		"sort": "alpha",
 		"subtasks":[
@@ -510,8 +535,9 @@
 	},
 	{"id":"task51",
 		"task":"Berry Checklist",
-		"row": 7,
-		"col": 7,
+		"category":"berry",
+		"row": 9,
+		"col": 9,
 		"splitCol": 4,
 		"sort": "alpha",
 		"subtasks":[
@@ -570,8 +596,9 @@
 	},
 	{"id":"task52",
 		"task":"Collect all 100 Zygarde Cells",
-		"row": 5,
-		"col": 5,
+		"category":"zygarde",
+		"row": 7,
+		"col": 7,
 		"splitCol": 4,
 		"subtasks":[
 			{"id":"sub1", "task":"Route 1 (Day)"},
