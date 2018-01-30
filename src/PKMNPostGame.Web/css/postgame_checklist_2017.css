@@ -112,6 +112,28 @@
 .rbVolcanoBadge { background: url("../images/rb_Volcano_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbEarthBadge { background: url("../images/rb_Earth_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 
+.gsLogo, .gscLogo { width: 125px; height: 115px; }
+.gsBadge, .gscBadge { width: 30px; height: 30px; }
+.gscHooh { background: url("../images/Ho-Oh.png"); background-size: contain; background-repeat: no-repeat; }
+.gscLugia { background: url("../images/Lugia.png"); background-size: contain; background-repeat: no-repeat; }
+.gscSuicune { background: url("../images/Suicune.png"); background-size: contain; background-repeat: no-repeat;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+.gscSuicune2 { background: url("../images/Suicune2.png"); background-size: contain; background-repeat: no-repeat; }
+.gscZephyrBadge { background: url("../images/hgss_Zephyr_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscHiveBadge { background: url("../images/hgss_Hive_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscPlainBadge { background: url("../images/hgss_Plain_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscFogBadge { background: url("../images/hgss_Fog_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscStormBadge { background: url("../images/hgss_Storm_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscMineralBadge { background: url("../images/hgss_Mineral_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscGlacierBadge { background: url("../images/hgss_Glacier_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.gscRisingBadge { background: url("../images/hgss_Rising_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+
 .sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; }
 .sumoLele { background: url("../images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; }
 .sumoBulu { background: url("../images/TapuBulu.png"); background-size: contain; background-repeat: no-repeat; }
