@@ -350,7 +350,43 @@
 			{"id":"sub8", "task":"Idol Style", "tooltip": "Defeat Master Rank in the Battle Royal"}
 		]
 	},
-
+	{"id":"task30",
+		"task":"Defend Your Title as Champion",
+		"category":"battle",
+		"row": 3,
+		"col": 13,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat Challenger - Faba"},
+			{"id":"sub2", "task":"Defeat Challenger - Gladion"},
+			{"id":"sub3", "task":"Defeat Challenger - Hapu"},
+			{"id":"sub4", "task":"Defeat Challenger - Hau"},
+			{"id":"sub5", "task":"Defeat Challenger - Kukui"},
+			{"id":"sub6", "task":"Defeat Challenger - Molayne"},
+			{"id":"sub7", "task":"Defeat Challenger - Plumeria"},
+			{"id":"sub8", "task":"Defeat Challenger - Ryuki"},
+			{"id":"sub9", "task":"Defeat Challenger - Sophocles"},
+			{"id":"sub10", "task":"Defeat Challenger - Tristan"}
+		]
+	},
+	{"id":"task31",
+		"task":"Purchase All Clothing (Boy / Girl)",
+		"formats":[{"word":"Boy","format":"boy"},{"word":"Girl","format":"girl"}],
+		"category":"fashion",
+		"row": 3,
+		"col": 9,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub", "task":"Shirts (111/99)", "formats":[{"word":"111","format":"boy"},{"word":"99","format":"girl"}]},
+			{"id":"sub", "task":"Bottoms (56,54)", "formats":[{"word":"56","format":"boy"},{"word":"54","format":"girl"}]},
+			{"id":"sub", "task":"Socks (12/31)", "formats":[{"word":"12","format":"boy"},{"word":"31","format":"girl"}]},
+			{"id":"sub", "task":"Shoes (41/43)", "formats":[{"word":"41","format":"boy"},{"word":"43","format":"girl"}]},
+			{"id":"sub", "task":"Hats (33/26)", "formats":[{"word":"33","format":"boy"},{"word":"26","format":"girl"}]},
+			{"id":"sub", "task":"Glasses (20/12)", "formats":[{"word":"20","format":"boy"},{"word":"12","format":"girl"}]},
+			{"id":"sub", "task":"Bags (35/28)", "formats":[{"word":"35","format":"boy"},{"word":"28","format":"girl"}]},
+			{"id":"sub", "task":"Accessories (2)", "formats":[{"all":"girl"}]}
+		]
+	},
 	{"id":"task40",
 		"task":"Complete the Melemele Island Post Game Activities",
 		"category":"activities",

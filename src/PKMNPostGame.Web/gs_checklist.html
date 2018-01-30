@@ -3,8 +3,8 @@
 	<link rel="icon" type="image/png" href="images/pokeball_bullet.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="description" content="After entering the Unova Hall of Fame, there are plenty of post game activities to engage in.  Keep track of your post game adventures with our checklists!">
-	<title>Black &amp; White Post Game Checklist</title>
+	<meta name="description" content="After entering the Johto Hall of Fame, there are plenty of post game activities to engage in.  Keep track of your post game adventures with our checklists!">
+	<title>Gold &amp; Silver Post Game Checklist</title>
 
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,38 +19,47 @@
 	<!-- Custom -->
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
-	<link rel="stylesheet" href="css/postgame_checklist.css">
+	<link rel="stylesheet" href="css/postgame_checklist_2017.css">
 	<link rel="stylesheet" href="css/print.css">
-
+	
 	<script src="js/build_menu.js"></script>
 	<script src="js/postgame_checklist2.js"></script>
+
+	<script>
+	/*
+	* Notes
+	* 
+	* Decent GameFaqs Walkthrough: https://www.gamefaqs.com/gbc/375087-pokemon-crystal-version/faqs/75486
+    * Another: https://www.gamefaqs.com/gbc/375087-pokemon-crystal-version/faqs/13668
+	*/
+	</script>
 	
 	<script>
 		$(function()
 		{
 			BuildMenu();
-			Render("bw","data/bw_postgame_checklist.json", "bwpost");
+			Render("gs","data/gs_postgame_checklist.json", "gspost");
 			
 			$(".postgame_chkLabel[title]" ).tooltip({});
 			
 			$(".postgame_chk").on('click', function(e) {
-				chk_onClick(e, "bwpost");
+				chk_onClick(e, "gspost");
 			});
 			
-			LoadCollapseState("bw");
+			LoadCollapseState("gspost");
 
-			ChangeSpanToImages("bw");
-		});		
+			ChangeSpanToImages("gs");
+		});
 	</script>
 
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58634167-1', 'auto');
-  ga('send', 'pageview');
+	  ga('create', 'UA-58634167-1', 'auto');
+	  ga('send', 'pageview');
 
 	</script>
 
@@ -60,7 +69,7 @@
 		google_ad_client: "ca-pub-6830917346606244",
 		enable_page_level_ads: true
 	  });
-</script>
+	</script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -75,41 +84,39 @@
           </button>
           <a class="navbar-brand" href="../index.html">Pokemon Checklists</a>
         </div>
-		<div id="navbar" class="collapse navbar-collapse"></div>
+        <div id="navbar" class="collapse navbar-collapse">
       </div>
     </nav>
 	
 	<div class="postgame container-fluid">
 		<div id="row1" class="row">
 			<div class="pageTitle col-sm-12 col-xs-12">
-				Pokemon Black &amp; White - Post Game Checklist
+				Pokemon Gold &amp; Silver - Post Game Checklist
 			</div>
 			<div class="credit col-sm-12 col-xs-12">
-				Credit for this checklist goes to <a target="_blank" href="http://technophonix.tumblr.com/">technophonix</a>.<br/>
-				<span style="font-weight: bold; font-size:12pt">See a problem or issue? Let me know on Twitter <a href="https://twitter.com/PokemonPostGame">@PokemonPostGame</a></span><br/>
+				<span style="font-weight: bold; font-size:12pt">See a problem or issue? Let me know on <a href="https://twitter.com/PokemonPostGame">Twitter @PokemonPostGame</a></span><br/>
 				or via email: <a href="mailto:PkmnPostGame@gmail.com">PkmnPostGame@gmail.com</a><br/>
 			</div>
-			
 		</div>
 		<div id="row2" class="row row-header">
 			<div class="col-lg-offset-1 col-sm-3 col-xs-6">
-				<span class="teamLogo-header bwReshiram" alt="Reshiram" ></span>
+				<span class="teamLogo-header gscLogo gscHooh" alt="Ho-oh" ></span>
 			</div>
 			<div class="col-sm-3 col-sm-push-5 col-xs-6">
-				<span class="teamLogo-header bwZekrom" alt="Zekrom" ></span>
+				<span class="teamLogo-header gscLogo gscLugia" alt="Lugia" ></span>
 			</div>
 			<div class="col-lg-4 col-lg-pull-3 col-sm-4 col-sm-pull-2 col-xs-12">
-				<div class="badge-header-md">
-					<span class="badge-md bwTrioBadge" alt="Trio Badge" ></span>
-					<span class="badge-md bwBasicBadge" alt="Basic Badge" ></span>
-					<span class="badge-md bwInsectBadge" alt="Insect Badge" ></span>
-					<span class="badge-md bwBoltBadge" alt="Bolt Badge" ></span>
-					<span class="badge-md bwQuakeBadge" alt="Quake Badge" ></span>
-					<span class="badge-md bwJetBadge" alt="Jet Badge" ></span>
-					<span class="badge-md bwFreezeBadge" alt="Freeze Badge" ></span>
-					<span class="badge-md bwLegendBadge" alt="Legend Badge" ></span>
+				<div class="badge-header">
+					<span class="badge-sm gscBadge gscZephyrBadge" alt="Zephyr Badge" ></span>
+					<span class="badge-sm gscBadge gscHiveBadge" alt="Hive Badge" ></span>
+					<span class="badge-sm gscBadge gscPlainBadge" alt="Plain Badge" ></span>
+					<span class="badge-sm gscBadge gscFogBadge" alt="Fog Badge" ></span>
+					<span class="badge-sm gscBadge gscStormBadge" alt="Storm Badge" ></span>
+					<span class="badge-sm gscBadge gscMineralBadge" alt="Mineral Badge" ></span>
+					<span class="badge-sm gscBadge gscGlacierBadge" alt="Glacier Badge" ></span>
+					<span class="badge-sm gscBadge gscRisingBadge" alt="Rising Badge" ></span>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-xs-11">
@@ -155,8 +162,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="panel-group upgrades">
+                </div>
+                <div class="panel-group upgrades">
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
@@ -170,44 +177,6 @@
 								</div>
 								<div class="col-sm-6">
 									<div id="panel3-6" class="panel-body"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel-group battle">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="title-collapse" data-toggle="collapse" href="#battle"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Battle</a>
-							</h4>
-						</div>
-						<div id="battle" class="panel-collapse collapse">
-							<div class="row">
-								<div class="col-sm-6">
-									<div id="panel3-13" class="panel-body"></div>
-								</div>
-								<div class="col-sm-6">
-									<div id="panel3-14" class="panel-body"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel-group activities">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="title-collapse" data-toggle="collapse" href="#activities"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Activities</a>
-							</h4>
-						</div>
-						<div id="activities" class="panel-collapse collapse">
-							<div class="row">
-								<div class="col-sm-6">
-									<div id="panel3-17" class="panel-body"></div>
-								</div>
-								<div class="col-sm-6">
-									<div id="panel3-18" class="panel-body"></div>
 								</div>
 							</div>
 						</div>
@@ -233,7 +202,6 @@
 		</div>
 		<div id="row10" class="row">
 			<div id="spacer" class="col-sm-11 col-sm-offset-1">
-			<br/>
 			<br/>
 			<br/>
 			<br/>

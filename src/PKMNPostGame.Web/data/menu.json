@@ -1,30 +1,28 @@
 {"menus":[
 	{"itemname":"Home", "link":"../../index.html"},
-	{"itemname":"Gen 4",
+	{"itemname":"Gen 1-2",
+		"isgroup":"1",
+		"menuitems":[
+			{"itemname":"Red & Blue Post Game", "link":"rb_checklist.html"},
+			{"itemname":"Gold & Silver Post Game", "link":"gs_checklist.html"},
+			{"itemname":"Crystal Post Game", "link":"gsc_checklist.html"}
+		]
+	},
+	{"itemname":"Gen 4-5",
 		"isgroup":"1",
 		"menuitems":[
 			{"itemname":"D & P Post Game", "link":"dp_checklist.html"},
 			{"itemname":"Platinum Post Game", "link":"plat_checklist.html"},
-			{"itemname":"HG & SS Post Game", "link":"hgss_checklist.html"}
-		]
-	},
-	{"itemname":"Gen 5",
-		"isgroup":"1",
-		"menuitems":[
+			{"itemname":"HG & SS Post Game", "link":"hgss_checklist.html"},
 			{"itemname":"B & W Post Game", "link":"bw_checklist.html"},
 			{"itemname":"B & W 2 Post Game", "link":"b2w2_checklist.html"}
 		]
 	},
-	{"itemname":"Gen 6",
+	{"itemname":"Gen 6-7",
 		"isgroup":"1",
 		"menuitems":[
 			{"itemname":"X & Y Post Game", "link":"xy_checklist.html"},
-			{"itemname":"ORAS Post Game", "link":"oras_checklist.html"}
-		]
-	},
-	{"itemname":"Gen 7",
-		"isgroup":"1",
-		"menuitems":[
+			{"itemname":"ORAS Post Game", "link":"oras_checklist.html"},
 			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"},
 			{"itemname":"Ultra Sun & Ultra Moon Post Game", "link":"usum_checklist.html"}
 		]
