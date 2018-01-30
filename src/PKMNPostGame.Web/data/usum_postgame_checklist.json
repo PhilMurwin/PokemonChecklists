@@ -548,6 +548,25 @@
 			{"id":"sub10", "task":"Reach Level 100"}
 		]
 	},
+	{"id":"task32",
+		"task":"Defend Your Title as Champion",
+		"category":"battle",
+		"row": 3,
+		"col": 13,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat Challenger - Gladion", "tooltip":"Appears on rare occasions a month after you first defeat Necrozma"},
+			{"id":"sub2", "task":"Defeat Challenger - Guzma"},
+			{"id":"sub3", "task":"Defeat Challenger - Hapu"},
+			{"id":"sub4", "task":"Defeat Challenger - Hau"},
+			{"id":"sub5", "task":"Defeat Challenger - Kukui"},
+			{"id":"sub6", "task":"Defeat Challenger - Lusamine", "tooltip":"Appears on the first of each month"},
+			{"id":"sub7", "task":"Defeat Challenger - Plumeria"},
+			{"id":"sub8", "task":"Defeat Challenger - Ryuki"},
+			{"id":"sub9", "task":"Defeat Challenger - Sophocles"},
+			{"id":"sub10", "task":"Defeat Challenger - Tristan"}
+		]
+	},
 	
 	{"id":"task39",
 		"task":"Collect all the different Outfits",
@@ -607,7 +626,8 @@
 			{"id":"sub5", "task":"Meet Colress on Route 8 to receive drives for Genesect"},
 			{"id":"sub6", "task":"Visit Mallow's restaurant for several gifts", "tooltip": "Konikoni City"},
 			{"id":"sub7", "task":"Master Battle Royal's at the Battle Royal Dome on Royal Avenue"},
-			{"id":"sub8", "task":"Defeat Lana and her sisters to earn a Deep Sea Scale and Tooth", "tooltip":"Konikoni City"}
+			{"id":"sub8", "task":"Defeat Lana and her sisters to earn a Deep Sea Scale and Tooth", "tooltip":"Konikoni City"},
+			{"id":"sub9", "task":"Show a Pokemon from Johto to get Apricorn Balls", "tooltip":"Show a Pokemon from Silver/Gold Virtual Console to the Director at Game Freaks Office"}
 		]
 	},
 	{"id":"task42",
@@ -636,7 +656,8 @@
 			{"id":"sub4", "task":"Explore entire east half of Poni Island, which was not accessible before"},
 			{"id":"sub5", "task":"Hatch 20 Eggs and get Judge Function from Ace Trainer at Battle Tree", "tooltip": "Judge Function is an upgrade to the PC Boxes"},
 			{"id":"sub6", "task":"Bring Solgaleo or Lunala to the Altar of the Sunne/Moone to swap day for night", "formats":[{"word":"Solgaleo", "format":"sun"}, {"word":"Lunala", "format":"moon"},{"word":"Sunne","format":"sun"},{"word":"Moone","format":"moon"}]},
-			{"id":"sub7", "task":"Defeat the Sightseer in Seafolk Village Pokemon Center to receive 6 Nuggets"}
+			{"id":"sub7", "task":"Defeat the Sightseer in Seafolk Village Pokemon Center to receive 6 Nuggets"},
+			{"id":"sub8", "task":"Get Type:Null and memory drives from Wicke", "tooltip": "On Ancient Poni Path"}
 		]
 	},
 	{"id":"task44",
@@ -648,8 +669,7 @@
 			{"id":"sub1", "task":"Talk to the Janitor outside Aether Paradise after completing Episode Rainbow Rocket"},
 			{"id":"sub2", "task":"Defeat Faba to get a Dubious Disc", "tooltip": "1F Entrance"},
 			{"id":"sub3", "task":"Receive two Big Malasadas from Wicke"},
-			{"id":"sub4", "task":"Receive DNA Splicers, Prison Bottle, and Soul Dew from Aether Foundation Employee", "tooltip": "B2F Lab Area"},
-			{"hide":true, "id":"sub5", "task":"Get Type:Null and memory drives from Gladion", "tooltip": "2F Conservation area"}
+			{"id":"sub4", "task":"Receive DNA Splicers, Prison Bottle, and Soul Dew from Aether Foundation Employee", "tooltip": "B2F Lab Area"}
 		]
 	},
 	
