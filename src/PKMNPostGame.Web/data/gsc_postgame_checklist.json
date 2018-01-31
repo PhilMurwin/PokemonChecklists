@@ -69,6 +69,39 @@
 			{"id":"sub2", "task":"Radio", "tooltip": "Goldenrod Radio Tower (front desk); Lavender Radio Tower (EXPN Card)"}
 		]
 	},
+
+	{"id":"task10",
+		"task":"Explore the Kanto Region",
+		"category":"epilogue",
+		"row": 3,
+		"col": 15,
+		"subtasks":[
+			{"id":"sub1", "task":"Restore power to the Kanto Power Plant", "tooltip":"Defeat the Team Rocket grunt in Cerulean City Gym to obtain the missing part"},
+			{"id":"sub2", "task":"Find Champion Blue on Cinnabar Island", "tooltip":"Finding him will return him to the Viridian Gym to be battled"},
+			{"id":"sub3", "task":"Defeat Blaine on the Seafoam Islands"},
+			{"id":"sub4", "task":"Defeat Red", "tooltip":"After collecting 16 badges find and defeat Red in Silver Cave"},
+			{"id":"sub5", "task":"Return the lost doll to the woman in Saffron City"},
+			{"id":"sub6", "task":"Obtain the Focus Band at the Fighting Dojo"},
+			{"id":"sub7", "task":"Defeat the Karate King in Mt. Mortar"}
+		]
+	},
+	{"id":"task11",
+		"task":"Collect all 8 Kanto Badges",
+		"category":"epilogue",
+		"row": 3,
+		"col": 16,
+		"subtasks":[
+			{"id":"sub1", "task":"Boulder"},
+			{"id":"sub2", "task":"Cascade"},
+			{"id":"sub3", "task":"Thunder"},
+			{"id":"sub4", "task":"Rainbow"},
+			{"id":"sub5", "task":"Soul"},
+			{"id":"sub6", "task":"Marsh"},
+			{"id":"sub7", "task":"Volcano"},
+			{"id":"sub8", "task":"Earth"}
+		]
+	},
+	
 	{"id":"task7",
 		"task":"Collect All 50 Technical Machines (TMs)",
 		"category":"tm",
