@@ -36,7 +36,7 @@
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade Bellsprout for Onix", "tooltip": "Violet City House"},
-			{"id":"sub2", "task":"Trade Drowzee for Machop", "tooltip": "Goldenrod City Department Store"},
+			{"id":"sub2", "task":"Trade Abra for Machop", "tooltip": "Goldenrod City Department Store"},
 			{"id":"sub3", "task":"Trade Krabby for Voltorb", "tooltip": "Olivine City House"},
 			{"id":"sub4", "task":"Trade female Dragonair for Dodrio", "tooltip": "Blackthorn City House"},
 			{"id":"sub5", "task":"Trade Haunter for Xatu", "tooltip": "Pewter City Pokemon Center?"},
