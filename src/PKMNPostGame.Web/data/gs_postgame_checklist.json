@@ -52,8 +52,7 @@
 			{"id":"sub2", "task":"Capture Entei", "tooltip":"Roaming Johto"},
 			{"id":"sub3", "task":"Capture Suicune", "tooltip":"Johto"},
 			{"id":"sub4", "task":"Capture Lugia", "tooltip":"Whirl Islands"},
-			{"id":"sub5", "task":"Capture Ho-oh", "tooltip":"Tin Tower"},
-			{"id":"sub6", "task":"Capture Celebi", "tooltip":"Obtain the GS Ball and speak with Kurt in Azalea Town"}
+			{"id":"sub5", "task":"Capture Ho-oh", "tooltip":"Tin Tower"}
 		]
 	},
 	{"id":"task5",
@@ -79,7 +78,7 @@
 			{"id":"sub4", "task":"Defeat Red", "tooltip":"After collecting 16 badges find and defeat Red in Silver Cave"},
 			{"id":"sub5", "task":"Return the lost doll to the woman in Saffron City"},
 			{"id":"sub6", "task":"Obtain the Focus Band at the Fighting Dojo"},
-			{"id":"sub7", "task":"Defeat the Karate King in Mt. Mortar"}
+			{"hide": true, "id":"sub7", "task":"Defeat the Karate King in Mt. Mortar"}
 		]
 	},
 	{"id":"task11",
