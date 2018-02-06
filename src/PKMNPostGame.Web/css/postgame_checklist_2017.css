@@ -5,7 +5,7 @@
 	margin-left: 5px;
 	content: " ";
 	background: url("../images/pokeball_bullet.png");
-	background-size: 100%;  
+	background-size: 100%;
 }
 
 .tooltip {
@@ -92,6 +92,10 @@
 	margin-top: 10px;
 }
 
+.taskimg {
+	margin-left: 5px;
+}
+
 .subtask {
 	font-family: Verdana,Geneva,sans-serif;
 	font-size: 8pt;
@@ -100,9 +104,11 @@
 }
 
 .rbLogo { width: 125px; height: 115px; }
-.rbBadge { width: 30px; height: 30px; }
+.rbyLogo { height: 100px; }
+.rbBadge, .rbyBadge { width: 30px; height: 30px; }
 .rbCharizard { background: url("../images/Charizard.png"); background-size: contain; background-repeat: no-repeat; }
 .rbBlastoise { background: url("../images/Blastoise.png"); background-size: contain; background-repeat: no-repeat; }
+.rbyPikachu { background: url("../images/Pikachu.png"); background-size: contain; background-repeat: no-repeat; }
 .rbBoulderBadge { background: url("../images/rb_Boulder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbCascadeBadge { background: url("../images/rb_Cascade_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbThunderBadge { background: url("../images/rb_Thunder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
@@ -143,7 +149,6 @@
 .usumBadge { width: 50px; height: 50px; }
 .usumLunala { background: url("../images/ultra-lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .usumSolgaleo { background: url("../images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
-
 
 @media only screen
 and (max-device-width: 750px) 

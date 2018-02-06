@@ -4,6 +4,7 @@
 		"isgroup":"1",
 		"menuitems":[
 			{"itemname":"Red & Blue Post Game", "link":"rb_checklist.html"},
+			{"itemname":"Yellow Post Game", "link":"rby_checklist.html"},
 			{"itemname":"Gold & Silver Post Game", "link":"gs_checklist.html"},
 			{"itemname":"Crystal Post Game", "link":"gsc_checklist.html"}
 		]
