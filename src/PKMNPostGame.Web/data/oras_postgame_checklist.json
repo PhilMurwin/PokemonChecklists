@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the OR / AS Hoenn Pokedex (211)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"splitCol":2,
@@ -49,6 +50,7 @@
 	{"id":"task3",
 		"task":"Complete National Dex (719)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 2,
 		"subtasks":[
@@ -99,6 +101,7 @@
 	{"id":"task6",
 		"task":"Obtain Both Bicycles (Acro & Mach Bikes)",
 		"category":"activities",
+		"markTask":false,
 		"row": 3,
 		"col": 17,
 		"subtasks":[

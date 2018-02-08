@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Johto Pokedex (251)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"subtasks":[

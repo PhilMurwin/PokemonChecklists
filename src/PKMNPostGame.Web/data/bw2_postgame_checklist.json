@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Unova Pokedex (297)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -20,6 +21,7 @@
 	{"id":"task3",
 		"task":"Complete the National Pokedex (636)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"splitCol": 2,

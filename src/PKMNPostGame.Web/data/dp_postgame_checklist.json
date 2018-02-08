@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Sinnoh Pokedex (151)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"sort":"alpha",
@@ -178,7 +179,7 @@
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
-			{"id":"sub3", "task":"Play 1 online Underground Capture the Flag Mtach"},
+			{"id":"sub3", "task":"Play 1 online Underground Capture the Flag Match"},
 			{"id":"sub4", "task":"Complete the National Dex (482 PKMN)", "tooltip":"This discounts; Mew, Lugia, Ho-oh, Celebi, Jirachi, Deoxys, Phione, Manaphy, Darkrai, Shaymin & Arceus"},
 			{"id":"sub5", "task":"Complete 100 Wins in Battle Tower"}
 		]

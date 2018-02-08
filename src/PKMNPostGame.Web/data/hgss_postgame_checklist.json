@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the HG/SS Johto Pokedex (256)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"subtasks":[

@@ -163,6 +163,8 @@ function BuildCheckbox(chkIndex, task)
 	var text = task.task;
 	var formats = task.formats;
 	var tasktip = task.tooltip;
+	var taskimg = task.img;
+	var taskpkmn = task.pkmn;
 	var spoiler = "";
 	var tooltip = "";	
 	
@@ -182,11 +184,63 @@ function BuildCheckbox(chkIndex, task)
 		formattedText = FormatText(formattedText, formats);
 	}
 
+	var markTask = "";
+	if (task.markTask !== undefined)
+	{
+		markTask = " markTask";
+	}
+
 	var chkValue = Retrieve(id);
 	var checked = chkValue !== null && chkValue ? "checked" : "";
-	var chk = $("<label class=\"postgame_chkLabel\"" + tooltip + "for='" + id + "'><input class=\"postgame_chk\" type='checkbox' id='" + id + "' " + checked + " />" + formattedText + "</label>");
+	var chkInput = "<input class=\"postgame_chk" + markTask + "\" type='checkbox' id='" + id + "' " + checked + " />";
+	
+	var chkImg = "";
+	if (taskimg !== undefined)
+	{
+		chkImg = "<img class=\"taskimg\" src='images/" + taskimg + "'/><span class=\"pkspr pkmn-unown\"></span>"
+	}
+	
+	var chk = $("<label class=\"postgame_chkLabel\"" + tooltip + "for='" + id + "'>"
+		+ chkInput
+		+ RenderPkmnSprite(taskpkmn)
+		+ formattedText
+		+ "</label>");
+
+	chk.append(chkImg);
 	
 	return chk;
+}
+
+function RenderPkmnSprite(taskpkmn)
+{
+	var chkPkmn = "";
+	if (taskpkmn !== undefined)
+	{
+		if (taskpkmn.pkmn !== undefined)
+		{
+			var pkmnsprform = "";
+			if (taskpkmn.form !== undefined)
+			{
+				pkmnsprform = " form-" + taskpkmn.form;
+			}
+			var pkmnsprcolor = "";
+			if (taskpkmn.color !== undefined)
+			{
+				pkmnsprcolor = " color-" + taskpkmn.color;
+			}
+			chkPkmn = "<span class=\"pkspr pkmn-" + taskpkmn.pkmn.toLowerCase() + pkmnsprform + pkmnsprcolor + "\"></span>";
+		}
+		else if (taskpkmn.keyitem !== undefined)
+		{
+			chkPkmn = "<span class=\"pkspr key-item-" + taskpkmn.keyitem.toLowerCase() + "\"></span>";
+		}
+		else if (taskpkmn.berry !== undefined)
+		{
+			chkPkmn = "<span class=\"pkspr berry-" + taskpkmn.berry.toLowerCase() + "\"></span>";
+		}
+	}
+
+	return chkPkmn;
 }
 
 function FormatText(text, formats)
@@ -232,7 +286,8 @@ function chk_onClick(e, binKey)
 	var id = e.target.id;
 	
 	markSubtasks(id);
-	
+	markTask(id);
+
 	SaveCheckboxState(id);
 }
 
@@ -329,6 +384,34 @@ function SaveCheckboxState(id)
 	else
 	{
 		localStorage.removeItem(key);
+	}
+}
+
+function markTask(taskid)
+{
+	// Make sure we are on a subtask
+	if (taskid.indexOf("sub") > 0 && startsWith(taskid, "task"))
+	{
+		var parentDiv = $("#"+taskid).closest(".task");
+		var parentTask = parentDiv.find(".postgame_chk").first();
+		var subtasks = parentDiv.find(".subtask");
+		
+		// If parent task does not have the markTask class and we found subtask divs continue
+		if (!parentTask.hasClass('markTask') && (subtasks !== undefined || subtasks !== null))
+		{
+			var isTaskDone = true;
+
+			// Loop through subtask divs to confirm all are checked
+			for(var s=0; s < subtasks.length; s++)
+			{
+				// Find subtask checkbox object
+				var chk = $(subtasks[s]).find(".postgame_chk");
+				isTaskDone = isTaskDone && chk.is(":checked");
+			}
+			
+			parentTask.prop('checked', isTaskDone);
+			SaveCheckboxState(parentTask.attr("id"));
+		}
 	}
 }
 

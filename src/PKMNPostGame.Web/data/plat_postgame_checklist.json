@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Platinum Sinnoh Pokedex (151)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"sort":"alpha",

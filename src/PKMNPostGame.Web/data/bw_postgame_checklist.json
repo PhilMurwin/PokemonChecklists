@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Unova Pokedex (152)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -13,6 +14,7 @@
 	{"id":"task2",
 		"task":"Trade for Alt Version Legendary (Tornadus / Thundurus)",
 		"category":"legendary",
+		"markTask":false,
 		"row":3,
 		"col":3,
 		"subtasks":[
@@ -28,6 +30,7 @@
 	{"id":"task4",
 		"task":"Complete the National Pokedex (636)",
 		"category":"catchemall",
+		"markTask":false,
 		"row":3,
 		"col":1,
 		"subtasks":[

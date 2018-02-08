@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Kalos Pokedex",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"subtasks":[
@@ -15,6 +16,7 @@
 	{"id":"task2",
 		"task":"Locate & Capture Articuno, Zapdos OR Moltres",
 		"category":"legendary",
+		"markTask":false,
 		"row": 3,
 		"col": 3,
 		"subtasks":[

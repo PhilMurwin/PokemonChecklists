@@ -2,6 +2,7 @@
 	{"id":"task1",
 		"task":"Complete the Kanto Pokedex (150)",
 		"category":"catchemall",
+		"markTask":false,
 		"row": 3,
 		"col": 1,
 		"subtasks":[
