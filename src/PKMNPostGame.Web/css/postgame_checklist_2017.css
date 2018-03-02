@@ -25,6 +25,10 @@
 	color: red;
 }
 
+.green {
+	color: green;
+}
+
 .seafoam {
 	color: #24B976;
 }
@@ -105,10 +109,18 @@
 
 .rbLogo { width: 125px; height: 115px; }
 .rbyLogo { height: 100px; }
-.rbBadge, .rbyBadge { width: 30px; height: 30px; }
+.rsLogo, .rseLogo { height: 150px; }
+.frlgLogo { height: 100px; }
+.rbBadge, .rbyBadge, .rsBadge, .rseBadge, .frlgBadge { width: 30px; height: 30px; }
 .rbCharizard { background: url("../images/Charizard.png"); background-size: contain; background-repeat: no-repeat; }
 .rbBlastoise { background: url("../images/Blastoise.png"); background-size: contain; background-repeat: no-repeat; }
 .rbyPikachu { background: url("../images/Pikachu.png"); background-size: contain; background-repeat: no-repeat; }
+.rsGroudon { background: url("../images/Groudon.png"); background-size: contain; background-repeat: no-repeat; }
+.rsKyogre { background: url("../images/Kyogre.png"); background-size: contain; background-repeat: no-repeat; }
+.rseRayquaza-Left { background: url("../images/Rayquaza_Left.png"); background-size: contain; background-repeat: no-repeat; }
+.rseRayquaza-Right { background: url("../images/Rayquaza_Right.png"); background-size: contain; background-repeat: no-repeat; }
+.frlgCharizard { background: url("../images/FireRedCharizard.png"); background-size: contain; background-repeat: no-repeat; }
+.frlgVenusaur { background: url("../images/LeafGreenVenusaur.png"); background-size: contain; background-repeat: no-repeat; }
 .rbBoulderBadge { background: url("../images/rb_Boulder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbCascadeBadge { background: url("../images/rb_Cascade_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbThunderBadge { background: url("../images/rb_Thunder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
@@ -139,6 +151,16 @@
 .gscMineralBadge { background: url("../images/hgss_Mineral_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .gscGlacierBadge { background: url("../images/hgss_Glacier_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .gscRisingBadge { background: url("../images/hgss_Rising_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+
+.orasStoneBadge { background: url("../images/oras_stone_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasKnuckleBadge { background: url("../images/oras_knuckle_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasDynamoBadge { background: url("../images/oras_dynamo_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasHeatBadge { background: url("../images/oras_heat_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasBalanceBadge { background: url("../images/oras_balance_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasFeatherBadge { background: url("../images/oras_feather_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasMindBadge { background: url("../images/oras_mind_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.orasRainBadge { background: url("../images/oras_rain_badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+
 
 .sumoKoko { background: url("../images/TapuKoko.png"); background-size: contain; background-repeat: no-repeat; }
 .sumoLele { background: url("../images/TapuLele.png"); background-size: contain; background-repeat: no-repeat; }
