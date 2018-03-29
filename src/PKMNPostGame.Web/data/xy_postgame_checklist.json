@@ -432,7 +432,7 @@
 			{"id":"sub1", "task":"Kelpsy", "tooltip":"Mutate Chesto and Persim"},
 			{"id":"sub2", "task":"Wacan"},
 			{"id":"sub3", "task":"Apicot", "tooltip":"Mutate Kelpsy and Wacan"},
-			{"id":"sub4", "task":"Qualot"},
+			{"hide":true, "id":"sub4", "task":"Qualot"},
 			{"id":"sub5", "task":"Tanga"},
 			{"id":"sub6", "task":"Ganlon", "tooltip":"Mutate Qualot and Tanga. Only available through mutation."},
 			{"id":"sub7", "task":"Aguav"},
