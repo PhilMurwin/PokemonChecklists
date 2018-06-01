@@ -35,6 +35,14 @@
 		.pageList {
 			margin-top: 20px;
 		}
+
+		.gen-accordion, .panel-group {
+			width: 50%;
+		}
+		.gen-accordion.ui-accordion h3.ui-state-active {
+			font-weight: bold;
+			font-size: 20px; 
+		}
 		</style>
 		
 		<script>
@@ -43,16 +51,15 @@
 			BuildMenu("src/PKMNPostGame.Web");
 		});		
 	</script>
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58634167-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		ga('create', 'UA-58634167-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 	</head>
 	<body>
 	
@@ -81,46 +88,106 @@
 				</div>
 			</div>
 			<div class="row">
+			<div class="col-sm-offset-1 col-xs-11">
+				<p>Sections can be expanded or collapsed by clicking the section title next to the chevron ( <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> ).</p>
+			</div>
+		</div>
+			<div class="row">
 				<div class="pageList col-md-11 col-md-offset-1">
-					<ul class="checklists">
-						<ul>
-							Gen 1
-							<li><a href="src/PKMNPostGame.Web/rb_checklist.html">Red &amp; Blue Post Game Checklist</a></li>
-							<li><a href="src/PKMNPostGame.Web/rby_checklist.html">Yellow Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 2
-							<li><a href="src/PKMNPostGame.Web/gs_checklist.html">Gold &amp; Silver Post Game Checklist</a></li>
-							<li><a href="src/PKMNPostGame.Web/gsc_checklist.html">Crystal Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 3
-							<li><span class="label label-default label-new">New!</span><a href="src/PKMNPostGame.Web/rs_checklist.html">Ruby &amp; Sapphire Post Game Checklist</a></li>
-							<li><span class="label label-default label-new">New!</span><a href="src/PKMNPostGame.Web/rse_checklist.html">Emerald Post Game Checklist</a></li>
-							<li><span class="label label-default label-new">New!</span><a href="src/PKMNPostGame.Web/frlg_checklist.html">Fire Red &amp; Leaf Green Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 4
-							<li><a href="src/PKMNPostGame.Web/dp_checklist.html">Diamond &amp; Pearl Post Game</a></li>
-							<li><a href="src/PKMNPostGame.Web/plat_checklist.html">Platinum Post Game</a></li>
-							<li><a href="src/PKMNPostGame.Web/hgss_checklist.html">Heart Gold &amp; Soul Silver Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 5
-							<li><a href="src/PKMNPostGame.Web/bw_checklist.html">Black &amp; White Post Game</a></li>
-							<li><a href="src/PKMNPostGame.Web/b2w2_checklist.html">Black &amp; White 2 Post Game</a></li>
-						</ul>
-						<ul>
-							Gen 6
-							<li><a href="src/PKMNPostGame.Web/xy_checklist.html">X &amp; Y Post Game Checklist</a></li>
-							<li><a href="src/PKMNPostGame.Web/oras_checklist.html">ORAS Post Game Checklist</a></li>
-						</ul>
-						<ul>
-							Gen 7
-							<li><a href="src/PKMNPostGame.Web/sumo_checklist.html">Sun &amp; Moon Post Game Checklist</a></li>
-							<li><a href="src/PKMNPostGame.Web/usum_checklist.html">Ultra Sun &amp; Ultra Moon Post Game Checklist</a></li>
-						</ul>
-					</ul>
+
+					<div class="panel-group gen78">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="title-collapse" data-toggle="collapse" href="#gen78"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Generation 7</a>
+								</h4>
+							</div>
+							<div id="gen78" class="panel-collapse collapse in" aria-expanded="true">
+								<ul class="checklists">
+									<ul>
+										Gen 7
+										<li><a href="src/PKMNPostGame.Web/sumo_checklist.html">Sun &amp; Moon Post Game Checklist</a></li>
+										<li><a href="src/PKMNPostGame.Web/usum_checklist.html">Ultra Sun &amp; Ultra Moon Post Game Checklist</a></li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel-group gen56">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="title-collapse" data-toggle="collapse" href="#gen56"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Generation 5 - 6</a>
+								</h4>
+							</div>
+							<div id="gen56" class="panel-collapse collapse">
+								<ul class="checklists">
+									<ul>
+										Gen 5
+										<li><a href="src/PKMNPostGame.Web/bw_checklist.html">Black &amp; White Post Game</a></li>
+										<li><a href="src/PKMNPostGame.Web/b2w2_checklist.html">Black &amp; White 2 Post Game</a></li>
+									</ul>
+									<ul>
+										Gen 6
+										<li><a href="src/PKMNPostGame.Web/xy_checklist.html">X &amp; Y Post Game Checklist</a></li>
+										<li><a href="src/PKMNPostGame.Web/oras_checklist.html">ORAS Post Game Checklist</a></li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel-group gen34">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="title-collapse" data-toggle="collapse" href="#gen34"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Generation 3 - 4</a>
+								</h4>
+							</div>
+							<div id="gen34" class="panel-collapse collapse">
+								<ul class="checklists">
+									<ul>
+										Gen 3
+										<li><a href="src/PKMNPostGame.Web/rs_checklist.html">Ruby &amp; Sapphire Post Game Checklist</a></li>
+										<li><a href="src/PKMNPostGame.Web/rse_checklist.html">Emerald Post Game Checklist</a></li>
+										<li><a href="src/PKMNPostGame.Web/frlg_checklist.html">Fire Red &amp; Leaf Green Post Game Checklist</a></li>
+									</ul>
+									<ul>
+										Gen 4
+										<li><a href="src/PKMNPostGame.Web/dp_checklist.html">Diamond &amp; Pearl Post Game</a></li>
+										<li><a href="src/PKMNPostGame.Web/plat_checklist.html">Platinum Post Game</a></li>
+										<li><a href="src/PKMNPostGame.Web/hgss_checklist.html">Heart Gold &amp; Soul Silver Post Game Checklist</a></li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel-group gen12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="title-collapse" data-toggle="collapse" href="#gen12"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Generation 1 - 2</a>
+								</h4>
+							</div>
+							<div id="gen12" class="panel-collapse collapse">
+								<ul class="checklists">
+									<ul>
+										Gen 1
+										<li><a href="src/PKMNPostGame.Web/rb_checklist.html">Red &amp; Blue Post Game Checklist</a></li>
+										<li><a href="src/PKMNPostGame.Web/rby_checklist.html">Yellow Post Game Checklist</a></li>
+									</ul>
+									<ul>
+										Gen 2
+										<li><a href="src/PKMNPostGame.Web/gs_checklist.html">Gold &amp; Silver Post Game Checklist</a></li>
+										<li><a href="src/PKMNPostGame.Web/gsc_checklist.html">Crystal Post Game Checklist</a></li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 			<div class="row">

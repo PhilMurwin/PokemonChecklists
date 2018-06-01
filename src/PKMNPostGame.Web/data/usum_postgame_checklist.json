@@ -194,6 +194,46 @@
 			{"id":"sub34", "task":"Medicham", "tooltip":"Available in Yellow Wormhole"}
 		]
 	},
+	{"id":"task8a",
+		"task":"Capture all Island Scan Pokemon",
+		"category":"pokemon",
+		"row":3,
+		"col":"8a",
+		"splitCol":4,
+		"subtasks":[
+			{"id":"sub1", "task":"Charmander", "tooltip":"Route 3 - Sunday"},
+			{"id":"sub2", "task":"Squirtle", "tooltip":"Seaward Cave - Monday"},
+			{"id":"sub3", "task":"Onix", "tooltip":"Ten Carat Hill - Tuesday"},
+			{"id":"sub4", "task":"Horsea", "tooltip":"Kala'e Bay - Wednesday"},
+			{"id":"sub5", "task":"Scatterbug", "tooltip":"Hau'oli City - Thursday"},
+			{"id":"sub6", "task":"Bulbasaur", "tooltip":"Route 2 - Friday"},
+			{"id":"sub7", "task":"Litwick", "tooltip":"Hau'oli Cemetary - Saturday"},
+			
+			{"id":"sub8", "task":"Ralts", "tooltip":"Route 6 - Sunday"},
+			{"id":"sub9", "task":"Spheal", "tooltip":"Route 7 - Monday"},
+			{"id":"sub10", "task":"Combusken", "tooltip":"Route 8 - Tuesday"},
+			{"id":"sub11", "task":"Honedge", "tooltip":"Akala Outskirts - Wednesday"},
+			{"id":"sub12", "task":"Beedrill", "tooltip":"Route 4 - Thursday"},
+			{"id":"sub13", "task":"Grovyle", "tooltip":"Route 5 - Friday"},
+			{"id":"sub14", "task":"Marshtomp", "tooltip":"Brooklet Hill - Saturday"},
+			{"id":"sub15", "task":"Rhyhorn", "tooltip":"Blush Mountain - Sunday"},
+
+			{"id":"sub16", "task":"Swinub", "tooltip":"Tapu Village - Monday"},
+			{"id":"sub17", "task":"Prinlup", "tooltip":"Route 16 - Tuesday"},
+			{"id":"sub18", "task":"Grotle", "tooltip":"Ula'ula Meadow - Wednesday"},
+			{"id":"sub19", "task":"Pidgeot", "tooltip":"Route 10 - Thursday"},
+			{"id":"sub20", "task":"Monferno", "tooltip":"Route 11 - Friday"},
+			{"id":"sub21", "task":"Axew", "tooltip":"Mount Hokulani - Saturday"},
+
+			{"id":"sub22", "task":"Eelektross", "tooltip":"Poni Grove - Sunday"},
+			{"id":"sub23", "task":"Aggron", "tooltip":"Poni Plains - Monday"},
+			{"id":"sub24", "task":"Rotom", "tooltip":"Poni Gauntlet - Tuesday"},
+			{"id":"sub25", "task":"Leavanny", "tooltip":"Poni Meadow - Wednesday"},
+			{"id":"sub26", "task":"Chesnaught", "tooltip":"Exeggutor Island - Thursday"},
+			{"id":"sub27", "task":"Greninja", "tooltip":"Poni Wilds - Friday"},
+			{"id":"sub28", "task":"Delphox", "tooltip":"Ancient Poni Path - Saturday"}
+		]
+	},
 	{"id":"task9",
 		"task":"Complete all Pokédex side quests",
 		"category":"quests",
