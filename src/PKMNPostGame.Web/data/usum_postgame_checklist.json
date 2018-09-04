@@ -118,7 +118,7 @@
 			{"id":"sub30", "task":"Capture Mesprit", "tooltip":"Wormhole Color - Blue"},
 			{"id":"sub31", "task":"Capture Azelf", "tooltip":"Wormhole Color - Blue"},
 			{"id":"sub32", "task":"Capture/Trade for Dialga", "tooltip":"Ultra Sun, Wormhole Color - Green", "formats":[{"word":"Dialga","format":"sun"}]},
-			{"id":"sub33", "task":"Capture/Trade for Palkia", "tooltip":"Ultra Moon, Wormhole Color - Blue", "formats":[{"word":"Palkia","format":"moon"}]},
+			{"id":"sub33", "task":"Capture/Trade for Palkia", "tooltip":"Ultra Moon, Wormhole Color - Yellow", "formats":[{"word":"Palkia","format":"moon"}]},
 			{"id":"sub34", "task":"Capture Giratina", "tooltip":"Requires Dialga and Palkia on your team, Wormhole Color - Yellow"},
 			{"id":"sub35", "task":"Capture/Trade for Heatran", "tooltip":"Ultra Sun - Wormhole Color - Yellow", "formats":[{"word":"Heatran","format":"sun"}]},
 			{"id":"sub36", "task":"Capture Cresselia", "tooltip":"Wormhole Color - Red"},
@@ -207,7 +207,7 @@
 			{"id":"sub4", "task":"Horsea", "tooltip":"Kala'e Bay - Wednesday"},
 			{"id":"sub5", "task":"Scatterbug", "tooltip":"Hau'oli City - Thursday"},
 			{"id":"sub6", "task":"Bulbasaur", "tooltip":"Route 2 - Friday"},
-			{"id":"sub7", "task":"Litwick", "tooltip":"Hau'oli Cemetary - Saturday"},
+			{"id":"sub7", "task":"Litwick", "tooltip":"Hau'oli Cemetery - Saturday"},
 			
 			{"id":"sub8", "task":"Ralts", "tooltip":"Route 6 - Sunday"},
 			{"id":"sub9", "task":"Spheal", "tooltip":"Route 7 - Monday"},
@@ -219,7 +219,7 @@
 			{"id":"sub15", "task":"Rhyhorn", "tooltip":"Blush Mountain - Sunday"},
 
 			{"id":"sub16", "task":"Swinub", "tooltip":"Tapu Village - Monday"},
-			{"id":"sub17", "task":"Prinlup", "tooltip":"Route 16 - Tuesday"},
+			{"id":"sub17", "task":"Prinplup", "tooltip":"Route 16 - Tuesday"},
 			{"id":"sub18", "task":"Grotle", "tooltip":"Ula'ula Meadow - Wednesday"},
 			{"id":"sub19", "task":"Pidgeot", "tooltip":"Route 10 - Thursday"},
 			{"id":"sub20", "task":"Monferno", "tooltip":"Route 11 - Friday"},
@@ -314,7 +314,7 @@
 		"col": 5,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"Hau'oli Cemetary", "tooltip":"Furfrou (Day), Gastly (Night), Pikipek (Day),Zubat (Night)"},
+			{"id":"sub1", "task":"Hau'oli Cemetery", "tooltip":"Furfrou (Day), Gastly (Night), Pikipek (Day),Zubat (Night)"},
 			{"id":"sub2", "task":"Hau'oli City - Beachfront", "tooltip":" Drifloon (Day-Rare), Murkrow (Night), Pelipper, Wingull"},
 			{"id":"sub3", "task":"Hau'oli City - Shopping District", "tooltip":"Dunsparce, Growlithe, Alolan Meowth (Night), Pikachu, Rockruff (Day)"},
 			{"id":"sub4", "task":"Melemele Meadow", "tooltip":"Cutiefly (Day), Oricorio, Flabebe, Floette"},
@@ -351,7 +351,7 @@
 			{"id":"sub3", "task":"Defeat Flareon User", "tooltip": "Tide Song Hotel"},
 			{"id":"sub4", "task":"Defeat Jolteon User", "tooltip": "Malie Community Center"},
 			{"id":"sub5", "task":"Defeat Espeon User", "tooltip": "Geothermal Plant"},
-			{"id":"sub6", "task":"Defeat Umbreon User", "tooltip": "Hau'oli Cemetary"},
+			{"id":"sub6", "task":"Defeat Umbreon User", "tooltip": "Hau'oli Cemetery"},
 			{"id":"sub7", "task":"Defeat Glaceon User", "tooltip": "Southwest house in Iki Town"},
 			{"id":"sub8", "task":"Defeat Leafeon User", "tooltip": "Hano Beach"},
 			{"id":"sub9", "task":"Defeat Sylveon User", "tooltip": "Northeast house of Seafolk Village"},
@@ -650,7 +650,7 @@
 			{"id":"sub8", "task":"Find Electric Seed near newly repaired Bridge"},
 			{"id":"sub9", "task":"Explore Seaward Cave, Kala'e Bay, Melemele Sea, and Ten Carat Hill"},
 			{"id":"sub10", "task":"Master the Battle Buffet and meet the buffet queen", "tooltip":"In Hau'oli City Shopping Mall"},
-			{"id":"sub11", "task":"Go to Hau'oli Cemetary at night and approach the Machamp to get TM56"}
+			{"id":"sub11", "task":"Go to Hau'oli Cemetery at night and approach the Machamp to get TM56"}
 		]
 	},
 	{"id":"task41",
@@ -859,7 +859,7 @@
 			{"id":"sub143", "task":"Take a quiz in Malie Garden (Day)", "tooltip":"Visit Malie Garden during the day and speak to the lass on one of the small islands, answer her question successfully to get an Air Balloon"},
 			{"id":"sub144", "task":"Get goggled up in Haina Desert (Night)", "tooltip":"Speak to the Hiker at night in Area 4 and tell him your Pokemons eyes are bleary to get Safety Goggles"},
 			{"id":"sub145", "task":"Show Mimikyu some friendship at the abandoned Thrifty Megamart", "tooltip":"Revisit the abandoned Thrifty Megamart at night, follow mimikyu and show it some love to get Mimikium Z"},
-			{"id":"sub146", "task":"Complete your Plate Collections on Melemele Island", "tooltip":"Find the hidden plates in the Hau'oli Outskirts, Trainers School yard, Hau'oli City, and Hau'oli Cemetary"},
+			{"id":"sub146", "task":"Complete your Plate Collections on Melemele Island", "tooltip":"Find the hidden plates in the Hau'oli Outskirts, Trainers School yard, Hau'oli City, and Hau'oli Cemetery"},
 			{"id":"sub147", "task":"Find some forgotten Pokemon for prizes", "tooltip":"Speak with a woman outside the houseboat in Seafolk Village and show her the pokemon she describes"},
 			{"id":"sub148", "task":"Get a few rare prizes for free", "tooltip":"Speak to the shopkeeper inside the houseboat in Seafolk Village to get Magmarizer and Electrizer"},
 			{"id":"sub149", "task":"Get a rare Fossil Pokemon", "tooltip":"Speak to the girl in the houseboat and she'll give you an Aerodactyl"},

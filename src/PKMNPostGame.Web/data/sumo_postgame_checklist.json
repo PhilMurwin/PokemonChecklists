@@ -171,7 +171,7 @@
 		"subtasks":[
 			{"id":"sub1", "task":"Hau'oli City - Shopping District", "tooltip":"Pikachu, Growlithe, Rockruff, Meowth"},
 			{"id":"sub2", "task":"Hau'oli City - Beachfront", "tooltip":"Pelipper, Wingull, Drifloon"},
-			{"id":"sub3", "task":"Hau'oli Cemetary", "tooltip":"Pikipek, Gastly, Zubat"},
+			{"id":"sub3", "task":"Hau'oli Cemetery", "tooltip":"Pikipek, Gastly, Zubat"},
 			{"id":"sub4", "task":"Kala'e Bay", "tooltip":"Slowpoke"},
 			{"id":"sub5", "task":"Melemele Meadow", "tooltip":"Cutiefly, Oricorio"},
 
@@ -205,7 +205,7 @@
 			{"id":"sub3", "task":"Defeat Flareon User", "tooltip": "Tide Song Hotel"},
 			{"id":"sub4", "task":"Defeat Jolteon User", "tooltip": "Community Center in Malie City"},
 			{"id":"sub5", "task":"Defeat Espeon User", "tooltip": "Geothermal Plant"},
-			{"id":"sub6", "task":"Defeat Umbreon User", "tooltip": "Hau'oli Cemetary"},
+			{"id":"sub6", "task":"Defeat Umbreon User", "tooltip": "Hau'oli Cemetery"},
 			{"id":"sub7", "task":"Defeat Glaceon User", "tooltip": "Southwest house in Iki Town"},
 			{"id":"sub8", "task":"Defeat Leafeon User", "tooltip": "Hano Beach"},
 			{"id":"sub9", "task":"Defeat Sylveon User", "tooltip": "Northeast house of Seafolk Village"},
@@ -402,7 +402,7 @@
 			{"id":"sub7", "task":"Explore Seaward Cave, Kala'e Bay, Melemele Sea, and Ten Carat Hill"},
 			{"id":"sub8", "task":"Master the Battle Buffet and meet the buffet queen", "tooltip":"In Hau'oli City Shopping Mall"},
 			{"id":"sub9", "task":"Hyper Train your Pokemon in Hau'oli City Shopping Mall"},
-			{"id":"sub10", "task":"Go to Hau'oli Cemetary at night and approach the Machamp to get TM56"}
+			{"id":"sub10", "task":"Go to Hau'oli Cemetery at night and approach the Machamp to get TM56"}
 		]
 	},
 	{"id":"task41",
@@ -644,7 +644,7 @@
 			{"id":"sub5", "task":"Route 2"},
 			{"id":"sub6", "task":"Route 3 (Day)"},
 			{"id":"sub7", "task":"Route 3"},
-			{"id":"sub8", "task":"Hau'oli Cemetary"},
+			{"id":"sub8", "task":"Hau'oli Cemetery"},
 			{"id":"sub9", "task":"Hau'oli City - Shopping District (Night)"},
 			{"id":"sub10", "task":"Hau'oli City - Shopping District"},
 			{"id":"sub11", "task":"Iki Town (Night)"},
