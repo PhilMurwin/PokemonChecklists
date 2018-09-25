@@ -58,7 +58,11 @@ function BuildMenuItems(data, path)
 		{
 			var item = "";
 
-			if (menuItem["external"] === undefined)
+			if (menuItem["itemname"].toLowerCase() === "separator")
+			{
+				item = "<li role='separator' class='divider'></li>";
+			}
+			else if (menuItem["external"] === undefined)
 			{
 				var relativePath = path != undefined ? "./" + path + "/" : "";
 				item = "<li><a href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a></li>";
