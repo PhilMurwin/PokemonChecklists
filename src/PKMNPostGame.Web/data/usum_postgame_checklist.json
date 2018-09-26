@@ -155,8 +155,8 @@
 			{"id":"sub4", "task":"Capture/Trade for UB-02 - Buzzwole", "tooltip":"Only available in Pokémon Ultra Sun (Ultra Jungle)", "formats":[{"word":"Buzzwole","format":"sun"}]},
 			{"id":"sub5", "task":"Capture/Trade for UB-02 - Pheromosa", "tooltip":"Only available in Pokémon Ultra Moon (Ultra Desert)", "formats":[{"word":"Pheromosa","format":"moon"}]},
 			{"id":"sub6", "task":"Capture UB-03 - Xurkitree", "tooltip":"Found in Ultra Plant"},
-			{"id":"sub7", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokémon Ultra Sun (Ultra Crater)", "formats":[{"word":"Kartana","format":"sun"}]},
-			{"id":"sub8", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Ultra Moon (Ultra Forest)", "formats":[{"word":"Celesteela","format":"moon"}]},
+			{"id":"sub7", "task":"Capture/Trade for UB-04 - Kartana", "tooltip":"Only available in Pokémon Ultra Sun (Ultra Forest)", "formats":[{"word":"Kartana","format":"sun"}]},
+			{"id":"sub8", "task":"Capture/Trade for UB-04 - Celesteela", "tooltip":"Only available in Pokémon Ultra Moon (Ultra Crater)", "formats":[{"word":"Celesteela","format":"moon"}]},
 			{"id":"sub9", "task":"Capture UB-05 - Guzzlord", "tooltip":"Found in Ultra Ruin"},
 			{"id":"sub10", "task":"Capture/Trade for UB Stakataka", "tooltip":"Only available in Pokémon Ultra Moon (Poni Grove)", "formats":[{"word":"Stakataka","format":"moon"}]},
 			{"id":"sub11", "task":"Capture/Trade for UB Blacephalon", "tooltip":"Only available in Pokémon Ultra Sun (Poni Grove)", "formats":[{"word":"Blacephalon","format":"sun"}]}
