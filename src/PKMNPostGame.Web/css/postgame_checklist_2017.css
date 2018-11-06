@@ -111,7 +111,7 @@
 .rbyLogo { height: 100px; }
 .rsLogo, .rseLogo { height: 150px; }
 .frlgLogo { height: 100px; }
-.rbBadge, .rbyBadge, .rsBadge, .rseBadge, .frlgBadge { width: 30px; height: 30px; }
+.rbBadge, .rbyBadge, .rsBadge, .rseBadge, .frlgBadge, .lgpeBadge { width: 30px; height: 30px; }
 .rbCharizard { background: url("../images/Charizard.png"); background-size: contain; background-repeat: no-repeat; }
 .rbBlastoise { background: url("../images/Blastoise.png"); background-size: contain; background-repeat: no-repeat; }
 .rbyPikachu { background: url("../images/Pikachu.png"); background-size: contain; background-repeat: no-repeat; }
@@ -171,6 +171,10 @@
 .usumBadge { width: 50px; height: 50px; }
 .usumLunala { background: url("../images/ultra-lunala.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .usumSolgaleo { background: url("../images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
+.lgpeLogo { width: 125px; height: 125px; }
+.lgpePikachu { background: url("../images/PokemonLetsGoPikachu.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.lgpeEevee { background: url("../images/PokemonLetsGoEevee.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 
 @media only screen
 and (max-device-width: 750px) 
