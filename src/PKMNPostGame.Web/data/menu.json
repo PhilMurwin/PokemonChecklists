@@ -38,7 +38,8 @@
 		"isgroup":"1",
 		"menuitems":[
 			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"},
-			{"itemname":"Ultra Sun & Ultra Moon Post Game", "link":"usum_checklist.html"}
+			{"itemname":"Ultra Sun & Ultra Moon Post Game", "link":"usum_checklist.html"},
+			{"itemname":"Let's Go Pikachu & Eevee", "link":"lgpe_checklist.html"}
 		]
 	},
 	{"itemname":"Useful Links",

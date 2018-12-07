@@ -129,6 +129,14 @@
 .rbMarshBadge { background: url("../images/rb_Marsh_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbVolcanoBadge { background: url("../images/rb_Volcano_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 .rbEarthBadge { background: url("../images/rb_Earth_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeBoulderBadge { background: url("../images/lgpe_Boulder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeCascadeBadge { background: url("../images/lgpe_Cascade_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeThunderBadge { background: url("../images/lgpe_Thunder_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeRainbowBadge { background: url("../images/lgpe_Rainbow_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeSoulBadge { background: url("../images/lgpe_Soul_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeMarshBadge { background: url("../images/lgpe_Marsh_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeVolcanoBadge { background: url("../images/lgpe_Volcano_Badge.png"); background-size: contain; background-repeat: no-repeat; }
+.lgpeEarthBadge { background: url("../images/lgpe_Earth_Badge.png"); background-size: contain; background-repeat: no-repeat; }
 
 .gsLogo, .gscLogo { width: 125px; height: 115px; }
 .gsBadge, .gscBadge { width: 30px; height: 30px; }
@@ -173,8 +181,8 @@
 .usumSolgaleo { background: url("../images/ultra-solgaleo.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 
 .lgpeLogo { width: 125px; height: 125px; }
-.lgpePikachu { background: url("../images/PokemonLetsGoPikachu.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
-.lgpeEevee { background: url("../images/PokemonLetsGoEevee.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.lgpePikachu { background: url("../images/lgpe_Pikachu.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.lgpeEevee { background: url("../images/lgpe_Eevee.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 
 @media only screen
 and (max-device-width: 750px) 
