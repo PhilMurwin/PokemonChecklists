@@ -58,6 +58,11 @@ function BuildMenuItems(data, path)
 		{
 			var item = "";
 
+			if (menuItem["hidden"] === true)
+			{
+				continue;
+			}
+
 			if (menuItem["itemname"].toLowerCase() === "separator")
 			{
 				item = "<li role='separator' class='divider'></li>";

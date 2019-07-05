@@ -184,6 +184,10 @@
 .lgpePikachu { background: url("../images/lgpe_Pikachu.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .lgpeEevee { background: url("../images/lgpe_Eevee.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 
+.swshLogo { width: 125px; height: 125px; }
+.swshSword { background: url("../images/swsh_Sword.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.swshShield { background: url("../images/swsh_Shield.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
 @media only screen
 and (max-device-width: 750px) 
 {

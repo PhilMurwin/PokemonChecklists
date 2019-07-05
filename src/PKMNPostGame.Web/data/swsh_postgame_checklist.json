@@ -1,0 +1,152 @@
+{"swsh":[
+	{"id":"task1",
+		"task":"Complete the Pokedex (???)",
+		"category":"catchemall",
+		"markTask":false,
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Obtain ???", "tooltip":"Route ??"}
+		]
+	},
+	{"id":"task2",
+		"task":"Obtain all In-Game Gift Pokémon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	{"id":"task3",
+		"task":"Complete all Galar Pokémon Trades",
+		"category":"catchemall",
+		"row": 3,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	{"id":"task4",
+		"task":"Capture In-Game Legendaries",
+		"category":"legendary",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+
+	{"id":"task10",
+		"task":"Defeat ???",
+		"tooltip":"",
+		"category":"battle",
+		"row":4,
+		"col":1
+	},
+	{"id":"task11",
+		"task":"Defeat ???",
+		"tooltip":"",
+		"category":"battle",
+		"row":4,
+		"col":1
+	},
+	{"id":"task12",
+		"task":"Defeat ???",
+		"category":"battle",
+		"row":4,
+		"col":1,
+		"sort":"alpha",
+		"splitCol":4,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	{"id":"task14",
+		"task":"Unlock ???",
+		"tooltip":"???",
+		"category":"Upgrades",
+		"row": 5,
+		"col": 1
+	},
+	{"id":"task15",
+		"task":"Unlock ???",
+		"category":"Upgrades",
+		"row": 5,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+
+	{"id":"task20",
+		"task":"Collect All ???",
+		"category":"megastones",
+		"row": 9,
+		"col": 1,
+		"sort":"alpha",
+		"splitCol":3,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+
+	{
+		"id":"task30",
+		"task":"Collect All ???",
+		"category":"collectibles",
+		"row": 14,
+		"col": 1,
+		"splitCol": 3,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	{"id":"task31",
+		"task":"Collect All ???",
+		"category":"collectibles",
+		"row": 14,
+		"col": 1,
+		"splitCol":3,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	
+	{"id":"task32",
+		"task":"Collect All ???",
+		"category":"collectibles",
+		"row": 14,
+		"col": 1,
+		"splitCol":3,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	{"id":"task33",
+		"task":"Collect ??",
+		"tooltip":"???",
+		"category":"collectibles",
+		"row": 14,
+		"col": 2,
+		"splitCol":2,
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	},
+	
+	{"id":"task40",
+		"task":"Collect All ?? Technical Machines (TMs)",
+		"category":"tms",
+		"row": 15,
+		"col": 1,
+		"splitCol": 4,
+		"sort": "alpha",
+		"subtasks":[
+            {"id":"sub1", "task":"???", "tooltip":"???"}
+		]
+	}
+]}
