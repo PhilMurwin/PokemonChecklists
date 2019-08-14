@@ -8,8 +8,8 @@
 		"subtasks":[
 			{"id":"sub1", "task":"Obtain Snorlax", "tooltip":"Route 12 & 16"},
 			{"id":"sub2", "task":"Obtain Electrode", "tooltip":"Power Plant"},
-			{"id":"sub3", "task":"Obtain Vulpix", "tooltip":"Game Corner (1000 coins)"},
-			{"id":"sub4", "task":"Obtain Porygon", "tooltip":"Game Corner (9999 coins)"},
+			{"id":"sub3", "task":"Obtain Vulpix", "tooltip":"Route 5, Route 6, Route 7, Route 8 [Let's Go, Eevee! ONLY]"},
+			{"id":"sub4", "task":"Obtain Porygon", "tooltip":"Route 7"},
 			{"id":"sub5", "task":"Obtain Mew (Optional) [Mew is not available through standard play anymore]"},
 			{"id":"sub6","task":"Obtain Meltan", "tooltip":"Requires Pokemon Go Connectivity"},
 			{"id":"sub7","task":"Obtain Melmetal", "tooltip":"Evolve Meltan"}
@@ -63,7 +63,7 @@
 			{"id":"sub1", "task":"Capture Zapdos", "tooltip":"Power Plant"},
 			{"id":"sub2", "task":"Capture Moltres", "tooltip":"Victory Road"},
 			{"id":"sub3", "task":"Capture Articuno", "tooltip":"Seafoam Islands"},
-			{"id":"sub4", "task":"Capture Mewtwo", "tooltip":"Unknown Dungeon"}
+			{"id":"sub4", "task":"Capture Mewtwo", "tooltip":"Cerulean Cave"}
 		]
 	},
 
