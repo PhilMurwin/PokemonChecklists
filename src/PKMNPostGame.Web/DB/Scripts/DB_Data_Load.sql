@@ -10,6 +10,7 @@ BEGIN
 	,(5, 'Generation 5','Gen 5','V')
 	,(6, 'Generation 6','Gen 6','VI')
 	,(7, 'Generation 7','Gen 7','VII')
+	,(8, 'Generation 8','Gen 8','VIII')
 
 	SET IDENTITY_INSERT PokemonGeneration OFF
 END
@@ -35,6 +36,7 @@ BEGIN
 	,(13, 'X and Y', 'X & Y', 6, 'XY')
 	,(14, 'Omega Ruby and Alpha Sapphire', 'ORAS', 6, 'ORAS')
 	,(15, 'Sun and Moon', 'SuMo',7,'SUMO')
+	,(16, 'Ultra Sun and Ultra Moon', 'USUM',7,'USUM')
 
 	SET IDENTITY_INSERT PokemonGames OFF
 END
