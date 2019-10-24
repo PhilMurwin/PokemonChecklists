@@ -10,7 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-	
+
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
@@ -24,23 +24,23 @@
 
 	<script src="js/build_menu.js"></script>
 	<script src="js/postgame_checklist2.js"></script>
-	
+
 	<script>
 		$(function()
 		{
 			BuildMenu();
 			Render("xy","data/xy_postgame_checklist.json", "xypost");
-			
-			$(".postgame_chkLabel[title]" ).tooltip({});			
-			
+
+			$(".postgame_chkLabel[title]" ).tooltip({});
+
 			$(".postgame_chk").on('click', function(e) {
 				chk_onClick(e, "xypost");
 			});
-			
+
 			LoadCollapseState("xy");
 
 			ChangeSpanToImages("xy");
-		});		
+		});
 	</script>
 
 	<script>
@@ -78,7 +78,7 @@
         <div id="navbar" class="collapse navbar-collapse"></div>
       </div>
     </nav>
-	
+
 	<div class="postgame container-fluid">
 		<div id="row1" class="row">
 			<div class="pageTitle col-sm-12 col-xs-12">
@@ -89,7 +89,7 @@
 				<span style="font-weight: bold; font-size:12pt">See a problem or issue? Let me know on Twitter <a href="https://twitter.com/PokemonPostGame">@PokemonPostGame</a></span><br/>
 				or via email: <a href="mailto:PkmnPostGame@gmail.com">PkmnPostGame@gmail.com</a><br/>
 			</div>
-			
+
 		</div>
 		<div id="row2" class="row row-header">
 			<div class="col-lg-offset-1 col-sm-3 col-xs-6">
@@ -109,7 +109,7 @@
 					<span class="badge-sm xyPsychicBadge" alt="Psychic Badge" ></span>
 					<span class="badge-sm xyIcebergBadge" alt="Iceberg Badge" ></span>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-xs-11">
@@ -174,6 +174,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				<div class="panel-group megastones">
 					<div class="panel panel-default">
 						<div class="panel-heading">
