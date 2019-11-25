@@ -10,8 +10,8 @@
 		"task":"Obtain all Galarian form Pokemon",
 		"category":"catchemall",
 		"row": 3,
-		"col": 2,
-		"splitCol": 2,
+		"col": 1,
+		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Meowth"},
 			{"id":"sub2", "task":"Perrserker"},
@@ -38,7 +38,8 @@
 		"task":"Obtain all In-Game Gift Pokémon",
 		"category":"catchemall",
 		"row": 3,
-		"col": 2,
+		"col": 1,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Pikachu", "tooltip":"Train Station Meetup Spot - Requires Save Data from Let's Go Pikachu"},
 			{"id":"sub2", "task":"Eevee", "tooltip":"Train Station Meetup Spot - Requires Save Data from Let's Go Eevee"},
@@ -55,7 +56,8 @@
 		"task":"Complete all Galarian Pokémon Trades",
 		"category":"catchemall",
 		"row": 3,
-		"col": 2,
+		"col": 1,
+		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Trade Bunnelby for Skwovet", "tooltip":"Motostoke Pokemon Center"},
 			{"id":"sub2", "task":"Trade Galarian Meowth for Kantonian Meowth", "tooltip":"Turrfield Gym"},
@@ -89,7 +91,7 @@
 		"task":"Obtain all flavors/forms of Alcremie",
 		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Vanilla Cream - Strawberry Sweet Form"},
@@ -161,7 +163,7 @@
 		"task":"Obtain all Gigantamax Capable Pokemon",
 		"category":"catchemall",
 		"row": 3,
-		"col": 2,
+		"col": 1,
 		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Charizard"},
