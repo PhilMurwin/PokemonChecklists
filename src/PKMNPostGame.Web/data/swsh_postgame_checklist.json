@@ -230,7 +230,8 @@
 		"subtasks":[
 			{"id":"sub1", "task":"Bike Turbo Boost Cooldown Reduction 1", "tooltip":"Speak to a Watt Trader, cost 1000W"},
 			{"id":"sub2", "task":"Bike Turbo Boost Cooldown Reduction 2", "tooltip":"Speak to a Watt Trader, cost 2000W"},
-			{"id":"sub3", "task":"Bike Turbo Boost Cooldown Reduction 3", "tooltip":"Speak to a Watt Trader, cost 5000W"}
+			{"id":"sub3", "task":"Bike Turbo Boost Cooldown Reduction 3", "tooltip":"Speak to a Watt Trader, cost 5000W"},
+			{"id":"sub4", "task":"Unlock IV Judge", "tooltip":"Defeat Leon at the Battle Tower and move to Poke Ball Rank"}
 		]
 	},
 
@@ -271,30 +272,52 @@
 	},
 
 	{"id":"task51",
+		"task":"Collect League Card Backgrounds (Post Game)",
+		"row": 9,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":"Wedgehurst (Night)", "tooltip":"Begin Postgame"},
+			{"id":"sub", "task":"Turffield (Night)", "tooltip":"Defeat Dynamax Pokemon in gym in epilogue"},
+			{"id":"sub", "task":"Hulbury (Night)", "tooltip":"Defeat Dynamax Pokemon in gym in epilogue"},
+			{"id":"sub", "task":"Hammerlocke (Night)", "tooltip":"Defeat Dynamax Pokemon in gym in epilogue"},
+			{"id":"sub", "task":"Stow-on-Side (Night)", "tooltip":"Defeat Dynamax Pokemon in gym in epilogue"},
+			{"id":"sub", "task":"Circhester (Night)", "tooltip":"Defeat Dynamax Pokemon in gym in epilogue"},
+			{"id":"sub", "task":"Wyndon", "tooltip":"Complete the postgame"},
+			{"id":"sub", "task":"Let's Go, Eevee", "tooltip":"Have Let's Go Eevee Save Data"},
+			{"id":"sub", "task":"Let's Go, Pikachu", "tooltip":"Have Let's Go Pikachu Save Data"},
+			{"id":"sub", "task":"Tumblecube", "tooltip":"Have Pokemon Quest Save Data"},
+			{"id":"sub", "task":"Curry", "tooltip":"Create 15 Curry in Pokmeon Camp"},
+			{"id":"sub", "task":"Gigantamax", "tooltip":"Play in 30 Max Raid Battles"},
+			{"id":"sub", "task":"Gigantamax Meowth", "tooltip":"Collect a total of 1 million Pokebucks"},
+			{"id":"sub", "task":"Rotomi", "tooltip":"Make 10 League Cards"},
+			{"id":"sub", "task":"Salon", "tooltip":"Get 10 Haircuts"}
+		]
+	},
+
+	{"id":"task52",
 		"task":"Collect All The Rare League Cards",
 		"category":"collectibles",
 		"row": 9,
 		"col": 1,
 		"splitCol":2,
 		"subtasks":[
-			{"id":"sub1", "task":"Speak with Ball Guy", "tooltip":"Outside Motostoke Stadium after becoming Champion"},
-			{"id":"sub2", "task":"From Oleana in Hulbury"},
-			{"id":"sub3", "task":"Defeat Bede in Galar Mine No. 2"},
-			{"id":"sub4", "task":"From Oleana in Galar Mine"},
-			{"id":"sub5", "task":"From Piers", "tooltip":"After capturing Zacian/Zamazenta"},
-			{"id":"sub6", "task":"Defeat Milo at Turffield Stadium"},
-			{"id":"sub7", "task":"Defeat Nessa at Hulbury Stadium"},
-			{"id":"sub8", "task":"Defeat Kabu at Motostoke Stadium"},
-			{"id":"sub9", "task":"Defeat Bea / Allister at Stow-on-Side Stadium"},
-			{"id":"sub10", "task":"Defeat Bede at Ballonlea Stadium"},
-			{"id":"sub11", "task":"Defeat Gordie / Melony at Circhester Stadium"},
-			{"id":"sub12", "task":"Defeat Raihan at Hammerlocke Stadium"},
-			{"id":"sub13", "task":"Defeat Leon at the Battle Tower"},
-			{"id":"sub14", "task":"Battle Hop at the end of the Epilogue"}
+			{"id":"sub1", "task":"Ball Guy", "tooltip":"Speak with Ball Guy outside Motostoke Stadium after becoming Champion"},
+			{"id":"sub2", "task":"Chairman Rose - Announcer pose","tooltip":"From Oleana in Hulbury"},
+			{"id":"sub4", "task":"Chairman Rose - Thumbs up pose","tooltip":"From Oleana in Galar Mine"},
+			{"id":"sub5", "task":"Piers - Blue Background","tooltip":"From Piers after capturing Zacian/Zamazenta"},
+			{"id":"sub6", "task":"Milo - Holding Wooloo","tooltip":"Defeat Milo at Turffield Stadium"},
+			{"id":"sub7", "task":"Nessa - Sitting","tooltip":"Defeat Nessa at Hulbury Stadium"},
+			{"id":"sub8", "task":"Kabu - Pointing Up pose","tooltip":"Defeat Kabu at Motostoke Stadium"},
+			{"id":"sub9", "task":"Bea - Smiling / Allister Shy","tooltip":"Defeat Bea / Allister at Stow-on-Side Stadium"},
+			{"id":"sub10", "task":"Opal","tooltip":"Defeat Bede at Ballonlea Stadium"},
+			{"id":"sub11", "task":"Gordie - Hands clasped","tooltip":"Defeat Gordie / Melony at Circhester Stadium"},
+			{"id":"sub12", "task":"Melony - Teasing Gordie","tooltip":"Defeat Raihan at Hammerlocke Stadium"},
+			{"id":"sub13", "task":"Leon - Hand raised","tooltip":"Defeat Leon at the Battle Tower"},
+			{"id":"sub14", "task":"Hop - Hand raised","tooltip":"Battle Hop at the end of the Epilogue"}
 		]
 	},
 	
-	{"id":"task33",
+	{"id":"task53",
 		"task":"Collect All Ribbons on a Pokemon",
 		"category":"collectibles",
 		"row": 9,
@@ -309,7 +332,7 @@
 		]
 	},
 
-	{"id":"task24",
+	{"id":"task54",
 		"task":"Collect all Pokemon Camp Toys",
 		"category":"collectibles",
 		"row":9,
@@ -324,7 +347,7 @@
 		]
 	},
 
-	{"id":"task40",
+	{"id":"task70",
 		"task":"Collect All Curry Recipes",
 		"category":"curry",
 		"row": 10,
@@ -485,7 +508,7 @@
 		]
 	},	
 
-	{"id":"task50",
+	{"id":"task71",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"category":"tm",
 		"row": 15,
@@ -596,7 +619,7 @@
 		]
 	},
 	
-	{"id":"task51",
+	{"id":"task72",
 		"task":"Collect All 100 Technical Records (TRs)",
 		"category":"tm",
 		"row": 15,
