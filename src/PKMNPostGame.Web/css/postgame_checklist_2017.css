@@ -49,6 +49,26 @@
 	color: #5D3287;
 }
 
+.sword {
+	color: #00A1E9;
+
+	background-image: url("../images/rustedsword.png");
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: right;
+	padding-right: 18px;
+}
+
+.shield {
+	color: #DE0059;
+
+	background-image: url("../images/rustedshield.png");
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: right;
+	padding-right: 18px;
+}
+
 .credit {
 	text-align: center;
 	margin-bottom: 20px;
@@ -185,8 +205,19 @@
 .lgpeEevee { background: url("../images/lgpe_Eevee.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 
 .swshLogo { width: 125px; height: 125px; }
+.swshBadge { width: 30px; height: 30px; }
 .swshSword { background: url("../images/swsh_Sword.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .swshShield { background: url("../images/swsh_Shield.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.swshGrassBadge { background: url("../images/swsh_Grass_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshWaterBadge { background: url("../images/swsh_Water_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshFireBadge { background: url("../images/swsh_Fire_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshGhostBadge { background: url("../images/swsh_Ghost_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshFightingBadge { background: url("../images/swsh_Fighting_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshFairyBadge { background: url("../images/swsh_Fairy_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshIceBadge { background: url("../images/swsh_Ice_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshRockBadge { background: url("../images/swsh_Rock_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshDarkBadge { background: url("../images/swsh_Dark_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.swshDragonBadge { background: url("../images/swsh_Dragon_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
 @media only screen
 and (max-device-width: 750px) 

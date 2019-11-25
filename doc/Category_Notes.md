@@ -7,12 +7,9 @@
 * Row6 - Quests
 * Row7 - Event
 * Row8 - Epilogue
-* Row9 - Megastones
-* Row10 - Z-Crystals
-* Row11- Stickers
-* Row12 - Photo_Club
-* Row13 - Zygarde_Cells
-* Row14 - Collectibles
+* Row9 - Collectibles
+* Row 10-14 (High Volume Collectibles)
+    * Megastones, Z-Crystals, Stickers, Photo_Club, Zygarde_Cells, Curry
 * Row15 - TMs
 * Row16 - Berries
 
