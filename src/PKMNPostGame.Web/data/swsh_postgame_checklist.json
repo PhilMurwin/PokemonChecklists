@@ -273,6 +273,7 @@
 
 	{"id":"task51",
 		"task":"Collect League Card Backgrounds (Post Game)",
+		"category":"collectibles",
 		"row": 9,
 		"col": 1,
 		"subtasks":[
@@ -290,7 +291,11 @@
 			{"id":"sub", "task":"Gigantamax", "tooltip":"Play in 30 Max Raid Battles"},
 			{"id":"sub", "task":"Gigantamax Meowth", "tooltip":"Collect a total of 1 million Pokebucks"},
 			{"id":"sub", "task":"Rotomi", "tooltip":"Make 10 League Cards"},
-			{"id":"sub", "task":"Salon", "tooltip":"Get 10 Haircuts"}
+			{"id":"sub", "task":"Salon", "tooltip":"Get 10 Haircuts"},
+			{"id":"sub", "task":"Battle Tower", "tooltip":"Win 30 Single Battles in Battle Tower"},
+			{"id":"sub", "task":"Battle Tower Bronze", "tooltip":"Win 100 Single Battles in Battle Tower"},
+			{"id":"sub", "task":"Battle Tower Silver", "tooltip":"Win 50 Double Battles in Battle Tower"},
+			{"id":"sub", "task":"Battle Tower Gold", "tooltip":"Win 100 Double Battles in Battle Tower"}
 		]
 	},
 
@@ -301,17 +306,18 @@
 		"col": 1,
 		"splitCol":2,
 		"subtasks":[
-			{"id":"sub1", "task":"Ball Guy", "tooltip":"Speak with Ball Guy outside Motostoke Stadium after becoming Champion"},
-			{"id":"sub2", "task":"Chairman Rose - Announcer pose","tooltip":"From Oleana in Hulbury"},
-			{"id":"sub4", "task":"Chairman Rose - Thumbs up pose","tooltip":"From Oleana in Galar Mine"},
-			{"id":"sub5", "task":"Piers - Blue Background","tooltip":"From Piers after capturing Zacian/Zamazenta"},
-			{"id":"sub6", "task":"Milo - Holding Wooloo","tooltip":"Defeat Milo at Turffield Stadium"},
-			{"id":"sub7", "task":"Nessa - Sitting","tooltip":"Defeat Nessa at Hulbury Stadium"},
-			{"id":"sub8", "task":"Kabu - Pointing Up pose","tooltip":"Defeat Kabu at Motostoke Stadium"},
-			{"id":"sub9", "task":"Bea - Smiling / Allister Shy","tooltip":"Defeat Bea / Allister at Stow-on-Side Stadium"},
-			{"id":"sub10", "task":"Opal","tooltip":"Defeat Bede at Ballonlea Stadium"},
-			{"id":"sub11", "task":"Gordie - Hands clasped","tooltip":"Defeat Gordie / Melony at Circhester Stadium"},
-			{"id":"sub12", "task":"Melony - Teasing Gordie","tooltip":"Defeat Raihan at Hammerlocke Stadium"},
+			{"id":"sub1", "task":"Milo - Holding Wooloo","tooltip":"Defeat Dynamax Pokemon at Turffield Stadium"},
+			{"id":"sub2", "task":"Nessa - Sitting","tooltip":"Defeat Dynamax Pokemon at Hulbury Stadium"},
+			{"id":"sub3", "task":"Kabu - Pointing Up pose","tooltip":"Defeat Dynamax Pokemon at Motostoke Stadium"},
+			{"id":"sub4", "task":"Bea - Smiling / Allister Shy","tooltip":"Defeat Dynamax Pokemon at Stow-on-Side Stadium"},
+			{"id":"sub5", "task":"Bede - Holding a Poke ball", "tooltip":"Defeat Bede at Ballonlea Stadium"},
+			{"id":"sub6", "task":"Opal","tooltip":"Defeat Bede at Ballonlea Stadium"},
+			{"id":"sub7", "task":"Gordie - Hands clasped/Melony - Teasing Gordie","tooltip":"Defeat Dynamax Pokemon at Circhester Stadium"},
+			{"id":"sub8", "task":"Raihan - Stylish pose","tooltip":"Defeat Dynamax Pokemon at Hammerlocke Stadium"},
+			{"id":"sub9", "task":"Piers - Blue Background","tooltip":"From Piers after capturing Zacian/Zamazenta"},
+			{"id":"sub10", "task":"Marnie - Dark Gym Background", "tooltip":"Defeat Marnie in Spikemuth"},
+			{"id":"sub11", "task":"Rose - Thumbs up pose", "tooltip":"From Oleana in Galar Mine"},
+			{"id":"sub12", "task":"Ball Guy", "tooltip":"Speak with Ball Guy outside Motostoke Stadium after becoming Champion"},
 			{"id":"sub13", "task":"Leon - Hand raised","tooltip":"Defeat Leon at the Battle Tower"},
 			{"id":"sub14", "task":"Hop - Hand raised","tooltip":"Battle Hop at the end of the Epilogue"}
 		]
