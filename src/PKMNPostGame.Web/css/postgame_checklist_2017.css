@@ -206,8 +206,8 @@
 
 .swshLogo { width: 125px; height: 125px; }
 .swshBadge { width: 30px; height: 30px; }
-.swshSword { background: url("../images/swsh_Sword.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
-.swshShield { background: url("../images/swsh_Shield.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.swshSword { background: url("../images/swsh_sword.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.swshShield { background: url("../images/swsh_shield.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .swshGrassBadge { background: url("../images/swsh_Grass_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .swshWaterBadge { background: url("../images/swsh_Water_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .swshFireBadge { background: url("../images/swsh_Fire_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
