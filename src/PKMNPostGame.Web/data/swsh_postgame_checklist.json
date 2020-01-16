@@ -3,33 +3,7 @@
 		"task":"Complete the Pokedex (400)",
 		"category":"catchemall",
 		"row": 3,
-		"col": 1,
-		"splitCol": 3,
-		"subtasks":[
-			{"id":"sub1", "task":"Bulbasaur line"},
-			{"id":"sub2", "task":"Squirtle line"},
-			{"id":"sub3", "task":"Mewtwo"},
-			{"id":"sub4", "task":"Mew"},
-			{"id":"sub5", "task":"Celebi"},
-			{"id":"sub6", "task":"Jirachi"},
-			{"id":"sub7", "task":"Cobalion"},
-			{"id":"sub8", "task":"Terrakion"},
-			{"id":"sub9", "task":"Virizion"},
-			{"id":"sub10", "task":"Reshiram"},
-			{"id":"sub11", "task":"Zekrom"},
-			{"id":"sub12", "task":"Kyurem"},
-			{"id":"sub13", "task":"Keldeo"},
-			{"id":"sub14", "task":"Rowlet line"},
-			{"id":"sub15", "task":"Litten line"},
-			{"id":"sub16", "task":"Popplio line"},
-			{"id":"sub17", "task":"Cosmog line"},
-			{"id":"sub18", "task":"Solgaleo"},
-			{"id":"sub19", "task":"Lunala"},
-			{"id":"sub20", "task":"Necrozma"},
-			{"id":"sub21", "task":"Marshadow"},
-			{"id":"sub22", "task":"Zeraora"},
-			{"id":"sub23", "task":"Meltan line"}
-		]
+		"col": 1
 	},
 	{"id":"task2",
 		"task":"Obtain all Galarian form Pokemon",
@@ -254,7 +228,7 @@
 		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Bike Turbo Boost Cooldown Reduction 1", "tooltip":"Speak to a Watt Trader, cost 1000W"},
-			{"id":"sub2", "task":"Bike Turbo Boost Cooldown Reduction 2", "tooltip":"Speak to a Watt Trader, cost 2000W"},
+			{"id":"sub2", "task":"Bike Turbo Boost Cooldown Reduction 2", "tooltip":"Speak to a Watt Trader, cost 3000W"},
 			{"id":"sub3", "task":"Bike Turbo Boost Cooldown Reduction 3", "tooltip":"Speak to a Watt Trader, cost 5000W"},
 			{"id":"sub4", "task":"Unlock IV Judge", "tooltip":"Defeat Leon at the Battle Tower and move to Poke Ball Rank"}
 		]
