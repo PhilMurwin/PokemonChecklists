@@ -219,6 +219,8 @@
 .swshDarkBadge { background: url("../images/swsh_Dark_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .swshDragonBadge { background: url("../images/swsh_Dragon_Badge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
+.swshArmor { background: url("../images/swsh_armor.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
 @media only screen
 and (max-device-width: 750px) 
 {

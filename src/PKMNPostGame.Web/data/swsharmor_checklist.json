@@ -1,0 +1,199 @@
+{"swsh":[
+	{"id":"task1",
+		"task":"Complete the Isle of Armor Pokedex (100)",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1
+	},
+	{"id":"task2",
+		"task":"Obtain new Galarian form Pokemon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Slowpoke"},
+			{"id":"sub2", "task":"Slowbro"},
+			{"id":"sub3", "task":"Slowking"},
+			{"id":"sub4", "task":"Articuno"},
+			{"id":"sub5", "task":"Zapdos"},
+			{"id":"sub6", "task":"Moltres"},
+			{"id":"sub7", "task":""},
+			{"id":"sub8", "task":""},
+			{"id":"sub9", "task":""},
+			{"id":"sub10", "task":""},
+			{"id":"sub11", "task":""},
+			{"id":"sub12", "task":""},
+			{"id":"sub13", "task":""},
+			{"id":"sub14", "task":""},
+			{"id":"sub15", "task":""},
+			{"id":"sub16", "task":""},
+			{"id":"sub17", "task":""},
+			{"id":"sub18", "task":""},
+			{"id":"sub19", "task":""}
+		]
+	},
+	{"id":"task3",
+		"task":"Obtain all In-Game Gift Pokémon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"", "tooltip":""}
+		]
+	},
+	{"id":"task4",
+		"task":"Complete all Galarian Pokémon Trades",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"", "tooltip":""}
+		]
+	},
+	{"id":"task5",
+		"task":"Capture In-Game Legendaries",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Capture Kubfu"},
+			{"id":"sub2", "task":"Capture Urshifu"}
+		]
+	},
+	{"id":"task8",
+		"task":"Obtain all Gigantamax Capable Pokemon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Rillaboom"},
+			{"id":"sub2", "task":"Cinderace"},
+			{"id":"sub3", "task":"Inteleon"},
+			{"id":"sub4", "task":""},
+			{"id":"sub5", "task":""},
+			{"id":"sub6", "task":""},
+			{"id":"sub7", "task":""},
+			{"id":"sub8", "task":""},
+			{"id":"sub9", "task":""},
+			{"id":"sub10", "task":""},
+			{"id":"sub11", "task":""},
+			{"id":"sub12", "task":""},
+			{"id":"sub13", "task":""},
+			{"id":"sub14", "task":""},
+			{"id":"sub15", "task":""},
+			{"id":"sub16", "task":""},
+			{"id":"sub17", "task":""},
+			{"id":"sub18", "task":""},
+			{"id":"sub19", "task":""},
+			{"id":"sub20", "task":""},
+			{"id":"sub21", "task":""},
+			{"id":"sub22", "task":""},
+			{"id":"sub23", "task":""},
+			{"id":"sub24", "task":""},
+			{"id":"sub25", "task":""},
+			{"id":"sub26", "task":""}
+		]
+	},
+	
+
+	{"id":"task20",
+		"task":"Battle Dojo",
+		"category":"battle",
+		"row": 4,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Tier 1"},
+			{"id":"sub2", "task":""},
+			{"id":"sub3", "task":""},
+			{"id":"sub4", "task":""}
+		]
+	},
+
+	{"id":"task50",
+		"task":"Collect Special Items",
+		"category":"collectibles",
+		"row": 9,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Exp Charm", "tooltip":""},
+			{"id":"sub2", "task":"", "tooltip":""},
+			{"id":"sub3", "task":"", "tooltip":""},
+			{"id":"sub4", "task":"", "tooltip":""},
+			{"id":"sub5", "task":"", "tooltip":""}
+		]
+	},
+
+	{"id":"task51",
+		"task":"Collect League Card Backgrounds",
+		"category":"collectibles",
+		"row": 9,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"", "tooltip":""},
+			{"id":"sub2", "task":"", "tooltip":""},
+			{"id":"sub3", "task":"", "tooltip":""},
+			{"id":"sub4", "task":"", "tooltip":""},
+			{"id":"sub5", "task":"", "tooltip":""},
+			{"id":"sub6", "task":"", "tooltip":""},
+			{"id":"sub7", "task":"", "tooltip":""},
+			{"id":"sub8", "task":"", "tooltip":""},
+			{"id":"sub9", "task":"", "tooltip":""},
+			{"id":"sub10", "task":"", "tooltip":""},
+			{"id":"sub11", "task":"", "tooltip":""},
+			{"id":"sub12", "task":"", "tooltip":""},
+			{"id":"sub13", "task":"", "tooltip":""},
+			{"id":"sub14", "task":"", "tooltip":""},
+			{"id":"sub15", "task":"", "tooltip":""},
+			{"id":"sub16", "task":"", "tooltip":""},
+			{"id":"sub17", "task":"", "tooltip":""},
+			{"id":"sub18", "task":"", "tooltip":""},
+			{"id":"sub19", "task":"", "tooltip":""}
+		]
+	},
+
+	{"id":"task52",
+		"task":"Collect All The Rare League Cards",
+		"category":"collectibles",
+		"row": 9,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"","tooltip":""},
+			{"id":"sub2", "task":"","tooltip":""},
+			{"id":"sub3", "task":"","tooltip":""},
+			{"id":"sub4", "task":"","tooltip":""},
+			{"id":"sub5", "task":"","tooltip":""},
+			{"id":"sub6", "task":"","tooltip":""},
+			{"id":"sub7", "task":"","tooltip":""},
+			{"id":"sub8", "task":"","tooltip":""}
+		]
+	},
+	
+	{"id":"task53",
+		"task":"Collect All Ribbons on a Pokemon",
+		"category":"collectibles",
+		"row": 9,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"", "tooltip":""}
+		]
+	},
+
+	{"id":"task54",
+		"task":"Collect all Pokemon Camp Toys",
+		"category":"collectibles",
+		"row":9,
+		"col":2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"","tooltip":""}
+		]
+	}
+]}
