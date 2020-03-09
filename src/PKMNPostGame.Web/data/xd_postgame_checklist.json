@@ -220,7 +220,7 @@
 			{"id":"sub3", "task":"Purify all Shadow Pokemon", "tooltip":""}
 		]
 	},
-	{"id":"task20",
+	{"id":"task21",
 		"task":"Obtain the Lucky Egg",
 		"category":"activities",
 		"row": 5,
@@ -231,7 +231,7 @@
 			{"id":"sub3", "task":"Restore the Pokemon voices in Agate Village", "tooltip":"Combusken, Poochyena, Taillow, Lotad, Wobbuffet"},
 			{"id":"sub4", "task":"Restore the Pokemon voices in Gateon Port", "tooltip":"Oddish, Magnemite, Krabby, Krabby"},
 			{"id":"sub5", "task":"Restore the Pokemon voices in Phenac City", "tooltip":"Azumarill, Castform, Seedot, Linoone"},
-			{"id":"sub6", "task":"Restore Wobbuffet's voice", "tooltip":"Kaminko can help with this"},
+			{"id":"sub6", "task":"Restore Wobbuffets voice", "tooltip":"Kaminko can help with this"},
 			{"id":"sub7", "task":"Let Beluh know you helped all the pokemon", "tooltip":"Get the Lucky Egg"}
 		]
 	},
