@@ -19,8 +19,8 @@
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
 		"category":"legendary",
-		"row": 3,
-		"col": 3,
+		"row": 4,
+		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Capture Dialga", "tooltip":"Spear Pillar"},
@@ -75,20 +75,33 @@
 	{"id":"task5",
 		"task":"Collect All Battle Frontier Prints",
 		"category":"battle",
-		"row": 3,
-		"col": 13
+		"row": 5,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat Tower Tycoon Palmer once to earn a Silver Print", "tooltip": "Battle Tower"},
+			{"id":"sub2", "task":"Defeat Factory Head Thorton once to earn a Silver Print", "tooltip":"Battle Factory"},
+			{"id":"sub3", "task":"Defeat Arcade Star Dahlia once to earn a Silver Print", "tooltip":"Battle Arcade"},
+			{"id":"sub4", "task":"Defeat Castle Valet Darach once to earn a Silver Print", "tooltip":"Battle Castle"},
+			{"id":"sub5", "task":"Defeat Hall Matron Argenta once to earn a Silver Print", "tooltip":"Battle Hall"},
+			{"id":"sub6", "task":"Defeat Tower Tycoon Palmer a second time to earn a Gold Print", "tooltip":"Battle Tower"},
+			{"id":"sub7", "task":"Defeat Factory Head Thorton a second time to earn a Gold Print", "tooltip":"Battle Factory"},
+			{"id":"sub8", "task":"Defeat Arcade Star Dahlia a second time to earn a Gold Print", "tooltip":"Battle Arcade"},
+			{"id":"sub9", "task":"Defeat Castle Valet Darach a second time to earn a Gold Print", "tooltip":"Battle Castle"},
+			{"id":"sub10", "task":"Defeat Hall Matron Argenta a second time to earn a Gold Print", "tooltip":"Battle Hall"}
+		]
 	},
 	{"id":"task6",
 		"task":"Re-battle Elite Four Post National Dex",
 		"category":"battle",
-		"row": 3,
-		"col": 13
+		"row": 5,
+		"col": 1
 	},
 	{"id":"task7",
 		"task":"Collect All Poketch Applications",
 		"category":"upgrades",
-		"row": 3,
-		"col": 5,
+		"row": 6,
+		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Digital Clock"},
@@ -121,8 +134,8 @@
 	{"id":"task8",
 		"task":"Obtain Black Trainer Card",
 		"category":"upgrades",
-		"row": 3,
-		"col": 6,
+		"row": 6,
+		"col": 2,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat the Elite Four"},
 			{"id":"sub2", "task":"Complete 1 Master Rank Super Contest"},
@@ -134,13 +147,30 @@
 	{"id":"task9",
 		"task":"Complete 3 Levels of Rival Battles",
 		"category":"battle",
-		"row": 3,
-		"col": 13,
+		"row": 5,
+		"col": 1,
 		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Lv. 65"},
 			{"id":"sub2", "task":"Lv. 75"},
 			{"id":"sub3", "task":"Lv. 85"}
 		]
-	}	
+	},
+	{
+		"id":"task10",
+		"task":"Complete the Stark Mountain Quest",
+		"category":"epilogue",
+		"row": 8,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Venture to the bottom of Mt Stark at the top of Rt 227"},
+			{"id":"sub2", "task":"Go on patrol", "tooltip":"Patrol the mountain for Buck"},
+			{"id":"sub3", "task":"Team Galactic Remnants", "tooltip":"Follow Team Galactic into the mountain"},
+			{"id":"sub4", "task":"Showdown with Mars and Jupiter"},
+			{"id":"sub5", "task":"Chase Charon!", "tooltip": "Stop Charon from stealing the Magma Stone"},
+			{"id":"sub6", "task":"Team up with Buck", "tooltip":"Nab the crooks with Bucks help"},
+			{"id":"sub7", "task":"Looker to the rescue!", "tooltip":"Looker steps in to stop the theft"},
+			{"id":"sub8", "task":"Use Rock Climb", "tooltip":"On your own, use Rock Climb inside Stark Mt to reach new heights"}
+		]
+	}
 ]}
