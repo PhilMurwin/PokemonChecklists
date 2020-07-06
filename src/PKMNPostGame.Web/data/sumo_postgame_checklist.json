@@ -378,7 +378,7 @@
 		"splitCol": 2,
 		"subtasks":[
 			{"id":"sub", "task":"Shirts (111/99)", "formats":[{"word":"111","format":"boy"},{"word":"99","format":"girl"}]},
-			{"id":"sub", "task":"Bottoms (56,54)", "formats":[{"word":"56","format":"boy"},{"word":"54","format":"girl"}]},
+			{"id":"sub", "task":"Bottoms (56/54)", "formats":[{"word":"56","format":"boy"},{"word":"54","format":"girl"}]},
 			{"id":"sub", "task":"Socks (12/31)", "formats":[{"word":"12","format":"boy"},{"word":"31","format":"girl"}]},
 			{"id":"sub", "task":"Shoes (41/43)", "formats":[{"word":"41","format":"boy"},{"word":"43","format":"girl"}]},
 			{"id":"sub", "task":"Hats (33/26)", "formats":[{"word":"33","format":"boy"},{"word":"26","format":"girl"}]},
