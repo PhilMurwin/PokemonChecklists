@@ -1,9 +1,14 @@
 {"swsh":[
 	{"id":"task1",
-		"task":"Complete the Isle of Armor Pokedex (100)",
+		"task":"Complete the Isle of Armor Pokedex (211)",
 		"category":"catchemall",
 		"row": 3,
-		"col": 1
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Kubfu"},
+			{"id":"sub2", "task":"Urshifu"},
+			{"id":"sub3", "task":"Zarude"}
+		]
 	},
 	{"id":"task2",
 		"task":"Obtain new Galarian form Pokemon",
@@ -13,24 +18,7 @@
 		"splitCol": 3,
 		"subtasks":[
 			{"id":"sub1", "task":"Slowpoke"},
-			{"id":"sub2", "task":"Slowbro"},
-			{"id":"sub3", "task":"Slowking"},
-			{"id":"sub4", "task":"Articuno"},
-			{"id":"sub5", "task":"Zapdos"},
-			{"id":"sub6", "task":"Moltres"},
-			{"id":"sub7", "task":""},
-			{"id":"sub8", "task":""},
-			{"id":"sub9", "task":""},
-			{"id":"sub10", "task":""},
-			{"id":"sub11", "task":""},
-			{"id":"sub12", "task":""},
-			{"id":"sub13", "task":""},
-			{"id":"sub14", "task":""},
-			{"id":"sub15", "task":""},
-			{"id":"sub16", "task":""},
-			{"id":"sub17", "task":""},
-			{"id":"sub18", "task":""},
-			{"id":"sub19", "task":""}
+			{"id":"sub2", "task":"Slowbro"}
 		]
 	},
 	{"id":"task3",
@@ -40,76 +28,142 @@
 		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"", "tooltip":""}
+			{"id":"sub1", "task":"Bulbasaur or Squirtle", "notooltip":""},
+			{"id":"sub2", "task":"Kubfu", "notooltip":""},
+			{"id":"sub3", "task":"Porygon", "notooltip":""},
+			{"id":"sub4", "task":"Meowth", "tooltip":"Return 5 Diglett"},
+			{"id":"sub5", "task":"Slowpoke", "tooltip":"Return 10 Diglett"},
+			{"id":"sub6", "task":"Vulpix", "tooltip":"Return 20 Diglett"},
+			{"id":"sub7", "task":"Sandshrew", "tooltip":"Return 30 Diglett"},
+			{"id":"sub8", "task":"Raichu", "tooltip":"Return 40 Diglett"},
+			{"id":"sub9", "task":"Marowak", "tooltip":"Return 50 Diglett"},
+			{"id":"sub10", "task":"Exeggutor", "tooltip":"Return 75 Diglett"},
+			{"id":"sub11", "task":"Rowlet, Litten, or Popplio", "tooltip":"Return 100 Diglett"},
+			{"id":"sub12", "task":"Diglett", "tooltip":"Return 150 Diglett"}
 		]
 	},
 	{"id":"task4",
 		"task":"Complete all Galarian Pokémon Trades",
 		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"", "tooltip":""}
+			{"id":"sub1", "task":"Trade Galarian Meowth for Meowth", "notooltip":""},
+			{"id":"sub2", "task":"Trade Galarian Farfetch'd for Farfetch'd", "notooltip":""},
+			{"id":"sub3", "task":"Trade Galarian Ponyta for Corsola", "notooltip":""},
+			{"id":"sub4", "task":"Trade Galarian Corsola for Ponyta", "notooltip":""},
+			{"id":"sub5", "task":"Trade Galarian Mr. Mime for Mr. Mime", "notooltip":""},
+			{"id":"sub6", "task":"Trade Galarian Darumaka for Darumaka", "notooltip":""},
+			{"id":"sub7", "task":"Trade Galarian Zigzagoon for Hoenn Zigzagoon", "notooltip":""},
+			{"id":"sub8", "task":"Trade Galarian Stunfisk for Stunfisk", "notooltip":""},
+			{"id":"sub9", "task":"Trade Galarian Weezing for Weezing", "notooltip":""},
+			{"id":"sub10", "task":"Trade Galarian Exeggutor for Exeggutor", "notooltip":""},
+			{"id":"sub11", "task":"Trade Galarian Marowak for Marowak", "notooltip":""}
 		]
 	},
 	{"id":"task5",
-		"task":"Capture In-Game Legendaries",
+		"task":"Obtain new Gigantamax Pokemon",
 		"category":"catchemall",
 		"row": 3,
-		"col": 1,
+		"col": 2,
+		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"Capture Kubfu"},
-			{"id":"sub2", "task":"Capture Urshifu"}
+			{"id":"sub1", "task":"Venusaur"},
+			{"id":"sub2", "task":"Blastoise"},
+			{"id":"sub3", "task":"Rillaboom"},
+			{"id":"sub4", "task":"Cinderace"},
+			{"id":"sub5", "task":"Inteleon"},
+			{"id":"sub6", "task":"Urshifu"}
 		]
 	},
-	{"id":"task8",
-		"task":"Obtain all Gigantamax Capable Pokemon",
-		"category":"catchemall",
-		"row": 3,
-		"col": 1,
-		"splitCol": 3,
-		"subtasks":[
-			{"id":"sub1", "task":"Rillaboom"},
-			{"id":"sub2", "task":"Cinderace"},
-			{"id":"sub3", "task":"Inteleon"},
-			{"id":"sub4", "task":""},
-			{"id":"sub5", "task":""},
-			{"id":"sub6", "task":""},
-			{"id":"sub7", "task":""},
-			{"id":"sub8", "task":""},
-			{"id":"sub9", "task":""},
-			{"id":"sub10", "task":""},
-			{"id":"sub11", "task":""},
-			{"id":"sub12", "task":""},
-			{"id":"sub13", "task":""},
-			{"id":"sub14", "task":""},
-			{"id":"sub15", "task":""},
-			{"id":"sub16", "task":""},
-			{"id":"sub17", "task":""},
-			{"id":"sub18", "task":""},
-			{"id":"sub19", "task":""},
-			{"id":"sub20", "task":""},
-			{"id":"sub21", "task":""},
-			{"id":"sub22", "task":""},
-			{"id":"sub23", "task":""},
-			{"id":"sub24", "task":""},
-			{"id":"sub25", "task":""},
-			{"id":"sub26", "task":""}
-		]
-	},
-	
 
 	{"id":"task20",
-		"task":"Battle Dojo",
+		"task":"Complete all Restricted Sparring Types",
 		"category":"battle",
 		"row": 4,
 		"col": 1,
+		"splitCol": 3,
 		"subtasks":[
-			{"id":"sub1", "task":"Tier 1"},
-			{"id":"sub2", "task":""},
-			{"id":"sub3", "task":""},
-			{"id":"sub4", "task":""}
+			{"id":"sub1", "task":"Bug", "notooltip":""},
+			{"id":"sub2", "task":"Dark", "notooltip":""},
+			{"id":"sub3", "task":"Dragon", "notooltip":""},
+			{"id":"sub4", "task":"Electric", "notooltip":""},
+			{"id":"sub5", "task":"Fairy", "notooltip":""},
+			{"id":"sub6", "task":"Fighting", "notooltip":""},
+			{"id":"sub7", "task":"Fire", "notooltip":""},
+			{"id":"sub8", "task":"Flying", "notooltip":""},
+			{"id":"sub9", "task":"Ghost", "notooltip":""},
+			{"id":"sub10", "task":"Grass", "notooltip":""},
+			{"id":"sub11", "task":"Ground", "notooltip":""},
+			{"id":"sub12", "task":"Ice", "notooltip":""},
+			{"id":"sub13", "task":"Normal", "notooltip":""},
+			{"id":"sub14", "task":"Poison", "notooltip":""},
+			{"id":"sub15", "task":"Psychic", "notooltip":""},
+			{"id":"sub16", "task":"Rock", "notooltip":""},
+			{"id":"sub17", "task":"Steel", "notooltip":""},
+			{"id":"sub18", "task":"Water", "notooltip":""}
+		]
+	},
+
+	{"id":"task30",
+		"task":"Fully Upgrade the Dojo",
+		"category":"upgrades",
+		"row": 5,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Hair Stylist", "tooltip":"5000 watts"},
+			{"id":"sub2", "task":"Broken Rotomi", "tooltip":"10000 watts"},
+			{"id":"sub3", "task":"Fixed Rotomi", "tooltip":"20000 watts"},
+			{"id":"sub4", "task":"Vending Machine w/ Fresh Water", "tooltip":"30,000 watts"},
+			{"id":"sub5", "task":"Add Soda to Vending Machine", "tooltip":"40,000 watts"},
+			{"id":"sub6", "task":"Add Lemonade to Vending Machine", "tooltip":"50,000 watts"},
+			{"id":"sub7", "task":"Ingredients", "tooltip":"100,000 watts"},
+			{"id":"sub8", "task":"Second Vending Machine with Vitamins", "tooltip":"200,000 watts"},
+			{"id":"sub9", "task":"Add Calcium and Zinc to Vending Machine", "tooltip":"300,000 watts"},
+			{"id":"sub10", "task":"Add HP Up and Carbos to Vending Machine", "tooltip":"400,000 watts"},
+			{"id":"sub11", "task":"League Card Background of Dojo Kitchen", "tooltip":"500,000 watts"},
+			{"id":"sub12", "task":"Get Honeys League Card", "tooltip":"800,000 watts"},
+			{"id":"sub13", "task":"Battle Honey", "tooltip":"1,000,000 watts"},
+			{"id":"sub14", "task":"Get Honeys Rare League Card", "tooltip":"3,280,000 watts"}
+		]
+	},
+
+	{"id":"task31",
+		"task":"Misc Upgrades",
+		"category":"upgrades",
+		"row": 5,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Rotom Bike White", "notooltip":""},
+			{"id":"sub2", "task":"Rotom Bike Black", "notooltip":""}
+		]
+	},
+
+	{"id":"task40",
+		"task":"Find all 150 Diglett",
+		"category":"quests",
+		"row": 6,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Fields of Honor (18)", "notooltip":""},
+			{"id":"sub2", "task":"Soothing Wetlands (20)", "notooltip":""},
+			{"id":"sub3", "task":"Forest of Focus (8)", "notooltip":""},
+			{"id":"sub4", "task":"Challenge Beach (9)", "notooltip":""},
+			{"id":"sub5", "task":"Brawlers Cave (7)", "notooltip":""},
+			{"id":"sub6", "task":"Challenge Road (8)", "notooltip":""},
+			{"id":"sub7", "task":"Courageous Cavern (7)", "notooltip":""},
+			{"id":"sub8", "task":"Loop Lagoon (7)", "notooltip":""},
+			{"id":"sub9", "task":"Training Lowlands (15)", "notooltip":""},
+			{"id":"sub10", "task":"Warm-Up Tunnel (3)", "notooltip":""},
+			{"id":"sub11", "task":"Potbottom Desert (10)", "notooltip":""},
+			{"id":"sub12", "task":"Workout Sea (11)", "notooltip":""},
+			{"id":"sub13", "task":"Steping Stone Sea (7)", "notooltip":""},
+			{"id":"sub14", "task":"Insular Sea (6)", "notooltip":""},
+			{"id":"sub15", "task":"Honeycalm Sea (3)", "notooltip":""},
+			{"id":"sub16", "task":"Honeycalm Sea (11)", "notooltip":""}
 		]
 	},
 
@@ -117,83 +171,12 @@
 		"task":"Collect Special Items",
 		"category":"collectibles",
 		"row": 9,
-		"col": 2,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"Exp Charm", "tooltip":""},
-			{"id":"sub2", "task":"", "tooltip":""},
-			{"id":"sub3", "task":"", "tooltip":""},
-			{"id":"sub4", "task":"", "tooltip":""},
-			{"id":"sub5", "task":"", "tooltip":""}
-		]
-	},
-
-	{"id":"task51",
-		"task":"Collect League Card Backgrounds",
-		"category":"collectibles",
-		"row": 9,
 		"col": 1,
-		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"", "tooltip":""},
-			{"id":"sub2", "task":"", "tooltip":""},
-			{"id":"sub3", "task":"", "tooltip":""},
-			{"id":"sub4", "task":"", "tooltip":""},
-			{"id":"sub5", "task":"", "tooltip":""},
-			{"id":"sub6", "task":"", "tooltip":""},
-			{"id":"sub7", "task":"", "tooltip":""},
-			{"id":"sub8", "task":"", "tooltip":""},
-			{"id":"sub9", "task":"", "tooltip":""},
-			{"id":"sub10", "task":"", "tooltip":""},
-			{"id":"sub11", "task":"", "tooltip":""},
-			{"id":"sub12", "task":"", "tooltip":""},
-			{"id":"sub13", "task":"", "tooltip":""},
-			{"id":"sub14", "task":"", "tooltip":""},
-			{"id":"sub15", "task":"", "tooltip":""},
-			{"id":"sub16", "task":"", "tooltip":""},
-			{"id":"sub17", "task":"", "tooltip":""},
-			{"id":"sub18", "task":"", "tooltip":""},
-			{"id":"sub19", "task":"", "tooltip":""}
-		]
-	},
-
-	{"id":"task52",
-		"task":"Collect All The Rare League Cards",
-		"category":"collectibles",
-		"row": 9,
-		"col": 1,
-		"splitCol":2,
-		"subtasks":[
-			{"id":"sub1", "task":"","tooltip":""},
-			{"id":"sub2", "task":"","tooltip":""},
-			{"id":"sub3", "task":"","tooltip":""},
-			{"id":"sub4", "task":"","tooltip":""},
-			{"id":"sub5", "task":"","tooltip":""},
-			{"id":"sub6", "task":"","tooltip":""},
-			{"id":"sub7", "task":"","tooltip":""},
-			{"id":"sub8", "task":"","tooltip":""}
-		]
-	},
-	
-	{"id":"task53",
-		"task":"Collect All Ribbons on a Pokemon",
-		"category":"collectibles",
-		"row": 9,
-		"col": 2,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"", "tooltip":""}
-		]
-	},
-
-	{"id":"task54",
-		"task":"Collect all Pokemon Camp Toys",
-		"category":"collectibles",
-		"row":9,
-		"col":2,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"","tooltip":""}
+			{"id":"sub1", "task":"Style Card", "notooltip":""},
+			{"id":"sub2", "task":"Exp Charm", "notooltip":""},
+			{"id":"sub3", "task":"Mark Charm", "notooltip":""}
 		]
 	}
+
 ]}
