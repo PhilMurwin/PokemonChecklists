@@ -25,6 +25,7 @@
 	<script src="js/postgame_checklist2.js"></script>
 
 	<!-- Stylesheets -->
+	<link id="dark-theme-style" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 	crossorigin="anonymous" />
@@ -119,6 +120,11 @@
 					}
 				</style>
 			</div>
+		</div>
+		<div>
+			<style>	.spacer { height: 10px; width: 70px; display:inline-block; } </style>
+			<button href="javascript:void()" class="btn btn-outline-info" id="theme-toggler" onclick="toggleTheme()"></button>
+			<div class="spacer"></div>
 		</div>
 	</nav>
 	
@@ -301,6 +307,8 @@
 		</div>
 
 	</div>
+
+	<script src="js/theme.js"></script>
 
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5834a4d597b8f38b"></script> -->
