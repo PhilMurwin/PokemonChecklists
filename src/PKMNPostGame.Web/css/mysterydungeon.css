@@ -1,0 +1,106 @@
+.postgame_chkLabel[title]:after {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	content: " ";
+	background: url("../images/pokeball_bullet.png");
+	background-size: 100%;
+}
+
+.tooltip {
+	left: 50px !important;
+}
+
+.tooltip-inner {
+	font-size: 11pt;
+}
+
+.postgame {
+	/* background-color: white; */
+	padding: 20px;
+}
+
+.credit {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.row-header {
+	padding-bottom: 10px;
+}
+
+.teamLogo-header {
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.badge-header {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.badge-header-md {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.badge-header-contents {
+	margin: 0 auto;
+}
+
+.badge-sm {
+	width: 30px;
+	display: inline-block;
+}
+
+.badge-md {
+	width: 45px;
+	display: inline-block;
+}
+
+.task {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 11pt;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.taskimg {
+	margin-left: 5px;
+}
+
+.subtask {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 8pt;
+	/* margin-left: 1.5em; */
+	display: inline;
+}
+
+.mdbrtLogo { width: 125px; height: 125px; }
+.mdbrtBadge { width: 30px; height: 30px; }
+.mdcharmander { background: url("../images/MDCharmander.png"); background-size: contain; background-repeat: no-repeat; }
+.mdsquirtle { background: url("../images/MDSquirtle.png"); background-size: contain; background-repeat: no-repeat; }
+
+
+@media only screen
+and (max-device-width: 750px) 
+{
+	input[type=checkbox] {
+	/* All browsers except webkit*/
+	transform: scale(2);
+
+	/* Webkit browsers*/
+	-webkit-transform: scale(2);
+	}
+
+	.task {
+		font-size: 15pt;
+	}
+
+	.subtask {
+		font-size: 14pt;
+	}
+}
