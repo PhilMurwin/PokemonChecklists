@@ -1,5 +1,4 @@
 body {
-	padding-top: 50px;
 	font-family: Verdana,Geneva,sans-serif;
 }
 
@@ -37,4 +36,8 @@ input[type='checkbox'] {
 	color: red;
 	font-size: 16pt;
 	text-align: center;
+}
+
+.pkmn-panel {
+	margin-bottom: 20px;
 }

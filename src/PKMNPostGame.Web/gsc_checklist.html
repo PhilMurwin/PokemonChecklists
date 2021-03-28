@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="icon" type="image/png" href="images/pokeball_bullet.png">
@@ -7,24 +8,31 @@
 	<title>Crystal Post Game Checklist</title>
 
 	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
 
 	<!-- Custom -->
+	<script src="js/build_menu.js"></script>
+	<script src="js/postgame_checklist2.js"></script>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" />
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="css/postgame_checklist_2017.css">
 	<link rel="stylesheet" href="css/print.css">
 	
-	<script src="js/build_menu.js"></script>
-	<script src="js/postgame_checklist2.js"></script>
-
 	<script>
 	/*
 	* Notes
@@ -70,42 +78,79 @@
 		enable_page_level_ads: true
 	  });
 	</script>
+	<style>
+		label {
+			font-weight: 700;
+		}
+	</style>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-	<a href="https://github.com/PhilMurwin/PokemonChecklists" class="hidden-xs" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../../index.html">Pokemon Checklists</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse"></div>
-      </div>
-    </nav>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="./index.html">Pokemon Checklists</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pkmnNav" aria-expanded="false" aria-controls="pkmnNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="pkmnNav">
+				<a href="https://github.com/PhilMurwin/PokemonChecklists" class="github-corner"
+					aria-label="View source on GitHub"><svg width="56" height="56" viewBox="0 0 250 250"
+						style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+						aria-hidden="true">
+						<path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+						<path
+							d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+							fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+						<path
+							d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+							fill="currentColor" class="octo-body"></path>
+					</svg></a>
+				<style>
+					.github-corner:hover .octo-arm {
+						animation: octocat-wave 560ms ease-in-out
+					}
+	
+					@keyframes octocat-wave {
+						0%, 100% { transform: rotate(0) }
+						20%, 60% { transform: rotate(-25deg) }
+						40%, 80% { transform: rotate(10deg) }
+					}
+	
+					@media (max-width:500px) {
+						.github-corner:hover .octo-arm {
+							animation: none
+						}
+	
+						.github-corner .octo-arm {
+							animation: octocat-wave 560ms ease-in-out
+						}
+					}
+				</style>
+			</div>
+		</div>
+	</nav>
 	
 	<div class="postgame container-fluid">
+
 		<div id="row1" class="row">
-			<div class="pageTitle col-sm-12 col-xs-12">
+			<div class="pageTitle col-sm-12 col-12">
 				Pokemon Crystal - Post Game Checklist
 			</div>
-			<div class="credit col-sm-12 col-xs-12">
+			<div class="credit col-sm-12 col-12">
 				<span style="font-weight: bold; font-size:12pt">See a problem or issue? Let me know on <a href="https://twitter.com/PokemonPostGame">Twitter @PokemonPostGame</a></span><br/>
 				or via email: <a href="mailto:PkmnPostGame@gmail.com">PkmnPostGame@gmail.com</a><br/>
 			</div>
 		</div>
-		<div id="row2" class="row row-header">
-			<div class="col-lg-offset-1 col-sm-3 col-xs-6">
+
+		<div id="row2" class="row row-header justify-content-center">
+			<div class="col-6 col-md-2">
 				<span class="teamLogo-header gscLogo gscSuicune" alt="Suicune" ></span>
 			</div>
-			<div class="col-sm-3 col-sm-push-5 col-xs-6">
+			<div class="col-6 col-md-2 order-md-12">
 				<span class="teamLogo-header gscLogo gscSuicune2" alt="Suicune" ></span>
 			</div>
-			<div class="col-lg-4 col-lg-pull-3 col-sm-4 col-sm-pull-2 col-xs-12">
+			<div class="col-12 col-md-6 order-md-6">
 				<div class="badge-header">
 					<span class="badge-sm gscBadge gscZephyrBadge" alt="Zephyr Badge" ></span>
 					<span class="badge-sm gscBadge gscHiveBadge" alt="Hive Badge" ></span>
@@ -118,116 +163,121 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-offset-1 col-xs-11">
-				<p>Sections can be expanded or collapsed by clicking the section title next to the chevron ( <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> ).</p>
+
+		<div class="row justify-content-center">
+			<div class="col-10">
+				<p>Sections can be expanded or collapsed by clicking the section title next to the chevron ( <i class="fas fa-chevron-down"></i> ).</p>
 			</div>
 		</div>
-		<div id="row3" class="row">
-			<div id="col1" class="col-sm-11 col-sm-offset-1 col-xs-12">
-				<div class="panel-group catchemall">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="title-collapse" data-toggle="collapse" href="#catchemall"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Gotta Catch 'Em All</a>
-							</h4>
-						</div>
-						<div id="catchemall" class="panel-collapse collapse">
-							<div class="row">
-								<div class="col-sm-6">
-									<div id="panel3-1" class="panel-body"></div>
-								</div>
-								<div class="col-sm-6">
-									<div id="panel3-2" class="panel-body"></div>
-								</div>
+
+		<div id="row3" class="row justify-content-center">
+			<div id="col1" class="col-10">
+
+				<div class="card pkmn-panel catchemall">
+					<div class="card-header">
+						<button class="btn btn-sm btn-light card-collapse" data-toggle="collapse" href="#catchemall">
+							<i class="fas fa-chevron-down"></i>
+							<h5 class="d-inline">Gotta Catch 'Em All</h5>
+						</button>
+					</div>
+					<div id="catchemall" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel3-1" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel3-2" class="panel-body"></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="panel-group legendary">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="title-collapse" data-toggle="collapse" href="#legendary"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Legendary</a>
-							</h4>
-						</div>
-						<div id="legendary" class="panel-collapse collapse">
-							<div class="row">
-								<div class="col-sm-6">
-									<div id="panel3-3" class="panel-body"></div>
-								</div>
-								<div class="col-sm-6">
-									<div id="panel3-4" class="panel-body"></div>
-								</div>
+
+				<div class="card pkmn-panel legendary">
+					<div class="card-header">
+						<button class="btn btn-sm btn-light card-collapse" data-toggle="collapse" href="#legendary">
+							<i class="fas fa-chevron-down"></i>
+							<h5 class="d-inline">Legendary</h5>
+						</button>
+					</div>
+					<div id="legendary" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel3-3" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel3-4" class="panel-body"></div>
 							</div>
 						</div>
 					</div>
                 </div>
-                <div class="panel-group upgrades">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="title-collapse" data-toggle="collapse" href="#upgrades"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Upgrades</a>
-							</h4>
-						</div>
-						<div id="upgrades" class="panel-collapse collapse">
-							<div class="row">
-								<div class="col-sm-6">
-									<div id="panel3-5" class="panel-body"></div>
-								</div>
-								<div class="col-sm-6">
-									<div id="panel3-6" class="panel-body"></div>
-								</div>
+
+                <div class="card pkmn-panel upgrades">
+					<div class="card-header">
+						<button class="btn btn-sm btn-light card-collapse" data-toggle="collapse" href="#upgrades">
+							<i class="fas fa-chevron-down"></i>
+							<h5 class="d-inline">Upgrades</h5>
+						</button>
+					</div>
+					<div id="upgrades" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel3-5" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel3-6" class="panel-body"></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="panel-group epilogue">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="title-collapse" data-toggle="collapse" href="#epilogue"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Epilogue</a>
-							</h4>
-						</div>
-						<div id="epilogue" class="panel-collapse collapse">
-							<div class="row">
-								<div class="col-sm-6">
-									<div id="panel3-15" class="panel-body"></div>
-								</div>
-								<div class="col-sm-6">
-									<div id="panel3-16" class="panel-body"></div>
-								</div>
+
+				<div class="card pkmn-panel epilogue">
+					<div class="card-header">
+						<button class="btn btn-sm btn-light card-collapse" data-toggle="collapse" href="#epilogue">
+							<i class="fas fa-chevron-down"></i>
+							<h5 class="d-inline">Epilogue</h5>
+						</button>
+					</div>
+					<div id="epilogue" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel3-15" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel3-16" class="panel-body"></div>
 							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
-		<div id="row8" class="row">
-			<div id="col8" class="col-sm-11 col-sm-offset-1">
-				<div class="panel-group">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-						<h4 class="panel-title">
-							<a class="title-collapse" data-toggle="collapse" href="#collapse8"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> TMs</a>
-						</h4>
-						</div>
-						<div id="collapse8" class="panel-collapse collapse">
-							<div id="panel8-8" class="panel-body"></div>
-						</div>
+
+		<div id="row8" class="row justify-content-center">
+			<div id="col8" class="col-10">
+				<div class="card pkmn-panel">
+					<div class="card-header">
+						<button class="btn btn-sm btn-light card-collapse" data-toggle="collapse" href="#collapse8">
+							<i class="fas fa-chevron-down"></i>
+							<h5 class="d-inline">TMs</h5>
+						</button>
+					</div>
+					<div id="collapse8" class="card-body collapse">
+						<div id="panel8-8" class="panel-body"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="row10" class="row">
-			<div id="spacer" class="col-sm-11 col-sm-offset-1">
+
+		<div id="row10" class="row justify-content-center">
+			<div id="spacer" class="col-10">
 			<br/>
 			<br/>
 			<br/>
 			</div>
 		</div>
+
 	</div>
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5834a4d597b8f38b"></script>
+	<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5834a4d597b8f38b"></script> -->
 </body>
 </html>

@@ -93,7 +93,7 @@
 }
 
 .badge-header {
-	width: 275px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -128,7 +128,7 @@
 	font-family: Verdana,Geneva,sans-serif;
 	font-size: 8pt;
 	margin-left: 1.5em;
-	display: inline;
+	/* display: inline; */
 }
 
 .dpLogo { width: 100px; height: 100px; }

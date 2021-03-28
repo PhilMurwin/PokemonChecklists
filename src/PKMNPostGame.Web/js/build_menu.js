@@ -1,39 +1,42 @@
 /// <reference path="../../typings/jquery/jquery.d.ts"/>
 
-function GetJsonData(path)
+var menuObj = menuObj || {};
+menuObj.path = "";
+
+function BuildMenu(path)
 {
-	var json = null;
+	menuObj.path = path;
+	var dataPath = (path != undefined ? "./" + path + "/" : "") + "data/menu.json";
+	GetJsonData(dataPath);
+}
+
+function GetJsonData(datapath)
+{
 	$.ajax({
-		'async': false,
+		//'async': false,
 		'global': false,
-		'url': path,
+		'url': datapath,
 		'dataType': "json",
 		'success': function(data) {
-			json = data;
+			BuildNav(data);
 		}
 		,'error': function(x, y, err) {
 			console.log(err);
 		}
 	});
-	
-	return json;
 }
 
-function BuildMenu(path)
+function BuildNav(data)
 {
-	var navbar = $("#navbar");
-	
+	var navbar = $("#pkmnNav");
 	var dataKey = "menus";
-	var dataPath = (path != undefined ? "./" + path + "/" : "") + "data/menu.json";
-	var data = GetJsonData(dataPath);
-	
-	var menu = BuildMenuItems(data[dataKey], path);
-	menu = "<ul class='nav navbar-nav'>" + menu + "</ul>";
+
+	var menu = BuildMenuItems(data[dataKey], menuObj.path);
+	menu = "<ul class='navbar-nav mr-auto'>" + menu + "</ul>";
 	navbar.append(menu);
-	//console.log(menu);
 }
 
-function BuildMenuItems(data, path)
+function BuildMenuItems(data, path, ingroup)
 {
 	var menuItems = "";
 	
@@ -43,13 +46,13 @@ function BuildMenuItems(data, path)
 		
 		if (menuItem["isgroup"] == 1)
 		{
-			var groupItems = BuildMenuItems(menuItem["menuitems"], path);
+			var groupItems = BuildMenuItems(menuItem["menuitems"], path, true);
 			
-			var groupItem = "<li class='dropdown'>" +
-				"<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" + menuItem["itemname"] + "<span class='caret'></span></a>" +
-				"<ul class='dropdown-menu'>" +
+			var groupItem = "<li class='nav-item dropdown'>" +
+				"<a class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" + menuItem["itemname"] + "</a>" +
+				"<div class='dropdown-menu bg-dark'>" +
 					groupItems +
-				"</ul>" +
+				"</div>" +
 				"</li>";
 			
 			menuItems += groupItem;
@@ -63,18 +66,21 @@ function BuildMenuItems(data, path)
 				continue;
 			}
 
+			var linkclass = ingroup ? "dropdown-item nav-link" : "nav-link";
+
 			if (menuItem["itemname"].toLowerCase() === "separator")
 			{
-				item = "<li role='separator' class='divider'></li>";
+				item = "<div role='separator' class='dropdown-divider'></div>";
 			}
 			else if (menuItem["external"] === undefined)
 			{
 				var relativePath = path != undefined ? "./" + path + "/" : "";
-				item = "<li><a href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a></li>";
+				item = "<a class='"+linkclass+"' href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a>";
 			}
+			// Create External Link, assumed to be in a dropdown
 			else
 			{
-				item = "<li><a href='" + menuItem["link"] + "' target='_blank'>" + menuItem["itemname"] + "</a></li>";
+				item = "<a class='"+linkclass+"' href='" + menuItem["link"] + "' target='_blank'>" + menuItem["itemname"] + "</a>";
 			}
 			menuItems += item;
 		}

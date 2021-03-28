@@ -116,6 +116,7 @@ function RenderSubTasks(divTask, chkIndex, task)
 		
 		var rowCount = 0;
 		var x = Math.floor(12 / splitCols);
+		var rowDiv = $("<div class='row'></div>");
 		var colDiv = "<div class='col-sm-" + x + "'></div>";
 		var targetCol = $(colDiv);
 		
@@ -135,7 +136,7 @@ function RenderSubTasks(divTask, chkIndex, task)
 			
 			if (rowCount >= maxRowCount)
 			{
-				divTask.append(targetCol);
+				rowDiv.append(targetCol);
 				rowCount = 0;
 				targetCol = $(colDiv);
 			}
@@ -143,8 +144,10 @@ function RenderSubTasks(divTask, chkIndex, task)
 		
 		if (rowCount > 0)
 		{
-			divTask.append(targetCol);
+			rowDiv.append(targetCol);
 		}
+
+		divTask.append(rowDiv);
 	}
 	
 	return divTask;
@@ -293,36 +296,37 @@ function chk_onClick(e, binKey)
 
 function LoadCollapseState(binKey)
 {
-	var links = $("a.title-collapse");
+	var btns = $("button.card-collapse");
 
-	// Find all the collapse links
-	for(var i=0; i < links.length; i++)
+	// Find all the collapse btns
+	for(var i=0; i < btns.length; i++)
 	{
-		var link = links[i];
+		var btn = btns[i];
 
-		// Add click event to collapse link
-		$(link).on("click", function(e) {
+		// Add click event to collapse btn
+		$(btn).on("click", function(e) {
 			collapse_onClick(e, binKey);
 		});
 
-		var panelTask = $(link.hash);
-		var collapseState = RetrieveKeyValuePair(binKey + link.hash);
-		var span = $(link).children("span");
+		var panelID = $(btn).attr("href");
+		var collapseState = RetrieveKeyValuePair(binKey + panelID);
+		var ctrl = $(btn).children("i");
+
 		if (collapseState !== null && collapseState == "true")
 		{
-			if(panelTask.hasClass('collapse in'))
+			if( $(panelID).hasClass('collapse show') )
 			{
-				panelTask.collapse('hide');
+				$(panelID).collapse('hide');
 			}
-			span.removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+			ctrl.removeClass("gfa-chevron-up").addClass("fa-chevron-down");
 		}
 		else
 		{
-			if(! panelTask.hasClass('collapse in'))
+			if( $(panelID).hasClass('collapse show') == false )
 			{
-				panelTask.collapse('show');
+				$(panelID).collapse('show');
 			}
-			span.removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+			ctrl.removeClass("fa-chevron-down").addClass("fa-chevron-up");
 		}
 	}
 }
@@ -330,12 +334,12 @@ function LoadCollapseState(binKey)
 function collapse_onClick(e, binKey)
 {
 	var link = e.currentTarget;
-	var panelID = link.hash;
+	var panelID = link.getAttribute("href");
 	var saveKey = binKey + panelID;
 
 	// This event fires before "in" has been removed
 	// so if it has "in" it's about to be removed and the panel hidden
-	if($(panelID).hasClass('collapse in'))
+	if($(panelID).hasClass('collapse show'))
 	{
 		// About to hide
 		SetCollapseState(link, saveKey, true);
@@ -351,15 +355,15 @@ function SetCollapseState(link, saveKey, isCollapsed)
 {
 	SaveKeyValuePair(saveKey, isCollapsed);
 	
-	var span = $(link).children("span");
+	var ctrl = $(link).children("i");
 
 	if (isCollapsed)
 	{
-		span.removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+		ctrl.removeClass("fa-chevron-up").addClass("fa-chevron-down");
 	}
 	else
 	{
-		span.removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+		ctrl.removeClass("fa-chevron-down").addClass("fa-chevron-up");
 	}
 }
 
