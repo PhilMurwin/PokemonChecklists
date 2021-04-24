@@ -47,6 +47,11 @@
 
 .moon {
 	color: #5D3287;
+	text-shadow: 
+		0.01em 0 5px white,
+		0 0.01em 5px white,
+		-0.01em 0 5px white,
+		0 -0.01em 5px white;
 }
 
 .sword {

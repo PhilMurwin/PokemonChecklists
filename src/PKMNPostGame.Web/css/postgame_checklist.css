@@ -23,10 +23,20 @@
 
 .ruby {
 	color: #A50B00;
+	text-shadow: 
+		0.01em 0 5px white,
+		0 0.01em 5px white,
+		-0.01em 0 5px white,
+		0 -0.01em 5px white;
 }
 
 .sapphire {
 	color: #171A9A;
+	text-shadow: 
+		0.01em 0 5px white,
+		0 0.01em 5px white,
+		-0.01em 0 5px white,
+		0 -0.01em 5px white;
 }
 
 .red {
@@ -59,6 +69,11 @@
 
 .moon {
 	color: #5D3287;
+	text-shadow: 
+		0.01em 0 5px white,
+		0 0.01em 5px white,
+		-0.01em 0 5px white,
+		0 -0.01em 5px white;
 }
 
 .black {
