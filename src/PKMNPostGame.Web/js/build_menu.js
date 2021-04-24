@@ -49,7 +49,7 @@ function BuildMenuItems(data, path, ingroup)
 			var groupItems = BuildMenuItems(menuItem["menuitems"], path, true);
 			
 			var groupItem = "<li class='nav-item dropdown'>" +
-				"<a class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" + menuItem["itemname"] + "</a>" +
+				"<a class='nav-link dropdown-toggle bg-dark' href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" + menuItem["itemname"] + "</a>" +
 				"<div class='dropdown-menu bg-dark'>" +
 					groupItems +
 				"</div>" +
@@ -75,12 +75,12 @@ function BuildMenuItems(data, path, ingroup)
 			else if (menuItem["external"] === undefined)
 			{
 				var relativePath = path != undefined ? "./" + path + "/" : "";
-				item = "<a class='"+linkclass+"' href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a>";
+				item = "<a class='"+linkclass+" bg-dark' href='" + relativePath + menuItem["link"] + "'>" + menuItem["itemname"] + "</a>";
 			}
 			// Create External Link, assumed to be in a dropdown
 			else
 			{
-				item = "<a class='"+linkclass+"' href='" + menuItem["link"] + "' target='_blank'>" + menuItem["itemname"] + "</a>";
+				item = "<a class='"+linkclass+" bg-dark' href='" + menuItem["link"] + "' target='_blank'>" + menuItem["itemname"] + "</a>";
 			}
 			menuItems += item;
 		}
