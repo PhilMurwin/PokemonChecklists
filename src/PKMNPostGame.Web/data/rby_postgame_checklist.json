@@ -59,6 +59,15 @@
 			{"id":"sub4", "task":"Capture Mewtwo", "tooltip":"Unknown Dungeon"}
 		]
 	},
+	{"id":"task5",
+		"task":"Get a hi-score in the Pikachu Surfing Mini-Game!",
+		"category":"quest",
+		"row": 6,
+		"col": 1,
+		"subtasks": [
+			{"id":"sub1", "task":"Tweet me a picture of your hi-score with hash tag #SurfingPikachu"}
+		]
+	},
 	{"id":"task7",
 		"task":"Collect All 50 Technical Machines (TMs)",
 		"category":"tm",
