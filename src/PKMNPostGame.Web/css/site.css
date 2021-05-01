@@ -41,3 +41,13 @@ input[type='checkbox'] {
 .pkmn-panel {
 	margin-bottom: 20px;
 }
+
+.main-footer {
+	padding-bottom: 50px;
+    text-align: center;
+    /* background-color: #f1f1f1; */
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: auto;
+}

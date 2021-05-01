@@ -128,8 +128,8 @@
 .subtask {
 	font-family: Verdana,Geneva,sans-serif;
 	font-size: 8pt;
-	/* margin-left: 1.5em; */
-	display: inline;
+	margin-left: 1.5em;
+	/* display: block; */
 }
 
 .rbLogo { width: 125px; height: 115px; }
