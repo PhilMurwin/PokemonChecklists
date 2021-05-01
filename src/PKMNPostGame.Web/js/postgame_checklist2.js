@@ -170,6 +170,7 @@ function BuildCheckbox(chkIndex, task)
 	var taskpkmn = task.pkmn;
 	var spoiler = "";
 	var tooltip = "";	
+	var extrainfo = "";
 	
 	if (task.spoiler !== undefined)
 	{
@@ -179,6 +180,11 @@ function BuildCheckbox(chkIndex, task)
 	if (task.tooltip !== undefined)
 	{
 		tooltip = "title=\"" + tasktip + "\""
+	}
+
+	if (task.extrainfo !== undefined)
+	{
+		extrainfo = "<div class='extrainfo'>Discover more at: <a target='_blank' href='"+task.extrainfo.link+"'>"+task.extrainfo.text+"</a></div>";
 	}
 	
 	var formattedText = text + spoiler;
@@ -203,11 +209,14 @@ function BuildCheckbox(chkIndex, task)
 		chkImg = "<img class=\"taskimg\" src='images/" + taskimg + "'/><span class=\"pkspr pkmn-unown\"></span>"
 	}
 	
-	var chk = $("<label class=\"postgame_chkLabel\"" + tooltip + "for='" + id + "'>"
+	var chk = $("<span><label class=\"postgame_chkLabel\"" + tooltip + "for='" + id + "'>"
 		+ chkInput
 		+ RenderPkmnSprite(taskpkmn)
 		+ formattedText
-		+ "</label>");
+		+ "</label>"
+		+ extrainfo
+		+ "</span>"
+		);
 
 	chk.append(chkImg);
 	

@@ -146,6 +146,11 @@
 	/* display: inline; */
 }
 
+.extrainfo {
+	margin-left: 3em;
+	margin-bottom: .5em;
+}
+
 .dpLogo { width: 100px; height: 100px; }
 .dpBadge { width: 45px; height: 45px; }
 .dpDialga { background: url("../images/Dialga.png"); background-size: contain; background-repeat: no-repeat; width: 100px; height: 100px; }

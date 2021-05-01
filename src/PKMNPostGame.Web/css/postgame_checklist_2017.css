@@ -132,6 +132,10 @@
 	/* display: block; */
 }
 
+.extrainfo {
+	margin-left: 1.5em;
+}
+
 .rbLogo { width: 125px; height: 115px; }
 .rbyLogo { height: 100px; }
 .rsLogo, .rseLogo { height: 150px; }
