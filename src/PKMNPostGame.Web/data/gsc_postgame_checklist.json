@@ -56,7 +56,7 @@
 			{"id":"sub2", "task":"Capture Entei", "tooltip":"Roaming Johto"},
 			{"id":"sub3", "task":"Capture Suicune", "tooltip":"Johto"},
 			{"id":"sub4", "task":"Capture Lugia", "tooltip":"Whirl Islands"},
-			{"id":"sub5", "task":"Capture Ho-oh", "tooltip":"Tin Tower"},
+			{"id":"sub5", "task":"Capture Ho-oh", "tooltip":"Tin Tower (after catching the legendary beasts and showing  in Celadon City)"},
 			{"id":"sub6", "task":"Capture Celebi", "tooltip":"Obtain the GS Ball and speak with Kurt in Azalea Town"}
 		]
 	},
