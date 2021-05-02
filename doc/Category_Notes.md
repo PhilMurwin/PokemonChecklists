@@ -15,6 +15,7 @@
 
 
 ## Activities
+    * Convert to quests?
     * Any activities that are not necessary to the game
     * i.e. contests, house challenges, Pokeathalon Hall of Fame, funfest
 ## Battle
