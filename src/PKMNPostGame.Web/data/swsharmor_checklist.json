@@ -186,8 +186,7 @@
 		"subtasks":[
 			{"id":"sub1", "task":"Young Mustard","tooltip":"Defeat Mustard in the Dojo"},
 			{"id":"sub2", "task":"Honey - 2 Kubfu","tooltip":"Upgrade the Dojo"},
-			{"id":"sub3", "task":"Avery(shield)/Klara(sword) - working out","tooltip":"Find them in the potbottom desert"},
-			{"id":"sub4", "task":"Peony - close up","tooltip":"Complete all Legendary Clues"}
+			{"id":"sub3", "task":"Avery(shield)/Klara(sword) - working out","tooltip":"Find them in the potbottom desert"}
 		]
 	}
 

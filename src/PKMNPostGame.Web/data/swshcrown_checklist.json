@@ -1,0 +1,116 @@
+{"swsh":[
+	{"id":"task1",
+		"task":"Complete the Crown Tundra Pokedex (210)",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Obtain Glastrier or Spectrier"},
+            {"id":"sub2", "task":"Trade for the Horse you didn't choose (Glastrier or Spectrier)"},
+            {"id":"sub3", "task":"Calyrex"},
+			{"id":"sub4", "task":"Cosmog", "tooltip":"Available from a lady in Freezington"},
+			{"id":"sub5", "task":"Poipole", "tooltip":"Capture 5 Ultra Beasts in the Max Lair"},
+			{"id":"sub6", "task":"Regigigas", "tooltip":"Complete the Terrible Titans and visit Snowslide Slide Max den"},
+			{"id":"sub7", "task":"Galarian Slowking", "tooltip":"Give Galarian Wreath to Galarian Slowpoke"},
+			{"id":"sub7", "task":"Spiritomb", "tooltip":"Visit Grave in Ballimere Lake, Talk to 40 people online, return to grave"}
+		]
+	},
+	{"id":"task2",
+		"task":"Obtain the Swords of Justice",
+		"tooltip":"Follow the mysterious footprints",
+		"category":"catchemall",
+		"row": 3,
+		"col": 2,
+		"subtasks": [
+			{"id":"sub1","task":"Obtain Cobalion"},
+			{"id":"sub2","task":"Obtain Terrakion"},
+			{"id":"sub3","task":"Obtain Virizion"},
+			{"id":"sub4","task":"Obtain Keldeo"}
+		]
+	},
+	{"id":"task60",
+		"task":"Complete the Galarian Star Tournament",
+		"category":"battle",
+		"row": 4,
+		"col": 1,
+		"subtasks": [
+			{"id":"sub1","task":"Win your first Tournament"},
+			{"id":"sub2","task":"Unlock All 17 partners", "tooltip":"After 15 victories"}
+		]
+	},
+	{"id":"task61",
+		"task":"Rematch Peony",
+		"category":"battle",
+		"row": 4,
+		"col": 1
+	},
+	{"id":"task62",
+		"task":"Shake the Dyna Hill Tree for a Pokemon Den Battle",
+		"category":"battle",
+		"row": 4,
+		"col": 1
+	},
+	{"id":"task80",
+		"task":"Complete the Terrible Titans Story",
+		"category":"epilogue",
+		"row": 8,
+		"col": 1,
+		"subtasks": [
+			{"id":"sub1","task":"Obtain Regirock"},
+			{"id":"sub2","task":"Obtain Regice"},
+			{"id":"sub3","task":"Obtain Registeel"},
+			{"id":"sub4","task":"Capture or Trade for Regieleki"},
+			{"id":"sub5","task":"Capture or Trade for Regidrago"}
+		]
+	},
+	{"id":"task81",
+		"task":"Complete the Legendary Tree Story",
+		"category":"epilogue",
+		"row": 8,
+		"col": 1,
+		"subtasks": [
+			{"id":"sub1","task":"Obtain Galarian Articuno"},
+			{"id":"sub2","task":"Obtain Galarian Zapdos"},
+			{"id":"sub3","task":"Obtain Galarian Moltres"}
+		]
+	},
+	{"id":"task82",
+		"task":"Complete the Ultra Beyond Story",
+		"category":"epilogue",
+		"row": 8,
+		"col": 2,
+		"subtasks": [
+			{"id":"sub1","task":"Obtain Nihilego"},
+			{"id":"sub2","task":"Obtain Buzzwole"},
+			{"id":"sub3","task":"Obtain Pheromosa"},
+			{"id":"sub4","task":"Obtain Xurkitree"},
+			{"id":"sub5","task":"Obtain Celesteela"},
+			{"id":"sub6","task":"Obtain Kartana"},
+			{"id":"sub7","task":"Obtain Guzzlord"},
+			{"id":"sub8","task":"Obtain Stakataka"},
+			{"id":"sub9","task":"Obtain Blachephelon"},
+			{"id":"sub10","task":"Obtain Necrozma"}
+		]
+	},
+	{"id":"task90",
+		"task":"Collect Special Items",
+		"category":"collectibles",
+		"row": 9,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Ability Patch", "tooltip":"Show Necrozma to Peony"},
+			{"id":"sub2", "task":"Galarica Wreath", "tooltip":"Collect 15 Galarica Twigs and take to Roaring-Sea Cave"},
+			{"id":"sub3", "task":"Replica State Crown", "tooltip":"From woman in Tundra Station after completing Crown Tundra Pokedex"}
+		]
+	},
+	{"id":"task91",
+		"task":"Collect Rare League Cards",
+		"category":"collectibles",
+		"row": 9,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Peony - close up","tooltip":"Complete all Legendary Clues"}
+		]
+	}
+]}

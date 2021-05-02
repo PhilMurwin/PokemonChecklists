@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="images/pokeball_bullet.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Visit the Isle of Armor to continue your Adventures and Exploration throughout the Galar Region! Keep track of your adventures with our checklists!">
+	<title>The Crown Tundra Checklist</title>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+
+	<!-- Custom -->
+	<script src="js/build_menu.js"></script>
+	<script src="js/postgame_checklist2.js"></script>
+
+	<!-- Stylesheets -->
+	<link id="dark-theme-style" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/postgame_checklist_2017.css">
+	<link rel="stylesheet" href="css/print.css">
+	
+	<script>
+		$(function()
+		{
+			BuildMenu();
+			Render("swsh","data/swshcrown_checklist.json", "swshcrown");
+			
+			$(".postgame_chkLabel[title]" ).tooltip({});
+			
+			$(".postgame_chk").on('click', function(e) {
+				chk_onClick(e, "swshcrown");
+			});
+			
+			LoadCollapseState("swshcrown");
+
+			ChangeSpanToImages("swsh");
+		});
+	</script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-58634167-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-6830917346606244",
+			enable_page_level_ads: true
+		});
+	</script>
+	<style>
+		label {
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="../../index.html">Pokemon Checklists</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pkmnNav" aria-expanded="false" aria-controls="pkmnNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="pkmnNav">
+			</div>
+		</div>
+		<div>
+			<button href="javascript:void()" class="btn btn-outline-info" id="theme-toggler" onclick="toggleTheme()"></button>
+			<div class="spacer"></div>
+		</div>
+	</nav>
+	
+	<div class="postgame container-fluid">
+
+		<div id="row1" class="row">
+			<div class="pageTitle col-sm-12 col-12">
+				Crown Tundra - Adventure Checklist
+			</div>
+			<div class="credit col-sm-12 col-12">
+				<span style="font-weight: bold; font-size:12pt">See a problem or issue? Let me know on <a href="https://twitter.com/PokemonPostGame">Twitter @PokemonPostGame</a></span><br/>
+				or via email: <a href="mailto:PkmnPostGame@gmail.com">PkmnPostGame@gmail.com</a><br/>
+			</div>
+		</div>
+
+		<div id="row2" class="row row-header justify-content-center">
+			<div class="col-6 col-md-2">
+				<span class="teamLogo-header swshLogo swshCrown" alt="Crown" ></span>
+			</div>
+			<div class="col-6 col-md-2 order-md-12">
+				<span class="teamLogo-header swshLogo swshCrown" alt="Crown" ></span>
+			</div>
+			<div class="col-12 col-md-6 order-md-6">
+				<div class="badge-header-md">
+					<span class="badge-sm swshBadge swshGrassBadge" alt="Grass Badge" ></span>
+					<span class="badge-sm swshBadge swshWaterBadge" alt="Water Badge" ></span>
+					<span class="badge-sm swshBadge swshFireBadge" alt="Fire Badge" ></span>
+					<span class="badge-sm swshBadge swshGhostBadge" alt="Ghost Badge" ></span>
+					<span class="badge-sm swshBadge swshFightingBadge" alt="Fighting Badge" ></span>
+					<span class="badge-sm swshBadge swshFairyBadge" alt="Fairy Badge" ></span>
+					<span class="badge-sm swshBadge swshIceBadge" alt="Ice Badge" ></span>
+					<span class="badge-sm swshBadge swshRockBadge" alt="Rock Badge" ></span>
+					<span class="badge-sm swshBadge swshDarkBadge" alt="Dark Badge" ></span>
+					<span class="badge-sm swshBadge swshDragonBadge" alt="Dragon Badge" ></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-10">
+				<p>Sections can be expanded or collapsed by clicking the section title next to the chevron ( <i class="fas fa-chevron-down p-1 pr-2"></i> ).</p>
+			</div>
+		</div>
+		
+		<div id="row3" class="row justify-content-center">
+			<div id="col3" class="col-10">
+				<div class="card pkmn-panel catchemall">
+					<div class="card-header p-0">
+						<button class="btn btn-sm btn-block d-flex card-collapse" data-toggle="collapse" href="#catchemall">
+							<i class="fas fa-chevron-down p-1 pr-2"></i>
+							<h5 class="d-inline self-align-start">Gotta Catch 'Em All</h5>
+						</button>
+					</div>
+					<div id="catchemall" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel3-1" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel3-2" class="panel-body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="row4" class="row justify-content-center">
+			<div id="col4" class="col-10">
+				<div class="card pkmn-panel battle">
+					<div class="card-header p-0">
+						<button class="btn btn-sm btn-block d-flex card-collapse" data-toggle="collapse" href="#battle">
+							<i class="fas fa-chevron-down p-1 pr-2"></i>
+							<h5 class="d-inline self-align-start">Battle</h5>
+						</button>
+					</div>
+					<div id="battle" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel4-1" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel4-2" class="panel-body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="row5" class="row justify-content-center">
+			<div id="col5" class="col-10">
+				<div class="card pkmn-panel upgrades d-none">
+					<div class="card-header p-0">
+						<button class="btn btn-sm btn-block d-flex card-collapse" data-toggle="collapse" href="#upgrades">
+							<i class="fas fa-chevron-down p-1 pr-2"></i>
+							<h5 class="d-inline self-align-start">Upgrades</h5>
+						</button>
+					</div>
+					<div id="upgrades" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel5-1" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel5-2" class="panel-body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="row6" class="row justify-content-center">
+			<div id="col6" class="col-10">
+				<div class="card pkmn-panel Quests d-none">
+					<div class="card-header p-0">
+						<button class="btn btn-sm btn-block d-flex card-collapse" data-toggle="collapse" href="#curry">
+							<i class="fas fa-chevron-down p-1 pr-2"></i>
+							<h5 class="d-inline self-align-start">Quests</h5>
+						</button>
+					</div>
+					<div id="curry" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel6-1" class="panel-body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="row8" class="row justify-content-center">
+			<div id="col8" class="col-10">
+				<div class="card pkmn-panel Epilogue">
+					<div class="card-header p-0">
+						<button class="btn btn-sm btn-block d-flex card-collapse" data-toggle="collapse" href="#epilogue">
+							<i class="fas fa-chevron-down p-1 pr-2"></i>
+							<h5 class="d-inline self-align-start">Epilogue</h5>
+						</button>
+					</div>
+					<div id="epilogue" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel8-1" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel8-2" class="panel-body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="row9" class="row justify-content-center">
+			<div id="col9" class="col-10">
+				<div class="card pkmn-panel collectibles">
+					<div class="card-header p-0">
+							<button class="btn btn-sm btn-block d-flex card-collapse" data-toggle="collapse" href="#collectibles">
+								<i class="fas fa-chevron-down p-1 pr-2"></i>
+								<h5 class="d-inline self-align-start">Collectibles</h5>
+							</button>
+					</div>
+					<div id="collectibles" class="card-body collapse">
+						<div class="row">
+							<div class="col-sm-6">
+								<div id="panel9-1" class="panel-body"></div>
+							</div>
+							<div class="col-sm-6">
+								<div id="panel9-2" class="panel-body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="main-footer">
+		<hr class="bg-light"/>
+
+		<div class="row p-2 pt-5 justify-content-center">
+			<div class="col-12 col-sm-6 col-lg-3 col-xl-2 p-2">
+				<a class="link" href="/index.html">Pokemon Checklists</a>
+			</div>
+			<i class="fas fa-circle d-none d-lg-inline-block mt-2"></i>
+			<div class="col-12 col-sm-6 col-lg-2 col-xl-2 p-2">
+				<a class="link" href="https://twitter.com/PokemonPostGame" rel="noopener noreferrer" target="_blank">Twitter</a>
+			</div>
+			<i class="fas fa-circle d-none d-lg-inline-block mt-2"></i>
+			<div class="col-12 col-sm-6 col-lg-3 col-xl-2 p-2">
+				<a class="contactLink" href="mailto:pkmnPostGame@gmail.com">pkmnPostGame@gmail.com</a>
+			</div>
+			<i class="fas fa-circle d-none d-lg-inline-block mt-2"></i>
+			<div class="col-12 col-sm-6 col-lg-2 col-xl-2 p-2">
+				<a class="link" href="https://github.com/PhilMurwin/PokemonChecklists" rel="noopener noreferrer" target="_blank">Github</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/theme.js"></script>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5834a4d597b8f38b"></script> -->
+</body>
+</html>
