@@ -9,72 +9,127 @@
 
 <url>
   <loc>http://pokemonpostgame.com/</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://pokemonpostgame.com/index.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/rb_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/swshcrown_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/gs_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/mdbrt_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/gsc_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/swsh_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/dp_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/plat_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/hgss_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/bw_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/b2w2_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/xy_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/oras_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/swsharmor_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/sumo_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/usum_checklist.html</loc>
-  <lastmod>2018-02-02T19:44:36+00:00</lastmod>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/lgpe_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/xy_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/oras_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/bw_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/b2w2_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/dp_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/plat_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/hgss_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/rs_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/rse_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/frlg_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/col_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/xd_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/gs_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/gsc_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/rb_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://pokemonpostgame.com/src/PKMNPostGame.Web/rby_checklist.html</loc>
+  <lastmod>2021-07-22T18:13:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
