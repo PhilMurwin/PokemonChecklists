@@ -88,10 +88,10 @@
 			{"id":"sub3", "task":"Capture Giratina", "tooltip":"Turnback Cave"},
 			{"id":"sub4", "task":"Capture Cresselia", "tooltip":"Full Moon Island"},
 			{"id":"sub5", "task":"Capture Rotom", "tooltip":"After receiving the National Pokedex head to the Old Chateau - You must approach the television at night"},
-			{"hide":true,"id":"sub5", "task":"Breed Phione", "tooltip":"Event Manaphy Needed"},
-			{"hide":true,"id":"sub6", "task":"Darkrai", "tooltip":"Event - New Moon Island - Requires membership pass to be given to sailor in canalve city"},
-			{"hide":true,"id":"sub7", "task":"Shaymin", "tooltip":"Event - Flower Paradise - Requires Oak"},
-			{"hide":true,"id":"sub8", "task":"Arceus", "tooltip":"Event - Arceus - Hall of Origin - Requires Azure Flute to be brought to spear pillar"}
+			{"hide":true,"id":"sub6", "task":"Breed Phione", "tooltip":"Event Manaphy Needed"},
+			{"hide":true,"id":"sub7", "task":"Darkrai", "tooltip":"Event - New Moon Island - Requires membership pass to be given to sailor in canalve city"},
+			{"hide":true,"id":"sub8", "task":"Shaymin", "tooltip":"Event - Flower Paradise - Requires Oak"},
+			{"hide":true,"id":"sub9", "task":"Arceus", "tooltip":"Event - Arceus - Hall of Origin - Requires Azure Flute to be brought to spear pillar"}
 		]
 	},
 	{"id":"task8",
@@ -252,13 +252,13 @@
 		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub", "task":"Master Ball"},
-			{"id":"sub", "task":"Catching Charm"},
-			{"id":"sub", "task":"Shiny Charm"},
-			{"id":"sub", "task":"Oval Charm"},
-			{"id":"sub", "task":"Original DS sound effects"},
-			{"id":"sub", "task":"Poke Radar", "tooltip":"Unlock the National Pokedex"},
-			{"id":"sub", "task":"Swarms", "tooltip":"After unlocking the National Pokedex, talk to sister of Lucas/Dawn in sandgem town"}
+			{"id":"sub1", "task":"Master Ball"},
+			{"id":"sub2", "task":"Catching Charm"},
+			{"id":"sub3", "task":"Shiny Charm"},
+			{"id":"sub4", "task":"Oval Charm"},
+			{"id":"sub5", "task":"Original DS sound effects"},
+			{"id":"sub6", "task":"Poke Radar", "tooltip":"Unlock the National Pokedex"},
+			{"id":"sub7", "task":"Swarms", "tooltip":"After unlocking the National Pokedex, talk to sister of Lucas/Dawn in sandgem town"}
 		]
 	},
 	{"id":"task42",
