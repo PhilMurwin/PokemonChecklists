@@ -54,6 +54,25 @@
 		0 -0.01em 5px white;
 }
 
+.diamond {
+	color: #37559B;
+	text-shadow: 
+		0.01em 0 3px white,
+		0 0.01em 3px white,
+		-0.01em 0 3px white,
+		0 -0.01em 3px white;
+}
+
+.pearl {
+	color: #67356F;
+	text-shadow: 
+		0.01em 0 3px white,
+		0 0.01em 3px white,
+		-0.01em 0 3px white,
+		0 -0.01em 3px white;
+}
+
+
 .sword {
 	color: #00A1E9;
 
@@ -230,6 +249,20 @@
 
 .swshArmor { background: url("../images/swsh_armor.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
 .swshCrown { background: url("../images/swsh_crown.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+
+.dpLogo, .bdspLogo { width: 125px; height: 125px; }
+.dpBadge, .bdspBadge { width: 30px; height: 30px; }
+.dpDialga { background: url("../images/Dialga.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.dpPalkia { background: url("../images/Palkia.png"); background-size: contain; background-repeat: no-repeat; width: 125px; height: 125px; }
+.dpCoalBadge { background: url("../images/dpCoalBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpForestBadge { background: url("../images/dpForestBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpCobbleBadge { background: url("../images/dpCobbleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpFenBadge { background: url("../images/dpFenBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpRelicBadge { background: url("../images/dpRelicBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpMineBadge { background: url("../images/dpMineBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpIcicleBadge { background: url("../images/dpIcicleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+.dpBeaconBadge { background: url("../images/dpBeaconBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
+
 
 @media only screen
 and (max-device-width: 750px) 

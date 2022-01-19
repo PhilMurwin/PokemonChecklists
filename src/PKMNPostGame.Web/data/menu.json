@@ -46,7 +46,9 @@
 			{"itemname":"Separator"},
 			{"itemname":"Sword & Shield", "link":"swsh_checklist.html"},
 			{"itemname":"Isle of Armor", "link":"swsharmor_checklist.html"},
-			{"itemname":"Crown Tundra", "link":"swshcrown_checklist.html"}
+			{"itemname":"Crown Tundra", "link":"swshcrown_checklist.html"},
+			{"itemname":"Separator"},
+			{"itemname":"Brilliant Diamond & Shining Pearl", "link":"bdsp_checklist.html"}
 		]
 	},
 	{"itemname":"Useful Links",
