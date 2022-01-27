@@ -50,17 +50,17 @@
 		"col": 2,
 		"splitCol": 3,
 		"subtasks":[
-			{"id":"sub","task":"A", "pkmn":{ "pkmn":"unown", "form":"a"}},
-			{"id":"sub","task":"B", "pkmn":{ "pkmn":"unown", "form":"b"}},
-			{"id":"sub","task":"C", "pkmn":{ "pkmn":"unown", "form":"c"}},
-			{"id":"sub","task":"D", "pkmn":{ "pkmn":"unown", "form":"d"}},
-			{"id":"sub","task":"E", "pkmn":{ "pkmn":"unown", "form":"e"}},
-			{"id":"sub","task":"F", "pkmn":{ "pkmn":"unown", "form":"f"}},
-			{"id":"sub","task":"G", "pkmn":{ "pkmn":"unown", "form":"g"}},
-			{"id":"sub","task":"H", "pkmn":{ "pkmn":"unown", "form":"h"}},
-			{"id":"sub","task":"I", "pkmn":{ "pkmn":"unown", "form":"i"}},
-			{"id":"sub","task":"J", "pkmn":{ "pkmn":"unown", "form":"j"}},
-			{"id":"sub","task":"K", "pkmn":{ "pkmn":"unown", "form":"k"}}
+			{"id":"sub1","task":"A", "pkmn":{ "pkmn":"unown", "form":"a"}},
+			{"id":"sub2","task":"B", "pkmn":{ "pkmn":"unown", "form":"b"}},
+			{"id":"sub3","task":"C", "pkmn":{ "pkmn":"unown", "form":"c"}},
+			{"id":"sub4","task":"D", "pkmn":{ "pkmn":"unown", "form":"d"}},
+			{"id":"sub5","task":"E", "pkmn":{ "pkmn":"unown", "form":"e"}},
+			{"id":"sub6","task":"F", "pkmn":{ "pkmn":"unown", "form":"f"}},
+			{"id":"sub7","task":"G", "pkmn":{ "pkmn":"unown", "form":"g"}},
+			{"id":"sub8","task":"H", "pkmn":{ "pkmn":"unown", "form":"h"}},
+			{"id":"sub9","task":"I", "pkmn":{ "pkmn":"unown", "form":"i"}},
+			{"id":"sub10","task":"J", "pkmn":{ "pkmn":"unown", "form":"j"}},
+			{"id":"sub11","task":"K", "pkmn":{ "pkmn":"unown", "form":"k"}}
 		]
 	},
 	{"id":"task8a",
@@ -70,13 +70,13 @@
 		"col": 2,
 		"splitCol": 3,
 		"subtasks":[
-			{"id":"sub","task":"L", "pkmn":{ "pkmn":"unown", "form":"l"}},
-			{"id":"sub","task":"M", "pkmn":{ "pkmn":"unown", "form":"m"}},
-			{"id":"sub","task":"N", "pkmn":{ "pkmn":"unown", "form":"n"}},
-			{"id":"sub","task":"O", "pkmn":{ "pkmn":"unown", "form":"o"}},
-			{"id":"sub","task":"P", "pkmn":{ "pkmn":"unown", "form":"p"}},
-			{"id":"sub","task":"Q", "pkmn":{ "pkmn":"unown", "form":"q"}},
-			{"id":"sub","task":"R", "pkmn":{ "pkmn":"unown", "form":"r"}}
+			{"id":"sub1","task":"L", "pkmn":{ "pkmn":"unown", "form":"l"}},
+			{"id":"sub2","task":"M", "pkmn":{ "pkmn":"unown", "form":"m"}},
+			{"id":"sub3","task":"N", "pkmn":{ "pkmn":"unown", "form":"n"}},
+			{"id":"sub4","task":"O", "pkmn":{ "pkmn":"unown", "form":"o"}},
+			{"id":"sub5","task":"P", "pkmn":{ "pkmn":"unown", "form":"p"}},
+			{"id":"sub6","task":"Q", "pkmn":{ "pkmn":"unown", "form":"q"}},
+			{"id":"sub7","task":"R", "pkmn":{ "pkmn":"unown", "form":"r"}}
 		]
 	},
 	{"id":"task8b",
@@ -86,11 +86,11 @@
 		"col": 2,
 		"splitCol": 3,
 		"subtasks":[
-			{"id":"sub","task":"S", "pkmn":{ "pkmn":"unown", "form":"s"}},
-			{"id":"sub","task":"T", "pkmn":{ "pkmn":"unown", "form":"t"}},
-			{"id":"sub","task":"U", "pkmn":{ "pkmn":"unown", "form":"u"}},
-			{"id":"sub","task":"V", "pkmn":{ "pkmn":"unown", "form":"v"}},
-			{"id":"sub","task":"W", "pkmn":{ "pkmn":"unown", "form":"w"}}
+			{"id":"sub1","task":"S", "pkmn":{ "pkmn":"unown", "form":"s"}},
+			{"id":"sub2","task":"T", "pkmn":{ "pkmn":"unown", "form":"t"}},
+			{"id":"sub3","task":"U", "pkmn":{ "pkmn":"unown", "form":"u"}},
+			{"id":"sub4","task":"V", "pkmn":{ "pkmn":"unown", "form":"v"}},
+			{"id":"sub5","task":"W", "pkmn":{ "pkmn":"unown", "form":"w"}}
 		]
 	},
 	{"id":"task8c",
@@ -100,9 +100,9 @@
 		"col": 2,
 		"splitCol": 3,
 		"subtasks":[
-			{"id":"sub","task":"X", "pkmn":{ "pkmn":"unown", "form":"x"}},
-			{"id":"sub","task":"Y", "pkmn":{ "pkmn":"unown", "form":"y"}},
-			{"id":"sub","task":"Z", "pkmn":{ "pkmn":"unown", "form":"z"}}
+			{"id":"sub1","task":"X", "pkmn":{ "pkmn":"unown", "form":"x"}},
+			{"id":"sub2","task":"Y", "pkmn":{ "pkmn":"unown", "form":"y"}},
+			{"id":"sub3","task":"Z", "pkmn":{ "pkmn":"unown", "form":"z"}}
 		]
 	},	
 	{"id":"task4",
