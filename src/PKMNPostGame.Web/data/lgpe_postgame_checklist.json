@@ -81,6 +81,17 @@
 		"row":4,
 		"col":1
 	},
+	{"id":"task13",
+		"task":"Rematches! After the Defeating the Elite Four",
+		"category":"battle",
+		"row": 4,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Find and Defeat Archer"},
+			{"id":"sub2", "task":"Find and Defeat Jessie and James"},
+			{"id":"sub3", "task":"Defeat Pokemon Trainer Blue"}
+		]
+	},
 	{"id":"task12",
 		"task":"Defeat all Master Trainers",
 		"category":"battle",
@@ -259,6 +270,7 @@
 			{"id":"sub153", "task":"Melmetal Master", "tooltip":"Pokemon Mansion, show a stat trained Melmetal"}
 		]
 	},
+	
 	{"id":"task14",
 		"task":"Unlock the IV Checker Judge",
 		"tooltip":"Collect 30 unique species of Pokemon, talk to the man in the building between Route 11 & 12",
