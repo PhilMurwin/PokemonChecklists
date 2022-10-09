@@ -51,3 +51,7 @@ input[type='checkbox'] {
     letter-spacing: 1px;
     margin-top: auto;
 }
+
+#langpicker {
+	padding: .25em;
+}
