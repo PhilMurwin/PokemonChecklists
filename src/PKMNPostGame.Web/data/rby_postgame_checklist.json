@@ -41,7 +41,7 @@
 			{"id":"sub1", "task":"Trade Clefairy for Mr. Mime", "tooltip": "Route 2 House"},
 			{"id":"sub2", "task":"Trade Cubone for Machoke", "tooltip": "Route 5 House"},
 			{"id":"sub3", "task":"Trade Lickitung for Dugtrio", "tooltip": "Route 11 Guardhouse"},
-			{"id":"sub4", "task":"Trade Parasect for Tangela", "tooltip": "Route 18 Guardhouse"},
+			{"id":"sub4", "task":"Trade Tangela for Parasect", "tooltip": "Route 18 Guardhouse"},
 			{"id":"sub5", "task":"Trade Golduck for Rhydon", "tooltip": "Cinnabar Island Lab"},
 			{"id":"sub6", "task":"Trade Growlithe for Dewgong", "tooltip": "Cinnabar Island Lab"},
 			{"id":"sub7", "task":"Trade Kangaskhan for Muk", "tooltip": "Cinnabar Island Lab"}
