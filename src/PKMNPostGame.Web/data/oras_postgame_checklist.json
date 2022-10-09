@@ -1,4 +1,7 @@
 {"oras":[
+	{
+		"_note": "Tasks in this list are quite out of order"
+	},
 	{"id":"task1",
 		"task":"Complete the OR / AS Hoenn Pokedex (211)",
 		"category":"catchemall",
@@ -15,8 +18,21 @@
 			{"id":"sub6", "task":"Capture Registeel (Ancient Tomb)", "tooltip":"Available at different times"},
 			{"id":"sub7", "task":"Capture Rayquaza (Sky Pillar)"},
 			{"id":"sub8", "task":"Capture Deoxys (Sky Pillar)"},
-			{"id":"sub9", "task":"Trade for Latias / Latios (OR EON Ticket)","formats":[{"word":"Latias","format":"ruby"},{"word":"Latios","format":"sapphire"}]}
+			{"id":"sub9", "task":"Trade for Latias / Latios (OR EON Ticket)","formats":[{"word":"Latias","format":"ruby"},{"word":"Latios","format":"sapphire"}]},
+			{"id":"sub10", "task":"Capture Spiritomb"}
 		]
+	},
+	{"id":"task3",
+	"task":"Complete National Dex (719)",
+	"category":"catchemall",
+	"markTask":false,
+	"row": 3,
+	"col": 2,
+	"subtasks":[
+		{"id":"sub1", "task":"Obtain Johto Starter From Prof. Birch"},
+		{"id":"sub2", "task":"Obtain Unova Starter From Prof. Birch"},
+		{"id":"sub3", "task":"Obtain Sinnoh Starter From Prof. Birch"}
+	]
 	},
 	{"id":"task2",
 		"task":"Capture Additional In-Game Legendaries",
@@ -47,74 +63,402 @@
 			{"id":"sub20", "task":"Capture Cresselia (Cressent Isle)"}
 		]
 	},
-	{"id":"task3",
-		"task":"Complete National Dex (719)",
-		"category":"catchemall",
-		"markTask":false,
-		"row": 3,
+
+
+	{"id":"task10",
+	"task":"Complete Regular & Super Battle Maison Battles",
+	"category":"battle",
+	"row": 4,
+	"col": 1,
+	"splitCol":2,
+	"subtasks":[
+		{"id":"sub1", "task":"Single Battle", "multicheck":2},
+		{"id":"sub2", "task":"Double Battle", "multicheck":2},
+		{"id":"sub3", "task":"Triple Battle", "multicheck":2},
+		{"id":"sub4", "task":"Rotation Battle", "multicheck":2},
+		{"id":"sub5", "task":"Multi Battle", "multicheck":2}
+	]
+	},
+	{"id":"task11",
+		"task":"Rematch \"Mega\" Elite Four Post-Delta Episode",
+		"category":"battle",
+		"row": 4,
+		"col": 2
+	},
+	{"id":"task12",
+		"task":"Rematch Wally at the Battle Resort",
+		"category":"battle",
+		"row": 4,
 		"col": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"Obtain Johto Starter From Prof. Birch"},
-			{"id":"sub2", "task":"Obtain Unova Starter From Prof. Birch"},
-			{"id":"sub3", "task":"Obtain Sinnoh Starter From Prof. Birch"}
+			{"id":"sub1", "task":"Rematch Wally After Beating Super Battle"}
 		]
 	},
-	{"id":"task4",
-		"task":"Collect All \"New\" Mega Stones",
-		"category":"megastones",
-		"row": 3,
-		"col": 12,
-		"sort":"alpha",
-		"splitCol":2,
+	{"id":"task13",
+		"task":"Complete All Mauville Food Court Battles",
+		"category":"battle",
+		"row": 4,
+		"col": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"Beedrill", "spoiler":"(Sea Mauville)", "tooltip":"From Beginning"},
-			{"id":"sub2", "task":"Pidgeot", "spoiler":"(Rustboro - Show Mr. Stone the Intriguing Stone)", "tooltip":"From Beginning"},
-			{"id":"sub3", "task":"Slowbro", "spoiler":"(Shoal Cave - Give man 4 Shoal Salts & 4 Shoal Shells)", "tooltip":"From Beginning"},
-			{"id":"sub4", "task":"Steelix", "spoiler":"(Granite Cave)", "tooltip":"From Beginning"},
-			{"id":"sub5", "task":"Steelix", "spoiler":"(Transfer from Demo Version)", "formats":[{"all":"seafoam"}]},
-			{"id":"sub6", "task":"Sceptile", "spoiler":"(Route 120 (If Starter), Route 114 - Stone Salesman (If not Starter))"},
-			{"id":"sub7", "task":"Swampert", "spoiler":"(Route 120 (If Starter), Route 114 - Stone Salesman (If not Starter))"},
-			{"id":"sub8", "task":"Sableye", "spoiler":"(Sootopolis City)", "tooltip":"From Beginning"},
-			{"id":"sub9", "task":"Sharpedo", "spoiler":"(Battle Resort (Omega Ruby) / Aqua Hideout - Delta Ep(Alpha Sapphire))"},
-			{"id":"sub10", "task":"Camerupt", "spoiler":"(Magma Hideout - Delta Ep (Omega Ruby) / Battle Resort (Alpha Sapphire))"},
-			{"id":"sub11", "task":"Altaria", "spoiler":"(Lilycove City - Show Collector Altaria)", "tooltip":"From Beginning"},
-			{"id":"sub12", "task":"Glalie", "spoiler":"(Shoal Cave Basement)", "tooltip":"From Beginning"},
-			{"id":"sub13", "task":"Glalie", "spoiler":"(Transfer from Demo Version)", "formats":[{"all":"seafoam"}]},
-			{"id":"sub14", "task":"Salamence", "spoiler":"(Meteor Falls - Zinnia's Grandmother)", "tooltip":"After Delta Episode"},
-			{"id":"sub15", "task":"Metagross", "spoiler":"(Pokemon League - Steven Stone Rematch)", "tooltip":"After Delta Episode"},
-			{"id":"sub16", "task":"Metagross", "spoiler":"(Shiny Beldum Event)", "formats":[{"all":"seafoam"}]},
-			{"id":"sub17", "task":"Latias", "spoiler":"(Littleroot Town - Mother / On Latias (Alpha Sapphire)"},
-			{"id":"sub18", "task":"Latios", "spoiler":"(On Latios (Omega Ruby)/ Littleroot Town - Mother)"},
-			{"id":"sub19", "task":"Lopunny", "spoiler":"(Mauville Hills - Man in suit)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub20", "task":"Gallade", "spoiler":"(Professor Cozmo)", "tooltip":"After Delta Episode"},
-			{"id":"sub21", "task":"Audino", "spoiler":"(Battle Resort - Looker)", "tooltip":"After Delta Episode"},
-			{"id":"sub22", "task":"Diancie", "spoiler":"(Diancie Event - Stone from Pokemon Center)", "formats":[{"all":"seafoam"}]}
+			{"id":"sub1", "task":"Village Sub Combo (Single)"},
+			{"id":"sub2", "task":"Magnemite Croquette (Double)"},
+			{"id":"sub3", "task":"Mauville Ramen Bowl (Triple)"}
 		]
 	},
+	{"id":"task19",
+		"task":"Obtain Master Rank from Battle Institute",
+		"category":"battle",
+		"row": 4,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Beginner Rank"},
+			{"id":"sub2", "task":"Novice Rank"},
+			{"id":"sub3", "task":"Normal Rank"},
+			{"id":"sub4", "task":"Super Rank"},
+			{"id":"sub5", "task":"Hyper Rank"},
+			{"id":"sub6", "task":"Elite Rank"}
+		]
+	},
+
+
+	{"id":"task23",
+	"task":"Upgrade O-Powers to level 3",
+	"category":"upgrades",
+	"row": 5,
+	"col": 1,
+	"splitCol": 2,
+	"subtasks":[
+		{"id":"sub1", "task":"Attack Power"},
+		{"id":"sub2", "task":"Defense Power"},
+		{"id":"sub3", "task":"Sp. Attack Power"},
+		{"id":"sub4", "task":"Sp. Defense Power"},
+		{"id":"sub5", "task":"Accuracy Power"},
+		{"id":"sub6", "task":"Speed Power"},
+		{"id":"sub7", "task":"HP Restoring Power"},
+		{"id":"sub8", "task":"Capture Power"},
+		{"id":"sub9", "task":"Exp. Point Power"},
+		{"id":"sub10", "task":"Prize Money Power"},
+		{"id":"sub11", "task":"Befriending Power"},
+		{"id":"sub12", "task":"Encounter Power"},
+		{"id":"sub13", "task":"Stealth Power"},
+		{"id":"sub14", "task":"PP Restoring Power"},
+		{"id":"sub15", "task":"Bargain Power"},
+		{"id":"sub16", "task":"Critical Power"},
+		{"id":"sub17", "task":"Hatching Power"}
+	]
+	},
+	{"id":"task14",
+		"task":"Obtain Gold Trainer Card",
+		"category":"upgrades",
+		"row": 5,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat the Elite Four", "default":"true"},
+			{"id":"sub2", "task":"Complete the Hoenn Dex"},
+			{"id":"sub3", "task":"Defeat 1 Battle Maison 50th Streak"}
+		]
+	},
+	{"id":"task25",
+		"task":"Get 5 stars on each difficulty of Pokemon Amie games",
+		"category":"upgrades",
+		"row": 5,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Berry Picker - Easy"},
+			{"id":"sub2", "task":"Berry Picker - Normal"},
+			{"id":"sub3", "task":"Berry Picker - Hard"},
+			{"id":"sub4", "task":"Berry Picker - Unlimited"},
+			{"id":"sub5", "task":"Head It - Easy"},
+			{"id":"sub6", "task":"Head It - Normal"},
+			{"id":"sub7", "task":"Head It - Hard"},
+			{"id":"sub8", "task":"Head It - Unlimited"},
+			{"id":"sub9", "task":"Tile Puzzle - Easy"},
+			{"id":"sub10", "task":"Tile Puzzle - Normal"},
+			{"id":"sub11", "task":"Tile Puzzle - Hard"},
+			{"id":"sub12", "task":"Tile Puzzle - Unlimited"}
+		]
+	},
+	{"id":"task26",
+		"task":"Max out a Pokemons Super Training Regimens",
+		"category":"upgrades",
+		"row": 5,
+		"col": 2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Special Attack"},
+			{"id":"sub2", "task":"Attack"},
+			{"id":"sub3", "task":"HP"},
+			{"id":"sub4", "task":"Special Defense"},
+			{"id":"sub5", "task":"Defense"},
+			{"id":"sub6", "task":"Speed"},
+			{"id":"sub7", "task":"The Troubles Keep on Coming"},
+			{"id":"sub8", "task":"The Leaf Stone Cup Begins!"},
+			{"id":"sub9", "task":"The Fire Stone Cup Begins!"},
+			{"id":"sub10", "task":"The Water Stone Cup Begins!"},
+			{"id":"sub11", "task":"Follow Those Fleeing Goals!"},
+			{"id":"sub12", "task":"Watch Out! That's One Tricky Second Half"},
+			{"id":"sub13", "task":"An Opening of Lightning-Quick Attacks!"},
+			{"id":"sub14", "task":"These Long Shots Are No Long Shot!"},
+			{"id":"sub15", "task":"Scatterbug Lugs Back"},
+			{"id":"sub16", "task":"A Barrage of Bitbots"},
+			{"id":"sub17", "task":"Drag Down Hydreigon"},
+			{"id":"sub18", "task":"The Battle for the Best"}
+		]
+	},
+
+
 	{"id":"task5",
 		"task":"Complete All Master Rank Pokemon Contests",
 		"category":"activities",
-		"row": 3,
-		"col": 18,
-		"subtasks":[]
+		"row": 6,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1","task":"Coolness"},
+			{"id":"sub2","task":"Beauty"},
+			{"id":"sub3","task":"Cuteness"},
+			{"id":"sub4","task":"Cleverness"},
+			{"id":"sub5","task":"Toughness"}
+		]
 	},
 	{"id":"task6",
 		"task":"Obtain Both Bicycles (Acro & Mach Bikes)",
 		"category":"activities",
 		"markTask":false,
-		"row": 3,
-		"col": 17,
+		"row": 6,
+		"col": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Show Mach bike to Hex Maniac (Route 111)"},
 			{"id":"sub2", "task":"Show Acro bike to Bird Keeper (Route 119)"},
 			{"id":"sub3", "task":"Show either bike to triathelete (Battle Resort)"}
 		]
 	},
+	{"id":"task17",
+	"task":"Achieve All Ranks in Secret Base Capture the Flag",
+	"category":"activities",
+	"row": 6,
+	"col": 1,
+	"subtasks":[
+		{"id":"sub1", "task":"Bronze Rank - 30 Flags (Blackboard)"},
+		{"id":"sub2", "task":"Silver Rank - 100 Flags (Jukebox)"},
+		{"id":"sub3", "task":"Gold Rank - 500 Flags (Mood Lighting)"},
+		{"id":"sub4", "task":"Platinum Rank - 1000 Flags (Confetti Ball)"}
+	]
+	},
+	{"id":"task18",
+		"task":"Obtain Elegant Items from Glass Workshop",
+		"category":"activities",
+		"row": 6,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Elegant Chair"},
+			{"id":"sub2", "task":"Elegant Desk"}
+		]
+	},
+	{"id":"task15",
+	"task":"Complete All Trick House Chambers",
+	"category":"activities",
+	"row": 6,
+	"col": 2,
+	"splitCol":2,
+	"subtasks":[
+		{"id":"sub1", "task":"Chamber 1 - Cut"},
+		{"id":"sub2", "task":"Chamber 2 - Rock Smash"},
+		{"id":"sub3", "task":"Chamber 3 - Flash"},
+		{"id":"sub4", "task":"Chamber 4 - Strength"},
+		{"id":"sub5", "task":"Chamber 5 - None"},
+		{"id":"sub6", "task":"Chamber 6 - None"}
+	]
+	},
+	{"id":"task20",
+		"task":"Complete Mr. Bonding Subquest (Obtain all O Powers)",
+		"category":"activities",
+		"row": 6,
+		"col": 2,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Attack Power"},
+			{"id":"sub2", "task":"Defense Power"},
+			{"id":"sub3", "task":"Sp. Attack Power"},
+			{"id":"sub4", "task":"Sp. Defense Power"},
+			{"id":"sub5", "task":"Accuracy Power"},
+			{"id":"sub6", "task":"Speed Power"},
+			{"id":"sub7", "task":"HP Restoring Power"},
+			{"id":"sub8", "task":"Capture Power"},
+			{"id":"sub9", "task":"Exp. Point Power"},
+			{"id":"sub10", "task":"Prize Money Power"},
+			{"id":"sub11", "task":"Befriending Power"},
+			{"id":"sub12", "task":"Encounter Power"},
+			{"id":"sub13", "task":"Stealth Power"},
+			{"id":"sub14", "task":"PP Restoring Power"},
+			{"id":"sub15", "task":"Bargain Power"},
+			{"id":"sub16", "task":"Critical Power"},
+			{"id":"sub17", "task":"Hatching Power"},
+			{"id":"sub18", "task":"Full Recovery Power"}
+		]
+	},
+	{"id":"task21",
+		"task":"Complete Wattson's New Mauville Subquest",
+		"category":"activities",
+		"row": 6,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Talk to Wattson near Square Tower"},
+			{"id":"sub2", "task":"Visit Wattson in his Apartment in Mauville Hills"},
+			{"id":"sub3", "task":"Enter New Mauville", "tooltip":"Surf around Route 110"},
+			{"id":"sub4", "task":"Use the Management Computer to check for unusual activity"},
+			{"id":"sub5", "task":"Return to Wattson and report your findings"}
+		]
+	},
+
+
+	{"id":"task9",
+	"task":"Complete the Delta Episode Sub-Plot",
+	"category":"epilogue",
+	"row": 8,
+	"col": 1,
+	"splitCol":2,
+	"subtasks":[
+		{"id":"sub1", "task":"1. Encounter Zinnia In Littleroot"},
+		{"id":"sub2", "task":"2. Defeat Courtney / Matt in Petalburg","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
+		{"id":"sub3", "task":"3. Talk to Mr. Stone in Rustboro"},
+		{"id":"sub4", "task":"4. Defeat Zinnia in Granite Cave"},
+		{"id":"sub5", "task":"5. Talk with Prof. Cozmo in Mossdeep"},
+		{"id":"sub6", "task":"6. Talk to Steven at Meteor Falls"},
+		{"id":"sub7", "task":"7. Help Devon Corp in Rustboro"},
+		{"id":"sub8", "task":"8. Defeat Courtney / Matt in Mossdeep","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
+		{"id":"sub9", "task":"9. Defeat Team Magma / Team Aqua Hideout","formats":[{"word":"Team Magma","format":"ruby"},{"word":"Team Aqua","format":"sapphire"}]},
+		{"id":"sub10", "task":"10. Talk to Steven in Mossdeep"},
+		{"id":"sub11", "task":"11. Talk to Wallace in Sootopolis & Defeat Him at Entrance of Sky Pillar"},
+		{"id":"sub12", "task":"12. Talk to Zinnia at Base of Sky Pillar"},
+		{"id":"sub13", "task":"13. Capture Rayquaza & Battle Zinnia at Sky Pillar Summit"},
+		{"id":"sub14", "task":"14. Fly to Space and Capture Deoxys"},
+		{"id":"sub15", "task":"15. Watch the Meteor Shower with May / Brendan at Mossdeep"}
+	]
+	},
+	{"id":"task22",
+		"task":"Bonus Story Sequences - Optional & Event",
+		"category":"epilogue",
+		"formats":[{"word":"Optional", "format":"red"}, {"word":"Event", "format":"seafoam"}],
+		"row": 8,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Event Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac", "formats":[{"word":"Event", "format":"seafoam"}]},
+			{"id":"sub2", "task":"Event Diancie & PKMN Center Gentleman", "formats":[{"word":"Event", "format":"seafoam"}]}
+		]
+	},
+
+	{"id":"task24",
+		"task":"Collect all ribbons on a pokemon",
+		"category":"collectibles",
+		"row":9,
+		"col":1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1","task":"Hoenn Champion Ribbon", "tooltip":"Defeat the Hoenn Elite Four with this Pokemon"},
+			{"id":"sub2","task":"Beauty Master Ribbon", "tooltip":"Win the Beauty Master Rank Contest"},
+			{"id":"sub3","task":"Cleverness Master Ribbon", "tooltip":"Win the Cleverness Master Rank Contest"},
+			{"id":"sub4","task":"Coolness Master Ribbon", "tooltip":"Win the Coolness Master Rank Contest"},
+			{"id":"sub5","task":"Cuteness Master Ribbon", "tooltip":"Win the Cuteness Master Rank Contest"},
+			{"id":"sub6","task":"Toughness Master Ribbon", "tooltip":"Win the Toughness Master Rank Contest"},
+			{"id":"sub7","task":"Contest Star Ribbon", "tooltip":"Win all Master Rank Contests with the same Pokemon"},
+			{"id":"sub8","task":"Effort Ribbon", "tooltip":"Max out Effort values on a Pokemon"},
+			{"id":"sub9","task":"Footprint Ribbon", "tooltip":"Show a pokmeon that has grown 30 levels"},
+			{"id":"sub10","task":"Gorgeous Ribbon", "tooltip":"Purchase at Ribbon Store in Mauville City"},
+			{"id":"sub11","task":"Royal Ribbon", "tooltip":"Purchase at Ribbon Store in Mauville City"},
+			{"id":"sub12","task":"Gorgeous Royal Ribbon", "tooltip":"Purchase at Ribbon Store in Mauville City"},
+			{"id":"sub13","task":"Alert Ribbon", "tooltip":"Mauville City on Monday"},
+			{"id":"sub14","task":"Shock Ribbon", "tooltip":"Mauville City on Tuesday"},
+			{"id":"sub15","task":"Downcast Ribbon", "tooltip":"Mauville City on Wednesday"},
+			{"id":"sub16","task":"Careless Ribbon", "tooltip":"Mauville City on Thursday"},
+			{"id":"sub17","task":"Relax Ribbon", "tooltip":"Mauville City on Friday"},
+			{"id":"sub18","task":"Snooze Ribbon", "tooltip":"Mauville City on Saturday"},
+			{"id":"sub19","task":"Smile Ribbon", "tooltip":"Mauville City on Sunday"},
+			{"id":"sub20","task":"Best Friends Ribbon", "tooltip":"Max affection with pokemon in Pokemon Amie and show woman in Mauville Hills"},
+			{"id":"sub21","task":"Training Ribbon", "tooltip":"Show a pokemon that has gold medals in Super Training stages to Black Belt in Dewford"},
+			{"id":"sub22","task":"Skillful Battler Ribbon", "tooltip":"Defeat one of the heads of the Battle Maison with a Pokemon"},
+			{"id":"sub23","task":"Expert Battler Ribbon", "tooltip":"Defeat one of the heads of the Battle Maison with a Pokemon in Super Battles"}
+		]
+	},
+
+	{"id":"task4",
+	"task":"Collect All \"New\" Mega Stones",
+	"category":"megastones",
+	"row": 10,
+	"col": 1,
+	"sort":"alpha",
+	"splitCol":2,
+	"subtasks":[
+		{"id":"sub1", "task":"Beedrill", "spoiler":"(Sea Mauville)", "tooltip":"From Beginning"},
+		{"id":"sub2", "task":"Pidgeot", "spoiler":"(Rustboro - Show Mr. Stone the Intriguing Stone)", "tooltip":"From Beginning"},
+		{"id":"sub3", "task":"Slowbro", "spoiler":"(Shoal Cave - Give man 4 Shoal Salts & 4 Shoal Shells)", "tooltip":"From Beginning"},
+		{"id":"sub4", "task":"Steelix", "spoiler":"(Granite Cave)", "tooltip":"From Beginning"},
+		{"id":"sub5", "task":"Steelix", "spoiler":"(Transfer from Demo Version)", "formats":[{"all":"seafoam"}]},
+		{"id":"sub6", "task":"Sceptile", "spoiler":"(Route 120 (If Starter), Route 114 - Stone Salesman (If not Starter))"},
+		{"id":"sub7", "task":"Swampert", "spoiler":"(Route 120 (If Starter), Route 114 - Stone Salesman (If not Starter))"},
+		{"id":"sub8", "task":"Sableye", "spoiler":"(Sootopolis City)", "tooltip":"From Beginning"},
+		{"id":"sub9", "task":"Sharpedo", "spoiler":"(Battle Resort (Omega Ruby) / Aqua Hideout - Delta Ep(Alpha Sapphire))"},
+		{"id":"sub10", "task":"Camerupt", "spoiler":"(Magma Hideout - Delta Ep (Omega Ruby) / Battle Resort (Alpha Sapphire))"},
+		{"id":"sub11", "task":"Altaria", "spoiler":"(Lilycove City - Show Collector Altaria)", "tooltip":"From Beginning"},
+		{"id":"sub12", "task":"Glalie", "spoiler":"(Shoal Cave Basement)", "tooltip":"From Beginning"},
+		{"id":"sub13", "task":"Glalie", "spoiler":"(Transfer from Demo Version)", "formats":[{"all":"seafoam"}]},
+		{"id":"sub14", "task":"Salamence", "spoiler":"(Meteor Falls - Zinnia's Grandmother)", "tooltip":"After Delta Episode"},
+		{"id":"sub15", "task":"Metagross", "spoiler":"(Pokemon League - Steven Stone Rematch)", "tooltip":"After Delta Episode"},
+		{"id":"sub16", "task":"Metagross", "spoiler":"(Shiny Beldum Event)", "formats":[{"all":"seafoam"}]},
+		{"id":"sub17", "task":"Latias", "spoiler":"(Littleroot Town - Mother / On Latias (Alpha Sapphire)"},
+		{"id":"sub18", "task":"Latios", "spoiler":"(On Latios (Omega Ruby)/ Littleroot Town - Mother)"},
+		{"id":"sub19", "task":"Lopunny", "spoiler":"(Mauville Hills - Man in suit)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+		{"id":"sub20", "task":"Gallade", "spoiler":"(Professor Cozmo)", "tooltip":"After Delta Episode"},
+		{"id":"sub21", "task":"Audino", "spoiler":"(Battle Resort - Looker)", "tooltip":"After Delta Episode"},
+		{"id":"sub22", "task":"Diancie", "spoiler":"(Diancie Event - Stone from Pokemon Center)", "formats":[{"all":"seafoam"}]}
+	]
+	},
+	{"id":"task16",
+		"task":"Collect All \"Retro\" Mega Stones",
+		"category":"megastones",
+		"row": 10,
+		"col": 1,
+		"sort":"alpha",
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1","task":"Venusaur", "spoiler":"(Route 119)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub2","task":"Charizard X", "spoiler":"(Fiery Path)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub3","task":"Charizard Y", "spoiler":"(Scorched Slab)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub4","task": "Blastoise", "spoiler":"(SS Tidal)", "tooltip":"From Delta Episode"},
+			{"id":"sub5","task":"Alakazam", "spoiler":"(Slateport City Market)", "tooltip":"From Beginning"},
+			{"id":"sub6","task":"Gengar", "spoiler":"(Battle Resort)", "tooltip":"After Delta Episode"},
+			{"id":"sub7","task":"Kangaskhan", "spoiler":"(Pacifidlog Town)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub8","task":"Pinsir", "spoiler":"(Route 124)", "tooltip":"From Beginning"},
+			{"id":"sub9","task":"Gyarados", "spoiler":"(Route 123 - In mouth of Poochyena)", "tooltip":"From Beginning"},
+			{"id":"sub10","task":"Aerodactyl", "spoiler":"(Meteor Falls)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub11","task":"Mewtwo X", "spoiler":"(Littleroot Town)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub12","task":"Mewtwo Y", "spoiler":"(Pokemon League)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub13","task":"Ampharos", "spoiler":"(New Mauville)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub14","task":"Scizor", "spoiler":"(Petalburg Woods)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub15","task":"Heracross", "spoiler":"(Route 127)", "tooltip":"From Beginning"},
+			{"id":"sub16","task":"Houndoom", "spoiler":"(Lavaridge Town)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub17","task":"Tyranitar", "spoiler":"(Jagged Pass)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub18","task":"Blaziken", "spoiler":"(Route 120 (If Starter), Route 114 Stone Salesman (If not Starter))"},
+			{"id":"sub19","task":"Gardevoir", "spoiler":"(Verdanturf Town - From Wanda)", "tooltip":"After Primal Groudon/Kyogre narrative"},
+			{"id":"sub20","task":"Mawile", "spoiler":"(Verdanturf Town)", "tooltip":"From Beginning"},
+			{"id":"sub21","task":"Aggron", "spoiler":"(Rusturf Tunnel)", "tooltip":"From Beginning"},
+			{"id":"sub22","task":"Medicham", "spoiler":"(Mt. Pyre)", "tooltip":"From Beginning"},
+			{"id":"sub23","task":"Manectric", "spoiler":"(Route 110 - Cycling Road)", "tooltip":"From Beginning"},
+			{"id":"sub24","task":"Banette", "spoiler":"(Mt. Pyre)", "tooltip":"From Beginning"},
+			{"id":"sub25","task":"Absol", "spoiler":"(Safari Zone)", "tooltip":"From Beginning"},
+			{"id":"sub26","task":"Garchomp", "spoiler":"(From Aarune after achieving Platinum Rank)", "tooltip":"From Beginning"},
+			{"id":"sub27","task":"Lucario", "spoiler":"(From Lisia after beating all Master Rank Contests and then defeating her)", "tooltip":"From Beginning"},
+			{"id":"sub28","task":"Abomasnow", "spoiler":"(Route 123 Berry Garden)", "tooltip":"After Primal Groudon/Kyogre narrative"}
+		]
+	},
+
 	{"id":"task7",
 		"task":"Collect All 100 Technical Machines (TMs)",
 		"category":"tms",
-		"row": 8,
-		"col": 8,
+		"row": 15,
+		"col": 1,
 		"splitCol": 4,
 		"sort":"alpha",
 		"subtasks":[
@@ -223,8 +567,8 @@
 	{"id":"task8",
 		"task":"Berry Checklist",
 		"category":"berry",
-		"row": 9,
-		"col": 9,
+		"row": 16,
+		"col": 1,
 		"splitCol": 4,
 		"sort":"alpha",
 		"subtasks":[
@@ -296,191 +640,8 @@
 			{"id":"sub66", "task":"Maranga"}
 		]
 	},
-	{"id":"task9",
-		"task":"Complete the Delta Episode Sub-Plot",
-		"category":"epilogue",
-		"row": 3,
-		"col": 15,
-		"splitCol":2,
-		"subtasks":[
-			{"id":"sub1", "task":"1. Encounter Zinnia In Littleroot"},
-			{"id":"sub2", "task":"2. Defeat Courtney / Matt in Petalburg","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
-			{"id":"sub3", "task":"3. Talk to Mr. Stone in Rustboro"},
-			{"id":"sub4", "task":"4. Defeat Zinnia in Granite Cave"},
-			{"id":"sub5", "task":"5. Talk with Prof. Cozmo in Mossdeep"},
-			{"id":"sub6", "task":"6. Talk to Steven at Meteor Falls"},
-			{"id":"sub7", "task":"7. Help Devon Corp in Rustboro"},
-			{"id":"sub8", "task":"8. Defeat Courtney / Matt in Mossdeep","formats":[{"word":"Courtney","format":"ruby"},{"word":"Matt","format":"sapphire"}]},
-			{"id":"sub9", "task":"9. Defeat Team Magma / Team Aqua Hideout","formats":[{"word":"Team Magma","format":"ruby"},{"word":"Team Aqua","format":"sapphire"}]},
-			{"id":"sub10", "task":"10. Talk to Steven in Mossdeep"},
-			{"id":"sub11", "task":"11. Talk to Wallace in Sootopolis & Defeat Him at Entrance of Sky Pillar"},
-			{"id":"sub12", "task":"12. Talk to Zinnia at Base of Sky Pillar"},
-			{"id":"sub13", "task":"13. Capture Rayquaza & Battle Zinnia at Sky Pillar Summit"},
-			{"id":"sub14", "task":"14. Fly to Space and Capture Deoxys"},
-			{"id":"sub15", "task":"15. Watch the Meteor Shower with May / Brendan at Mossdeep"}
-		]
-	},
-	{"id":"task10",
-		"task":"Complete Regular & Super Battle Maison Battles",
-		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol":2,
-		"subtasks":[
-			{"id":"sub1", "task":"Single Battle", "multicheck":2},
-			{"id":"sub2", "task":"Double Battle", "multicheck":2},
-			{"id":"sub3", "task":"Triple Battle", "multicheck":2},
-			{"id":"sub4", "task":"Rotation Battle", "multicheck":2},
-			{"id":"sub5", "task":"Multi Battle", "multicheck":2}
-		]
-	},
-	{"id":"task11",
-		"task":"Rematch \"Mega\" Elite Four Post-Delta Episode",
-		"category":"battle",
-		"row": 3,
-		"col": 14
-	},
-	{"id":"task12",
-		"task":"Rematch Wally at the Battle Resort",
-		"category":"battle",
-		"row": 3,
-		"col": 14,
-		"subtasks":[
-			{"id":"sub1", "task":"Rematch Wally After Beating Super Battle"}
-		]
-	},
-	{"id":"task13",
-		"task":"Complete All Mauville Food Court Battles",
-		"category":"battle",
-		"row": 3,
-		"col": 14,
-		"subtasks":[
-			{"id":"sub1", "task":"Village Sub Combo (Single)"},
-			{"id":"sub2", "task":"Magnemite Croquette (Double)"},
-			{"id":"sub3", "task":"Mauville Ramen Bowl (Triple)"}
-		]
-	},
-	{"id":"task14",
-		"task":"Obtain Gold Trainer Card",
-		"category":"upgrades",
-		"row": 3,
-		"col": 5,
-		"subtasks":[
-			{"id":"sub1", "task":"Defeat the Elite Four", "default":"true"},
-			{"id":"sub2", "task":"Complete the Hoenn Dex"},
-			{"id":"sub3", "task":"Defeat 1 Battle Maison 50th Streak"}
-		]
-	},
-	{"id":"task16",
-		"task":"Collect All \"Retro\" Mega Stones",
-		"category":"megastones",
-		"row": 3,
-		"col": 12,
-		"sort":"alpha",
-		"splitCol":2,
-		"subtasks":[
-			{"id":"sub1","task":"Venusaur", "spoiler":"(Route 119)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub2","task":"Charizard X", "spoiler":"(Fiery Path)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub3","task":"Charizard Y", "spoiler":"(Scorched Slab)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub4","task": "Blastoise", "spoiler":"(SS Tidal)", "tooltip":"From Delta Episode"},
-			{"id":"sub5","task":"Alakazam", "spoiler":"(Slateport City Market)", "tooltip":"From Beginning"},
-			{"id":"sub6","task":"Gengar", "spoiler":"(Battle Resort)", "tooltip":"After Delta Episode"},
-			{"id":"sub7","task":"Kangaskhan", "spoiler":"(Pacifidlog Town)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub8","task":"Pinsir", "spoiler":"(Route 124)", "tooltip":"From Beginning"},
-			{"id":"sub9","task":"Gyarados", "spoiler":"(Route 123 - In mouth of Poochyena)", "tooltip":"From Beginning"},
-			{"id":"sub10","task":"Aerodactyl", "spoiler":"(Meteor Falls)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub11","task":"Mewtwo X", "spoiler":"(Littleroot Town)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub12","task":"Mewtwo Y", "spoiler":"(Pokemon League)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub13","task":"Ampharos", "spoiler":"(New Mauville)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub14","task":"Scizor", "spoiler":"(Petalburg Woods)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub15","task":"Heracross", "spoiler":"(Route 127)", "tooltip":"From Beginning"},
-			{"id":"sub16","task":"Houndoom", "spoiler":"(Lavaridge Town)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub17","task":"Tyranitar", "spoiler":"(Jagged Pass)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub18","task":"Blaziken", "spoiler":"(Route 120 (If Starter), Route 114 Stone Salesman (If not Starter))"},
-			{"id":"sub19","task":"Gardevoir", "spoiler":"(Verdanturf Town - From Wanda)", "tooltip":"After Primal Groudon/Kyogre narrative"},
-			{"id":"sub20","task":"Mawile", "spoiler":"(Verdanturf Town)", "tooltip":"From Beginning"},
-			{"id":"sub21","task":"Aggron", "spoiler":"(Rusturf Tunnel)", "tooltip":"From Beginning"},
-			{"id":"sub22","task":"Medicham", "spoiler":"(Mt. Pyre)", "tooltip":"From Beginning"},
-			{"id":"sub23","task":"Manectric", "spoiler":"(Route 110 - Cycling Road)", "tooltip":"From Beginning"},
-			{"id":"sub24","task":"Banette", "spoiler":"(Mt. Pyre)", "tooltip":"From Beginning"},
-			{"id":"sub25","task":"Absol", "spoiler":"(Safari Zone)", "tooltip":"From Beginning"},
-			{"id":"sub26","task":"Garchomp", "spoiler":"(From Aarune after achieving Platinum Rank)", "tooltip":"From Beginning"},
-			{"id":"sub27","task":"Lucario", "spoiler":"(From Lisia after beating all Master Rank Contests and then defeating her)", "tooltip":"From Beginning"},
-			{"id":"sub28","task":"Abomasnow", "spoiler":"(Route 123 Berry Garden)", "tooltip":"After Primal Groudon/Kyogre narrative"}
-		]
-	},
-	{"id":"task15",
-		"task":"Complete All Trick House Chambers",
-		"category":"activities",
-		"row": 3,
-		"col": 18,
-		"subtasks":[
-			{"id":"sub1", "task":"Chamber 1 - Cut"},
-			{"id":"sub2", "task":"Chamber 2 - Rock Smash"},
-			{"id":"sub3", "task":"Chamber 3 - Flash"},
-			{"id":"sub4", "task":"Chamber 4 - Strength"},
-			{"id":"sub5", "task":"Chamber 5 - None"},
-			{"id":"sub6", "task":"Chamber 6 - None"}
-		]
-	},
-	{"id":"task17",
-		"task":"Achieve All Ranks in Secret Base Capture the Flag",
-		"category":"activities",
-		"row": 3,
-		"col": 17,
-		"subtasks":[
-			{"id":"sub1", "task":"Bronze Rank - 30 Flags (Blackboard)"},
-			{"id":"sub2", "task":"Silver Rank - 100 Flags (Jukebox)"},
-			{"id":"sub3", "task":"Gold Rank - 500 Flags (Mood Lighting)"},
-			{"id":"sub4", "task":"Platinum Rank - 1000 Flags (Confetti Ball)"}
-		]
-	},
-	{"id":"task18",
-		"task":"Obtain Elegant Items from Glass Workshop",
-		"category":"activities",
-		"row": 3,
-		"col": 17,
-		"subtasks":[
-			{"id":"sub1", "task":"Elegant Chair"},
-			{"id":"sub2", "task":"Elegant Desk"}
-		]
-	},
-	{"id":"task19",
-		"task":"Obtain Master Rank from Battle Institute",
-		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"Beginner Rank"},
-			{"id":"sub2", "task":"Novice Rank"},
-			{"id":"sub3", "task":"Normal Rank"},
-			{"id":"sub4", "task":"Super Rank"},
-			{"id":"sub5", "task":"Hyper Rank"},
-			{"id":"sub6", "task":"Elite Rank"}
-		]
-	},
-	{"id":"task20",
-		"task":"Complete Mr. Bonding Subquest",
-		"category":"activities",
-		"row": 3,
-		"col": 18
-	},
-	{"id":"task21",
-		"task":"Complete Wattson's New Mauville Subquest",
-		"category":"activities",
-		"row": 3,
-		"col": 18
-	},
-	{"id":"task22",
-		"task":"Bonus Story Sequences - Optional & Event",
-		"category":"epilogue",
-		"formats":[{"word":"Optional", "format":"red"}, {"word":"Event", "format":"seafoam"}],
-		"row": 3,
-		"col": 15,
-		"subtasks":[
-			{"id":"sub1", "task":"Event Shiny Beldum & Mr. Stone / Steven Stone / Route 114 Fossil Maniac", "formats":[{"word":"Event", "format":"seafoam"}]},
-			{"id":"sub2", "task":"Event Diancie & PKMN Center Gentleman", "formats":[{"word":"Event", "format":"seafoam"}]}
-		]
+
+	{
+		"_note": "As of 10/8/2022 there are 26 tasks"
 	}
 ]}
