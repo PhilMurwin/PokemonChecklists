@@ -263,6 +263,18 @@
 .dpIcicleBadge { background: url("../images/dpIcicleBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 .dpBeaconBadge { background: url("../images/dpBeaconBadge.png"); background-size: contain; background-repeat: no-repeat; width: 30px; height: 30px; }
 
+.arceusLogo { width: 150px; height: 150px; }
+.laArceus { background: url("../images/arceus.png"); background-size: contain; background-repeat: no-repeat; width: 150px; height: 150px; }
+.laArceus-reverse { background: url("../images/arceus.png"); background-size: contain; background-repeat: no-repeat; width: 150px; height: 150px; transform: scaleX(-1); }
+.arceus-header { height: 180px;}
+
+.pokesprite.sm {
+	margin: -10px -15px;
+}
+
+.pokesprite.down {
+	margin: -10px 0;
+}
 
 @media only screen
 and (max-device-width: 750px) 
