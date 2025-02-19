@@ -268,6 +268,10 @@
 .laArceus-reverse { background: url("../images/arceus.png"); background-size: contain; background-repeat: no-repeat; width: 150px; height: 150px; transform: scaleX(-1); }
 .arceus-header { height: 180px;}
 
+.svlogo-header { height: 180px;}
+.svKoraidon { background: url("../images/Koraidon.png"); background-size: contain; background-repeat: no-repeat; width: 150px; height: 150px; }
+.svMiraidon { background: url("../images/Miraidon.png"); background-size: contain; background-repeat: no-repeat; width: 150px; height: 150px; }
+
 .pokesprite.sm {
 	margin: -10px -15px;
 }

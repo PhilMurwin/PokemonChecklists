@@ -1,35 +1,29 @@
 {"menus":[
 	{"itemname":"Home", "link":"../../index.html"},
-	{"itemname":"Gen 1-2",
+	{"itemname":"Gen 1-3",
 		"isgroup":"1",
 		"menuitems":[
 			{"itemname":"Red & Blue Post Game", "link":"rb_checklist.html"},
 			{"itemname":"Yellow Post Game", "link":"rby_checklist.html"},
 			{"itemname":"Separator"},
 			{"itemname":"Gold & Silver Post Game", "link":"gs_checklist.html"},
-			{"itemname":"Crystal Post Game", "link":"gsc_checklist.html"}
-		]
-	},
-	{"itemname":"Gen 3-4",
-		"isgroup":"1",
-		"menuitems":[
+			{"itemname":"Crystal Post Game", "link":"gsc_checklist.html"},
+			{"itemname":"Separator"},
 			{"itemname":"Ruby & Sapphire Post Game", "link":"rs_checklist.html"},
 			{"itemname":"Emerald Post Game", "link":"rse_checklist.html"},
 			{"itemname":"Fire Red & Leaf Green Post Game", "link":"frlg_checklist.html"},
-			{"itemname":"Separator"},
 			{"itemname":"Pokemon Colosseum", "link":"col_checklist.html"},
 			{"itemname":"Pokemon XD - Gale of Darkness", "link":"xd_checklist.html"},
-			{"itemname":"Separator"},
-			{"itemname":"Pokemon Mystery Dungeon - Blue & Red Rescue Team ", "link":"mdbrt_checklist.html"},
-			{"itemname":"Separator"},
-			{"itemname":"Diamond & Pearl Post Game", "link":"dp_checklist.html"},
-			{"itemname":"Platinum Post Game", "link":"plat_checklist.html"},
-			{"itemname":"HG & SS Post Game", "link":"hgss_checklist.html"}
+			{"itemname":"Pokemon Mystery Dungeon - Blue & Red Rescue Team ", "link":"mdbrt_checklist.html"}
 		]
 	},
-	{"itemname":"Gen 5-6",
+	{"itemname":"Gen 4-6",
 		"isgroup":"1",
 		"menuitems":[
+			{"itemname":"Diamond & Pearl Post Game", "link":"dp_checklist.html"},
+			{"itemname":"Platinum Post Game", "link":"plat_checklist.html"},
+			{"itemname":"HG & SS Post Game", "link":"hgss_checklist.html"},
+			{"itemname":"Separator"},
 			{"itemname":"Black & White Post Game", "link":"bw_checklist.html"},
 			{"itemname":"Black 2 & White 2 Post Game", "link":"b2w2_checklist.html"},
 			{"itemname":"Separator"},
@@ -37,7 +31,7 @@
 			{"itemname":"ORAS Post Game", "link":"oras_checklist.html"}
 		]
 	},
-	{"itemname":"Gen 7-8",
+	{"itemname":"Gen 7-9",
 		"isgroup":"1",
 		"menuitems":[
 			{"itemname":"Sun & Moon Post Game", "link":"sumo_checklist.html"},
@@ -47,9 +41,10 @@
 			{"itemname":"Sword & Shield", "link":"swsh_checklist.html"},
 			{"itemname":"Isle of Armor", "link":"swsharmor_checklist.html"},
 			{"itemname":"Crown Tundra", "link":"swshcrown_checklist.html"},
-			{"itemname":"Separator"},
 			{"itemname":"Pokemon Legends Arceus", "link":"arceus_checklist.html"},
-			{"itemname":"Brilliant Diamond & Shining Pearl", "link":"bdsp_checklist.html"}
+			{"itemname":"Brilliant Diamond & Shining Pearl", "link":"bdsp_checklist.html"},
+			{"itemname":"Separator"},
+			{"itemname":"Scarlet & Violet", "link":"sv_checklist.html"}
 		]
 	},
 	{"itemname":"Useful Links",

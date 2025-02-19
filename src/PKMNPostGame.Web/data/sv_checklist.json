@@ -1,0 +1,12 @@
+{"swsh":[
+	{"id":"task1",
+		"task":"Complete the Paldean Pokedex (400)",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Obtain "}
+		]
+	}
+]}
