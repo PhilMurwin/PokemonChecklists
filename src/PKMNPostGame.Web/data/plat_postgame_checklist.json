@@ -1,6 +1,7 @@
 {"plat":[
-	{"id":"task1",
-		"task":"Complete the Platinum Sinnoh Pokedex (151)",
+	{
+		"id":"task1",
+		"task":"Complete the Platinum Sinnoh Pokedex (210)",
 		"category":"catchemall",
 		"markTask":false,
 		"row": 3,
@@ -16,37 +17,29 @@
 			{"id":"sub7", "task":"Manaphy Egg From Pokemon Rangers", "formats":[{"all":"seafoam"}]}
 		]
 	},
-	{"id":"task2",
-		"task":"Capture Additional In-Game Legendaries",
-		"category":"legendary",
-		"row": 4,
-		"col": 1,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"Capture Dialga", "tooltip":"Spear Pillar"},
-			{"id":"sub2", "task":"Capture Palkia", "tooltip":"Spear Pillar"},
-			{"id":"sub3", "task":"Capture Heatran", "tooltip":"Stark Mt"},
-			{"id":"sub4", "task":"Capture Regigagas", "tooltip":"Snowpoint City Ruins - Have Regirock, Regice, & Registeel in your party"},
-			{"id":"sub5", "task":"Capture Cresselia", "tooltip":"Roaming"},
-			{"id":"sub6", "task":"Capture Articuno", "tooltip":"Roaming"},
-			{"id":"sub7", "task":"Capture Zapdos", "tooltip":"Roaming"},
-			{"id":"sub8", "task":"Capture Moltres", "tooltip":"Roaming"},
-			{"id":"sub9", "task":"Event - Regirock", "tooltip":"Requires Regigigas from movie event distribution"},
-			{"id":"sub10", "task":"Event Regice", "tooltip":"Requires Regigigas from movie event distribution"},
-			{"id":"sub11", "task":"Event - Registeel", "tooltip":"Requires Regigigas from movie event distribution"},
-			{"id":"sub12", "task":"Breed Phione", "tooltip":"Event Manaphy Needed"},
-			{"id":"sub13", "task":"Darkrai", "tooltip":"Event - New Moon Island - Requires membership pass to be given to sailor in canalve city"},
-			{"id":"sub14", "task":"Shaymin", "tooltip":"Event - Flower Paradise - Requires Oak"},
-			{"id":"sub15", "task":"Arceus", "tooltip":"Event - Arceus - Hall of Origin - Requires Azure Flute to be brought to spear pillar"}
-		]
-	},
-	{"id":"task3",
+	{
+		"id":"task3",
 		"task":"Complete National Dex (493)",
 		"category":"catchemall",
 		"row": 3,
 		"col": 1
 	},
-	{"id":"task4",
+	{
+		"id":"task11",
+		"task":"Obtain all In-Game Gift Pokémon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Togepi", "tooltip":"Gift from Cynthia for defeating the Galactic Grunts in Eterna City"},
+			{"id":"sub2", "task":"Eevee", "tooltip":"Talk to Bebe in Hearthome for using her system"},
+			{"id":"sub3", "task":"Porygon", "tooltip":"Gift from a person in Veilstone City"},
+			{"id":"sub4", "task":"Riolu", "tooltip":"Gift from Riley for helping defeat Galactic Grunts on the Iron Island"}
+		]
+	},
+	{
+		"id":"task4",
 		"task":"Collect All Trophy Garden Pokemon (16)",
 		"category":"catchemall",
 		"row": 3,
@@ -66,18 +59,95 @@
 			{"id":"sub10", "task":"Plusle"},
 			{"id":"sub11", "task":"Bonsly"},
 			{"id":"sub12", "task":"Meowth"},
-			{"id":"sub13", "task":"Porygon"},
+			{"id":"sub13", "task":"Ditto"},
 			{"id":"sub14", "task":"Marill"},
 			{"id":"sub15", "task":"Minun"},
 			{"id":"sub16", "task":"Mime Jr."}
 		]
 	},
-	{"id":"task5",
+
+
+	{
+		"id":"task2",
+		"task":"Capture Additional In-Game Legendaries",
+		"category":"legendary",
+		"row": 4,
+		"col": 1,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub16", "task":"Capture Giratina", "tooltip":"Distortion World"},
+			{"id":"sub17", "task":"Capture Uxie", "tooltip":"Lake Acuity"},
+			{"id":"sub18", "task":"Capture Azelf", "tooltip":"Lake Valor"},
+			{"id":"sub19", "task":"Capture Mesprit", "tooltip":"Lake Verity and then roaming"},
+			{"id":"sub1", "task":"Capture Dialga", "tooltip":"Spear Pillar"},
+			{"id":"sub2", "task":"Capture Palkia", "tooltip":"Spear Pillar"},
+			{"id":"sub3", "task":"Capture Heatran", "tooltip":"Stark Mountain"},
+			{"id":"sub4", "task":"Capture Regigagas", "tooltip":"Snowpoint Temple - Have Regirock, Regice, & Registeel in your party"},
+			{"id":"sub5", "task":"Capture Cresselia", "tooltip":"Roaming"},
+			{"id":"sub6", "task":"Capture Articuno", "tooltip":"Roaming"},
+			{"id":"sub7", "task":"Capture Zapdos", "tooltip":"Roaming"},
+			{"id":"sub8", "task":"Capture Moltres", "tooltip":"Roaming"},
+			{"id":"sub9", "task":"Event - Regirock", "tooltip":"Requires Regigigas from movie event distribution", "formats":[{"all":"seafoam"}]},
+			{"id":"sub10", "task":"Event - Regice", "tooltip":"Requires Regigigas from movie event distribution", "formats":[{"all":"seafoam"}]},
+			{"id":"sub11", "task":"Event - Registeel", "tooltip":"Requires Regigigas from movie event distribution", "formats":[{"all":"seafoam"}]},
+			{"id":"sub12", "task":"Breed Phione", "tooltip":"Event Manaphy Needed", "formats":[{"all":"seafoam"}]},
+			{"id":"sub13", "task":"Darkrai", "tooltip":"Event - New Moon Island - Requires membership pass to be given to sailor in canalve city", "formats":[{"all":"seafoam"}]},
+			{"id":"sub14", "task":"Shaymin", "tooltip":"Event - Flower Paradise - Requires Oak", "formats":[{"all":"seafoam"}]},
+			{"id":"sub15", "task":"Arceus", "tooltip":"Event - Arceus - Hall of Origin - Requires Azure Flute to be brought to spear pillar", "formats":[{"all":"seafoam"}]}
+		]
+	},
+
+
+	{
+		"id":"task6",
+		"task":"Re-battle Elite Four Post National Dex",
+		"category":"battle",
+		"row": 5,
+		"col": 1
+	},
+	{
+		"id":"task9",
+		"task":"Complete 3 Levels of Rival Battles",
+		"category":"battle",
+		"row": 5,
+		"col": 1,
+		"splitCol": 3,
+		"subtasks":[
+			{"id":"sub1", "task":"Lv. 65"},
+			{"id":"sub2", "task":"Lv. 75"},
+			{"id":"sub3", "task":"Lv. 85"}
+		]
+	},
+	{
+		"id":"task30",
+		"task":"Defeat each of the Trainers at the Survival Area Restaurant",
+		"category":"battle",
+		"row": 5,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Roark"},
+			{"id":"sub2", "task":"Gardenia"},
+			{"id":"sub3", "task":"Maylene"},
+			{"id":"sub4", "task":"Crasher Wake"},
+			{"id":"sub5", "task":"Fantina"},
+			{"id":"sub6", "task":"Byron"},
+			{"id":"sub7", "task":"Candice"},
+			{"id":"sub8", "task":"Volkner"},
+			{"id":"sub9", "task":"Cheryl"},
+			{"id":"sub10", "task":"Buck"},
+			{"id":"sub11", "task":"Marley"},
+			{"id":"sub12", "task":"Riley"},
+			{"id":"sub13", "task":"Mira"}
+		]
+	},
+	{
+		"id":"task5",
 		"task":"Collect All Battle Frontier Prints",
 		"category":"battle",
 		"row": 5,
 		"col": 1,
-		"splitCol": 2,
+		"splitCol": 1,
 		"subtasks":[
 			{"id":"sub1", "task":"Defeat Tower Tycoon Palmer once to earn a Silver Print", "tooltip": "Battle Tower"},
 			{"id":"sub2", "task":"Defeat Factory Head Thorton once to earn a Silver Print", "tooltip":"Battle Factory"},
@@ -91,13 +161,29 @@
 			{"id":"sub10", "task":"Defeat Hall Matron Argenta a second time to earn a Gold Print", "tooltip":"Battle Hall"}
 		]
 	},
-	{"id":"task6",
-		"task":"Re-battle Elite Four Post National Dex",
+	{
+		"id":"task31",
+		"task":"Earn a colored medal from each area of the Battle Frontier",
 		"category":"battle",
 		"row": 5,
-		"col": 1
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat Battle Arcade Star Dahlia after a streak of 21", "tooltip":"Earn a Silver Medal"},
+			{"id":"sub2", "task":"Defeat Battle Castle Valet Darach after a streak of 21", "tooltip":"Earn a Silver Medal"},
+			{"id":"sub3", "task":"Defeat Battle Factory Head Thorton after a streak of 21", "tooltip":"Earn a Silver Medal"},
+			{"id":"sub4", "task":"Defeat Battle Hall Matron Argenta after a streak of 50", "tooltip":"Earn a Silver Medal"},
+			{"id":"sub5", "task":"Defeat Battle Tower Tycoon Palmer after a streak of 21", "tooltip":"Earn a Silver Medal"},
+			{"id":"sub6", "task":"Defeat Battle Arcade Star Dahlia after a streak of 49", "tooltip":"Earn a Colored Medal"},
+			{"id":"sub7", "task":"Defeat Battle Castle Valet Darach after a streak of 49", "tooltip":"Earn a Colored Medal"},
+			{"id":"sub8", "task":"Defeat Battle Factory Head Thorton after a streak of 49", "tooltip":"Earn a Colored Medal"},
+			{"id":"sub9", "task":"Defeat Battle Hall Matron Argenta after a streak of 170", "tooltip":"Earn a Colored Medal"},
+			{"id":"sub10", "task":"Defeat Battle Tower Tycoon Palmer after a streak of 49", "tooltip":"Earn a Colored Medal"}
+		]
 	},
-	{"id":"task7",
+
+
+	{
+		"id":"task7",
 		"task":"Collect All Poketch Applications",
 		"category":"upgrades",
 		"row": 6,
@@ -131,7 +217,8 @@
 			{"id":"sub25", "task":"Stopwatch"}
 		]
 	},
-	{"id":"task8",
+	{
+		"id":"task8",
 		"task":"Obtain Black Trainer Card",
 		"category":"upgrades",
 		"row": 6,
@@ -144,18 +231,37 @@
 			{"id":"sub5", "task":"Complete 100 Wins in Battle Tower"}
 		]
 	},
-	{"id":"task9",
-		"task":"Complete 3 Levels of Rival Battles",
-		"category":"battle",
-		"row": 5,
-		"col": 1,
-		"splitCol": 3,
+	{
+		"id":"task20",
+		"task":"Obtain all the items for your Resort House",
+		"category":"upgrades",
+		"row":6,
+		"col":2,
+		"splitCol":2,
 		"subtasks":[
-			{"id":"sub1", "task":"Lv. 65"},
-			{"id":"sub2", "task":"Lv. 75"},
-			{"id":"sub3", "task":"Lv. 85"}
+			{"id":"sub1","task":"Big Sofa"},
+			{"id":"sub2","task":"Small Sofa"},
+			{"id":"sub3","task":"Bed"},
+			{"id":"sub4","task":"Night Table"},
+			{"id":"sub5","task":"TV"},
+			{"id":"sub6","task":"AudioSet"},
+			{"id":"sub7","task":"Shelves"},
+			{"id":"sub8","task":"Racks"},
+			{"id":"sub9","task":"House Plant"},
+			{"id":"sub10","task":"PC Desk"},
+			{"id":"sub11","task":"Music Box", "tooltip":"Purchase Racks"},
+			{"id":"sub12","task":"Pokemon Statue", "tooltip":"Obtain a Silver Print in the Battle Frontier"},
+			{"id":"sub13","task":"Pokemon Statue", "tooltip":"Partake in all 5 facilities of the Battle Frontier"},
+			{"id":"sub14","task":"Piano", "tooltip":"Defeat the Elite Four 10 times"},
+			{"id":"sub15","task":"Reception Set", "tooltip":"Defeat a total of 50 trainers in the Trainer Cafe in Battleground"},
+			{"id":"sub16","task":"Wall Clock", "tooltip":"Plant 50 Berries"},
+			{"id":"sub17","task":"Great Painting", "tooltip":"Hatch 30 Eggs"},
+			{"id":"sub18","task":"Tea Set", "tooltip":"Purchase a Reception Set"},
+			{"id":"sub19","task":"Chandelier", "tooltip":"Walk a total of 300,000 steps"}
 		]
 	},
+	
+
 	{
 		"id":"task10",
 		"task":"Complete the Stark Mountain Quest",
@@ -171,6 +277,36 @@
 			{"id":"sub6", "task":"Team up with Buck", "tooltip":"Nab the crooks with Bucks help"},
 			{"id":"sub7", "task":"Looker to the rescue!", "tooltip":"Looker steps in to stop the theft"},
 			{"id":"sub8", "task":"Use Rock Climb", "tooltip":"On your own, use Rock Climb inside Stark Mt to reach new heights"}
+		]
+	},
+
+	
+	{
+		"id":"task40",
+		"task":"Collect all of Julia's Ribbons on one pokemon",
+		"category":"collectibles",
+		"row": 9,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Monday"},
+			{"id":"sub2", "task":"Tuesday"},
+			{"id":"sub3", "task":"Wednesday"},
+			{"id":"sub4", "task":"Thursday"},
+			{"id":"sub5", "task":"Friday"},
+			{"id":"sub6", "task":"Saturday"},
+			{"id":"sub7", "task":"Sunday"}
+		]
+	},
+	{
+		"id":"task41",
+		"task":"Collect three belts from the Old Man on Route 221",
+		"category":"collectibles",
+		"row": 9,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub1", "task":"Black Belt"},
+			{"id":"sub2", "task":"Expert Belt"},
+			{"id":"sub3", "task":"Focus Sash"}
 		]
 	}
 ]}
