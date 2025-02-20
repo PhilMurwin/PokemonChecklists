@@ -60,5 +60,6 @@
 			{"itemname":"Serebii.net", "link":"https://www.serebii.net/", "external":1}
 		]
 	},
+	{"itemname":"FAQs", "link":"../../faqs.html"},
     {"itemname":"Contact", "link":"../../contact.html"}
 ]}

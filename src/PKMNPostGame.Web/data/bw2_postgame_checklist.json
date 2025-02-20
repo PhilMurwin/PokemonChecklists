@@ -1,5 +1,6 @@
 {"bw2":[
-	{"id":"task1",
+	{
+		"id":"task1",
 		"task":"Complete the Unova Pokedex (297)",
 		"category":"catchemall",
 		"markTask":false,
@@ -12,13 +13,8 @@
 			{"id":"sub4", "task":"Event Genesect", "subtasks":[{"id":"sub1", "task":"Receive Oval Charm From Prof. Juniper"}]}			
 		]
 	},
-	{"id":"task2",
-		"task":"Trade for Alt Version Legendary (Reshiram / Zekrom)",
-		"category":"legendary",
-		"row": 3,
-		"col": 3
-	},
-	{"id":"task3",
+	{
+		"id":"task3",
 		"task":"Complete the National Pokedex (636)",
 		"category":"catchemall",
 		"markTask":false,
@@ -41,7 +37,8 @@
 			{"id":"sub12", "task":"Receive Shiny Charm From Prof. Juniper"}
 		]
 	},
-	{"id":"task4",
+	{
+		"id":"task4",
 		"task":"Find and Capture All of N's Pokemon (if you played Black and White)",
 		"category":"catchemall",
 		"row": 3,
@@ -66,88 +63,8 @@
 			{"id":"sub15", "task":"Zorua"}
 		]
 	},
-	{"id":"task5",
-		"task":"Receive All Event Legendaries",
-		"category":"legendary",
-		"row": 3,
-		"col": 4,
-		"splitCol": 2,
-		"sort":"alpha",
-		"subtasks":[
-			{"id":"sub1", "task":"Mew"},
-			{"id":"sub2", "task":"Celebi"},
-			{"id":"sub3", "task":"Jirachi"},
-			{"id":"sub4", "task":"Deoxys"},
-			{"id":"sub5", "task":"Darkrai"},
-			{"id":"sub6", "task":"Shaymin"},
-			{"id":"sub7", "task":"Arceus"},
-			{"id":"sub8", "task":"Manaphy"},
-			{"id":"sub9", "task":"Phione"}
-		]
-	},
-	{"id":"task6",
-		"task":"Final Rival Battle in Driftveil City",
-		"category":"battle",
-		"row": 3,
-		"col": 13
-	},
-	{"id":"task7",
-		"task":"Defeat Benga in White Forest/Black City",
-		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol": "2",
-		"subtasks":[
-			{"id":"sub1", "task":"1"},
-			{"id":"sub2", "task":"2"},
-			{"id":"sub3", "task":"3"},
-			{"id":"sub4", "task":"4"},
-			{"id":"sub5", "task":"5"},
-			{"id":"sub6", "task":"6"},
-			{"id":"sub7", "task":"7"},
-			{"id":"sub8", "task":"8"},
-			{"id":"sub9", "task":"9"},
-			{"id":"sub10", "task":"Receive Shiny Dratini / Gible"}
-		]
-	},
-	{"id":"task8",
-		"task":"Final Colress Battle in P2 Lab",
-				"category":"battle",
-		"row": 3,
-		"col": 13
-	},
-	{"id":"task9",
-		"task":"Achieve Gold Trainer Card (or Black/White card if game sync)",
-		"category":"upgrades",
-		"row": 3,
-		"col": 5,
-		"subtasks":[
-			{"id":"sub1", "task":"Defeat the Elite Four"},
-			{"id":"sub2", "task":"Complete Unova Pokedex"},
-			{"id":"sub3", "task":"Complete all Pokestar Movies"},
-			{"id":"sub4", "task":"Defeat Champions at Pokemon World Tournament"},
-			{"id":"sub5", "task":"Gain Entree Lv. of 30 from Black/White"}
-		]
-	},
-	{"id":"task9",
-		"task":"Obtain Legend Rank at the Medal HQ",
-		"category":"upgrades",
-		"row": 3,
-		"col": 6,
-		"subtasks":[
-			{"id":"sub1", "task":"Rookie Rank", "tooltip":"Earn 50 Medals"},
-			{"id":"sub2", "task":"Elite Rank", "tooltip":"Earn 100 Medals"},
-			{"id":"sub3", "task":"Master Rank", "tooltip":"Earn 150 Medals"},
-			{"id":"sub4", "task":"Legend Rank", "tooltip":"Earn 200 Medals"}
-		]
-	},
-	{"id":"task10",
-		"task":"Elite Rank at Battle Institute Test",
-		"category":"battle",
-		"row": 3,
-		"col": 13
-	},
-	{"id":"task11",
+	{
+		"id":"task11",
 		"task":"Catch Both Basculin",
 		"category":"catchemall",
 		"row": 3,
@@ -157,7 +74,8 @@
 			{"id":"sub2", "task":"Red Stripe"}
 		]
 	},
-	{"id":"task12",
+	{
+		"id":"task12",
 		"task":"Catch Both Frillish",
 		"category":"catchemall",
 		"row": 3,
@@ -167,7 +85,8 @@
 			{"id":"sub2", "task":"Female Frillish (Pink)"}
 		]
 	},
-	{"id":"task13",
+	{
+		"id":"task13",
 		"task":"See All 4 Seasons Of Deerling / Sawsbuck",
 		"category":"catchemall",
 		"row": 3,
@@ -180,7 +99,16 @@
 			{"id":"sub4", "task":"Winter"}
 		]
 	},
-	{"id":"task21",
+	{
+		"id":"task30",
+		"task":"Catch Shiny Haxorus",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"tooltip":"Obtain the Nature Preserve Permit"
+	},
+	{
+		"id":"task21",
 		"task":"Obtain all Hidden Grotto Pokemon (Hidden Abilities)",
 		"extrainfo":{"text":"Bulbapedia - Hidden Grotto","link":"https://bulbapedia.bulbagarden.net/wiki/Hidden_Grotto"},
 		"category":"catchemall",
@@ -248,11 +176,147 @@
 			{"id":"sub57", "task":"Herdier", "pkmn":{ "pkmn":"Herdier"}, "tooltip":"Floccesy Ranch"}
 		]
 	},
-	{"id":"task14",
+	
+	
+	{
+		"id":"task2",
+		"task":"Trade for Alt Version Legendary (Reshiram / Zekrom)",
+		"category":"legendary",
+		"row": 3,
+		"col": 3
+	},
+	{
+		"id":"task5",
+		"task":"Receive All Event Legendaries",
+		"category":"legendary",
+		"row": 3,
+		"col": 3,
+		"splitCol": 2,
+		"sort":"alpha",
+		"subtasks":[
+			{"id":"sub1", "task":"Mew"},
+			{"id":"sub2", "task":"Celebi"},
+			{"id":"sub3", "task":"Jirachi"},
+			{"id":"sub4", "task":"Deoxys"},
+			{"id":"sub5", "task":"Darkrai"},
+			{"id":"sub6", "task":"Shaymin"},
+			{"id":"sub7", "task":"Arceus"},
+			{"id":"sub8", "task":"Manaphy"},
+			{"id":"sub9", "task":"Phione"}
+		]
+	},
+	{
+		"id":"task28",
+		"task":"Capture all Legendaries",
+		"category":"legendary",
+		"row": 3,
+		"col": 4,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub","task":"Cobalion", "tooltip":"Route 13"},
+			{"id":"sub","task":"Virizion", "tooltip":"Route 11"},
+			{"id":"sub","task":"Terrakion", "tooltip":"Route 22"},
+			{"id":"sub","task":"Reshiram (White 2) / Zekrom (Black 2)", "tooltip":"Dragon Spiral Tower", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub","task":"Kyurem", "tooltip":"Giant Chasm"},
+			{"id":"sub","task":"Latias (White 2) / Latios (Black 2)", "tooltip":"Dreamyard", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub","task":"Uxie", "tooltip":"Nacrene Museum"},
+			{"id":"sub","task":"Mesprit", "tooltip":"Celestial Tower"},
+			{"id":"sub","task":"Azelf", "tooltip":"Route 23"},
+			{"id":"sub","task":"Regirock", "tooltip":"Underground Ruins in Clay Tunnel"},
+			{"id":"sub","task":"Registeel (Black 2) / Regice (White 2)", "tooltip":"Underground Ruins in Clay Tunnel", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub","task":"Regigigas", "tooltip":"Twist Mountain"},
+			{"id":"sub","task":"Cresselia", "tooltip":"Marvelous Bridge"},
+			{"id":"sub","task":"Heatran", "tooltip":"Reversal Mountain"}
+		]
+	},
+
+
+	{
+		"id":"task6",
+		"task":"Final Rival Battle in Driftveil City",
+		"category":"battle",
+		"row": 3,
+		"col": 13
+	},
+	{
+		"id":"task7",
+		"task":"Complete the Unova Challenge (Black Tower or White Treehollow)",
+		"tooltip":"After completing talk to Alder in Floccesy Town for a Shiny surprise!",
+		"category":"battle",
+		"row": 3,
+		"col": 13,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"1"},
+			{"id":"sub2", "task":"2"},
+			{"id":"sub3", "task":"3"},
+			{"id":"sub4", "task":"4"},
+			{"id":"sub5", "task":"5"},
+			{"id":"sub6", "task":"6"},
+			{"id":"sub7", "task":"7"},
+			{"id":"sub8", "task":"8"},
+			{"id":"sub9", "task":"9"},
+			{"id":"sub10", "task":"Defeat Benga on the 10th Challenge"}
+		]
+	},
+	{
+		"id":"task8",
+		"task":"Final Colress Battle in P2 Lab",
+		"category":"battle",
+		"row": 3,
+		"col": 13
+	},
+	{
+		"id":"task31",
+		"task":"Battle Cynthia in Undella Town",
+		"category":"battle",
+		"row": 3,
+		"col": 13
+	},
+	{
+		"id":"task32",
+		"task":"Battle Alder in Floccesy Town",
+		"category":"battle",
+		"row": 3,
+		"col": 13
+	},
+	{
+		"id":"task33",
+		"task":"Battle Castelia Sewers Bosses",
+		"category":"battle",
+		"row": 3,
+		"col": 13
+	},
+	{
+		"id":"task10",
+		"task":"Elite Rank at Battle Institute Test",
+		"category":"battle",
+		"row": 3,
+		"col": 13
+	},
+	{
+		"id":"task16",
+		"task":"Complete All Battle Subway Lines",
+		"category":"battle",
+		"row": 3,
+		"col": 14,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Single"},
+			{"id":"sub2", "task":"Double"},
+			{"id":"sub3", "task":"Multi"},
+			{"id":"sub4", "task":"Single Super"},
+			{"id":"sub5", "task":"Double Super"},
+			{"id":"sub6", "task":"Multi Super"}
+		]
+	},
+	{
+		"id":"task14",
 		"task":"Complete All World Tournaments",
 		"category":"battle",
 		"row": 3,
 		"col": 14,
+		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Driftveil"},
 			{"id":"sub2", "task":"Rental"},
@@ -270,101 +334,76 @@
 			{"id":"sub14", "task":"Type Expert"}
 		]
 	},
-	{"id":"task15",
+	{
+		"id":"task34",
+		"task":"Complete a round of Daily battles",
+		"category":"battle",
+		"row": 3,
+		"col": 14,
+		"subtasks":[
+			{"id":"sub","task":"Battle Rival in Driftveil City"},
+			{"id":"sub","task":"Battle the Shadow Triad in Icirrus City"},
+			{"id":"sub","task":"Battle Colress on the Plasma Ship next to the P2 Lab"},
+			{"id":"sub","task":"Battle GameFreak staff in Castelia City"},
+			{"id":"sub","task":"Battle all trainers in the Small and Large Court in Nimbasa City"},
+			{"id":"sub","task":"Battle Cilan, Chili, and Cress in Straiton City"}
+		]
+	},
+
+
+	{
+		"id":"task27",
+		"task":"Achieve Gold Trainer Card (or Black/White card if game sync)",
+		"category":"upgrades",
+		"row": 3,
+		"col": 5,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat the Elite Four"},
+			{"id":"sub2", "task":"Complete Unova Pokedex"},
+			{"id":"sub3", "task":"Complete all Pokestar Movies"},
+			{"id":"sub4", "task":"Defeat Champions at Pokemon World Tournament"},
+			{"id":"sub5", "task":"Gain Entree Lv. of 30 from Black/White"}
+		]
+	},
+	{
+		"id":"task9",
+		"task":"Obtain Legend Rank at the Medal HQ",
+		"category":"upgrades",
+		"row": 3,
+		"col": 6,
+		"subtasks":[
+			{"id":"sub1", "task":"Rookie Rank", "tooltip":"Earn 50 Medals"},
+			{"id":"sub2", "task":"Elite Rank", "tooltip":"Earn 100 Medals"},
+			{"id":"sub3", "task":"Master Rank", "tooltip":"Earn 150 Medals"},
+			{"id":"sub4", "task":"Legend Rank", "tooltip":"Earn 200 Medals"}
+		]
+	},
+
+	
+	{
+		"id":"task15",
 		"task":"Achieve EX Ranking at PokeStar Studios",
-		"category":"activities",
+		"category":"quests",
 		"row": 3,
 		"col": 17
 	},
-	{"id":"task16",
-		"task":"Complete All Battle Subway Lines",
-		"category":"battle",
-		"row": 3,
-		"col": 13,
-		"splitCol":2,
-		"subtasks":[
-			{"id":"sub1", "task":"Single"},
-			{"id":"sub2", "task":"Double"},
-			{"id":"sub3", "task":"Multi"},
-			{"id":"sub4", "task":"Single Super"},
-			{"id":"sub5", "task":"Double Super"},
-			{"id":"sub6", "task":"Multi Super"}
-		]
-	},	
-	{"id":"task17",
+	{
+		"id":"task17",
 		"task":"Promote Join Avenue to Lv. 100",
-		"category":"activities",
+		"category":"quests",
 		"row": 3,
 		"col": 17
 	},
 	{"id":"task18",
 		"task":"Complete Dropped Item Quest (Yancy/Curtis)",
-		"category":"activities",
+		"category":"quests",
 		"row": 3,
 		"col": 17
 	},
-	{"id":"task22",
-		"task":"Collect the items on the first floor of the Abyssal Ruins",
-		"category":"collectibles",
-		"row": 9,
-		"col":1,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"Dread Plate"},
-			{"id":"sub2", "task":"Earth Plate"},
-			{"id":"sub3", "task":"Fist Plate"},
-			{"id":"sub4", "task":"Flame Plate"},
-			{"id":"sub5", "task":"Icicle Plate"},
-			{"id":"sub6", "task":"Insect Plate"},
-			{"id":"sub7", "task":"Iron Plate"},
-			{"id":"sub8", "task":"Meadow Plate"},
-			{"id":"sub9", "task":"Mind Plate"},
-			{"id":"sub10", "task":"Sky Plate"},
-			{"id":"sub11", "task":"Spooky Plate"},
-			{"id":"sub12", "task":"Stone Plate"},
-			{"id":"sub13", "task":"Toxic Plate"},
-			{"id":"sub14", "task":"Zap Plate"},
-			{"id":"sub15", "task":"Relic Silver"},
-			{"id":"sub16", "task":"Relic Gold"},
-			{"id":"sub17", "task":"Relic Copper"}
-		]
-	},
-	{"id":"task23",
-		"task":"Collect the items on the second floor of the Abyssal Ruins",
-		"category":"collectibles",
-		"row": 9,
-		"col":2,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"Relic Silver"},
-			{"id":"sub2", "task":"Relic Band"},
-			{"id":"sub3", "task":"Relic Gold"},
-			{"id":"sub4", "task":"Relic Copper"},
-			{"id":"sub5", "task":"Relic statue"}
-		]
-	},
-	{"id":"task24",
-		"task":"Collect the items on the third floor of the Abyssal Ruins",
-		"category":"collectibles",
-		"row": 9,
-		"col":2,
-		"splitCol": 2,
-		"subtasks":[
-			{"id":"sub1", "task":"Relic Band"},
-			{"id":"sub2", "task":"Relic Copper"},
-			{"id":"sub3", "task":"Relic Gold"},
-			{"id":"sub4", "task":"Relic Silver"},
-			{"id":"sub5", "task":"Relic Statue"},
-			{"id":"sub6", "task":"Relic Vase"}
-		]
-	},
-	{"id":"task25",
-		"task":"Collect the Relic Crown on the fourth floor of the Abyssal Ruins",
-		"category":"collectibles",
-		"row": 9,
-		"col":2
-	},
-	{"id":"task19",
+
+	
+	{
+		"id":"task19",
 		"task":"Complete All Funfest Missions (40)",
 		"category":"funfest",
 		"row": 3,
@@ -411,114 +450,91 @@
 			{"id":"sub38", "task":"Search for Steelix"}
 		]
 	},
-	{"id":"task20",
-		"task":"Collect All 95 Technical Machines (TMs)",
-		"category":"tms",
-		"row": 15,
-		"col": 1,
-		"splitCol":4,
-		"sort":"alpha",
+
+
+	{
+		"id":"task22",
+		"task":"Collect the items on the first floor of the Abyssal Ruins",
+		"category":"collectibles",
+		"row": 9,
+		"col":1,
+		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub1", "task":"Hone Claws"},
-			{"id":"sub2", "task":"Dragon Claws"},
-			{"id":"sub3", "task":"Psyshock"},
-			{"id":"sub4", "task":"Calm Mind"},
-			{"id":"sub5", "task":"Roar"},
-			{"id":"sub6", "task":"Toxic"},
-			{"id":"sub7", "task":"Hail"},
-			{"id":"sub8", "task":"Bulk up"},
-			{"id":"sub9", "task":"Venoshock"},
-			{"id":"sub10", "task":"Hidden Power"},
-			{"id":"sub11", "task":"Sunny Day"},
-			{"id":"sub12", "task":"Taunt"},
-			{"id":"sub13", "task":"Ice Beam"},
-			{"id":"sub14", "task":"Blizzard"},
-			{"id":"sub15", "task":"Hyper Beam"},
-			{"id":"sub16", "task":"Light Screen"},
-			{"id":"sub17", "task":"Protect"},
-			{"id":"sub18", "task":"Rain Dance"},			
-			{"id":"sub19", "task":"Telekenisis"},			
-			{"id":"sub20", "task":"Safeguard"},
-			{"id":"sub21", "task":"Frustration"},
-			{"id":"sub22", "task":"Solar Beam"},
-			{"id":"sub23", "task":"Smack Down"},
-			{"id":"sub24", "task":"Thunderbolt"},
-			{"id":"sub25", "task":"Thunder"},
-			{"id":"sub26", "task":"Earthquake"},
-			{"id":"sub27", "task":"Return"},
-			{"id":"sub28", "task":"Dig"},
-			{"id":"sub29", "task":"Psychic"},
-			{"id":"sub30", "task":"Shadow Ball"},
-			{"id":"sub31", "task":"Brick Break"},
-			{"id":"sub32", "task":"Double Team"},
-			{"id":"sub33", "task":"Reflect"},						
-			{"id":"sub36", "task":"Sludge Bomb"},
-			{"id":"sub37", "task":"Sandstorm"},
-			{"id":"sub38", "task":"Fire Blast"},
-			{"id":"sub39", "task":"Rock Tomb"},
-			{"id":"sub40", "task":"Aerial Ace"},
-			{"id":"sub41", "task":"Torment"},
-			{"id":"sub42", "task":"Facade"},
-			{"id":"sub43", "task":"Flame Charge"},
-			{"id":"sub44", "task":"Rest"},
-			{"id":"sub45", "task":"Attract"},
-			{"id":"sub46", "task":"Thief"},
-			{"id":"sub47", "task":"Low Sweep"},
-			{"id":"sub48", "task":"Round"},
-			{"id":"sub49", "task":"Echoed Voice"},
-			{"id":"sub50", "task":"Overheat"},			
-			{"id":"sub51", "task":"Ally Switch"},
-			{"id":"sub52", "task":"Focus Blast"},
-			{"id":"sub53", "task":"Energy Ball"},
-			{"id":"sub54", "task":"False Swipe"},
-			{"id":"sub55", "task":"Scald"},
-			{"id":"sub56", "task":"Fling"},
-			{"id":"sub57", "task":"Charge Beam"},
-			{"id":"sub58", "task":"Sky Drop"},
-			{"id":"sub59", "task":"Incinerate"},
-			{"id":"sub60", "task":"Quash"},
-			{"id":"sub61", "task":"Will-o-wisp"},
-			{"id":"sub62", "task":"Acrobatics"},
-			{"id":"sub63", "task":"Embargo"},
-			{"id":"sub64", "task":"Explosion"},
-			{"id":"sub65", "task":"Shadow Claw"},
-			{"id":"sub66", "task":"Payback"},
-			{"id":"sub67", "task":"Retaliate"},
-			{"id":"sub68", "task":"Giga Impact"},
-			{"id":"sub71", "task":"Stone Edge"},
-			{"id":"sub72", "task":"Volt Switch"},
-			{"id":"sub73", "task":"Thunder Wave"},
-			{"id":"sub74", "task":"Gyro Ball"},
-			{"id":"sub75", "task":"Swords Dance"},
-			{"id":"sub76", "task":"Struggle Bug"},
-			{"id":"sub77", "task":"Psych up"},
-			{"id":"sub78", "task":"Bulldoze"},
-			{"id":"sub79", "task":"Frost Breath"},
-			{"id":"sub80", "task":"Rock Slide"},
-			{"id":"sub81", "task":"X-Scissor"},
-			{"id":"sub82", "task":"Dragon Tail"},
-			{"id":"sub83", "task":"Work Up"},
-			{"id":"sub84", "task":"Poison Jab"},
-			{"id":"sub85", "task":"Dream Eater"},
-			{"id":"sub86", "task":"Grass Knot"},
-			{"id":"sub87", "task":"Swagger"},
-			{"id":"sub88", "task":"Pluck"},
-			{"id":"sub89", "task":"U-Turn"},
-			{"id":"sub90", "task":"Substitute"},
-			{"id":"sub91", "task":"Flash Cannon"},
-			{"id":"sub92", "task":"Trick Room"},
-			{"id":"sub93", "task":"Wild Charge"},
-			{"id":"sub94", "task":"Rock Smash"},
-			{"id":"sub95", "task":"Snarl"},
-			{"id":"sub96", "task":"Sludge Wave"},
-			{"id":"sub97", "task":"Flamethrower"},
-			{"id":"sub98", "task":"Rock Polish"},
-			{"id":"sub99", "task":"Flash"}
+			{"id":"sub1", "task":"Dread Plate"},
+			{"id":"sub2", "task":"Earth Plate"},
+			{"id":"sub3", "task":"Fist Plate"},
+			{"id":"sub4", "task":"Flame Plate"},
+			{"id":"sub5", "task":"Icicle Plate"},
+			{"id":"sub6", "task":"Insect Plate"},
+			{"id":"sub7", "task":"Iron Plate"},
+			{"id":"sub8", "task":"Meadow Plate"},
+			{"id":"sub9", "task":"Mind Plate"},
+			{"id":"sub10", "task":"Sky Plate"},
+			{"id":"sub11", "task":"Spooky Plate"},
+			{"id":"sub12", "task":"Stone Plate"},
+			{"id":"sub13", "task":"Toxic Plate"},
+			{"id":"sub14", "task":"Zap Plate"},
+			{"id":"sub15", "task":"Relic Silver"},
+			{"id":"sub16", "task":"Relic Gold"},
+			{"id":"sub17", "task":"Relic Copper"}
 		]
 	},
-	{"id":"task26",
+	{
+		"id":"task29",
+		"task":"Collect Special Items",
+		"category":"collectibles",
+		"row":9,
+		"col":1,
+		"subtasks":[
+			{"id":"sub1", "task":"Nature Preserve Permit", "tooltip":"See all Unova Pokedex"},
+			{"id":"sub2", "task":"Oval Charm", "tooltip":"Catch all Unova Pokedex"},
+			{"id":"sub3", "task":"Shiny Charm", "tooltip":"Catch all National Pokedex"}
+		]
+	},
+	{
+		"id":"task23",
+		"task":"Collect the items on the second floor of the Abyssal Ruins",
+		"category":"collectibles",
+		"row": 9,
+		"col":2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Relic Silver"},
+			{"id":"sub2", "task":"Relic Band"},
+			{"id":"sub3", "task":"Relic Gold"},
+			{"id":"sub4", "task":"Relic Copper"},
+			{"id":"sub5", "task":"Relic statue"}
+		]
+	},
+	{
+		"id":"task24",
+		"task":"Collect the items on the third floor of the Abyssal Ruins",
+		"category":"collectibles",
+		"row": 9,
+		"col":2,
+		"splitCol": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Relic Band"},
+			{"id":"sub2", "task":"Relic Copper"},
+			{"id":"sub3", "task":"Relic Gold"},
+			{"id":"sub4", "task":"Relic Silver"},
+			{"id":"sub5", "task":"Relic Statue"},
+			{"id":"sub6", "task":"Relic Vase"}
+		]
+	},
+	{
+		"id":"task25",
+		"task":"Collect the Relic Crown on the fourth floor of the Abyssal Ruins",
+		"category":"collectibles",
+		"row": 9,
+		"col":2
+	},
+
+
+	{
+		"id":"task26",
 		"task":"Collect All 253 Commemorative Medals",
-		"category":"tms",
+		"category":"medals",
 		"row": 10,
 		"col": 1,
 		"splitCol":5,
@@ -776,6 +792,114 @@
 			{"id":"sub253", "task":"Steel-type Champ","tooltip":"Defeat the Elite Four & Champion using only Steel-type Pokemon"},
 			{"id":"sub254", "task":"One and Only","tooltip":"Defeat the Elite Four & Champion using only 1 Pokemon"},
 			{"id":"sub255", "task":"Supreme Challenger","tooltip":"Earn all the Challenge Medals"}
+		]
+	},
+
+
+	{
+		"id":"task20",
+		"task":"Collect All 95 Technical Machines (TMs)",
+		"category":"tms",
+		"row": 15,
+		"col": 1,
+		"splitCol":4,
+		"sort":"alpha",
+		"subtasks":[
+			{"id":"sub1", "task":"Hone Claws"},
+			{"id":"sub2", "task":"Dragon Claws"},
+			{"id":"sub3", "task":"Psyshock"},
+			{"id":"sub4", "task":"Calm Mind"},
+			{"id":"sub5", "task":"Roar"},
+			{"id":"sub6", "task":"Toxic"},
+			{"id":"sub7", "task":"Hail"},
+			{"id":"sub8", "task":"Bulk up"},
+			{"id":"sub9", "task":"Venoshock"},
+			{"id":"sub10", "task":"Hidden Power"},
+			{"id":"sub11", "task":"Sunny Day"},
+			{"id":"sub12", "task":"Taunt"},
+			{"id":"sub13", "task":"Ice Beam"},
+			{"id":"sub14", "task":"Blizzard"},
+			{"id":"sub15", "task":"Hyper Beam"},
+			{"id":"sub16", "task":"Light Screen"},
+			{"id":"sub17", "task":"Protect"},
+			{"id":"sub18", "task":"Rain Dance"},			
+			{"id":"sub19", "task":"Telekenisis"},			
+			{"id":"sub20", "task":"Safeguard"},
+			{"id":"sub21", "task":"Frustration"},
+			{"id":"sub22", "task":"Solar Beam"},
+			{"id":"sub23", "task":"Smack Down"},
+			{"id":"sub24", "task":"Thunderbolt"},
+			{"id":"sub25", "task":"Thunder"},
+			{"id":"sub26", "task":"Earthquake"},
+			{"id":"sub27", "task":"Return"},
+			{"id":"sub28", "task":"Dig"},
+			{"id":"sub29", "task":"Psychic"},
+			{"id":"sub30", "task":"Shadow Ball"},
+			{"id":"sub31", "task":"Brick Break"},
+			{"id":"sub32", "task":"Double Team"},
+			{"id":"sub33", "task":"Reflect"},						
+			{"id":"sub36", "task":"Sludge Bomb"},
+			{"id":"sub37", "task":"Sandstorm"},
+			{"id":"sub38", "task":"Fire Blast"},
+			{"id":"sub39", "task":"Rock Tomb"},
+			{"id":"sub40", "task":"Aerial Ace"},
+			{"id":"sub41", "task":"Torment"},
+			{"id":"sub42", "task":"Facade"},
+			{"id":"sub43", "task":"Flame Charge"},
+			{"id":"sub44", "task":"Rest"},
+			{"id":"sub45", "task":"Attract"},
+			{"id":"sub46", "task":"Thief"},
+			{"id":"sub47", "task":"Low Sweep"},
+			{"id":"sub48", "task":"Round"},
+			{"id":"sub49", "task":"Echoed Voice"},
+			{"id":"sub50", "task":"Overheat"},			
+			{"id":"sub51", "task":"Ally Switch"},
+			{"id":"sub52", "task":"Focus Blast"},
+			{"id":"sub53", "task":"Energy Ball"},
+			{"id":"sub54", "task":"False Swipe"},
+			{"id":"sub55", "task":"Scald"},
+			{"id":"sub56", "task":"Fling"},
+			{"id":"sub57", "task":"Charge Beam"},
+			{"id":"sub58", "task":"Sky Drop"},
+			{"id":"sub59", "task":"Incinerate"},
+			{"id":"sub60", "task":"Quash"},
+			{"id":"sub61", "task":"Will-o-wisp"},
+			{"id":"sub62", "task":"Acrobatics"},
+			{"id":"sub63", "task":"Embargo"},
+			{"id":"sub64", "task":"Explosion"},
+			{"id":"sub65", "task":"Shadow Claw"},
+			{"id":"sub66", "task":"Payback"},
+			{"id":"sub67", "task":"Retaliate"},
+			{"id":"sub68", "task":"Giga Impact"},
+			{"id":"sub71", "task":"Stone Edge"},
+			{"id":"sub72", "task":"Volt Switch"},
+			{"id":"sub73", "task":"Thunder Wave"},
+			{"id":"sub74", "task":"Gyro Ball"},
+			{"id":"sub75", "task":"Swords Dance"},
+			{"id":"sub76", "task":"Struggle Bug"},
+			{"id":"sub77", "task":"Psych up"},
+			{"id":"sub78", "task":"Bulldoze"},
+			{"id":"sub79", "task":"Frost Breath"},
+			{"id":"sub80", "task":"Rock Slide"},
+			{"id":"sub81", "task":"X-Scissor"},
+			{"id":"sub82", "task":"Dragon Tail"},
+			{"id":"sub83", "task":"Work Up"},
+			{"id":"sub84", "task":"Poison Jab"},
+			{"id":"sub85", "task":"Dream Eater"},
+			{"id":"sub86", "task":"Grass Knot"},
+			{"id":"sub87", "task":"Swagger"},
+			{"id":"sub88", "task":"Pluck"},
+			{"id":"sub89", "task":"U-Turn"},
+			{"id":"sub90", "task":"Substitute"},
+			{"id":"sub91", "task":"Flash Cannon"},
+			{"id":"sub92", "task":"Trick Room"},
+			{"id":"sub93", "task":"Wild Charge"},
+			{"id":"sub94", "task":"Rock Smash"},
+			{"id":"sub95", "task":"Snarl"},
+			{"id":"sub96", "task":"Sludge Wave"},
+			{"id":"sub97", "task":"Flamethrower"},
+			{"id":"sub98", "task":"Rock Polish"},
+			{"id":"sub99", "task":"Flash"}
 		]
 	}
 ]}
