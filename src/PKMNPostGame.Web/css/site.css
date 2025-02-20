@@ -51,3 +51,7 @@ input[type='checkbox'] {
     letter-spacing: 1px;
     margin-top: auto;
 }
+
+.w-12 {
+	width: 3rem;
+}
