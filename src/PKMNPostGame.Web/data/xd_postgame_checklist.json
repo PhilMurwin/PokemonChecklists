@@ -416,7 +416,6 @@
 			{"id":"sub5", "task":"Chesto", "tooltip":"Agate Village"},
 			{"id":"sub6", "task":"Figy", "tooltip":"Agate Village"},
 			{"id":"sub7", "task":"Ganlon", "tooltip":"Exchange for Pokemon Coupon (15,000)"},
-			{"id":"sub8", "task":"Himeri", "tooltip":"Agate Village"},
 			{"id":"sub9", "task":"Iapapa", "tooltip":"Agate Village"},
 			{"id":"sub10", "task":"Leppa", "tooltip":"Agate Village"},
 			{"id":"sub11", "task":"Lum", "tooltip":"Agate Village / Phenac City / Battle CD"},
@@ -427,8 +426,7 @@
 			{"id":"sub16", "task":"Petaya", "tooltip":"Exchange for Pokemon Coupon (15,000)"},
 			{"id":"sub17", "task":"Rawst", "tooltip":"Agate Village"},
 			{"id":"sub18", "task":"Salac", "tooltip":"Exchange for Pokemon Coupon (15,000) / Battle CD"},
-			{"id":"sub19", "task":"Sitrus", "tooltip":"Agate Village"},
-			{"id":"sub20", "task":"Wiki", "tooltip":"Agate Village"}
+			{"id":"sub19", "task":"Sitrus", "tooltip":"Agate Village"}
 		]
 	}
 ]}
