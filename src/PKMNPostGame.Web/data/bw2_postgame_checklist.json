@@ -213,20 +213,20 @@
 		"col": 4,
 		"splitCol":2,
 		"subtasks":[
-			{"id":"sub","task":"Cobalion", "tooltip":"Route 13"},
-			{"id":"sub","task":"Virizion", "tooltip":"Route 11"},
-			{"id":"sub","task":"Terrakion", "tooltip":"Route 22"},
-			{"id":"sub","task":"Reshiram (White 2) / Zekrom (Black 2)", "tooltip":"Dragon Spiral Tower", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
-			{"id":"sub","task":"Kyurem", "tooltip":"Giant Chasm"},
-			{"id":"sub","task":"Latias (White 2) / Latios (Black 2)", "tooltip":"Dreamyard", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
-			{"id":"sub","task":"Uxie", "tooltip":"Nacrene Museum"},
-			{"id":"sub","task":"Mesprit", "tooltip":"Celestial Tower"},
-			{"id":"sub","task":"Azelf", "tooltip":"Route 23"},
-			{"id":"sub","task":"Regirock", "tooltip":"Underground Ruins in Clay Tunnel"},
-			{"id":"sub","task":"Registeel (Black 2) / Regice (White 2)", "tooltip":"Underground Ruins in Clay Tunnel", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
-			{"id":"sub","task":"Regigigas", "tooltip":"Twist Mountain"},
-			{"id":"sub","task":"Cresselia", "tooltip":"Marvelous Bridge"},
-			{"id":"sub","task":"Heatran", "tooltip":"Reversal Mountain"}
+			{"id":"sub1","task":"Cobalion", "tooltip":"Route 13"},
+			{"id":"sub2","task":"Virizion", "tooltip":"Route 11"},
+			{"id":"sub3","task":"Terrakion", "tooltip":"Route 22"},
+			{"id":"sub4","task":"Reshiram (White 2) / Zekrom (Black 2)", "tooltip":"Dragon Spiral Tower", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub5","task":"Kyurem", "tooltip":"Giant Chasm"},
+			{"id":"sub6","task":"Latias (White 2) / Latios (Black 2)", "tooltip":"Dreamyard", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub7","task":"Uxie", "tooltip":"Nacrene Museum"},
+			{"id":"sub8","task":"Mesprit", "tooltip":"Celestial Tower"},
+			{"id":"sub9","task":"Azelf", "tooltip":"Route 23"},
+			{"id":"sub10","task":"Regirock", "tooltip":"Underground Ruins in Clay Tunnel"},
+			{"id":"sub11","task":"Registeel (Black 2) / Regice (White 2)", "tooltip":"Underground Ruins in Clay Tunnel", "formats":[{"word":"(Black 2)", "format":"black"},{"word":"(White 2)", "format":"white"}]},
+			{"id":"sub12","task":"Regigigas", "tooltip":"Twist Mountain"},
+			{"id":"sub13","task":"Cresselia", "tooltip":"Marvelous Bridge"},
+			{"id":"sub14","task":"Heatran", "tooltip":"Reversal Mountain"}
 		]
 	},
 
@@ -341,12 +341,12 @@
 		"row": 3,
 		"col": 14,
 		"subtasks":[
-			{"id":"sub","task":"Battle Rival in Driftveil City"},
-			{"id":"sub","task":"Battle the Shadow Triad in Icirrus City"},
-			{"id":"sub","task":"Battle Colress on the Plasma Ship next to the P2 Lab"},
-			{"id":"sub","task":"Battle GameFreak staff in Castelia City"},
-			{"id":"sub","task":"Battle all trainers in the Small and Large Court in Nimbasa City"},
-			{"id":"sub","task":"Battle Cilan, Chili, and Cress in Straiton City"}
+			{"id":"sub1","task":"Battle Rival in Driftveil City"},
+			{"id":"sub2","task":"Battle the Shadow Triad in Icirrus City"},
+			{"id":"sub3","task":"Battle Colress on the Plasma Ship next to the P2 Lab"},
+			{"id":"sub4","task":"Battle GameFreak staff in Castelia City"},
+			{"id":"sub5","task":"Battle all trainers in the Small and Large Court in Nimbasa City"},
+			{"id":"sub6","task":"Battle Cilan, Chili, and Cress in Straiton City"}
 		]
 	},
 
