@@ -6,7 +6,300 @@
 		"col": 1,
 		"splitCol":2,
 		"subtasks":[
-			{"id":"sub1", "task":"Obtain "}
+			{"id":"sub1", "task":"Sprigatito"},
+			{"id":"sub2", "task":"Fuecoco"},
+			{"id":"sub3", "task":"Quaxly"},
+			{"id":"sub4", "task":"Dudunsparce"},
+			{"id":"sub5", "task":"Gimmighoul"},
+			{"id":"sub6", "task":"Kingambit"},
+			{"id":"sub7", "task":"Urshifu"},
+			{"id":"sub8", "task":"Dipplin"},
+			{"id":"sub9", "task":"Archaludon"},
+			{"id":"sub10", "task":"Rabsca"},
+			{"id":"sub11", "task":"Pawmot"},
+			{"id":"sub12", "task":"Brambleghast"},
+			{"id":"sub13", "task":"Annihilape"},
+			{"id":"sub14", "task":"Farigiraf"},
+			{"id":"sub15", "task":"Overqwil"},
+			{"id":"sub16", "task":"Hydrapple"},
+			{"id":"sub17", "task":"Maushold"},
+			{"id":"sub18", "task":"Palafin"},
+			{"id":"sub19", "task":"Galarian Meowth", "tooltip":"Take language classes, chat with teacher Salvatore and convince him to keep Pawmi"}
+		]
+	},
+	{
+		"id":"task2",
+		"task":"Obtain all Paldean form Pokemon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Tauros"},
+			{"id":"sub2", "task":"Tauros - Blaze Breed"},
+			{"id":"sub3", "task":"Tauros - Aqua Breed"},
+			{"id":"sub4", "task":"Wooper"}
+		]
+	},
+	{
+		"id":"task3",
+		"task":"Capture In-Game Legendaries",
+		"category":"catchemall",
+		"row": 3,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Koraidon"},
+			{"id":"sub2", "task":"Miraidon"},
+			{"id":"sub3", "task":"Chien-Pao"},
+			{"id":"sub4", "task":"Chi-Yu"},
+			{"id":"sub5", "task":"Ting-Lu"},
+			{"id":"sub6", "task":"Wo-Chien"},
+			{"id":"sub7", "task":"Terapagos"}
+		]
+	},
+	{
+		"id":"task4",
+		"task":"Complete all In-Game Pokémon Trades",
+		"category":"catchemall",
+		"row": 3,
+		"col": 2,
+		"subtasks":[
+			{"id":"sub1", "task":"Trade Flabébé for Snom", "tooltip":"Cortondo"},
+			{"id":"sub2", "task":"Trade Wooper for Johtonian Wooper", "tooltip":"Cascarrafa"},
+			{"id":"sub3", "task":"Trade Pinchurchin for Haunter/Gengar", "tooltip":"Levincia"}
+		]
+	},
+	{
+		"id":"task5",
+		"task":"Obtain all Paradox Pokemon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 2,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Great Tusk"},
+			{"id":"sub2", "task":"Scream Tail"},
+			{"id":"sub3", "task":"Brute Bonnet"},
+			{"id":"sub4", "task":"Flutter Mane"},
+			{"id":"sub5", "task":"Slither Wing"},
+			{"id":"sub6", "task":"Sandy Shocks"},
+			{"id":"sub7", "task":"Roaring Moon"},
+			{"id":"sub8", "task":"Walking Wake"},
+			{"id":"sub9", "task":"Iron Treads"},
+			{"id":"sub10", "task":"Iron Bundle"},
+			{"id":"sub11", "task":"Iron Hands"},
+			{"id":"sub12", "task":"Iron Jugulis"},
+			{"id":"sub13", "task":"Iron Moth"},
+			{"id":"sub14", "task":"Iron Thorns"},
+			{"id":"sub15", "task":"Iron Valiant"},
+			{"id":"sub16", "task":"Iron Leaves"}
+		]
+	},
+	{
+		"id":"task6",
+		"task":"Capture all Titan Pokemon",
+		"category":"catchemall",
+		"row": 3,
+		"col": 2,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Klawf"},
+			{"id":"sub2", "task":"Bombirdier"},
+			{"id":"sub3", "task":"Orthworm"},
+			{"id":"sub4", "task":"Great Tusk/Iron Treads"},
+			{"id":"sub5", "task":"Tatsugiri"}
+		]
+	},
+	{
+		"id":"task10",
+		"task":"Complete Victory Road",
+		"category":"story",
+		"row": 4,
+		"col": 1,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat the Cortondo Gym Leader Katy"},
+			{"id":"sub2", "task":"Defeat the Artazon Gym Leader Brassius"},
+			{"id":"sub3", "task":"Defeat the Levincia Gym Leader Iono"},
+			{"id":"sub4", "task":"Defeat the Cascarrafa Gym Leader Kofu"},
+			{"id":"sub5", "task":"Defeat the Medali Gym Leader Larry"},
+			{"id":"sub6", "task":"Defeat the Montenevera Gym Leader Ryme"},
+			{"id":"sub7", "task":"Defeat the Alfornada Gym Leader Tulip"},
+			{"id":"sub8", "task":"Defeat the Glaseado Gym Leader Grusha"},
+			{"id":"sub9", "task":"Defeat Elite Four Member Rika"},
+			{"id":"sub10", "task":"Defeat Elite Four Member Poppy"},
+			{"id":"sub11", "task":"Defeat Elite Four Member Larry"},
+			{"id":"sub12", "task":"Defeat Elite Four Member Hassel"},
+			{"id":"sub13", "task":"Defeat Pokemon League Chairwoman Geeta"}
+		]
+	},
+	{
+		"id":"task11",
+		"task":"Complete the Path of Legends",
+		"category":"story",
+		"row": 4,
+		"col": 2,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub1", "task":"Defeat the Stony Cliff Titan"},
+			{"id":"sub2", "task":"Defeat the Open Sky Titan"},
+			{"id":"sub3", "task":"Defeat the Lurking Steel Titan"},
+			{"id":"sub4", "task":"Defeat Quaking Earth Titan"},
+			{"id":"sub5", "task":"Defeat False Dragon Titan"}
+		]
+	},
+	{
+		"id":"task12",
+		"task":"Complete Starfall Street",
+		"category":"story",
+		"row": 4,
+		"col": 2,
+		"splitCol":2,
+		"subtasks":[
+			{"id":"sub", "task":"Defeat Team Star Dark Crew Boss Glacomo"},
+			{"id":"sub", "task":"Defeat Team Star Fire Crew Boss Mela"},
+			{"id":"sub", "task":"Defeat Team Star Poison Crew Boss Atticus"},
+			{"id":"sub", "task":"Defeat Team Star Fairy Crew Boss Ortega"},
+			{"id":"sub", "task":"Defeat Team Star Fighting Crew Boss Eri"}
+		]
+	},
+	{
+		"id":"task13",
+		"task":"Complete The Way Home",
+		"category":"story",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Re-Challenge the Gym Leaders",
+		"category":"battle",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Win the Academy Ace Tournament",
+		"category":"battle",
+		"row": 1,
+		"col": 1
+	},
+	{
+		"id":"task",
+		"task":"Defeat all Participants in the Academy Ace Tournament",
+		"category":"battle",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":"Arven"},
+			{"id":"sub", "task":"Jacq"},
+			{"id":"sub", "task":"Dendra"},
+			{"id":"sub", "task":"Geeta"},
+			{"id":"sub", "task":"Miriam"},
+			{"id":"sub", "task":"Hassel"},
+			{"id":"sub", "task":"Raifort"},
+			{"id":"sub", "task":"Saguaro"},
+			{"id":"sub", "task":"Salvatore"},
+			{"id":"sub", "task":"Tyme"},
+			{"id":"sub", "task":"Penny"},
+			{"id":"sub", "task":"Nemona"},
+			{"id":"sub", "task":"Clavell"}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Unlock Five and Six Star Raids",
+		"category":"",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Collect Special Items",
+		"category":"collectibles",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":"Master Ball"},
+			{"id":"sub", "task":"Shiny Charm"},
+			{"id":"sub", "task":"Destiny Knot"},
+			{"id":"sub", "task":"Everstone"},
+			{"id":"sub", "task":"Oval Charm"},
+			{"id":"sub", "task":"Lucky Egg"}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Collect Special Poke Balls",
+		"category":"collectibles",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Collect Customization Items",
+		"category":"collectibles",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"Sandwiches",
+		"category":"sandwiches",
+		"row": 1,
+		"col": 1,
+		"splitCol": 4,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"TMs",
+		"category":"tm",
+		"row": 1,
+		"col": 1,
+		"splitCol":4,
+		"sort": "alpha",
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	
+	{
+		"id":"task",
+		"task":"",
+		"category":"",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
+		]
+	},
+	{
+		"id":"task",
+		"task":"",
+		"category":"",
+		"row": 1,
+		"col": 1,
+		"subtasks":[
+			{"id":"sub", "task":""}
 		]
 	}
 ]}
