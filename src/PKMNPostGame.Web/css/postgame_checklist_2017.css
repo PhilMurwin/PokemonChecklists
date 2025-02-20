@@ -93,6 +93,20 @@
 	padding-right: 18px;
 }
 
+.scarlet {
+	color: #EA4D3E;
+	background-color: #D1BE14;
+	border-radius: 3px;
+	padding:1px;
+}
+
+.violet {
+	color: #363289;
+	background-color: #D1BE14;
+	border-radius: 3px;
+	padding:1px;
+}
+
 .credit {
 	text-align: center;
 	margin-bottom: 20px;
