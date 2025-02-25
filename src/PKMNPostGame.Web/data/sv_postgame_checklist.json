@@ -43,26 +43,17 @@
 	},
 	{
 		"id":"task3",
-		"task":"Capture In-Game Legendaries",
+		"task":"Obtain In-Game Legendaries",
 		"category":"catchemall",
 		"row": 3,
 		"col": 1,
-		"splitCol":2,
 		"subtasks":[
 			{"id":"sub1", "task":"Koraidon / Miraidon","formats":[{"word":"Koraidon", "format":"scarlet"}, {"word":"Miraidon","format":"violet"}]},
-			{"id":"sub2", "task":"Terapagos"}
+			{"id":"sub2", "task":"Trade for Alt Version Legendary (Koraidon / Miraidon)","formats":[{"word":"Koraidon", "format":"scarlet"}, {"word":"Miraidon","format":"violet"}]}
 		]
 	},
 	{
 		"id":"task4",
-		"task": "Trade for Alt Version Legendary (Koraidon / Miraidon)",
-		"category":"catchemall",
-		"formats":[{"word":"Koraidon", "format":"scarlet"}, {"word":"Miraidon","format":"violet"}],
-		"row": 3,
-		"col": 1
-	},
-	{
-		"id":"task5",
 		"task":"Capture the Treasures of Ruin",
 		"category":"catchemall",
 		"row": 3,
@@ -76,7 +67,7 @@
 		]
 	},
 	{
-		"id":"task6",
+		"id":"task5",
 		"task":"Catch a Pokemon with the Destiny Mark",
 		"category":"catchemall",
 		"row": 3,
@@ -84,7 +75,7 @@
 		"tooltip":"On your birthday you can catch pokemon with this special mark!"
 	},
 	{
-		"id":"task7",
+		"id":"task6",
 		"task":"Complete all In-Game Pokémon Trades",
 		"category":"catchemall",
 		"row": 3,
@@ -96,7 +87,7 @@
 		]
 	},
 	{
-		"id":"task8",
+		"id":"task7",
 		"task":"Obtain all Paradox Pokemon",
 		"category":"catchemall",
 		"row": 3,
@@ -122,7 +113,7 @@
 		]
 	},
 	{
-		"id":"task9",
+		"id":"task8",
 		"task":"Capture all Titan Pokemon",
 		"category":"catchemall",
 		"row": 3,
