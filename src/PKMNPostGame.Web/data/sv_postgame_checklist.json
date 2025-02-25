@@ -54,7 +54,7 @@
 		]
 	},
 	{
-		"id":"task",
+		"id":"task4",
 		"task": "Trade for Alt Version Legendary (Koraidon / Miraidon)",
 		"category":"catchemall",
 		"formats":[{"word":"Koraidon", "format":"scarlet"}, {"word":"Miraidon","format":"violet"}],
@@ -62,21 +62,21 @@
 		"col": 1
 	},
 	{
-		"id":"task3",
+		"id":"task5",
 		"task":"Capture the Treasures of Ruin",
 		"category":"catchemall",
 		"row": 3,
 		"col": 1,
 		"splitCol":2,
 		"subtasks":[
-			{"id":"sub3", "task":"Chien-Pao"},
-			{"id":"sub4", "task":"Chi-Yu"},
-			{"id":"sub5", "task":"Ting-Lu"},
-			{"id":"sub6", "task":"Wo-Chien"}
+			{"id":"sub1", "task":"Chien-Pao"},
+			{"id":"sub2", "task":"Chi-Yu"},
+			{"id":"sub3", "task":"Ting-Lu"},
+			{"id":"sub4", "task":"Wo-Chien"}
 		]
 	},
 	{
-		"id":"task",
+		"id":"task6",
 		"task":"Catch a Pokemon with the Destiny Mark",
 		"category":"catchemall",
 		"row": 3,
@@ -84,7 +84,7 @@
 		"tooltip":"On your birthday you can catch pokemon with this special mark!"
 	},
 	{
-		"id":"task4",
+		"id":"task7",
 		"task":"Complete all In-Game Pokémon Trades",
 		"category":"catchemall",
 		"row": 3,
@@ -96,7 +96,7 @@
 		]
 	},
 	{
-		"id":"task5",
+		"id":"task8",
 		"task":"Obtain all Paradox Pokemon",
 		"category":"catchemall",
 		"row": 3,
@@ -122,7 +122,7 @@
 		]
 	},
 	{
-		"id":"task6",
+		"id":"task9",
 		"task":"Capture all Titan Pokemon",
 		"category":"catchemall",
 		"row": 3,
@@ -139,7 +139,7 @@
 
 
 	{
-		"id":"task",
+		"id":"task20",
 		"task":"Re-Challenge the Gym Leaders",
 		"category":"battle",
 		"row": 4,
@@ -156,14 +156,14 @@
 		]
 	},
 	{
-		"id":"task",
+		"id":"task21",
 		"task":"Win the Academy Ace Tournament",
 		"category":"battle",
 		"row": 4,
 		"col": 1
 	},
 	{
-		"id":"task",
+		"id":"task22",
 		"task":"Defeat all Participants in the Academy Ace Tournament",
 		"category":"battle",
 		"row": 4,
@@ -188,7 +188,7 @@
 
 
 	{
-		"id":"task",
+		"id":"task30",
 		"task":"Unlock Five and Six Star Raids",
 		"category":"upgrades",
 		"row": 5,
@@ -201,88 +201,88 @@
 	},
 
 	{
-		"id":"task",
+		"id":"task40",
 		"task":"Pass your midterms",
 		"category":"quests",
 		"row": 6,
 		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub", "task":"Biology"},
-			{"id":"sub", "task":"Maths"},
-			{"id":"sub", "task":"History"},
-			{"id":"sub", "task":"Languages"},
-			{"id":"sub", "task":"Battle"},
-			{"id":"sub", "task":"Art"},
-			{"id":"sub", "task":"Home Ec"}
+			{"id":"sub1", "task":"Biology"},
+			{"id":"sub2", "task":"Maths"},
+			{"id":"sub3", "task":"History"},
+			{"id":"sub4", "task":"Languages"},
+			{"id":"sub5", "task":"Battle"},
+			{"id":"sub6", "task":"Art"},
+			{"id":"sub7", "task":"Home Ec"}
 		]
 	},
 	{
-		"id":"task",
+		"id":"task41",
 		"task":"Pass your Finals",
 		"category":"quests",
 		"row": 6,
 		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub", "task":"Biology"},
-			{"id":"sub", "task":"Maths"},
-			{"id":"sub", "task":"History"},
-			{"id":"sub", "task":"Languages"},
-			{"id":"sub", "task":"Battle"},
-			{"id":"sub", "task":"Art"},
-			{"id":"sub", "task":"Home Ec"}
+			{"id":"sub1", "task":"Biology"},
+			{"id":"sub2", "task":"Maths"},
+			{"id":"sub3", "task":"History"},
+			{"id":"sub4", "task":"Languages"},
+			{"id":"sub5", "task":"Battle"},
+			{"id":"sub6", "task":"Art"},
+			{"id":"sub7", "task":"Home Ec"}
 		]
 	},
 	{
-		"id":"task",
+		"id":"task42",
 		"task":"Befriend all the teachers",
 		"category":"quests",
 		"row": 6,
 		"col": 1,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub", "task":"Salvatore"},
-			{"id":"sub", "task":"Miriam"},
-			{"id":"sub", "task":"Raifort"},
-			{"id":"sub", "task":"Saguaro"},
-			{"id":"sub", "task":"Tyme"},
-			{"id":"sub", "task":"Hassel"},
-			{"id":"sub", "task":"Dendra"}
+			{"id":"sub1", "task":"Salvatore"},
+			{"id":"sub2", "task":"Miriam"},
+			{"id":"sub3", "task":"Raifort"},
+			{"id":"sub4", "task":"Saguaro"},
+			{"id":"sub5", "task":"Tyme"},
+			{"id":"sub6", "task":"Hassel"},
+			{"id":"sub7", "task":"Dendra"}
 		]
 	},
 	{
-		"id":"task",
+		"id":"task43",
 		"task":"Complete the Pokemon League Challenges throughout Paldea",
 		"category":"quests",
 		"row": 6,
 		"col": 2,
 		"splitCol": 2,
 		"subtasks":[
-			{"id":"sub", "task":"Alfornada"},
-			{"id":"sub", "task":"Cascarrafa"},
-			{"id":"sub", "task":"Casseroya Lake"},
-			{"id":"sub", "task":"Cortondo"},
-			{"id":"sub", "task":"Dalizapa Passage"},
-			{"id":"sub", "task":"East Province Area One"},
-			{"id":"sub", "task":"Glaseado Mountain"},
-			{"id":"sub", "task":"Levincia"},
-			{"id":"sub", "task":"Medali"},
-			{"id":"sub", "task":"North Province Area One"},
-			{"id":"sub", "task":"North Province Area Two"},
-			{"id":"sub", "task":"North Province Area Two"},
-			{"id":"sub", "task":"Porto Marinada"},
-			{"id":"sub", "task":"South Province Area 1"},
-			{"id":"sub", "task":"South Province Area 3"},
-			{"id":"sub", "task":"South Province Area 4"},
-			{"id":"sub", "task":"South Province Area 5"},
-			{"id":"sub", "task":"Zapapico"}
+			{"id":"sub1", "task":"Alfornada"},
+			{"id":"sub2", "task":"Cascarrafa"},
+			{"id":"sub3", "task":"Casseroya Lake"},
+			{"id":"sub4", "task":"Cortondo"},
+			{"id":"sub5", "task":"Dalizapa Passage"},
+			{"id":"sub6", "task":"East Province Area One"},
+			{"id":"sub7", "task":"Glaseado Mountain"},
+			{"id":"sub8", "task":"Levincia"},
+			{"id":"sub9", "task":"Medali"},
+			{"id":"sub10", "task":"North Province Area One"},
+			{"id":"sub11", "task":"North Province Area Two"},
+			{"id":"sub12", "task":"North Province Area Three"},
+			{"id":"sub13", "task":"Porto Marinada"},
+			{"id":"sub14", "task":"South Province Area 3"},
+			{"id":"sub15", "task":"South Province Area 4"},
+			{"id":"sub16", "task":"South Province Area 5"},
+			{"id":"sub17", "task":"West Province Area 1"},
+			{"id":"sub18", "task":"Zapapico"}
 		]
 	},
 
 
 	{
-		"id":"task10",
+		"id":"task50",
 		"task":"Complete Victory Road",
 		"category":"story",
 		"row": 7,
@@ -306,7 +306,7 @@
 		]
 	},
 	{
-		"id":"task11",
+		"id":"task51",
 		"task":"Complete the Path of Legends",
 		"category":"story",
 		"row": 7,
@@ -322,7 +322,7 @@
 		]
 	},
 	{
-		"id":"task12",
+		"id":"task52",
 		"task":"Complete Starfall Street",
 		"category":"story",
 		"row": 7,
@@ -339,7 +339,7 @@
 		]
 	},
 	{
-		"id":"task13",
+		"id":"task53",
 		"task":"Complete The Way Home",
 		"category":"story",
 		"row": 7,
@@ -356,7 +356,7 @@
 
 
 	{
-		"id":"task",
+		"id":"task60",
 		"task":"Collect Special Items",
 		"category":"collectibles",
 		"row": 9,
@@ -368,7 +368,7 @@
 		]
 	},
 	{
-		"id":"task",
+		"id":"task61",
 		"task":"Obtain an Effort Ribbon",
 		"category":"collectibles",
 		"row": 9,
@@ -376,7 +376,7 @@
 		"tooltip":"Talk to the woman with the Luxio in Levincia with a Pokemon that has maxed out its EVs"
 	},
 	{
-		"id":"task",
+		"id":"task62",
 		"task":"Collect Special Poke Balls",
 		"category":"collectibles",
 		"row": 9,
@@ -397,7 +397,7 @@
 
 
 	{
-		"id":"task",
+		"id":"task70",
 		"task":"Collect All Sandwich Recipes",
 		"category":"sandwiches",
 		"row": 10,
@@ -558,7 +558,7 @@
 		]
 	},
 	{
-		"id":"task",
+		"id":"task80",
 		"task":"Collect All 171 Technical Machines (TMs)",
 		"category":"tm",
 		"row": 15,
@@ -753,27 +753,6 @@
 			{"id":"sub169", "task":"Draco Meteor"},
 			{"id":"sub170", "task":"Steel Beam"},
 			{"id":"sub171", "task":"Tera Blast"}
-		]
-	},
-	
-	{
-		"id":"task",
-		"task":"",
-		"category":"",
-		"row": 1,
-		"col": 1,
-		"subtasks":[
-			{"id":"sub", "task":""}
-		]
-	},
-	{
-		"id":"task",
-		"task":"",
-		"category":"",
-		"row": 1,
-		"col": 1,
-		"subtasks":[
-			{"id":"sub", "task":""}
 		]
 	}
 ]}
