@@ -1,0 +1,117 @@
+{
+    "sv_teal_mask": [
+        {
+            "id": "task1",
+            "task": "Complete the Kitakami Pokédex (200)",
+            "category": "catchemall",
+            "row": 3,
+            "col": 1,
+            "splitCol": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Obtain Hisuian Growlithe"},
+                {"id": "sub2", "task": "Obtain Sinnoh Starter"},
+                {"id": "sub3", "task": "Obtain Munchlax", "tooltip":"Complete the hardest level of Ogre Oustin'"},
+                {"id": "sub4", "task": "Obtain Ogerpon"},
+                {"id": "sub5", "task": "Obtain Fezandipiti"},
+                {"id": "sub6", "task": "Obtain Munkidori"},
+                {"id": "sub7", "task": "Obtain Okidogi"}
+            ]
+        },
+        {
+            "id": "task3",
+            "task": "Complete all League Club Pokémon Trades",
+            "category": "catchemall",
+            "row": 3,
+            "col": 2,
+            "splitCol": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Crispin's Magby"},
+                {"id": "sub2", "task": "Larry's Dundunsparce"},
+                {"id": "sub3", "task": "Rika's Wooper"},
+                {"id": "sub4", "task": "Clavell's Pawmo"},
+                {"id": "sub5", "task": "Grusha's Cetoddle"},
+                {"id": "sub6", "task": "Kofu's Veluza"},
+                {"id": "sub7", "task": "Hassell's Arctibax"},
+                {"id": "sub8", "task": "Katy's Combee"},
+                {"id": "sub9", "task": "Drayton's Duraludon"},
+                {"id": "sub10", "task": "Dendra's Meditite"},
+                {"id": "sub11", "task": "Brassius's Sunflora"},
+                {"id": "sub12", "task": "Miriam's Mareanie"},
+                {"id": "sub13", "task": "Iono's Magnemite"},
+                {"id": "sub14", "task": "Amarys's Skarmory"},
+                {"id": "sub15", "task": "Geeta's Glimmet"},
+                {"id": "sub16", "task": "Poppy's Tinkatuff"},
+                {"id": "sub17", "task": "Ryme's Greavard"},
+                {"id": "sub18", "task": "Raifort's Gimmighoul"},
+                {"id": "sub19", "task": "Tulip's Flittle"},
+                {"id": "sub20", "task": "Sagurao's Hattrem"},
+                {"id": "sub21", "task": "Salvatore's Meowth"},
+                {"id": "sub22", "task": "Cyrano's Blitzle"},
+                {"id": "sub23", "task": "Lacey's Snubbull"},
+                {"id": "sub24", "task": "Tyme's Rockruff"},
+                {"id": "sub25", "task": "Jacq's Gulpin"},
+                {"id": "sub26", "task": "Nemona's Tauros"},
+                {"id": "sub27", "task": "Penny's Eevee"},
+                {"id": "sub28", "task": "Arven's Skwovet"},
+                {"id": "sub29", "task": "Kieran's Applin"},
+                {"id": "sub30", "task": "Carmine's Poltchageist"}
+            ]
+        },
+
+
+        {
+            "id": "task20",
+            "task": "Complete all Kitakami Quests",
+            "category": "quests",
+            "row": 4,
+            "col": 1,
+            "splitCol": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Defeat the Loyal Three"},
+                {"id": "sub2", "task": "Find all Kitakami Masks"},
+                {"id": "sub3", "task": "Complete the Kitakami Treasure Hunt"}
+            ]
+        },
+
+
+        {
+            "id": "task30",
+            "task": "Collect Special Items",
+            "category": "collectibles",
+            "row": 5,
+            "col": 1,
+            "subtasks": [
+                {"id": "sub1", "task": "Obtain the Kitakami Mask"},
+                {"id": "sub2", "task": "Obtain the Kitakami Amulet"}
+            ]
+        },
+
+
+        {
+            "id": "task40",
+            "task": "Complete the Kitakami Battle Tower",
+            "category": "battle",
+            "row": 6,
+            "col": 1,
+            "splitCol": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Win 10 Battles"},
+                {"id": "sub2", "task": "Win 20 Battles"},
+                {"id": "sub3", "task": "Win 50 Battles"}
+            ]
+        },
+        {
+            "id": "task41",
+            "task": "Defeat the Kitakami Elite Four",
+            "category": "battle",
+            "row": 6,
+            "col": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Defeat Elite Four Member 1"},
+                {"id": "sub2", "task": "Defeat Elite Four Member 2"},
+                {"id": "sub3", "task": "Defeat Elite Four Member 3"},
+                {"id": "sub4", "task": "Defeat Elite Four Member 4"}
+            ]
+        }
+    ]
+}
