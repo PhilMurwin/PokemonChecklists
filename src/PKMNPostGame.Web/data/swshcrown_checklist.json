@@ -13,7 +13,7 @@
 			{"id":"sub5", "task":"Poipole", "tooltip":"Capture 5 Ultra Beasts in the Max Lair"},
 			{"id":"sub6", "task":"Regigigas", "tooltip":"Complete the Terrible Titans and visit Snowslide Slide Max den"},
 			{"id":"sub7", "task":"Galarian Slowking", "tooltip":"Give Galarian Wreath to Galarian Slowpoke"},
-			{"id":"sub7", "task":"Spiritomb", "tooltip":"Visit Grave in Ballimere Lake, Talk to 40 people online, return to grave"}
+			{"id":"sub8", "task":"Spiritomb", "tooltip":"Visit Grave in Ballimere Lake, Talk to 40 people online, return to grave"}
 		]
 	},
 	{"id":"task2",
