@@ -1,0 +1,391 @@
+{
+    "sv_teal_mask": [
+        {
+            "id": "task1",
+            "task": "Complete the Blueberry Pokédex (243)",
+            "category": "catchemall",
+            "row": 3,
+            "col": 1,
+            "splitCol": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Kleavor"},
+                {"id": "sub2", "task": "Archaludon"},
+                {"id": "sub3", "task": "Hydrapple"},
+                {"id": "sub4", "task": "Gouging Fire"},
+                {"id": "sub5", "task": "Raging Bolt"},
+                {"id": "sub6", "task": "Iron Crown"},
+                {"id": "sub7", "task": "Iron Boulder"},
+                {"id": "sub8", "task": "Terapagos"},
+                {"id": "sub9", "task": "Walking Wake", "tooltip":"Catch in a 5-star event raid"},
+                {"id": "sub10", "task": "Iron Leaves", "tooltip":"Catch in a 5-star event raid"},
+                {"id": "sub11", "task": "Pecharunt", "tooltip":"Requires Mythical Pecha Berry via Mystery Gift"}
+            ]
+        },
+        {
+            "id": "task2",
+            "task": "Obtain all In-Game Legendaries",
+            "tooltip":"Speak with Snacksworth to get a snack for a particular legendary",
+            "category": "catchemall",
+            "row": 3,
+            "col": 1,
+            "subtasks": [
+                {"id": "sub1", "task": "Raikou"},
+                {"id": "sub2", "task": "Entei"},
+                {"id": "sub3", "task": "Suicune"},
+                {"id": "sub4", "task": "Ho-Oh"},
+                {"id": "sub5", "task": "Latios"},
+                {"id": "sub6", "task": "Groudon"},
+                {"id": "sub7", "task": "Reshiram"},
+                {"id": "sub8", "task": "Solgaleo"},
+                {"id": "sub9", "task": "Glastrier"},
+                {"id": "sub10", "task": "Lugia"},
+                {"id": "sub11", "task": "Latias"},
+                {"id": "sub12", "task": "Kyogre"},
+                {"id": "sub13", "task": "Cobalion"},
+                {"id": "sub14", "task": "Terrakion"},
+                {"id": "sub15", "task": "Virizion"},
+                {"id": "sub16", "task": "Zekrom"},
+                {"id": "sub17", "task": "Lunala"},
+                {"id": "sub18", "task": "Spectrier"},
+                {"id": "sub19", "task": "Rayquaza"},
+                {"id": "sub20", "task": "Kyurem"},
+                {"id": "sub21", "task": "Necrozma"}
+            ]
+        },
+        {
+            "id": "task3",
+            "task": "Catch Meloetta",
+            "category": "catchemall",
+            "row": 3,
+            "col": 2
+        },
+        {
+            "id": "task4",
+            "task": "Complete all League Club Pokémon Trades",
+            "category": "catchemall",
+            "row": 3,
+            "col": 2,
+            "splitCol": 2,
+            "subtasks": [
+                {"id": "sub1", "task": "Crispin's Magby"},
+                {"id": "sub2", "task": "Larry's Dundunsparce"},
+                {"id": "sub3", "task": "Rika's Wooper"},
+                {"id": "sub4", "task": "Clavell's Pawmo"},
+                {"id": "sub5", "task": "Grusha's Cetoddle"},
+                {"id": "sub6", "task": "Kofu's Veluza"},
+                {"id": "sub7", "task": "Hassell's Arctibax"},
+                {"id": "sub8", "task": "Katy's Combee"},
+                {"id": "sub9", "task": "Drayton's Duraludon"},
+                {"id": "sub10", "task": "Dendra's Meditite"},
+                {"id": "sub11", "task": "Brassius's Sunflora"},
+                {"id": "sub12", "task": "Miriam's Mareanie"},
+                {"id": "sub13", "task": "Iono's Magnemite"},
+                {"id": "sub14", "task": "Amarys's Skarmory"},
+                {"id": "sub15", "task": "Geeta's Glimmet"},
+                {"id": "sub16", "task": "Poppy's Tinkatuff"},
+                {"id": "sub17", "task": "Ryme's Greavard"},
+                {"id": "sub18", "task": "Raifort's Gimmighoul"},
+                {"id": "sub19", "task": "Tulip's Flittle"},
+                {"id": "sub20", "task": "Sagurao's Hattrem"},
+                {"id": "sub21", "task": "Salvatore's Meowth"},
+                {"id": "sub22", "task": "Cyrano's Blitzle"},
+                {"id": "sub23", "task": "Lacey's Snubbull"},
+                {"id": "sub24", "task": "Tyme's Rockruff"},
+                {"id": "sub25", "task": "Jacq's Gulpin"},
+                {"id": "sub26", "task": "Nemona's Tauros"},
+                {"id": "sub27", "task": "Penny's Eevee"},
+                {"id": "sub28", "task": "Arven's Skwovet"},
+                {"id": "sub29", "task": "Kieran's Applin"},
+                {"id": "sub30", "task": "Carmine's Poltchageist"}
+            ]
+        },
+
+
+        {
+            "id": "task20",
+            "task": "Defeat all the Special Coaches in the League Club Room",
+            "category": "battle",
+            "row": 4,
+            "col": 1,
+            "subtasks": [
+                {"id": "sub1", "task": "Katy"},
+                {"id": "sub2", "task": "Brassius"},
+                {"id": "sub3", "task": "Iono"},
+                {"id": "sub4", "task": "Kofu"},
+                {"id": "sub5", "task": "Larry"},
+                {"id": "sub6", "task": "Ryme"},
+                {"id": "sub7", "task": "Tulip"},
+                {"id": "sub8", "task": "Grusha"},
+                {"id": "sub9", "task": "Rika"},
+                {"id": "sub10", "task": "Poppy"},
+                {"id": "sub11", "task": "Clavell"},
+                {"id": "sub12", "task": "Jacq"},
+                {"id": "sub13", "task": "Raifort"},
+                {"id": "sub14", "task": "Tyme"},
+                {"id": "sub15", "task": "Salvatore"},
+                {"id": "sub16", "task": "Dendra"},
+                {"id": "sub17", "task": "Hassel"},
+                {"id": "sub18", "task": "Saquaro"},
+                {"id": "sub19", "task": "Miriam"},
+                {"id": "sub20", "task": "Geeta"},
+                {"id": "sub21", "task": "Arven"},
+                {"id": "sub22", "task": "Penny"},
+                {"id": "sub23", "task": "Nemona"},
+                {"id": "sub24", "task": "Lacey"},
+                {"id": "sub25", "task": "Drayton"},
+                {"id": "sub26", "task": "Crispin"},
+                {"id": "sub27", "task": "Amarys"},
+                {"id": "sub28", "task": "Cyrano"},
+                {"id": "sub29", "task": "Carmine"},
+                {"id": "sub30", "task": "Kieran"}
+            ]
+        },
+        {
+            "id":"task21",
+            "task":"Defeat all 13 trainers in the Canyon Biome",
+            "category":"battle",
+            "row": 5,
+            "col": 1,
+            "subtasks":[
+                {"id":"sub1", "task":"Fiona the Student"},
+                {"id":"sub2", "task":"Ramona of the League Club"},
+                {"id":"sub3", "task":"Cindy of the League Club"},
+                {"id":"sub4", "task":"Danyo of the League Club"},
+                {"id":"sub5", "task":"Chun the Student"},
+                {"id":"sub6", "task":"Anne the Student"},
+                {"id":"sub7", "task":"Wayne the Student"},
+                {"id":"sub8", "task":"Harry the Student"},
+                {"id":"sub9", "task":"Yanma the Student"},
+                {"id":"sub10", "task":"Dana of the League Club"},
+                {"id":"sub11", "task":"John of the League Club"},
+                {"id":"sub12", "task":"Art the Student"},
+                {"id":"sub13", "task":"Seori the Student"}
+            ]
+        },
+        {
+            "id":"task22",
+            "task":"Defeat all 16 trainers in the Coastal Biome",
+            "category":"battle",
+            "row": 5,
+            "col": 1,
+            "subtasks":[
+                {"id":"sub1", "task":"Ian of the League Club"},
+                {"id":"sub2", "task":"Nicolo the Student"},
+                {"id":"sub3", "task":"Daria the Student"},
+                {"id":"sub4", "task":"Pietro the Student"},
+                {"id":"sub5", "task":"Cia the Student"},
+                {"id":"sub6", "task":"Satoru of the League Club"},
+                {"id":"sub7", "task":"Lila the Student"},
+                {"id":"sub8", "task":"Yun Hee the Student"},
+                {"id":"sub9", "task":"Kaz the Student"},
+                {"id":"sub10", "task":"Mikkel of the League Club"},
+                {"id":"sub11", "task":"Annie the Student"},
+                {"id":"sub12", "task":"Marika the Student"},
+                {"id":"sub13", "task":"Mana of the League Club"},
+                {"id":"sub14", "task":"Max the Student"},
+                {"id":"sub15", "task":"Alyssa the Student"},
+                {"id":"sub16", "task":"Leo the Student"}
+            ]
+        },
+        {
+            "id":"task23",
+            "task":"Defeat all 17 trainers in the Polar Biome",
+            "category":"battle",
+            "row": 5,
+            "col": 1,
+            "subtasks":[
+                {"id":"sub1", "task":"Theo of the League Club"},
+                {"id":"sub2", "task":"Cecelia of the League Club"},
+                {"id":"sub3", "task":"Soran the Student"},
+                {"id":"sub4", "task":"Alex the Student"},
+                {"id":"sub5", "task":"Rebeccah the Student"},
+                {"id":"sub6", "task":"Elli the Student"},
+                {"id":"sub7", "task":"Joseph the Student"},
+                {"id":"sub8", "task":"Apinya the Student"},
+                {"id":"sub9", "task":"Ray the Student"},
+                {"id":"sub10", "task":"Anthony the Student"},
+                {"id":"sub11", "task":"Hank of the League Club"},
+                {"id":"sub12", "task":"Fleur of the League Club"},
+                {"id":"sub13", "task":"Cathy the Student"},
+                {"id":"sub14", "task":"Eve the Student"},
+                {"id":"sub15", "task":"Sam of the League Club"},
+                {"id":"sub16", "task":"Tsubasa of the League Club"},
+                {"id":"sub17", "task":"Marci the Student"}
+            ]
+        },
+        {
+            "id":"task24",
+            "task":"Defeat all 14 trainers in the Savannah Biome",
+            "category":"battle",
+            "row": 5,
+            "col": 1,
+            "subtasks":[
+                {"id":"sub1", "task":"Sophie of the League Club"},
+                {"id":"sub2", "task":"Chloe the Student"},
+                {"id":"sub3", "task":"Yoshiki the Student"},
+                {"id":"sub4", "task":"Tsukasa the Student"},
+                {"id":"sub5", "task":"Kashif of the League Club"},
+                {"id":"sub6", "task":"Yuchen the Student"},
+                {"id":"sub7", "task":"Sarah the Student"},
+                {"id":"sub8", "task":"Imani the Student"},
+                {"id":"sub9", "task":"Darius the Student"},
+                {"id":"sub10", "task":"Michael the Student"},
+                {"id":"sub11", "task":"Riley the Student"},
+                {"id":"sub12", "task":"Armin the Student"},
+                {"id":"sub13", "task":"Kanade the Student"},
+                {"id":"sub14", "task":"Kev the Student"}
+            ]
+        },
+
+
+        {
+            "id":"task30",
+            "task":"Unlock Koraidon / Miraidon's Fly Ability",
+            "tooltip":"Talk to Amarys in Classroom 3-2",
+            "category":"upgrades",
+            "row": 5,
+            "col": 1
+        },
+        {
+            "id": "task31",
+            "task": "Purchase all League Club Features using BP",
+            "category": "upgrades",
+            "row": 5,
+            "col": 1,
+            "subtasks": [
+                {"id":"sub1", "task":"Unlock the new Lock-On Function"},
+                {"id":"sub2", "task":"Unlock the Touch Up Feature"},
+                {"id":"sub3", "task":"Get More Camera Effects"},
+                {"id":"sub4", "task":"Unlock the Item Printer"},
+                {"id":"sub5", "task":"Make New Pokemon Species Appear"},
+                {"id":"sub6", "task":"Unlock New Throwing Styles"},
+                {"id":"sub7", "task":"Get a Smart Speaker"},
+                {"id":"sub8", "task":"Redecorate the League Club Room"}
+            ]
+        },
+
+
+        {
+            "id": "task40",
+            "task": "Complete the Epilogue Story",
+            "category": "quests",
+            "row": 6,
+            "col": 1,
+            "subtasks": [
+                {"id":"sub1", "task":"Catch up with Friends"},
+                {"id":"sub2", "task":"Find Nemona"},
+                {"id":"sub3", "task":"End the Mochi Curse"}
+            ]
+        },
+        {
+            "id": "task41",
+            "task": "Complete the Team Star Story",
+            "category": "quests",
+            "row": 6,
+            "col": 1,
+            "subtasks": [
+                {"id":"sub1", "task":"Talk to Giacomo and Eri at the Academy"},
+                {"id":"sub2", "task":"Agree to be a Tutor"},
+                {"id":"sub3", "task":"Find Mela in the schoolyard"},
+                {"id":"sub4", "task":"Tutor Ortega, Atticus, and Mela"}
+            ]
+        },
+        {
+            "id": "task42",
+            "task": "Complete Flying Time Trial on all courses",
+            "category": "quests",
+            "row": 6,
+            "col": 1,
+            "subtasks": [
+                {"id":"sub1", "task":"Easy"},
+                {"id":"sub2", "task":"Normal"},
+                {"id":"sub3", "task":"Hard"},
+                {"id":"sub4", "task":"Super-Hard"}
+            ]
+        },
+        
+
+        {
+            "id":"task60",
+            "task":"Collect Special Items",
+            "category":"collectibles",
+            "row":9,
+            "col":1,
+            "subtasks":[
+                {"id": "sub1", "task": "Synchro Machine", "tooltip":"Talk to Synclaire (NPC) near the self-healing machines"},
+                {"id": "sub2", "task": "Mark Charm", "tooltip":"Complete the Blueberry Pokedex"},
+                {"id": "sub3", "task": "Briar's Book", "tooltip":"After Credit's Roll talk to Briar in Classroom 1-4"}
+            ]
+        },
+        {
+            "id": "task61",
+            "task": "Collect all Indigo Disk Outfits",
+            "category": "collectibles",
+            "row": 9,
+            "col": 1,
+            "subtasks": [
+                {"id":"sub1", "task":"Modified Uniform A", "tooltip":"Complete Team Star Side Quest"},
+                {"id":"sub2", "task":"Modified Uniform B", "tooltip":"Complete Team Star Side Quest"},
+                {"id":"sub3", "task":"Tracksuit (Black/Gold)", "tooltip":"Invite Drayton as Special Coach and win against him"}
+            ]
+        },
+        {
+            "id": "task62",
+            "task": "Collect all Indigo Disk Emotes",
+            "category": "collectibles",
+            "row": 9,
+            "col": 1,
+            "subtasks": [
+                {"id":"sub1", "task":"Aye Aye, Cap'n", "tooltip":"Invite Miriam as Special Coach and win against her"},
+                {"id":"sub2", "task":"Charizard", "tooltip":"Show Mightiest Mark to student in Blueberry Academy School Store"},
+                {"id":"sub3", "task":"Hasta La Vistar", "tooltip":"Finish Team Star Secret Tutor Quest"},
+                {"id":"sub4", "task":"Finger Heart", "tooltip":"Invite Amarys as Special Coach and win against her"},
+                {"id":"sub5", "task":"Moved to Tears", "tooltip":"Invite Hassel as Special Coach and win against him"},
+                {"id":"sub6", "task":"Be Still, My Left Hand!", "tooltip":"Talk to the student in Classroom 3-2 in Blueberry Academy and pick the correct options"},
+                {"id":"sub7", "task":"Electrium Z", "tooltip":"Show Alolan Golem to student in Coastal Biome beach"},
+                {"id":"sub8", "task":"Glow Stick Dance", "tooltip":"Buy all items in Atticus' auction in Porto Marinada after completing Indigo Disk"}
+            ]
+        },
+
+
+        {
+            "id": "task80",
+            "task": "Collect all the Kitakami TMs",
+            "category": "tm",
+            "row": 15,
+            "col": 1,
+            "splitCol": 4,
+            "sort": "alpha",
+            "subtasks": [
+                {"id": "sub1", "task": "Pain Split"},
+                {"id": "sub2", "task": "Psych Up"},
+                {"id": "sub3", "task": "Double-Edge"},
+                {"id": "sub4", "task": "Endeavor"},
+                {"id": "sub5", "task": "Petal Blizzard"},
+                {"id": "sub6", "task": "Temper Flare"},
+                {"id": "sub7", "task": "Whirlpool"},
+                {"id": "sub8", "task": "Muddy Water"},
+                {"id": "sub9", "task": "Supercell Slam"},
+                {"id": "sub10", "task": "ElectroWeb"},
+                {"id": "sub11", "task": "Triple Axel"},
+                {"id": "sub12", "task": "Coaching"},
+                {"id": "sub13", "task": "Sludge Wave"},
+                {"id": "sub14", "task": "Scorching Sands"},
+                {"id": "sub15", "task": "Feather Dance"},
+                {"id": "sub16", "task": "Future Sight"},
+                {"id": "sub17", "task": "Expanding Force"},
+                {"id": "sub18", "task": "Skitter Smack"},
+                {"id": "sub19", "task": "Meteor Beam"},
+                {"id": "sub20", "task": "Throat Chop"},
+                {"id": "sub21", "task": "Breaking Swipe"},
+                {"id": "sub22", "task": "Metal Sound"},
+                {"id": "sub23", "task": "Curse"},
+                {"id": "sub24", "task": "Hard Press"},
+                {"id": "sub25", "task": "Dragon Cheer"},
+                {"id": "sub26", "task": "Alluring Voice"},
+                {"id": "sub27", "task": "Psychic Noise"},
+                {"id": "sub28", "task": "Upper Hand"}
+            ]
+        }
+    ]
+}
